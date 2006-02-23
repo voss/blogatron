@@ -1,0 +1,71 @@
+## Makes the RSS-feeds ending in php served as xml:
+<FilesMatch (rssfeed.php|doegnrapport.php)>
+  ForceType "application/rss+xml; charset=iso-8859-1"
+</FilesMatch>
+
+#Permanent redirects
+  Redirect permanent /insitu http://blog.verture.net/arkiv
+  Redirect permanent /images/croquet2k1/ http://blog.hjem.orangenet.dk/images/croquet2k1/
+  Redirect permanent /the.blog http://verture.net/
+  Redirect permanent /images/venezia2k1/ http://blog.hjem.orangenet.dk/images/venezia2k1/
+  Redirect permanent /images/fieldwork/ http://blog.hjem.orangenet.dk/images/fieldwork/
+  Redirect permanent /rss/feedme.xml http://blog.verture.net/rss/entries
+  Redirect permanent /rssfeed.xml http://blog.verture.net/rss/entries
+  Redirect permanent /images http://blog.verture.net/img
+  Redirect permanent /02/get_your_alcate3108 http://blog.verture.net/310802/get_your_alcate
+  Redirect permanent /sclars_cph http://pics.verture.net/2003/sclars-cph
+  Redirect permanent /archives/2002/ind/hard_to_keep_up0208.html http://blog.verture.net/020802/hard_to_keep_up
+#  Redirect permanent /doegnrapport.php http://itu.dk/people/jcv/verture/doegnrapport.php
+
+RewriteEngine On                                 
+  RewriteCond %{HTTP_HOST} ^www\.blog.verture\.net$ [NC] 
+  RewriteRule ^(.*)$ http://blog.verture.net/$1 [R=301,L]
+
+## No hotlinking:
+# RewriteCond %{HTTP_REFERER} !^http://(www\.)?blog\.verture\.net/ [NC]
+# RewriteCond %{HTTP_REFERER} !^$
+# RewriteRule \.(jpe?g|gif|bmp|png)$ img/hotlinked.jpg [L]
+
+## Audioscrobbler linkout
+  RewriteRule ^io/(.+) io.php?click=$1
+
+## Feeds rewrite
+  RewriteRule ^rss/entries rssfeed.php
+  RewriteRule ^rss/comments rssfeed-comments.php
+
+## Services
+  RewriteRule ^services[/]?$ services.php
+  RewriteRule ^services/transmo[/]?$ transmo.php
+  RewriteRule ^services/transmo(.+) transmo.php$1
+  Rewriterule ^services/b2s[/]?$ b2sec.php
+  RewriteRule ^services/b2s(.+) b2sec.php$1
+
+## Main site rewrites
+  RewriteRule ^kontakt[/]?$ kontakt.php
+  RewriteRule ^ee[/]?$ ee.php
+  RewriteRule ^edit[/]?$ ee.php
+  RewriteRule ^ae[/]?$ ae.php
+  RewriteRule ^add[/]?$ ae.php
+  RewriteRule ^de[/]?$ de.php
+  RewriteRule ^delete[/]?$ de.php
+  RewriteRule ^au[/]?$ au.php
+  RewriteRule ^adduser[/]?$ au.php
+  RewriteRule ^arkiv[/]?$ arkiv.php
+  RewriteRule ^kolofon[/]?$ kolofon.php
+  RewriteRule ^arkiv/([a-zA-Z0-9.]+) arkiv.php?m=$1
+  Rewriterule ^arkiv[/]?$ arkiv.php
+  RewriteRule ^search/(.+) search.php?q=$1
+  RewriteRule ^search[/]?$ search.php
+  RewriteRule ^s/(.+) search.php?q=$1
+
+## RSS rewrite. Pass requesters of rssfeed.xml to the dynamic rssfeed.php
+  RewriteRule ^rssfeed.xml$ /rssfeed.php
+
+## List entries from the URL:
+  RewriteRule ^([0-9]{6})/([-_.a-z#*0-9]+) /index.php?e=$1$2
+
+## Regular .htaccess stuff
+  Options -Indexes
+  ErrorDocument 404 /404.php
+  AddType application/x-httpd-php .php
+

@@ -1,0 +1,50 @@
+<?php
+
+# file: db.inc.php
+
+# define include path:
+$inc_path = $_SERVER['DOCUMENT_ROOT']."/tmp/incs/";
+
+# putenv("TZ=CET");
+
+# strip www from URL if it exists:
+if($_SERVER['HTTP_HOST'] == 'www.verture.net') {
+	header("Location: http://verture.net{$_SERVER['REQUEST_URI']}");
+}
+
+# check for hostmachine name, makes moving files back and forth easier:
+if(stristr($_SERVER['HTTP_HOST'], "127.0.0.1") || stristr($_SERVER['HTTP_HOST'], "localhost")) {
+	$host = 'localhost';
+	$user = 'root';
+	$pass = 'boogie';
+	$db_name = 'voss_verture';
+	$is_verture = 0;
+}
+if(stristr($_SERVER['HTTP_HOST'], "verture.net")) {
+#if(stristr($_SERVER['HTTP_HOST'], "luna.affordablehost.com")) {
+	$host = 'localhost';
+	$user = 'voss';
+	$pass = 'cautha';
+	$db_name = 'voss_verture';
+	$is_verture = 1;
+} 
+if(stristr($_SERVER['HTTP_HOST'], "dev.verture.net")) {
+	$host = 'localhost';
+	$user = 'voss';
+	$pass = 'cautha';
+	$db_name = 'voss_dev';
+	$is_verture = 2;
+} 
+
+# create db-connection:
+$dbcnx = @mysql_pconnect($host,$user,$pass);
+if(!$dbcnx) {
+	print "<p>".mysql_error()."</p>";
+}
+
+# select db:
+if(!@mysql_select_db($db_name)) {
+	Print "<p>Unable to connect to database.".mysql_error()."</p>";
+}
+
+?>

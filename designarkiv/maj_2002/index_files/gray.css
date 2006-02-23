@@ -1,0 +1,496 @@
+/* styles for weblog @ verture.net
+based on a template from blogger.com,
+then inspired from all around,
+but particularly by zhian.com
+18.12.01 - jcv */
+
+body
+{
+	margin: 15px 0px 15px 0px;
+	font-family: verdana, Tahoma, Helvetica, Arial, sans-serif;
+	color: #000000;
+	background: url(verturenet.gif) no-repeat bottom right fixed #EFF1F6;
+}
+
+.sidetitel
+{
+	font-size: 1.3em;
+	font-family: Charcoal, tahoma, verdana, sans-serif;
+	color: #993333;
+	background-color: transparent;
+}
+
+.posdiv
+{
+	width: 70%;
+	color: inherit;
+	background-color: transparent;
+	position: absolute;
+	left: 17%;
+	right: 13%;
+	margin: 0px;
+}
+
+td.cal { font-size: .8em; }
+
+#menu
+{
+	position: absolute;
+	top: 15px;
+	left: 0px;
+}
+
+.styles
+{
+	position: absolute;
+	top: 200px;
+	left: 5px;
+	width: 16%;
+	font-size: 10px;
+	line-height: 13px;
+}
+
+.itunes
+{
+	position: absolute;
+	top: 300px;
+	left: 5px;
+	width: 16%;
+	font-size: 10px;
+	line-height: 13px;
+}
+
+.calendar
+{
+	font-family: Tahoma, verdana, Helvetica, Arial, sans-serif;
+	position: absolute;
+	top: 35px;
+	left: 0px;
+	width: 122px;
+	border: 1px dotted #666666;
+}
+
+.comcol
+{
+	color: #990000;
+	background-color: transparent;
+	font-weight: bold;
+}
+
+.textdiv
+{
+	border-left: 1px solid #990000;
+	border-right: 1px solid #990000;
+	border-bottom: 1px solid #990000;
+	color: inherit;
+	background-color: transparent;
+	margin: 0px;
+	background-repeat: repeat;
+	background-image: url(cthru.gif);
+}
+
+.blogtitel
+{
+	background-color: #666666;
+	color: inherit;
+	border-left: 1px solid #990000;
+	border-top: 1px solid #990000;
+	border-bottom: none;
+	border-right: 1px solid #990000;
+}
+
+#margin { margin: 0px 35px 15px 35px; }
+
+#walkar
+{
+	float: right;
+	width: 13%;
+	border: 1px dotted #999999;
+	text-align: right;
+	font-size: .7em;
+	padding-right: 3px;
+}
+
+#walkal
+{
+	float: left;
+	width: 14.5%;
+	border-top: 1px dotted #999999;
+	border-bottom: 1px dotted #999999;
+	font-size: .7em;
+	position: fixed;
+	margin-top: 112px;
+	margin-left: 0px;
+	color: #333333;
+	background-color: #eeeeee;
+}
+
+a:link
+{
+	color: #993300;
+	background-color: inherit;
+	text-decoration: none;
+	border-bottom: 1px dotted #993300;
+}
+
+a:visited
+{
+	color: #898777;
+	background-color: inherit;
+	text-decoration: none;
+	border-bottom: 1px dotted #898777;
+}
+
+a:hover
+{
+	color: #333333;
+	text-decoration: none;
+	border-bottom: 1px solid #333333;
+}
+
+a:active
+{
+	color: #000000;
+	text-decoration: none;
+	background-color: inherit;
+}
+
+a.img { border: none; }
+
+/*
+a.body:link		
+			{ color: #993300 ;
+			background-color: transparent ;
+			text-decoration: underline;
+			border: none;
+			}
+
+a.body:visited	
+			{color: #898777 ;
+			background-color: transparent ;
+			border: none ;
+			}
+
+a.body:hover
+			{color: #666666; 
+			text-decoration: none ;
+			border: none;
+			background-color: transparent; 
+			}
+			
+a.body:active
+			{color: #ff0000 ;
+			background-color: #eeeeee ;
+			border: 1px solid #ff0000 ;
+			}
+
+*/
+
+.menu
+{
+	font-family: Tahoma, verdana, Helvetica, Arial, sans-serif;
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+	font-size: 0.9em;
+	text-align: center;
+	width: auto;
+	line-height: 1.7em;
+	display: block;
+	color: #990000;
+	background-color: transparent;
+}
+
+a.menu:link
+{
+	color: #993333;
+	background-color: transparent;
+	text-align: center;
+	text-decoration: none;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	display: block;
+	line-height: 1.7em;
+}
+
+a.menu:visited
+{
+	color: #555566;
+	background-color: transparent;
+	text-decoration: none;
+	padding: 0px;
+	width: 100%;
+}
+
+a.menu:hover
+{
+	color: #ffffff;
+	background-color: #333333;
+	text-decoration: none;
+	width: 100%;
+	padding: 0px;
+	border-bottom: 1px dotted #000000;
+}
+
+a.menu:active
+{
+	color: #ffffff;
+	background-color: #990000;
+	text-decoration: none;
+	width: 100%;
+	padding: 0px;
+}
+
+.arkiver
+{
+	line-height: 1.5em;
+	font-family: verdana, Arial, sans-serif;
+	color: #000000;
+	background-color: transparent;
+	font-size: 0.8em;
+	padding-right: 2px;
+}
+
+.arkuger
+{
+	line-height: 1.5em;
+	font-family: verdana, Arial, sans-serif;
+	color: #000000;
+	background-color: transparent;
+	border-right: 1px dotted #999999;
+	width: 275px;
+	font-size: 0.8em;
+}
+
+.linkkol
+{
+	line-height: 1.5em;
+	font-family: verdana, Arial, sans-serif;
+	color: #000000;
+	background-color: transparent;
+	border-right: 1px dotted #999999;
+	width: 275px;
+	font-size: 0.8em;
+}
+
+.search
+{
+	font-family: verdana, Arial, sans-serif;
+	color: #000000;
+	background-color: transparent;
+	font-size: .8em;
+	line-height: 16px;
+}
+
+.lt
+{
+	font-family: georgia, palatino, serif;
+	font-size: 1.3em;
+	line-height: 25px;
+	font-weight: bold;
+	color: #555566;
+	background-color: transparent;
+}
+
+.dato
+{
+	font-family: verdana, Arial, sans-serif;
+	color: #606E89;
+	background-color: transparent;
+	width: 100%;
+	font-size: .7em;
+	line-height: 20px;
+}
+
+.dato2
+{
+	font-family: verdana, Arial, sans-serif;
+	color: #666666;
+	background-color: transparent;
+	font-size: .8em;
+	font-weight: bold;
+	text-align: left;
+}
+
+.dato3
+{
+	font-family: verdana, Arial, sans-serif;
+	color: #606E89;
+	background-color: #ededed;
+	width: 100%;
+	font-size: .9em;
+	line-height: 20px;
+	padding-left: 5px;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+}
+
+.pt
+{
+	font-family: georgia, palatino, serif;
+	font-size: 1.2em;
+	line-height: 25px;
+	color: #993333;
+	background-color: transparent;
+}
+
+.posts
+{
+	font-family: verdana, Arial, sans-serif;
+	color: #000000;
+	background-color: transparent;
+	font-size: .8em;
+	line-height: 16px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+}
+
+.datkom
+{
+	font-family: verdana, Arial, sans-serif;
+	color: #555566;
+	background-color: transparent;
+	font-size: smaller;
+	line-height: 16px;
+	vertical-align: middle;
+}
+
+.haikuvenstre
+{
+	position: relative;
+	top: 0px;
+	left: 50px;
+	width: 70%;
+	height: auto;
+	font-size: 0.8em;
+}
+
+.haikuhojre
+{
+	position: relative;
+	top: 0px;
+	left: 100px;
+	width: 70%;
+	height: auto;
+	font-size: 0.8em;
+}
+
+.liste
+{
+	margin-left: 5px;
+	line-height: 1.1em;
+}
+
+ul
+{
+	color: #000000;
+	background-color: transparent;
+}
+
+li
+{
+	list-style-type: square;
+	background-color: transparent;
+	line-height: 1.5em;
+}
+
+.li2
+{
+	color: #000000;
+	background-color: transparent;
+}
+
+.li3
+{
+	list-style-type: none;
+	color: #993333;
+	background-color: transparent;
+}
+
+.hvaba { display: none; }
+
+.citat
+{
+	font-style: italic;
+	margin-left: 20px;
+	margin-right: 40px;
+	padding: 5px;
+	border: 1px dashed #990000;
+	background-color: #eeeeee;
+}
+
+.kant { border: 1px solid #990000; }
+textarea { overflow: scroll; }
+
+.holla
+{
+	font-family: verdana, tahoma, helvetica, arial, sans-serif;
+	font-size: .9em;
+	font-weight: bold;
+	line-height: 13px;
+	color: #ffffff;
+	background-color: #992300;
+	/*		border: 1px solid #333333; */
+}
+
+.input { border: 1px solid #333333; }
+
+.streg
+{
+	border-bottom: 1px solid #dddddd;
+	width: 25%;
+}
+
+.kommentar
+{
+	font-family: verdana, geneva, trebuchet ms, trebuchet, arial, sans-serif;
+	font-size: 0.8em;
+	line-height: 16px;
+}
+
+.indexer
+{
+	font-family: verdana, Arial, sans-serif;
+	color: #666666;
+	background-color: #ededed;
+	width: 100%;
+	display: block;
+	font-size: .8em;
+	line-height: 20px;
+	padding-left: 5px;
+	border-bottom: 1px solid #dddddd;
+	border-top: 1px solid #dddddd;
+}
+
+.fv
+{
+	float: left;
+	border: 1px solid #990000;
+}
+
+.fh
+{
+	float: right;
+	border: 1px solid #990000;
+}
+
+.cr
+{
+	font-size: .7em;
+	font-family: geneva, verdana, sans-serif;
+	background-color: transparent;
+	color: #666666;
+}
+
+.credits
+{
+	color: inherit;
+	background-color: transparent;
+	border: none;
+	line-height: 10px;
+	vertical-align: middle;
+	font-size: .7em;
+	font-family: geneva, verdana, sans-serif;
+}

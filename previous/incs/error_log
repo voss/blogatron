@@ -1,0 +1,1 @@
+[04-Jun-2004 10:58:09] PHP Fatal error:  Call to undefined function:  display_archive_months() in /home/voss/public_html/blog/incs/rightc_short.inc.php on line 2

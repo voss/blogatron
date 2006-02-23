@@ -1,0 +1,46 @@
+From [DELETED]@google.com
+To: [DELETED]@verture.net
+Subject: Besked fra gæst på verture.net
+Date: Fri, 25 Feb 2005 10:57:34 -0800 (PST)
+
+Greetings,
+
+Google is currently blocked from crawling your site by the robots.txt
+file that your server uses to control access by search engines. As a
+result, users who are looking for your site are not able to find it
+using Google. As you know, a large fraction of internet users use Google
+as their starting point and over 50% of search engines referrals come
+from Google. Google's mission is to deliver the best search experience
+on the Internet by making the world's information universally accessible
+and useful. We would like to include your site at http://wax.verture.net
+in Google's index to make it easier for your users or customers to find
+your site.  
+
+To allow Google to crawl your site, add the following lines to the
+robots.txt file: 
+
+User-agent: Googlebot
+Allow: /
+
+Once you have allowed Google to access your site it can take between 4-6
+weeks for your site to appear in our index. For additional information
+on getting your site included in our index, please see:
+http://www.google.com/webmasters/.
+
+Regards,
+[DELETED]
+
+*********************** 
+[DELETED]
+Google, Inc.
+Business Development
+1600 Amphitheatre Parkway
+Mountain View, CA 94043
+Fax: 650.618.1840
+
+If you do not wish to be contacted regarding inclusion in the Google
+index again, please send us an email so that we can remove you from our
+mailing list.
+
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; rv:1.7.3)
+Gecko/20040913 Firefox/0.10

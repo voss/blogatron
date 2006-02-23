@@ -1,0 +1,196 @@
+O:9:"magpierss":24:{s:6:"parser";i:0;s:12:"current_item";a:0:{}s:5:"items";a:31:{i:0;a:10:{s:5:"about";s:49:"http://www.linuxmafia.com/faq/Mail/mutt-tips.html";s:5:"title";s:9:"mutt-tips";s:4:"link";s:49:"http://www.linuxmafia.com/faq/Mail/mutt-tips.html";s:11:"description";s:13:"Tips for mutt";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:17:"2005-01-05T17:55Z";s:7:"subject";s:15:"docs email mutt";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:13:"
+    
+    
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:13:"Tips for mutt";s:14:"date_timestamp";i:1104947700;}i:1;a:10:{s:5:"about";s:57:"http://www.vim.org/htmldoc/version4.html#backspace-delete";s:5:"title";s:27:"Vim documentation: version4";s:4:"link";s:57:"http://www.vim.org/htmldoc/version4.html#backspace-delete";s:11:"description";s:50:"How to fix broken backspace and delete keys in Vim";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:17:"2005-01-05T17:45Z";s:7:"subject";s:16:"docs editors vim";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:13:"
+    
+    
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:50:"How to fix broken backspace and delete keys in Vim";s:14:"date_timestamp";i:1104947100;}i:2;a:10:{s:5:"about";s:33:"http://mutt.sourceforge.net/imap/";s:5:"title";s:13:"Mutt and IMAP";s:4:"link";s:33:"http://mutt.sourceforge.net/imap/";s:11:"description";s:14:"IMAP with mutt";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:17:"2005-01-05T17:00Z";s:7:"subject";s:15:"docs email mutt";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:13:"
+    
+    
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:14:"IMAP with mutt";s:14:"date_timestamp";i:1104944400;}i:3;a:10:{s:5:"about";s:37:"http://collabsuite.cuny.edu/download/";s:5:"title";s:23:"Oracle Calendar Clients";s:4:"link";s:37:"http://collabsuite.cuny.edu/download/";s:11:"description";s:39:"Clients for Oracle Calendar application";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:17:"2005-01-04T11:07Z";s:7:"subject";s:7:"imaging";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:3:"
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:39:"Clients for Oracle Calendar application";s:14:"date_timestamp";i:1104836820;}i:4;a:10:{s:5:"about";s:56:"http://www.webedition-cms.com/english/downloads/mamp.php";s:5:"title";s:39:"MAMP - Macintosh, Apache, MySQL and PHP";s:4:"link";s:56:"http://www.webedition-cms.com/english/downloads/mamp.php";s:11:"description";s:62:"Easy installer package for installing the holy trinity on OS X";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:17:"2004-12-30T10:31Z";s:7:"subject";s:27:"apache mysql osx php webdev";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:23:"
+    
+    
+    
+    
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:62:"Easy installer package for installing the holy trinity on OS X";s:14:"date_timestamp";i:1104402660;}i:5;a:10:{s:5:"about";s:38:"http://www.scifihifi.com/cocoalicious/";s:5:"title";s:48:"Cocoal.icio.us - del.icio.us Client for Mac OS X";s:4:"link";s:38:"http://www.scifihifi.com/cocoalicious/";s:11:"description";s:36:"Cocoa-client for del.icio.us account";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:17:"2004-12-28T10:17Z";s:7:"subject";s:18:"cocoa osx software";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:13:"
+    
+    
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:36:"Cocoa-client for del.icio.us account";s:14:"date_timestamp";i:1104229020;}i:6;a:8:{s:5:"about";s:43:"http://www.rss-to-javascript.com/p/138.html";s:5:"title";s:17:"RSS/RDF Converter";s:4:"link";s:43:"http://www.rss-to-javascript.com/p/138.html";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:17:"2004-12-26T10:55Z";s:7:"subject";s:8:"rss tool";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:8:"
+    
+  ";s:6:"topics";s:1:"
+";s:14:"date_timestamp";i:1104058500;}i:7;a:10:{s:5:"about";s:38:"http://www.lorem-ipsum.info/generator3";s:5:"title";s:37:"Lorem Ipsum Generator- The Motherlode";s:4:"link";s:38:"http://www.lorem-ipsum.info/generator3";s:11:"description";s:36:"Lorem Ipsum generator, with a twist.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:17:"2004-12-25T16:30Z";s:7:"subject";s:11:"tool webdev";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:8:"
+    
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:36:"Lorem Ipsum generator, with a twist.";s:14:"date_timestamp";i:1103992200;}i:8;a:10:{s:5:"about";s:27:"http://www.imageauthor.com/";s:5:"title";s:33:"Image editor from imageauthor.com";s:4:"link";s:27:"http://www.imageauthor.com/";s:11:"description";s:46:"display, edit, process, and save images online";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:17:"2004-12-22T14:03Z";s:7:"subject";s:18:"image picture tool";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:13:"
+    
+    
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:46:"display, edit, process, and save images online";s:14:"date_timestamp";i:1103724180;}i:9;a:8:{s:5:"about";s:54:"http://sidesh0w.com/weblog/2004/12/16/ie5mac_mattered/";s:5:"title";s:31:"IE5/Mac mattered | sidesh0w.com";s:4:"link";s:54:"http://sidesh0w.com/weblog/2004/12/16/ie5mac_mattered/";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:17:"2004-12-22T09:56Z";s:7:"subject";s:3:"css";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:3:"
+  ";s:6:"topics";s:1:"
+";s:14:"date_timestamp";i:1103709360;}i:10;a:10:{s:5:"about";s:53:"http://www.informit.com/articles/article.asp?p=170511";s:5:"title";s:44:"Strategies for Long-Term CSS Hack Management";s:4:"link";s:53:"http://www.informit.com/articles/article.asp?p=170511";s:11:"description";s:19:"CSS hack strategies";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:17:"2004-12-22T09:48Z";s:7:"subject";s:10:"css webdev";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:8:"
+    
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:19:"CSS hack strategies";s:14:"date_timestamp";i:1103708880;}i:11;a:10:{s:5:"about";s:54:"http://www.ciac.org/ciac/techbull/CIACTech02-003.shtml";s:5:"title";s:41:"Closing security hole in Office X for mac";s:4:"link";s:54:"http://www.ciac.org/ciac/techbull/CIACTech02-003.shtml";s:11:"description";s:41:"Closing security hole in Office X for mac";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:17:"2004-12-15T14:51Z";s:7:"subject";s:7:"imaging";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:3:"
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:41:"Closing security hole in Office X for mac";s:14:"date_timestamp";i:1103122260;}i:12;a:8:{s:5:"about";s:60:"http://forums.macosxhints.com/archive/index.php/t-19194.html";s:5:"title";s:25:"Fix Classic boot problems";s:4:"link";s:60:"http://forums.macosxhints.com/archive/index.php/t-19194.html";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:17:"2004-12-15T09:46Z";s:7:"subject";s:7:"imaging";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:3:"
+  ";s:6:"topics";s:1:"
+";s:14:"date_timestamp";i:1103103960;}i:13;a:8:{s:5:"about";s:64:"http://forums.afterhoursconsulting.org/phpbb2/viewtopic.php?t=73";s:5:"title";s:25:"Fix Classic boot problems";s:4:"link";s:64:"http://forums.afterhoursconsulting.org/phpbb2/viewtopic.php?t=73";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:17:"2004-12-15T09:45Z";s:7:"subject";s:7:"imaging";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:3:"
+  ";s:6:"topics";s:1:"
+";s:14:"date_timestamp";i:1103103900;}i:14;a:8:{s:5:"about";s:51:"http://news.rapala.com/Christmas-2004/NoButton.html";s:5:"title";s:33:"Rapala ad with fish driving a car";s:4:"link";s:51:"http://news.rapala.com/Christmas-2004/NoButton.html";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:17:"2004-12-14T00:53Z";s:7:"subject";s:3:"fun";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:3:"
+  ";s:6:"topics";s:1:"
+";s:14:"date_timestamp";i:1102985580;}i:15;a:10:{s:5:"about";s:50:"http://www.jp.dk/english_news/artikel:aid=2756004/";s:5:"title";s:22:"Latest Jyllands-Posten";s:4:"link";s:50:"http://www.jp.dk/english_news/artikel:aid=2756004/";s:11:"description";s:100:"Danish animated childrens movie reveals to have a girl with the mouth of a sailor as main character.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:17:"2004-12-09T02:41Z";s:7:"subject";s:3:"fun";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:3:"
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:100:"Danish animated childrens movie reveals to have a girl with the mouth of a sailor as main character.";s:14:"date_timestamp";i:1102560060;}i:16;a:8:{s:5:"about";s:52:"http://www.sitepoint.com/article/guide-url-rewriting";s:5:"title";s:56:"mod_rewrite: A Beginner's Guide to URL Rewriting [Apache";s:4:"link";s:52:"http://www.sitepoint.com/article/guide-url-rewriting";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:17:"2004-12-07T14:40Z";s:7:"subject";s:25:"apache mod_rewrite webdev";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:13:"
+    
+    
+  ";s:6:"topics";s:1:"
+";s:14:"date_timestamp";i:1102430400;}i:17;a:8:{s:5:"about";s:45:"http://www.internettrafficreport.com/main.htm";s:5:"title";s:44:"Network Overview /// Internet Traffic Report";s:4:"link";s:45:"http://www.internettrafficreport.com/main.htm";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:17:"2004-12-02T22:18Z";s:7:"subject";s:25:"internet network resource";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:13:"
+    
+    
+  ";s:6:"topics";s:1:"
+";s:14:"date_timestamp";i:1102025880;}i:18;a:10:{s:5:"about";s:64:"http://www.macdevcenter.com/pub/a/mac/2004/11/23/stickies_1.html";s:5:"title";s:36:"MacDevCenter.com: Modifying Stickies";s:4:"link";s:64:"http://www.macdevcenter.com/pub/a/mac/2004/11/23/stickies_1.html";s:11:"description";s:24:"Hacking stickies in OS X";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:17:"2004-12-02T17:15Z";s:7:"subject";s:17:"cocoa hacking osx";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:13:"
+    
+    
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:24:"Hacking stickies in OS X";s:14:"date_timestamp";i:1102007700;}i:19;a:10:{s:5:"about";s:69:"http://wired.com/news/technology/0,1282,65840,00.html?tw=wn_tophead_3";s:5:"title";s:38:"Topic Maps for better indexing of data";s:4:"link";s:69:"http://wired.com/news/technology/0,1282,65840,00.html?tw=wn_tophead_3";s:11:"description";s:13:"XML topic map";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:17:"2004-12-01T08:26Z";s:7:"subject";s:3:"xml";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:3:"
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:13:"XML topic map";s:14:"date_timestamp";i:1101889560;}i:20;a:8:{s:5:"about";s:48:"http://home.earthlink.net/~strahm_s/manuals.html";s:5:"title";s:13:"APPLE MANUALS";s:4:"link";s:48:"http://home.earthlink.net/~strahm_s/manuals.html";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:17:"2004-11-24T12:24Z";s:7:"subject";s:9:"apple mac";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:8:"
+    
+  ";s:6:"topics";s:1:"
+";s:14:"date_timestamp";i:1101299040;}i:21;a:10:{s:5:"about";s:37:"http://www.aasted.org/xsl/content.php";s:5:"title";s:28:"The Ground Cero Guide to XSL";s:4:"link";s:37:"http://www.aasted.org/xsl/content.php";s:11:"description";s:19:"introduction to XSL";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:17:"2004-11-20T10:32Z";s:7:"subject";s:7:"xml xsl";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:8:"
+    
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:19:"introduction to XSL";s:14:"date_timestamp";i:1100946720;}i:22;a:10:{s:5:"about";s:39:"http://css.maxdesign.com.au/listamatic/";s:5:"title";s:46:"Listamatic: Listamatic: one list, many options";s:4:"link";s:39:"http://css.maxdesign.com.au/listamatic/";s:11:"description";s:9:"CSS lists";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:17:"2004-11-17T23:18Z";s:7:"subject";s:3:"css";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:3:"
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:9:"CSS lists";s:14:"date_timestamp";i:1100733480;}i:23;a:10:{s:5:"about";s:41:"http://texturizer.net/firefox/extensions/";s:5:"title";s:24:"Firefox Help: Extensions";s:4:"link";s:41:"http://texturizer.net/firefox/extensions/";s:11:"description";s:25:"Firefox extensions galore";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:17:"2004-11-17T20:11Z";s:7:"subject";s:15:"browser firefox";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:8:"
+    
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:25:"Firefox extensions galore";s:14:"date_timestamp";i:1100722260;}i:24;a:8:{s:5:"about";s:68:"http://grandtextauto.gatech.edu/2004/11/17/writing-fable-2/#more-485";s:5:"title";s:41:"Grand Text Auto ? Writing Fable, part two";s:4:"link";s:68:"http://grandtextauto.gatech.edu/2004/11/17/writing-fable-2/#more-485";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:17:"2004-11-17T17:40Z";s:7:"subject";s:29:"academic computergames thesis";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:13:"
+    
+    
+  ";s:6:"topics";s:1:"
+";s:14:"date_timestamp";i:1100713200;}i:25;a:10:{s:5:"about";s:28:"http://aronnax.ar.funpic.de/";s:5:"title";s:43:"Aronnax`s - GrApple - MacThemes for Firefox";s:4:"link";s:28:"http://aronnax.ar.funpic.de/";s:11:"description";s:26:"Title says it all, really.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:17:"2004-11-13T09:19Z";s:7:"subject";s:15:"browser firefox";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:8:"
+    
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:26:"Title says it all, really.";s:14:"date_timestamp";i:1100337540;}i:26;a:10:{s:5:"about";s:45:"http://javaplugin.sourceforge.net/Readme.html";s:5:"title";s:21:"Java Embedding Plugin";s:4:"link";s:45:"http://javaplugin.sourceforge.net/Readme.html";s:11:"description";s:68:"Howto on how to make Java 1.4.2 work with Firefox et al under 10.3.5";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:17:"2004-11-11T09:53Z";s:7:"subject";s:18:"browser howto java";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:13:"
+    
+    
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:68:"Howto on how to make Java 1.4.2 work with Firefox et al under 10.3.5";s:14:"date_timestamp";i:1100166780;}i:27;a:10:{s:5:"about";s:35:"http://www.eskapelabs.com/mytv.html";s:5:"title";s:34:"MyTV - USB Television for all Macs";s:4:"link";s:35:"http://www.eskapelabs.com/mytv.html";s:11:"description";s:20:"USB TV-tuner for mac";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:17:"2004-11-08T13:12Z";s:7:"subject";s:12:"apple tv usb";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:13:"
+    
+    
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:20:"USB TV-tuner for mac";s:14:"date_timestamp";i:1099919520;}i:28;a:10:{s:5:"about";s:20:"http://weirdkid.com/";s:5:"title";s:10:"Emailchemy";s:4:"link";s:20:"http://weirdkid.com/";s:11:"description";s:77:"Application for exporting emails from old applications or proprietary formats";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:17:"2004-11-05T07:47Z";s:7:"subject";s:10:"email tool";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:8:"
+    
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:77:"Application for exporting emails from old applications or proprietary formats";s:14:"date_timestamp";i:1099640820;}i:29;a:10:{s:5:"about";s:45:"http://www.zefrank.com/date_1/navigation.html";s:5:"title";s:33:"ZeFrank: How to impress your date";s:4:"link";s:45:"http://www.zefrank.com/date_1/navigation.html";s:11:"description";s:48:"Flash installments on how to behave on your date";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:17:"2004-11-04T14:56Z";s:7:"subject";s:3:"fun";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:3:"
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:48:"Flash installments on how to behave on your date";s:14:"date_timestamp";i:1099580160;}i:30;a:10:{s:5:"about";s:25:"http://www.ros.co.nz/pdf/";s:5:"title";s:13:"R&OS pdfclass";s:4:"link";s:25:"http://www.ros.co.nz/pdf/";s:11:"description";s:28:"PHP class for PDF-generation";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:17:"2004-11-01T12:13Z";s:7:"subject";s:19:"pdf php programming";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:13:"
+    
+    
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:28:"PHP class for PDF-generation";s:14:"date_timestamp";i:1099311180;}}s:7:"channel";a:5:{s:5:"title";s:16:"del.icio.us/voss";s:4:"link";s:23:"http://del.icio.us/voss";s:5:"items";s:3:"
+ 
+";s:9:"items_seq";s:95:"
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ ";s:7:"tagline";N;}s:9:"textinput";a:0:{}s:5:"image";a:0:{}s:9:"feed_type";s:3:"RSS";s:12:"feed_version";s:3:"1.0";s:8:"encoding";s:10:"ISO-8859-1";s:16:"_source_encoding";s:0:"";s:5:"ERROR";s:0:"";s:7:"WARNING";s:0:"";s:19:"_CONTENT_CONSTRUCTS";a:6:{i:0;s:7:"content";i:1;s:7:"summary";i:2;s:4:"info";i:3;s:5:"title";i:4;s:7:"tagline";i:5;s:9:"copyright";}s:16:"_KNOWN_ENCODINGS";a:3:{i:0;s:5:"UTF-8";i:1;s:8:"US-ASCII";i:2;s:10:"ISO-8859-1";}s:5:"stack";a:0:{}s:9:"inchannel";b:0;s:6:"initem";b:0;s:9:"incontent";b:0;s:11:"intextinput";b:0;s:7:"inimage";b:0;s:13:"current_field";s:0:"";s:17:"current_namespace";b:0;s:15:"source_encoding";s:5:"UTF-8";s:13:"last_modified";s:31:"Fri, 07 Jan 2005 20:20:26 GMT
+";}

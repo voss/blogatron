@@ -1,0 +1,106 @@
+body
+{
+	text-align: center;
+	padding-top: 0px;
+	margin: 0;
+	background-color: #333;
+	color: #fff;
+}
+
+#left
+{
+	float: left;
+	clear: both;
+	width: 175px;
+	border-right: 1px solid #6F9;
+	border-bottom: 1px solid #6F9;
+	padding: 5px 10px 10px 5px;
+	background: #444;
+	color: #fff;
+}
+
+#right
+{
+	float: left;
+	margin: 0px 0px 0px 25px;
+	padding-left: 10px;
+	width: 500px;
+}
+
+p
+{
+	font-family: tahoma, verdana, sans-serif;
+	font-size: small;
+	color: #ddd;
+	background: inherit;
+}
+
+#tell
+{
+	font-size: x-large;
+	font-family: georgia, palatino, sans-serif;
+	color: #fff;
+	background: #666;
+	border: 1px dotted #000;
+	padding: 25px;
+	margin: 100px;
+}
+
+#text
+{
+	text-align: left;
+	width: 495px;
+	padding-bottom: 15px;
+	line-height: 1.3em;
+}
+
+#text p
+{
+	font-size: medium;
+	font-family: trebuchet, 'trebuchet ms', geneva, verdana, sans-serif;
+}
+
+h1
+{
+	font: small-caps 1.7em/1.2em georgia, serif;
+	color: #0cf;
+	background-color: inherit;
+	margin: 20px 0 10px 0;
+	border-bottom: 1px solid #6F9;
+	margin-bottom: 10px;
+}
+
+img
+{
+	border-left: 1px solid #666;
+	border-bottom: 1px solid #666;
+	margin-top: 20px;
+}
+
+input
+{
+	color: #6F9;
+	background: #000;
+}
+
+a:link
+{
+	color: #6F9;
+	background: inherit;
+}
+
+a:visited
+{
+	color: #999;
+	background: inherit;
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+.strike
+{
+	text-decoration: line-through;
+}

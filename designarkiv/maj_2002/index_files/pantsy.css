@@ -1,0 +1,505 @@
+/* TESTRUN */
+body
+{
+	margin: 0;
+	font-family: verdana, Tahoma, Helvetica, Arial, sans-serif;
+	color: #000000;
+	/*	background-color: #cccb97; */
+	background: url(cphsunrise.jpg) no-repeat top right fixed #8796ab;
+}
+
+.sidetitel
+{
+	font-size: 1.3em;
+	font-family: Charcoal, verdana, Tahoma, sans-serif;
+	color: #505d78;
+	background-color: transparent;
+	text-align: left;
+}
+
+.posdiv
+{
+	width: 70%;
+	color: inherit;
+	background-color: transparent;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	margin: 0px;
+}
+
+td.cal { font-size: 12px; }
+
+#menu
+{
+	position: absolute;
+	top: 70px;
+	right: 10px;
+}
+
+.styles
+{
+	position: absolute;
+	top: 350px;
+	right: 5px;
+	font-size: 11px;
+	color: #505d78;
+	background-color: transparent;
+	text-align: right;
+}
+
+.itunes
+{
+	position: absolute;
+	top: 450px;
+	right: 5px;
+	width: 25%;
+	font-size: 11px;
+	color: #505d78;
+	background-color: transparent;
+	text-align: right;
+}
+
+.calendar
+{
+	position: absolute;
+	top: 85px;
+	right: 35px;
+	padding: 0px;
+	width: 130px;
+	font-family: georgia, verdana, Arial, sans-serif;
+	color: #336699;
+	background-color: transparent;
+}
+
+.comcol
+{
+	color: #ffde00;
+	background-color: transparent;
+	font-weight: bold;
+}
+
+.textdiv
+{
+	border-right: 1px dotted #606E89;
+	border-bottom: 1px dotted #606E89;
+	border-left: 1px dotted #606E89;
+	color: inherit;
+	margin: 0px;
+	background-color: transparent;
+}
+
+.blogtitel
+{
+	background-color: #ccbfb8;
+	color: inherit;
+}
+
+#margin { margin: 0px 35px 15px 25px; }
+
+#walkar
+{
+	float: right;
+	width: 13%;
+	border: 1px dotted #999999;
+	text-align: right;
+	font-size: .7em;
+	padding-right: 3px;
+}
+
+#walkal
+{
+	float: left;
+	width: 14.5%;
+	border-top: 1px dotted #999999;
+	border-bottom: 1px dotted #999999;
+	font-size: .7em;
+	position: fixed;
+	margin-top: 200px;
+	margin-left: 0px;
+	color: #333333;
+	background: url(cthru2.gif) repeat transparent;
+}
+
+a:link
+{
+	color: #ffffff;
+	background-color: transparent;
+	border-bottom: 1px dotted #ffffff;
+	text-decoration: none;
+}
+
+a:visited
+{
+	color: #d6d6d6;
+	background-color: inherit;
+	text-decoration: none;
+	border-bottom: 1px dotted #d6d6d6;
+}
+
+a:hover
+{
+	color: #ffde00;
+	background-color: transparent;
+	text-decoration: none;
+	border-bottom: 1px dotted #ffde00;
+}
+
+a:active
+{
+	color: #ffcc33;
+	background-color: transparent;
+	text-decoration: none;
+	border-bottom: 1px dotted #ffcc33;
+}
+
+a.img { border: none; }
+
+/*
+a.body:link		
+			{ color: #993300 ;
+			background-color: transparent ;
+			text-decoration: underline;
+			border: none;
+			}
+
+a.body:visited	
+			{color: #898777 ;
+			background-color: transparent ;
+			border: none ;
+			}
+
+a.body:hover
+			{color: #666666; 
+			text-decoration: none ;
+			border: none;
+			background-color: transparent; 
+			}
+			
+a.body:active
+			{color: #ff0000 ;
+			background-color: #eeeeee ;
+			border: 1px solid #ff0000 ;
+			}
+
+*/
+
+.menu
+{
+	font-family: georgia, charcoal, verdana, geneva, Helvetica, Arial, sans-serif;
+	color: #990000;
+	background-color: inherit;
+	padding: 0px;
+	margin: 0px;
+	width: auto;
+	text-decoration: none;
+	text-align: center;
+	font-size: 0.9em;
+	line-height: 1.7em;
+	display: block;
+}
+
+a.menu:link
+{
+	color: #ffffff;
+	background-color: transparent;
+	text-align: center;
+	font-weight: bold;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	display: block;
+	border-bottom: 1px solid #606E89;
+	line-height: 1.7em;
+}
+
+a.menu:visited
+{
+	color: #555566;
+	background-color: transparent;
+	font-weight: bold;
+	width: 100%;
+	display: block;
+	padding: 0px;
+	border-bottom: 1px solid #606E89;
+}
+
+a.menu:hover
+{
+	color: #336699;
+	background-color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+	width: 100%;
+	display: block;
+	padding: 0px;
+	border-bottom: 1px solid #000000;
+}
+
+a.menu:active
+{
+	color: #336699;
+	background-color: transparent;
+	text-decoration: none;
+	width: 100%;
+	display: block;
+	font-weight: bold;
+	padding: 0px;
+}
+
+.arkiver
+{
+	line-height: 1.5em;
+	font-family: georgia, verdana, Arial, sans-serif;
+	color: #000000;
+	background-color: transparent;
+	font-size: 0.9em;
+	padding-right: 2px;
+}
+
+.arkuger
+{
+	line-height: 1.5em;
+	color: #000000;
+	background-color: transparent;
+	border-right: 1px dotted #999999;
+	width: 275px;
+	font-size: 0.9em;
+	font-family: georgia, verdana, Arial, sans-serif;
+}
+
+.linkkol
+{
+	line-height: 1.5em;
+	font-family: georgia, verdana, Arial, sans-serif;
+	color: #000000;
+	background-color: transparent;
+	font-size: 0.9em;
+}
+
+.search
+{
+	font-family: verdana, Arial, sans-serif;
+	color: #ffffff;
+	background-color: transparent;
+	font-size: .9em;
+	line-height: 14px;
+}
+
+.lt
+{
+	font-family: georgia, palatino, serif;
+	font-size: 1.3em;
+	line-height: 25px;
+	font-weight: bold;
+	color: #555566;
+	background-color: transparent;
+}
+
+.dato
+{
+	font-family: verdana, Arial, sans-serif;
+	color: #98ddff;
+	background-color: transparent;
+	width: 100%;
+	font-size: .7em;
+	line-height: 20px;
+}
+
+.dato2
+{
+	font-family: verdana, Arial, sans-serif;
+	color: #666666;
+	background-color: transparent;
+	font-size: .8em;
+	font-weight: bold;
+	text-align: left;
+}
+
+.dato3
+{
+	font-family: verdana, Arial, sans-serif;
+	color: #ffffff;
+	background-color: #606E89;
+	width: 100%;
+	display: block;
+	font-size: .8em;
+	line-height: 20px;
+	padding-left: 5px;
+	border-top: 1px solid #bbbbbb;
+	border-bottom: 1px solid #606E88;
+}
+
+.pt
+{
+	font-family: andale mono, trebuchet ms, palatino, serif;
+	font-size: 1.1em;
+	font-weight: light;
+	line-height: 25px;
+	color: #cbeeff;
+	background-color: transparent;
+}
+
+.posts
+{
+	font-family: georgia, verdana, Arial, sans-serif;
+	color: #222222;
+	background-color: transparent;
+	font-size: 1em;
+	line-height: 18px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+}
+
+.datkom
+{
+	font-family: verdana, Arial, sans-serif;
+	color: #583232;
+	background-color: transparent;
+	font-size: smaller;
+	line-height: 16px;
+}
+
+.haikuvenstre
+{
+	position: relative;
+	top: 0px;
+	left: 50px;
+	width: 70%;
+	height: auto;
+	font-size: 0.8em;
+}
+
+.haikuhojre
+{
+	position: relative;
+	top: 0px;
+	left: 100px;
+	width: 70%;
+	height: auto;
+	font-size: 0.8em;
+}
+
+.liste
+{
+	margin-left: 5px;
+	line-height: 1.1em;
+}
+
+ul
+{
+	color: #000000;
+	background-color: transparent;
+}
+
+li
+{
+	list-style-type: square;
+	color: #000000;
+	background-color: transparent;
+	line-height: 1.5em;
+}
+
+.li2
+{
+	color: #000000;
+	background-color: transparent;
+}
+
+.li3
+{
+	list-style-type: none;
+	color: #993333;
+	background-color: transparent;
+}
+
+.hvaba { display: none; }
+
+.citat
+{
+	font-style: italic;
+	background-color: #8796AB;
+	border: 1px dashed #cbeeff;
+	margin-left: 20px;
+	margin-right: 40px;
+	padding: 5px;
+}
+
+.kant { border: 1px solid #66ccff; }
+textarea { overflow: scroll; }
+
+.holla
+{
+	font-family: verdana, tahoma, helvetica, arial, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #606e8f;
+	line-height: 13px;
+}
+
+.input
+{
+	border: 1px solid #c3cfd0;
+	background-color: #606E89;
+	color: #ffffff;
+}
+
+.streg
+{
+	border-bottom: 1px solid #606E89;
+	width: 25%;
+}
+
+.kommentar
+{
+	font-family: verdana, geneva, trebuchet ms, trebuchet, arial, sans-serif;
+	font-size: 0.8em;
+	line-height: 16px;
+}
+
+.indexer
+{
+	font-family: verdana, Arial, sans-serif;
+	color: #666666;
+	background-color: #606E89;
+	width: 100%;
+	display: block;
+	font-size: .8em;
+	line-height: 20px;
+	padding-left: 5px;
+	border-bottom: 1px solid #dddddd;
+	border-top: 1px solid #dddddd;
+}
+
+.fv
+{
+	float: left;
+	border: 1px solid #336699;
+}
+
+.fh
+{
+	float: right;
+	border: 1px solid #336699;
+}
+
+.cr
+{
+	font-size: .7em;
+	font-family: geneva, verdana, sans-serif;
+	background-color: transparent;
+	color: #333333;
+}
+
+.credits
+{
+	color: #000000;
+	background-color: transparent;
+	border: none;
+	line-height: 10px;
+	vertical-align: middle;
+	font-size: .7em;
+	font-family: geneva, verdana, sans-serif;
+}

@@ -1,0 +1,339 @@
+/*This is the dumbed-down version of the stylesheet, to be served to browsers not respecting position: fixed properly on div-elements.
+Thanks to Owen Briggs <http://www.thenoodleincident.com/tutorials/box_lesson/basic3.html> for making the three column layout -- saved me reinventing the wheel, only had to alter the already invented. 
+Also thanks to Eric Meyer and CSS-list-discuss, always plenty of inspiration.
+
+##################################
+
+Setting the general elements */
+
+html
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #000000;
+	background: #ffffff url("http://verture.net/images/bialettigrey.jpg") bottom right fixed no-repeat;
+	font-family: geneva, verdana, helvetica, arial, sans-serif;
+}
+
+acronym
+{
+	border-bottom: 1px dotted #000000;
+	font-variant: normal;
+	cursor: help;
+}
+
+div.leftwibble
+{
+	text-align: center;
+	padding: 10px 0 10px 0;
+	border-top: 1px solid #e68300;
+}
+
+#whut { display: none; }
+
+p
+{
+	padding: 0 15px 0 20px;
+	line-height: 1.3em;
+	font-size: small;
+}
+
+#entries
+{
+	font-family: geneva, Verdana, helvetica, arial, sans-serif;
+	color: 003366;
+	background-color: #FFFFFF;
+	text-decoration: none;
+	font-size: 8pt;
+	width: 120px;
+}
+
+ol
+{
+	color: #000000;
+	background-color: transparent;
+	font-size: small;
+}
+
+ul
+{
+	color: #000000;
+	background-color: transparent;
+	font-size: small;
+}
+
+li
+{
+	list-style-type: square;
+	color: #000000;
+	background-color: transparent;
+	/*	line-height: 1.5em; */
+}
+
+form { font-size: 12px; }
+
+/* Setting the backgrounds */
+div#coffee { background: transparent; }
+div#top { background: transparent url("http://verture.net/images/banner.jpg") top right fixed no-repeat; }
+div#locate { background-color: transparent; }
+div#content { background: #ffffff; }
+div#menu { background: #ffffff url("http://verture.net/images/mugfade278x197.jpg") top left fixed no-repeat; }
+div#leftover { background: transparent url("http://verture.net/images/cthru.gif") repeat; }
+
+/* Positioning & styling the bastards */
+div#top
+{
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	color: inherit;
+	border-top: 5px solid #7d9478;
+	border-bottom: 2px solid #F9E0BF;
+	height: 85px;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	height: 85px;
+}
+
+html>body #top { height: 85px; }
+
+div#locate
+{
+	position: absolute;
+	top: 75px;
+	left: 20px;
+	color: #7d9478;
+}
+
+div#menu
+{
+	position: absolute;
+	top: 95px;
+	left: 0px;
+	margin: 20px;
+	padding: 10px;
+	font-size: small;
+	line-height: 1.5em;
+	color: inherit;
+	border: 1px dotted #e68300;
+}
+div#menu
+{
+	width: 120px;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width: 120px;
+}
+
+html>body #left { width: 120px; }
+
+div#content
+{
+	margin: 20px 190px 10px 190px;
+	padding: 10px;
+	border: 1px solid #999999;
+	color: #000000;
+	line-height: 1.2em;
+}
+
+div#leftover
+{
+	position: absolute;
+	top: 95px;
+	right: 0px;
+	margin: 20px;
+	padding: 10px 15px 10px 10px;
+	font-size: small;
+	border: 1px dotted #7d9478;
+}
+div#leftover
+{
+	width: 150px;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width: 120px;
+}
+
+html>body #leftover { width: 120px; }
+
+/* Styling the links & headers */
+a:link
+{
+	line-height: 16px;
+	color: #993300;
+	background-color: transparent;
+	text-decoration: none;
+	border-bottom: 1px dotted #7d9478;
+}
+
+a:visited
+{
+	color: #666666;
+	background-color: transparent;
+	border-bottom: 1px dotted #666666;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #7d9478;
+	background-color: transparent;
+	border-bottom: 1px solid #993300;
+}
+
+.date
+{
+	color: #7d9478;
+	background-color: transparent;
+	font-size: small;
+	line-height: 1em;
+}
+
+h2
+{
+	color: #Cc3300;
+	font-family: palatino, georgia, century, centurt schoolbook, serif;
+	/*	font-style: italic; */
+	font-size: 1.2em;
+	font-weight: lighter;
+	display: inline;
+}
+
+/* Styles for the archives */
+div#pastmonths
+{
+	line-height: 1.5em;
+	font-family: geneva, verdana, Arial, sans-serif;
+	color: #000000;
+	background-color: transparent;
+	font-size: 0.8em;
+	padding-right: 2px;
+}
+
+div#pastweeks
+{
+	line-height: 1.5em;
+	font-family: geneva, verdana, Arial, sans-serif;
+	color: #000000;
+	background-color: transparent;
+	font-size: 0.8em;
+}
+
+.search
+{
+	font-family: verdana, Arial, sans-serif;
+	color: #000000;
+	background-color: transparent;
+	font-size: small;
+	line-height: 16px;
+}
+
+/* buttons */
+.holla
+{
+	font-family: verdana, tahoma, helvetica, arial, sans-serif;
+	font-size: small;
+	font-weight: bold;
+	line-height: 13px;
+	color: #ffffff;
+	background-color: #992300;
+}
+
+/* Misc. */
+.fejl
+{
+	font-family: georgia, palatino, serif;
+	color: #993333;
+	background-color: transparent;
+}
+
+.pseudop
+{
+	padding-left: 20px;
+	padding-right: 15px;
+	line-height: 16px;
+}
+
+.input { border: 1px solid #333333; }
+
+.indexer
+{
+	font-family: verdana, Arial, sans-serif;
+	color: #666666;
+	background-color: #ededed;
+	width: 100%;
+	display: block;
+	font-size: .8em;
+	line-height: 20px;
+	padding-left: 5px;
+	border-bottom: 1px solid #dddddd;
+	border-top: 1px solid #dddddd;
+}
+
+/*
+.citat
+{
+	font-style: italic;
+	margin: 0 40px 0 20px;
+	padding: 5px;
+	border: 1px dashed #990000;
+	background-color: #eeeeee;
+	display: block;
+}
+*/
+
+.citat
+{
+	font-style: italic;
+	margin-left: 30px;
+	margin-right: 40px;
+	padding: 5px;
+	color: #444444;
+	background-color: transparent;
+	display: block;
+}
+
+q
+{
+	font-style: italic;
+	margin-left: 30px;
+	margin-right: 40px;
+	padding: 5px;
+	color: #444444;
+	background-color: transparent;
+	display: block;
+	font-size: small;
+}
+
+.comment
+{
+	font-family: geneva, verdana, trebuchet ms, trebuchet, arial, sans-serif;
+	line-height: 16px;
+	font-size: small;
+	padding: 0;
+	border: 1px dotted #7d9478;
+	margin: 5px;
+}
+
+a.img { border: none; }
+
+.fv
+{
+	float: left;
+	border: 1px solid #333333;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+.fh
+{
+	float: right;
+	border: 1px solid #333333;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}

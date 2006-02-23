@@ -1,0 +1,285 @@
+/*<group=basic layout elements>*/
+
+body {
+	padding: 10px;
+	margin: 0 0 20px 0;
+	color: #000;
+	background: #fff;
+	font-family: 'lucida grande', verdana, helvetica, arial, sans-serif;
+}
+
+#wrapper {
+	width: 80%;
+	\width: 80%;
+	w\idth: 80%;
+	border: 1px solid #aa9;
+	margin: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+	background: #fff;
+}
+
+#top, #top h1, #top p {
+	padding: 0;
+	margin: 0;
+}
+
+#top {
+	padding: 20px;
+	background-color: #9dc1d5;
+	border-bottom: 1px dotted #900;
+}
+
+#top p {
+	color: white;
+}
+
+#top h1 {
+	color: white;
+	background: transparent;
+	padding-left: 20px;
+}
+
+p {
+	font-size: small;
+	line-height: 1.5em;
+}
+
+label {
+	font-size: small;
+}
+
+img {
+	border: none;
+}
+
+h1, h2, h3 {
+	color: #595d0c;
+	background: transparent;
+	padding-top: 10px;
+	margin-top: 0;
+}
+
+h1, h2, h3 {
+	font-size: medium;
+	font-family: 'lucida grande', georgia, palatino, serif;
+	voice-family: "\"}\"";
+	font-size: medium;
+}
+	
+/*</group>*/
+
+/*<group=tables>*/
+
+table.table {
+    width:100%;
+    border-spacing:0;
+    font-size:11px;
+    border: 1px solid #a5a5a5;
+    margin-top: 40px;
+    width: 100%;
+}
+
+table.table tr:hover td {
+	background: #f6f6f6;
+	background-color: #f6f6f6;
+	color: green;
+}
+
+table.table th {
+   padding:0.5ex 2em;
+   background-color:#e2e2e2;
+   border-bottom: 1px solid #a5a5a5;
+	text-align: center;
+}
+
+table.table td {
+   border-top: 1px solid #e2e2e2;
+	text-align: center;
+}
+
+table.table tr.dark {
+   background-color:#eee;
+	text-align: center;
+}
+
+table.table tr.light {
+   background-color:white;
+	text-align: center;
+}
+
+tr.header {
+	color: #900;
+	background: #E7D59F;
+}
+
+tr.header td {
+	text-align: center;
+	font-weight: bold;
+	font-size: medium;
+}
+
+td *:link, td *:visited,td *:hover {
+	display: block;
+	width: 100%;
+}
+
+table.table a {
+	display: block;
+	width: 100%;
+	padding: 1ex;
+	text-decoration: none;
+}
+
+table.table a:link {
+	color: green;
+}
+
+table.table a:visited {
+	color: #555;
+	background: inherit;
+/*	border-bottom: 1px dotted #999; */
+	text-decoration: none;
+}
+
+table.table a:hover {
+	color: red;
+	background: inherit;
+/*	border-bottom: 1px dotted #999; */
+	text-decoration: none;
+}
+
+/*</group>*/
+
+/*<group=wrapper>*/
+
+div#wrapper table, div#wrapper tr {
+	padding: 2px;
+}
+
+div#wrapper table tr td {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+div#wrapper a:link {
+	color: #000;
+	text-decoration: none;
+/*	border-bottom: 1px solid #006; */
+	background: inherit;
+}
+
+div#wrapper a:visited {
+	color: #555;
+	background: inherit;
+/*	border-bottom: 1px dotted #999; */
+	text-decoration: none;
+}
+
+div#wrapper a:hover {
+	text-decoration: none;
+	color: #000;
+/*	border-bottom: 1px dotted #006; */
+	background: #E7D59F;
+}
+	
+/*</group>*/
+
+.date {
+	color: #444;
+	background: inherit;
+	margin: 0;
+	font-size: xx-small;
+	padding: 5px 0 3px 0;
+}
+
+div#add, form#edit {
+	margin: 0 0 0 20px;
+	padding: 0;
+	background: #fff;
+}
+
+div#add fieldset {
+	border: 0;
+}
+
+form#edit textarea {
+    width: 72%;
+}
+
+.light {
+	background: #ddb;
+	color: inherit;
+}
+
+.dark {
+	background: #eee;
+	color: inherit;
+}
+
+div#inputform {
+	float: right;
+	padding: 2px;
+	padding-top: 30px;
+	clear: both;
+	margin-right: 10px;
+	line-height:1.5em;
+	text-align: right;
+	font-size: x-small;
+	width: 20%;
+}
+
+div#inputform textarea {
+	border: 1px solid black;
+}
+
+div#inputform #submitpost {
+	width: 100%;
+}
+
+#mlist ul {
+	padding-left: 0;
+	margin-left: 0;
+	padding-top: 0.1px;
+	margin-top: 0;
+/*	background-color: #036; */
+	color: White;
+	float: right;
+	width: 100%;
+	font-size: small;
+}
+
+#mlist ul li {
+	display: inline;
+	background-color: #E7D59F;
+	color: #000;
+}
+
+#mlist ul li a, #mlist ul li a:link {
+	padding: 0.2em 1em;
+	background-color: #369;
+	color: #fff;
+	text-decoration: none;
+	float: right;
+	border-left: 1px solid #fff;
+}
+
+#mlist ul li a:visited {
+	color: #fff;
+	background-color: #369;
+}
+
+#mlist ul li a:hover {
+	background-color: #9dc1d5;
+	color: #000;
+}
+
+table.table tr td {
+	text-align: center;
+}
+
+form#adduser label {
+}
+
+

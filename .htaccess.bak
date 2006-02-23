@@ -1,0 +1,48 @@
+#Permanent redirects
+  Redirect permanent /insitu http://blog.verture.net/arkiv
+  Redirect permanent /images/croquet2k1/ http://blog.hjem.orangenet.dk/images/croquet2k1/
+  Redirect permanent /the.blog http://verture.net/
+  Redirect permanent /images/venezia2k1/ http://blog.hjem.orangenet.dk/images/venezia2k1/
+  Redirect permanent /images/fieldwork/ http://blog.hjem.orangenet.dk/images/fieldwork/
+  Redirect permanent /rss/feedme.xml http://blog.verture.net/rssfeed.xml
+  Redirect permanent /images http://blog.verture.net/img
+  Redirect permanent /02/get_your_alcate3108 http://blog.verture.net/310802/get_your_alcate
+  Redirect permanent /sclars_cph http://pics.verture.net/2003/sclars-cph
+  Redirect permanent /archives/2002/ind/hard_to_keep_up0208.html http://blog.verture.net/020802/hard_to_keep_up
+
+RewriteEngine On                                 
+  RewriteCond %{HTTP_HOST} ^www\.verture\.net$ [NC] 
+  RewriteRule ^(.*)$ http://verture.net/$1 [R=301,L]
+
+
+## Services
+  RewriteRule ^services[/]?$ services.php
+  RewriteRule ^services/transmo[/]?$ transmo.php
+  RewriteRule ^services/transmo(.+) transmo.php$1
+  Rewriterule ^services/b2s[/]?$ b2sec.php
+  RewriteRule ^services/b2s(.+) b2sec.php$1
+
+## Main site rewrites
+  RewriteRule ^kontakt[/]?$ kontakt.php
+  RewriteRule ^ee[/]?$ ee.php
+  RewriteRule ^ae[/]?$ ae.php
+  RewriteRule ^de[/]?$ de.php
+  RewriteRule ^au[/]?$ au.php
+  RewriteRule ^arkiv[/]?$ arkiv.php
+  RewriteRule ^kolofon[/]?$ kolofon.php
+  RewriteRule ^arkiv/([a-zA-Z0-9.]+) arkiv.php?m=$1
+  Rewriterule ^arkiv[/]?$ arkiv.php
+  RewriteRule ^search/(.+) search.php?q=$1
+  RewriteRule ^search[/]?$ search.php
+  RewriteRule ^s/(.+) search.php?q=$1
+
+## RSS rewrite. Pass requesters of rssfeed.xml to the dynamic rssfeed.php
+  RewriteRule ^rssfeed.xml$ /rssfeed.php
+
+## List entries from the URL:
+  RewriteRule ^([0-9]{6})/([-_.a-z#*0-9]+) /index.php?e=$1$2
+
+## Regular .htaccess stuff
+  Options -Indexes
+  ErrorDocument 404 /404.php
+  AddType application/x-httpd-php .php
