@@ -1,17 +1,22 @@
 /*<group=basic layout elements>*/
 
+
+/*
+--------------------------
+	BODY
+--------------------------
+*/
+
 body {
 	padding: 10px;
 	margin: 0 0 20px 0;
 	color: #000;
-	background: #fff;
+	background: #e7e7e7;
 	font-family: 'lucida grande', verdana, helvetica, arial, sans-serif;
 }
 
 #wrapper {
 	width: 80%;
-	\width: 80%;
-	w\idth: 80%;
 	border: 1px solid #aa9;
 	margin: 0px;
 	margin-left: auto;
@@ -20,16 +25,54 @@ body {
 	background: #fff;
 }
 
+/*
+--------------------------
+	LOGIN
+--------------------------
+*/
+
+
 #loginwrapper {
 	width: 350px;
-	\width: 350px;
-	w\idth: 350px;
-	border: 1px solid #aa9;
+	border: 4px solid #eee;
 	margin: 0px;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 0px;
+	padding: 0px 8px;
 	background: #fff;
+	margin: 60px auto 20px auto;
+}
+
+#loginwrapper dt {
+	float: left;
+	width: 80px;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+#loginwrapper dd {
+	margin: 0 0 5px 90px;
+	font-size: 11px;
+	line-height: 24px;
+	color: #666;
+	margin-left: 80px;
+}
+
+#loginwrapper form {
+	padding: 0 8px;
+}
+
+#loginwrapper label {
+	font-family: monospace;
+}
+
+
+#loginwrapper .explainerror {
+	border: 2px solid #c99;
+	color: #fff;
+	background: #c00;
+	padding: 5px;
+	text-align: center;
 }
 
 #top, #top h1, #top p {
@@ -51,10 +94,6 @@ body {
 	color: whitesmoke;
 	background: transparent;
 	padding-left: 20px;
-}
-
-#loginwrapper #top h1 {
-   text-align: center;
 }
 
 p {
@@ -199,13 +238,13 @@ a:link {
 	padding: 5px 0 3px 0;
 }
 
-div#add, form#edit {
+form#edit {
 	margin: 0 0 0 20px;
 	padding: 0;
 	background: #fff;
 }
 
-div#add fieldset {
+fieldset {
 	border: 1px;
 }
 

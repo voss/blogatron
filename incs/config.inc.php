@@ -4,7 +4,7 @@
 $blog_title = "verture [prik] net";
 
 # Base domain name for your weblog, typically yourdomain.com
-$domain_name = "blog.verture.net";
+$domain_name = "dev.verture.net";
 
 # Meta-description for your weblog:
 #$description = "Weblog for Jonas Voss, Københavner og studerende, som så mange andre.";

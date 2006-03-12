@@ -1,19 +1,20 @@
 <?php
-global $install_path;
 #file : includes.inc.php
+
+global $install_path;
 
 ## Login-form ##
 
 $login_form =
-"<form action=\"".$_SERVER['PHP_SELF']."\" method=\"post\">
-    <div style=\"font-family: monospace\">
-        <p><label style=\"color: #595d0c\">Brugerid:</label> <input type=\"text\" name=\"aname\" /></p>
-        <p><label style=\"color: #595d0c\">Password:</label> <input type=\"password\" name=\"apasswd\" /></p>
-        <p><input type=\"submit\" value=\"Login\" style=\"width: 95%; display: block;\" /></p>
-    </div>
+'
+<form action="'.$_SERVER['PHP_SELF'].'" method="post">
+	<dl>
+        <dt><label style="color: #595d0c">Brugerid:</label></dt> <dd><input type="text" name="aname" /></dd>
+        <dt><label style="color: #595d0c">Password:</label><dt> <dd><input type="password" name="apasswd" /></dd>
+		<dd><input type="submit" value="Login" style="" /></dd>
+    </dl>
 </form>
-
-";
+';
 
 ## Mail form ##
 
