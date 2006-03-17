@@ -4,6 +4,13 @@
 
 print_header(". {$blog_title} | Ret et indlæg .", "edit.css", $domain_name, $description, $key_words, $dc_title, $install_path);
 
+# Whats in the URL:
+if ( isset($_GET['arcmonth']) )
+{
+	$month_query() = explode('.',$_GET['arcmonth']);
+	print $month_query[0];
+}
+
 # Is it an admin-user logging in? If yes, set $admin to true.
 $admin = ($_SESSION['aid'] != 1) ? FALSE : TRUE;
 
@@ -11,6 +18,7 @@ $admin = ($_SESSION['aid'] != 1) ? FALSE : TRUE;
 
 display_archive_months_edit();
 
+SELECT DISTINCT(FROM_UNIXTIME(date, '%M')) as date_month FROM ".$db_name.".entries where FROM_UNIXTIME(date, '%Y') = '{$year}' ORDER BY date DESC
 
 if ( $admin == TRUE )
 {
