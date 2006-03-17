@@ -7,8 +7,49 @@ print_header(". {$blog_title} | Ret et indlæg .", "edit.css", $domain_name, $des
 # Whats in the URL:
 if ( isset($_GET['arcmonth']) )
 {
-	list($month,$year) = explode('.',$_GET['arcmonth']);
-	print $month.$year;
+	list($req_month,$req_year) = explode('.',$_GET['arcmonth']);
+	if ( $admin == TRUE )
+	{
+#	$sql = "select * from entries, authors where authors.uid = entries.aid ORDER BY date DESC limit 0,20";
+		$req_sql = "SELECT
+			*
+		FROM
+			entries, authors
+		WHERE
+			FROM_UNIXTIME(entries.date, '%M') = '{$req_month}'
+		AND
+			FROM_UNIXTIME(entries.date, '%Y') = '{$req_year}'
+		AND
+			entries.status = '1'
+		AND
+			authors.uid = entries.aid
+		ORDER BY
+			entries.date
+		DESC";
+
+	}
+	else
+	{
+#	$sql = "select * from entries, authors where authors.uid = entries.aid and entries.aid = {$_SESSION['aid']} ORDER BY date DESC limit 0,20";
+		$req_sql = "SELECT
+			*
+		FROM
+			entries, authors
+		WHERE
+			FROM_UNIXTIME(entries.date, '%M') = '{$req_month}'
+		AND
+			FROM_UNIXTIME(entries.date, '%Y') = '{$req_year}'
+		AND
+			entries.status = '1'
+		AND
+			authors.uid = entries.aid
+		AND
+			entries.aid = {$_SESSION['aid']}
+		ORDER BY
+			entries.date
+		DESC";
+	}
+
 }
 
 # Is it an admin-user logging in? If yes, set $admin to true.
@@ -18,24 +59,14 @@ $admin = ($_SESSION['aid'] != 1) ? FALSE : TRUE;
 
 display_archive_months_edit();
 
-#SELECT DISTINCT(FROM_UNIXTIME(date, '%M')) as date_month FROM ".$db_name.".entries where FROM_UNIXTIME(date, '%Y') = '{$year}' ORDER BY date DESC
-
-if ( $admin == TRUE )
-{
-	$sql = "select * from entries, authors where authors.uid = entries.aid ORDER BY date DESC limit 0,20";
-}
-else
-{
-	$sql = "select * from entries, authors where authors.uid = entries.aid and entries.aid = {$_SESSION['aid']} ORDER BY date DESC limit 0,20";
-}
 
 # If the user is non-admin, select only the entries they have authored.
 
 # $result = @mysql_query($sql);
-if(!$result = @mysql_query($sql)) 
+if(!$result = @mysql_query($req_sql)) 
 {
 	# Debugging:
-	print "<p>Error: $sql".mysql_error()."</p>";
+	print "<p>Error: $req_sql ".mysql_error()."</p>";
 }
 else
 {
