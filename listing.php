@@ -4,6 +4,9 @@
 
 print_header(". {$blog_title} | Ret et indlæg .", "edit.css", $domain_name, $description, $key_words, $dc_title, $install_path);
 
+# Is it an admin-user logging in? If yes, set $admin to true.
+$admin = ($_SESSION['aid'] != 1) ? FALSE : TRUE;
+
 # Whats in the URL:
 if ( isset($_GET['arcmonth']) )
 {
@@ -51,9 +54,6 @@ if ( isset($_GET['arcmonth']) )
 	}
 
 }
-
-# Is it an admin-user logging in? If yes, set $admin to true.
-$admin = ($_SESSION['aid'] != 1) ? FALSE : TRUE;
 
 # print $admin;
 
