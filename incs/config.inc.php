@@ -1,7 +1,7 @@
 <?php
 # Set some stuff for the headings:
 # The title of your blog:
-$blog_title = "verture [prik] net";
+$blog_title = "dubh blog";
 
 # Base domain name for your weblog, typically yourdomain.com
 $domain_name = "dev.verture.net";
@@ -17,10 +17,10 @@ $key_words = "Weblog for Jonas Voss, Københavner og studerende, som så mange and
 $dc_title = "verture.net, Jonas Voss' weblog";
 
 # MySQL-info for your hostmachine:
-$db_host = "mysql.verture.net";
-$db_user = "voss";
-$db_pass = "cautha";
-$db_name = "verture_blog";
+$db_host = "mysql.dev.verture.net";
+$db_user = "blog_user";
+$db_pass = "boogie";
+$db_name = "dev_verture";
 
 # Do you want statistics included on your webpage? Set to true or false.
 $statistics = 0;
@@ -41,9 +41,9 @@ $install_path = "";
 $offset = "9";
 
 # RSS-enabled
-$rss_enabled = "1";
+$rss_enabled = "0";
 
 # Blogbot-account
-$hasBlogbot = "1";
+$hasBlogbot = "0";
 
 ?>

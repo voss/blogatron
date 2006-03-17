@@ -1,9 +1,9 @@
 <?php
 session_start();
-@include('config.inc.php');
-@include('db.inc.php');
-@include('functions.inc.php');
-@include('includes.inc.php');
+@require('config.inc.php');
+@require('db.inc.php');
+@require('functions.inc.php');
+@require('includes.inc.php');
 
 $aname = isset($_POST['aname']) ? $_POST['aname'] : $_SESSION['aname']; 
 $apasswd = isset($_POST['apasswd']) ? $_POST['apasswd'] : $_SESSION['apasswd'];

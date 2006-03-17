@@ -4,7 +4,117 @@
 	<title>. verture.net | her skriver jeg .</title>
 	<description>Jonas Voss' weblog, Københavner og studerende, som så mange andre.</description>
 	<link>http://blog.verture.net/</link>
-	<lastBuildDate>Thu, 23 Feb 2006 21:32:34 +0100</lastBuildDate>
+	<lastBuildDate>Fri, 17 Mar 2006 17:58:17 +0100</lastBuildDate>
+<item>
+	<title>testbruger</title>
+	<description>Testbrugeren skriver et indlæg.</description>
+	<link>http://blog.verture.net/170306/testbruger</link>
+	<pubDate>Fri, 17 Mar 2006 17:58:17 +0100</pubDate>
+	<guid>http://blog.verture.net/170306/testbruger</guid>
+	<author>testbruger</author>
+	<comments>http://blog.verture.net/170306/testbruger#c</comments>
+	</item>
+<item>
+	<title>Piratfeed midlertidigt nede</title>
+	<description>&lt;a href=&quot;http://blog.verture.net/doegnrapport.php&quot;&gt;Piratfeedet&lt;/a&gt; af døgnrapporten er nede, og har været det i nogle dage nu. Det skyldes flytning til en anden server, som ikke lige havde en version af PHP der understøttede file_get_contents().
+
+Den kommer antageligt op at køre igen snart, så fortvivl ej. Mere info følger når den spiller igen, der arbejdes på sagen.</description>
+	<link>http://blog.verture.net/160306/piratfeed_midlertidigt_nede</link>
+	<pubDate>Thu, 16 Mar 2006 15:04:00 +0100</pubDate>
+	<guid>http://blog.verture.net/160306/piratfeed_midlertidigt_nede</guid>
+	<author>Jonas</author>
+	<comments>http://blog.verture.net/160306/piratfeed_midlertidigt_nede#c</comments>
+	</item>
+<item>
+	<title>Internet i Irland for ringe</title>
+	<description>Vint Cerf udtaler sig til Sunday Times om den generelle tilstand og udbredelse af &lt;a href=&quot;http://www.timesonline.co.uk/article/0,,2091-2081937,00.html&quot;&gt;internettet i Irland&lt;/a&gt;, og den er ikke så god.
+
+Jeg kunne ikke være mere enig. Det har længe undret mig, at &lt;a href=&quot;http://www.timesonline.co.uk/article/0,,2091-2081937,00.html&quot; title=&quot;Irlands TDC&quot;&gt;Eircoms&lt;/a&gt; bredbåndsreklamer på TV forsøger at sælge bredbånd med argumenter som, at man kan chekke bustiderne og vejrudsigten på nettet. Taget i betragtning hvor ustadigt både vejret (i Irland) og busserne (i Dublin) er, så er det et fantastisk svagt argument for at få bredbånd. Men det afspejler måske blot, at Eircoms service er så ringe, at man ikke rigtigt kan bruge den til noget.
+
+I husstanden har vi bredbånd fra NTL, en 2Mb/256Kb linie, men i gennemsnit får jeg hastigheder der minder om en 512kb/128kb forbindelse, og den koster små 300 spænd om måneden.</description>
+	<link>http://blog.verture.net/150306/internet_i_irland_for_ringe</link>
+	<pubDate>Wed, 15 Mar 2006 13:04:26 +0100</pubDate>
+	<guid>http://blog.verture.net/150306/internet_i_irland_for_ringe</guid>
+	<author>Jonas</author>
+	<comments>http://blog.verture.net/150306/internet_i_irland_for_ringe#c</comments>
+	</item>
+<item>
+	<title>Meet-up crasher</title>
+	<description>Om ganske kort tid er jeg på vej til et &lt;a href=&quot;http://irish.typepad.com/irisheyes/2006/03/come_to_meet_ir.html&quot;&gt;blogger meet-up&lt;/a&gt; for irske bloggere. Det sker som optakt til de irske blogger awards, som jeg nok melder pas på, men der er social opvarmning på The Gingerman kl. 14 GMT (om 30 min), og så er der tech-præsentationer fra kl. 15-17 på Alexander Hotel.
+
+Det bliver sjovt at møde nogle irske bloggere, og høre dem snakke om bl.a. &lt;a href=&quot;http://ireland.ning.com/&quot;&gt;Open Irish Directory&lt;/a&gt;.
+
+Og lad mig så lige anbefale et Google Maps mashup til andre i Dublin: &lt;a href=&quot;http://www.properpint.com/&quot;&gt;ProperPint.com&lt;/a&gt; -- se det kalder jeg form og funktion (:</description>
+	<link>http://blog.verture.net/110306/meet-up_crasher</link>
+	<pubDate>Sat, 11 Mar 2006 14:38:35 +0100</pubDate>
+	<guid>http://blog.verture.net/110306/meet-up_crasher</guid>
+	<author>Jonas</author>
+	<comments>http://blog.verture.net/110306/meet-up_crasher#c</comments>
+	</item>
+<item>
+	<title>Cerf, ikke surf</title>
+	<description>&lt;div style=&quot;float:right&quot;&gt;&lt;a style=&quot;border:none;&quot; href=&quot;http://www.flickr.com/photos/voss/108931041/in/photostream&quot; title=&quot;Vint Cerf, Mr. Internet&quot;&gt;&lt;img src=&quot;http://static.flickr.com/47/108931041_78b69f575c_m.jpg&quot; style=&quot;padding: 3px; margin-left: 3px; border: 1px solid #999;&quot; /&gt;&lt;/a&gt;&lt;/div&gt;Som en &lt;a href=&quot;http://massless.org/?archive=2006/03/nice-thing-about-working-at-google-71&quot;&gt;anden medarbejder&lt;/a&gt; har bemærket, er det en spændende tid at arbejde for &lt;a href=&quot;http://google.com/&quot;&gt;Google&lt;/a&gt; i. Forleden var &lt;a href=&quot;http://www.ibiblio.org/pioneers/cerf.html&quot;&gt;Vint Cerf&lt;/a&gt; på besøg for at give en præsentation, og det er ikke hver dag man møder folk som ham.
+
+Der er tale om manden der var med til at &lt;a href=&quot;http://www.virtualschool.edu/mon/Internet/CerfHowInternetCame2B.html&quot;&gt;opfinde internettet&lt;/a&gt;. der er tale om manden der, i mine øjne, vil få en ligeså stor plads i historiebøgerne som Edison, Bell og Curie, og han viste sig ovenikøbet at være en ekstraordinær personlighed.
+
+Man kunne godt forvente, at man blev lidt høj i hatten af, at have opfundet protokollen til hvad der senere hen blev til internettet, og som hver dag muliggør alle de ting vi bruger nettet til, men det lod ikke til at præge Vint Cerf. Tværtimod var han ualmindelig ydmyg, og tilmed vældig underholdende og afslappet, foran de hundredevis af mennesker der var samlet for at høre ham. Han kunne endda finde ud af at svare ironisk og sarkastisk på spørgsmålet om hvorfor de dengang, i &lt;a href=&quot;http://en.wikipedia.org/wiki/IP_address&quot; title=&quot;IP på Wikipediansk&quot;&gt;IPens&lt;/a&gt; barndom ikke havde reserveret mere end 4 bytes til &lt;em&gt;address space&lt;/em&gt;, det måtte jo komme det spørgsmål.
+
+Så har jeg noget at fortælle mine børnebørn en dag.
+
+(update: en deltager i aftenens forestilling har &lt;a href=&quot;http://joedrumgoole.com/blog/2006/03/03/vint-cerf-visits-google-ireland/&quot;&gt;postet et referat&lt;/a&gt; af hvad der blev snakket om.)</description>
+	<link>http://blog.verture.net/080306/cerf,_ikke_surf</link>
+	<pubDate>Wed, 08 Mar 2006 23:12:29 +0100</pubDate>
+	<guid>http://blog.verture.net/080306/cerf,_ikke_surf</guid>
+	<author>Jonas</author>
+	<comments>http://blog.verture.net/080306/cerf,_ikke_surf#c</comments>
+	</item>
+<item>
+	<title>Kreativ brug af CC-billeder</title>
+	<description>&lt;blockquote&gt; What if a guide had maps that could interact dynamically with reviews and pictures for sites and attractions, hotels, restaurants, bars, parks, theatres, galleries, museums... and came with links to even more content and travel resources on the Internet? &lt;a href=&quot;http://schmap.com/company/about_schmap.shtml&quot;&gt;&amp;para;&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;a href=&quot;http://schmap.com/&quot; title=&quot;Virtuelle byguides&quot;&gt;Schmap&lt;/a&gt; suger billederne til deres byguides fra &lt;a href=&quot;http://flickr.com/&quot;&gt;flickrs&lt;/a&gt; oceaner af &lt;a href=&quot;http://creativecommons.org/&quot;&gt;CC-licenserede&lt;/a&gt; billeder. Stadig i beta (og der sker intet når jeg klikker på 'Take a tour'), men det ser lovende ud. Lidt a la &lt;a href=&quot;http://world66.com/&quot;&gt;World66&lt;/a&gt; der møder &lt;a href=&quot;http://maps.google.com/&quot;&gt;Google Maps&lt;/a&gt; til en hyggelig komsammen.
+
+Jeg har givet dem lov til at bruge 4 billeder fra min &lt;a href=&quot;http://flickr.com/photos/voss/&quot;&gt;flickr-konto&lt;/a&gt;.</description>
+	<link>http://blog.verture.net/080306/kreativ_brug_af_cc-billeder</link>
+	<pubDate>Wed, 08 Mar 2006 02:12:14 +0100</pubDate>
+	<guid>http://blog.verture.net/080306/kreativ_brug_af_cc-billeder</guid>
+	<author>Jonas</author>
+	<comments>http://blog.verture.net/080306/kreativ_brug_af_cc-billeder#c</comments>
+	</item>
+<item>
+	<title>Få det nu gjort</title>
+	<description>I et øjebliks spontan forståelse for min egen ineffektivitet (samt inspiration af &lt;a href=&quot;http://pollas.dk/&quot;&gt;Anders'&lt;/a&gt; og Juri's indlæg ovre på &lt;a href=&quot;http://cupertino.dk/archives/2006/02/14/introduktion-til-gtd/&quot;&gt;cupertino.dk om GTD-metoden&lt;/a&gt;), har jeg investeret i &lt;a href=&quot;http://www.davidco.com/&quot;&gt;David Allens&lt;/a&gt; to bøger om personlig produktivitet.
+
+For mit vedkommende er det nok noget jeg skulle have kastet mig over for nogle år siden, men bedre sent end aldrig, right (hvem sagde specialeudsættelse, overskredne deadlines ad libitum)?
+</description>
+	<link>http://blog.verture.net/070306/faa_det_nu_gjort</link>
+	<pubDate>Tue, 07 Mar 2006 23:38:30 +0100</pubDate>
+	<guid>http://blog.verture.net/070306/faa_det_nu_gjort</guid>
+	<author>Jonas</author>
+	<comments>http://blog.verture.net/070306/faa_det_nu_gjort#c</comments>
+	</item>
+<item>
+	<title>Hvis Microsoft lavede iPods</title>
+	<description>Aij-aij-aij, man får ondt i øjnene af at se denne video om hvordan iPods ville være pakket ind hvis Microsoft stod for det.
+&lt;embed style=&quot;width:400px; height:326px;&quot; id=&quot;VideoPlayback&quot; align=&quot;middle&quot; type=&quot;application/x-shockwave-flash&quot; src=&quot;http://video.google.com/googleplayer.swf?videoUrl=http%3A%2F%2Fvp.video.google.com%2Fvideodownload%3Fversion%3D0%26secureurl%3DpwAAAJ5SJvUsloo3EDQJIVi50CgK-sOedxBRGjBlJYnddAmq5mNmzQ4iYSSH2-SR3mKg6l4pXL-SE7S1GaZcEquaATk0zaZYGOMhQIND0BhdZ28iHN62RKC3Wx0XYXmjlg3-sFq_1Q6Bg-8O8aMWSNKJLMcQV4ocMi1qOoWEJ2qPw0l_mF3Ox9CiQJ_kthYlFiXMryLA8EqTPIx3vEdYG9P9J7MwJYrbjOjgVwL9jXxdJQQE%26sigh%3DvbCRHW5HcERbsvoqLL5K5GBVyGs%26begin%3D0%26len%3D175300%26docid%3D4313772690011721857&amp;thumbnailUrl=http%3A%2F%2Fvideo.google.com%2FThumbnailServer%3Fcontentid%3D8ddc43e2b53ccf91%26second%3D5%26itag%3Dw320%26urlcreated%3D1141282268%26sigh%3D3yNy5sonj5XXET1jyMiyklH7CWw&amp;playerId=4313772690011721857&amp;playerMode=embedded&quot; allowScriptAccess=&quot;sameDomain&quot; quality=&quot;best&quot; bgcolor=&quot;#ffffff&quot; scale=&quot;noScale&quot; wmode=&quot;window&quot; salign=&quot;TL&quot; &gt; &lt;/embed&gt;
+Klik på play knappen for at se videoen.</description>
+	<link>http://blog.verture.net/020306/hvis_microsoft_lavede_ipods</link>
+	<pubDate>Thu, 02 Mar 2006 07:56:35 +0100</pubDate>
+	<guid>http://blog.verture.net/020306/hvis_microsoft_lavede_ipods</guid>
+	<author>Jonas</author>
+	<comments>http://blog.verture.net/020306/hvis_microsoft_lavede_ipods#c</comments>
+	</item>
+<item>
+	<title>Optøjer i Dublin</title>
+	<description>(Dette indlæg læses bedst ved at have et vindue med &lt;a href=&quot;http://maps.google.com/maps?f=q&amp;hl=en&amp;q=dublin+ireland&amp;ll=53.341591,-6.250792&amp;spn=0.00294,0.010117&amp;t=h&quot;&gt;denne side&lt;/a&gt; fra Google Maps åben ved siden af. Det giver lidt geografisk kontekst.)
+
+I går var ikke nogen helt normal dag, og i dette indlæg vil jeg beskrive hvorfor. Ved kvart over to-tiden begav jeg mig på vej ind mod centrum, og gik den sædvanlig vej ind mod byen, ned af Grand Canal Street.</description>
+	<link>http://blog.verture.net/260206/optoejer_i_dublin</link>
+	<pubDate>Sun, 26 Feb 2006 18:25:38 +0100</pubDate>
+	<guid>http://blog.verture.net/260206/optoejer_i_dublin</guid>
+	<author>Jonas</author>
+	<comments>http://blog.verture.net/260206/optoejer_i_dublin#c</comments>
+	</item>
 <item>
 	<title>Vejen til afhængighed</title>
 	<description>&lt;div style=&quot;float:left&quot;&gt;&lt;a style=&quot; border: none&quot; href=&quot;http://flickr.com/photos/dalager/87063134/&quot; title=&quot;Vicky Pollard courtesy of Hr. Dalager&quot;&gt;&lt;img src=&quot;http://blog.verture.net/img/vicky_pollard.jpg&quot; alt=&quot;Vicky Pollard&quot; style=&quot;text-align: center; padding: 4px; margin: 0px; border: 1px solid #999;&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
@@ -84,161 +194,18 @@ Der er ikke nogen der skal komme og sige der ikke sker noget i Dublin, jeg har b
 
 Jeg har længe fulgt med hos &lt;a href=&quot;http://solitude.dk&quot; title=&quot;Mr. vlog&quot;&gt;Andreas&lt;/a&gt;, og for nylig også hos &lt;a href=&quot;http://kammeret.dk/&quot; title=&quot;Hvor mand på Stillehavskysten&quot;&gt;Rasmus&lt;/a&gt; og &lt;a href=&quot;http://pollas.dk&quot; title=&quot;Stjerneskudet på flyvergrillen&quot;&gt;Anders&lt;/a&gt;, hvor der er blevet videoblogget.
 
-Her på siden vil jeg gøre hvad jeg kan, for at levere højkvalitets videoblogging, men det indtræffer først når jeg får købt mig et rigtigt kamera. Indtil da kan man nøjes med at se de &lt;a href=&quot;/media/roadtrip.mov&quot;&gt;5 minutter det tager mig at gå fra min lejlighed til arbejdet&lt;/a&gt; her i Dublin, optaget med en k750i, i så dårlig kvalitet, og lille billede, at det til fulde komplimenterer mine forsvindende små evner som kameraholder. Lydsiden har &lt;a href=&quot;&quot; title=&quot;Tyvepelsene&quot;&gt;Thievery Corporation&lt;/a&gt; stået for (fra den dersens &lt;a href=&quot;http://creativecommons.org/&quot; title=&quot;Den kreative fælled&quot;&gt;CCede&lt;/a&gt; CD der udkom med 2004s novemberversion af &lt;a href=&quot;http://wired-vig.wired.com/wired/archive/12.11/sample.html&quot;&gt;Wired&lt;/a&gt;), så den del er i orden.
+Her på siden vil jeg gøre hvad jeg kan, for at levere højkvalitets videoblogging, men det indtræffer først når jeg får købt mig et rigtigt kamera. Indtil da kan man nøjes med at se de &lt;a href=&quot;/media/roadtrip.mov&quot;&gt;5 minutter det tager mig at gå fra min lejlighed til arbejdet&lt;/a&gt; her i Dublin
+&lt;embed style=&quot;width:400px; height:326px;&quot; id=&quot;VideoPlayback&quot; align=&quot;middle&quot; type=&quot;application/x-shockwave-flash&quot; src=&quot;http://video.google.com/googleplayer.swf?videoUrl=http%3A%2F%2Fvp.video.google.com%2Fvideodownload%3Fversion%3D0%26secureurl%3DmwAAALQ6twQR4U-VPyP_eIb2kRZuVHfG-7titGDXW4cO6VfNhosZsZmDR3mDmCuZmJLicZ6mShjkHUVz7QuY34YkwjIwYcTxpqgKsjmSgs9LyrfyDMdIkUaMVNhDs7dcuNvo4lpmBCKm-KBm-sM8tBu-xJ3PwrDgmMY0NlkTLQ_Uk5KXvuoA3dH-0fJR-Bj3zgeUQwla6p0Z-5VAccbg_AMgyqI%26sigh%3Dw5wkxdMdiao3KUqiM2uoIPqyKTY%26begin%3D0%26len%3D285485%26docid%3D7147094441547410931&amp;thumbnailUrl=http%3A%2F%2Fvideo.google.com%2FThumbnailServer%3Fcontentid%3Da9cca74a1b99970a%26second%3D5%26itag%3Dw320%26urlcreated%3D1141031831%26sigh%3DW-lBmoRhcp7MwBDS-Fw0I3GxckQ&amp;playerId=7147094441547410931&amp;playerMode=embedded&quot; allowScriptAccess=&quot;sameDomain&quot; quality=&quot;best&quot; bgcolor=&quot;#ffffff&quot; scale=&quot;noScale&quot; wmode=&quot;window&quot; salign=&quot;TL&quot; &gt; &lt;/embed&gt;
+Det er optaget med en k750i, i så dårlig kvalitet, og lille billede, at det til fulde komplimenterer mine forsvindende små evner som kameraholder. Lydsiden har &lt;a href=&quot;&quot; title=&quot;Tyvepelsene&quot;&gt;Thievery Corporation&lt;/a&gt; stået for (fra den dersens &lt;a href=&quot;http://creativecommons.org/&quot; title=&quot;Den kreative fælled&quot;&gt;CCede&lt;/a&gt; CD der udkom med 2004s novemberversion af &lt;a href=&quot;http://wired-vig.wired.com/wired/archive/12.11/sample.html&quot;&gt;Wired&lt;/a&gt;), så den del er i orden.
 
-Lad os bare sige, at jeg med en sådan debut, har rig mulighed for forbedringer (:</description>
+Lad os bare sige, at jeg med en sådan debut, har rig mulighed for forbedringer (:
+
+Videon kan også &lt;a href=&quot;http://blog.verture.net/media/roadtrip.mov&quot;&gt;downloades i .mov-format&lt;/a&gt;.</description>
 	<link>http://blog.verture.net/180106/nu_med_rigt_medie</link>
 	<pubDate>Wed, 18 Jan 2006 23:47:33 +0100</pubDate>
 	<guid>http://blog.verture.net/180106/nu_med_rigt_medie</guid>
 	<author>Jonas</author>
 	<comments>http://blog.verture.net/180106/nu_med_rigt_medie#c</comments>
-	</item>
-<item>
-	<title>Pirat søger bolig</title>
-	<description>Piratfeedet for døgnrapporten har været inaktivt siden en gang i sommer, hvor serveren det lå på, fik lukket for brugen af nogle PHP-funktioner af sikkerhedsmæssiger årsager. Der er tale om alle funktioner der gør, at man kan læse adresser fra http og ftp-protokollerne. Rimelig noller.
-
-Det betyder, at jeg i øjeblikket ikke har mulighed for at være vært for feedet, så jeg spørger derfor ud i den digitale æter, om der er nogle der kunne tænke sig at være vært for piratfeedet? Der er tale om en snes linier slamkode der holder dig og alle andre interesserede underrettet om, hvad der sker i den københavnske underverden, den er ikke så krævende, og vil f.eks. hverken have mad eller opmærksomhed.
-
-Det eneste det kræver er, at den server det ryger op på understøtter læsning af ftp- og http-adresser med file() eller file_get_contents() funktionerne.
-
-Any takers?
-
-&lt;p&gt;&lt;span class=&quot;red&quot;&gt;Update&lt;/span&gt;: Hr &lt;a href=&quot;http://quovadis.dk/&quot;&gt;Quovadis&lt;/a&gt; har været så venlig at lægge hus til piraten. Alle de gamle links peger nu på feedet på hans server, så det skulle bare køre derudaf igen. Tak Kristian.</description>
-	<link>http://blog.verture.net/120106/pirat_soeger_bolig</link>
-	<pubDate>Thu, 12 Jan 2006 19:48:55 +0100</pubDate>
-	<guid>http://blog.verture.net/120106/pirat_soeger_bolig</guid>
-	<author>Jonas</author>
-	<comments>http://blog.verture.net/120106/pirat_soeger_bolig#c</comments>
-	</item>
-<item>
-	<title>Runaway chat</title>
-	<description>Det her er hvad der sker, når en kollega flasher hans eklektiske dansk-skills på chat:
-
-&lt;em style=&quot;color:#2166a6&quot;&gt;Kollega&lt;/em&gt;: hej
-&lt;em&gt;Mig&lt;/em&gt;: Hej med dig :)
-&lt;em style=&quot;color:#2166a6&quot;&gt;Kollega&lt;/em&gt;: du er jonas?
-&lt;em&gt;Mig&lt;/em&gt;: Det er jeg nemlig! Præcis.
-&lt;em style=&quot;color:#2166a6&quot;&gt;Kollega&lt;/em&gt;: lort!
-&lt;em&gt;Mig&lt;/em&gt;: :D Haha
-&lt;em style=&quot;color:#2166a6&quot;&gt;Kollega&lt;/em&gt;: for helvede
-&lt;em&gt;Mig&lt;/em&gt;: Og satan!
-&lt;em style=&quot;color:#2166a6&quot;&gt;Kollega&lt;/em&gt;: jeg har ingen underbukser på. jeg elsker narko!
-&lt;em&gt;Mig&lt;/em&gt;: Du er en frisk ung fyr!
-&lt;em style=&quot;color:#2166a6&quot;&gt;Kollega&lt;/em&gt;: er du homo?
-&lt;em&gt;Mig&lt;/em&gt;: Næh, er du? Det må du være når du ingen underbukser har på!
-&lt;em style=&quot;color:#2166a6&quot;&gt;Kollega&lt;/em&gt;: nej, jeg elsker luder!
-&lt;em&gt;Mig&lt;/em&gt;: Haha
-&lt;em style=&quot;color:#2166a6&quot;&gt;Kollega&lt;/em&gt;: hold kaeft dumme kaelling!
-&lt;em&gt;Mig&lt;/em&gt;: :D  Hold da selv kæft, din stodder!
-&lt;em style=&quot;color:#2166a6&quot;&gt;Kollega&lt;/em&gt;: hvilket farve har din string?
-&lt;em&gt;Mig&lt;/em&gt;: LOL
-&lt;em style=&quot;color:#2166a6&quot;&gt;Kollega&lt;/em&gt;: jeg søger efter en smuk pige
-&lt;em&gt;Mig&lt;/em&gt;: Ok, jeg troede du var homo, siden du ingen underbukser har på.
-&lt;em style=&quot;color:#2166a6&quot;&gt;Kollega&lt;/em&gt;: din torsk!
-&lt;em&gt;Mig&lt;/em&gt;: :D Din odder!
-&lt;em style=&quot;color:#2166a6&quot;&gt;Kollega&lt;/em&gt;: tak
-&lt;em&gt;Mig&lt;/em&gt;: Selv tak, skulle det være en anden gang
-&lt;em style=&quot;color:#2166a6&quot;&gt;Kollega&lt;/em&gt;: jeg pisser i mine bukser</description>
-	<link>http://blog.verture.net/080106/runaway_chat</link>
-	<pubDate>Sun, 08 Jan 2006 17:43:46 +0100</pubDate>
-	<guid>http://blog.verture.net/080106/runaway_chat</guid>
-	<author>Jonas</author>
-	<comments>http://blog.verture.net/080106/runaway_chat#c</comments>
-	</item>
-<item>
-	<title>Knap så kæk længere</title>
-	<description>Jeg mindes &lt;a href=&quot;http://blog.verture.net/130105/fordel_ved_at_have_egne_bukser_paa&quot;&gt;et indlæg&lt;/a&gt;, hvor jeg meget friskt erklærede, at det var rigtig smart at have skrevet sin blogsoftware selv, for så var det sværere for kommentarspam'en at slippe igennem.
-
-Det har det også været længe, men den tid er hermed officielt forbi, for der ligger omkring 300 mailer-daemon emails i min inbox, efter en spammer har haft sig en hyrdetime med mit kommentar-script. Selv min webhost opdagede det, og slog selv scriptet fra (dvs. de slettede det), så det ikke længere kunne lave problemer.
-
-Men så ved jeg da hvad jeg skal lave i weekenden, der er også snart langt tid siden jeg har rigtig har fået kigget på noget PHP (:
-
-&lt;span class=&quot;red&quot;&gt;Update&lt;/span&gt;: Så virker kommentarerne igen, nu med den gode &lt;a href=&quot;http://dalager.com/&quot;&gt;Dalagers&lt;/a&gt; Æ-finte, hvilket på længere sigt udelukker ikke-danske kommentarskribenter, og det er jeg ikke helt tryg ved. Men indtil videre må det være sådan.</description>
-	<link>http://blog.verture.net/060106/knap_saa_kaek_laengere</link>
-	<pubDate>Fri, 06 Jan 2006 00:08:48 +0100</pubDate>
-	<guid>http://blog.verture.net/060106/knap_saa_kaek_laengere</guid>
-	<author>Jonas</author>
-	<comments>http://blog.verture.net/060106/knap_saa_kaek_laengere#c</comments>
-	</item>
-<item>
-	<title>Nul skihop</title>
-	<description>Det er med sorg i stemmen jeg må meddele, at Irland får dumpekarakter på et punkt -- TV-programmet 1. januar. Her er ingen skihop, det er sparsomt med tilbageblik over året der gik, og programmet med årets tv-bøffer er også udeblevet. I stedet har de i halvanden times tid underholdt med at fortælle hvor fantastisk en klassiker &lt;a href=&quot;http://en.wikipedia.org/wiki/You_Raise_Me_Up&quot;&gt;You raise me up&lt;/a&gt; er. Herre Gemini, hvis man ikke havde ondt i hovedet inden, så kunne man få det helt automagiskt af at se det program.
-
-Befriende er det dog at se, at de ikke har booket hele sendefladen til livsstilsprogrammer om andre folks køkkener, børn, haver, rod og meget mere. I stedet pryder de aftenen på denne årets 1. dag med &lt;a href=&quot;http://www.rte.ie/tv/movies/moviejan01.html&quot;&gt;mindst en film-klassiker&lt;/a&gt;, så helt skidt er det trods alt ikke.
-
-Filmene fortsætter til langt ud på natten, selv om det er mandag i morgen, men det er der selvfølgelig en god forklaring på. Mandag er nemlig national helligdag, ganske enkelt fordi Nytårsdag falder på en søndag, hvilket betyder at irerne bliver 'frarøvet' en helligdag. Dejlig pragmatisk tilgang til helligdage og højtider.</description>
-	<link>http://blog.verture.net/010106/nul_skihop</link>
-	<pubDate>Sun, 01 Jan 2006 19:56:09 +0100</pubDate>
-	<guid>http://blog.verture.net/010106/nul_skihop</guid>
-	<author>Jonas</author>
-	<comments>http://blog.verture.net/010106/nul_skihop#c</comments>
-	</item>
-<item>
-	<title>Godt nytår</title>
-	<description>Til alle derude, mægtigt nytår, og pas på fingre og øjne når i fyrer krudtet af. Tak for det gamle, det var en fornøjelse!</description>
-	<link>http://blog.verture.net/311205/godt_nytaar</link>
-	<pubDate>Sat, 31 Dec 2005 19:30:21 +0100</pubDate>
-	<guid>http://blog.verture.net/311205/godt_nytaar</guid>
-	<author>Jonas</author>
-	<comments>http://blog.verture.net/311205/godt_nytaar#c</comments>
-	</item>
-<item>
-	<title>Musikanbefaling</title>
-	<description>For dem der godt kan lide Molokos stemme, &lt;a href=&quot;http://www.roisinmurphy.com/&quot;&gt;Roisin Murphy&lt;/a&gt;, kan jeg varmt anbefale at indkøbe hendes debutsoloplade Ruby Blue. Det er en interessant blanding af jazz, electronica og skæve lyde, smedet sammen af Matthew Herbert, der akkompagnerer hendes stemme.
-
-Jeg købte den for en sjat af de penge jeg fik på et gavekort til &lt;a href=&quot;http://www.apple.com/itunes/overview/&quot; title=&quot;iTunes Overview&quot;&gt;iTunes Music Store&lt;/a&gt; af &lt;a href=&quot;http://blog.nufidelity.dk/&quot; title=&quot;Christian&quot;&gt;de&lt;/a&gt; &lt;a href=&quot;http://pollas.dk/&quot; title=&quot;Anders&quot;&gt;søde&lt;/a&gt; &lt;a href=&quot;http://visitsen.dk/&quot; title=&quot;visitsen&quot;&gt;bloggere&lt;/a&gt; &lt;a href=&quot;http://tantologi.dk/&quot; title=&quot;Tante Lilla&quot;&gt;der&lt;/a&gt; &lt;a href=&quot;http://oschlag.dk/&quot; title=&quot;Joachim&quot;&gt;kom&lt;/a&gt; forbi og overraskede mig et par dage inden jeg forlod København, så tak skal i have, endnu en gang, der er sød musik i mine ører takket være jer.</description>
-	<link>http://blog.verture.net/141205/musikanbefaling</link>
-	<pubDate>Wed, 14 Dec 2005 11:03:56 +0100</pubDate>
-	<guid>http://blog.verture.net/141205/musikanbefaling</guid>
-	<author>Jonas</author>
-	<comments>http://blog.verture.net/141205/musikanbefaling#c</comments>
-	</item>
-<item>
-	<title>Murphy din møghund</title>
-	<description>Med specialet afleveret og afviklet var det næste punkt på min todo-liste, at skifte harddisk i min bærbare. Den har været semidefekt siden en gang i sommer, og nu var disken stået helt af.
-
-&lt;div style=&quot;float:right&quot;&gt;&lt;a style=&quot; border: none&quot; href=&quot;http://www.flickr.com/photos/voss/71766440/&quot; title=&quot;Photo Sharing&quot;&gt;&lt;img src=&quot;http://static.flickr.com/34/71766440_e5f575403d_t.jpg&quot; width=&quot;100&quot; height=&quot;75&quot; alt=&quot;Power socket broke off the logic board&quot; style=&quot;text-align: center; padding: 4px; margin: 0px; border: 1px solid #999;&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
-
-Desværre gik der &lt;a href=&quot;http://flickr.com/photos/voss/tags/skalloddes/&quot; title=&quot;Kort billedserie på Flickr&quot;&gt;tommelfingre i skiftearbejdet&lt;/a&gt;, så nu har jeg funklende frisk harddisk, i en bærbar der ikke vil starte.
-
-&lt;a href=&quot;http://en.wikiquote.org/wiki/Murphy%27s_Law&quot; title=&quot;Hvad Murphy sagde&quot;&gt;Murphy&lt;/a&gt; er 100% ASSHOLE, så er det sagt, i ringer bare.
-
-Jeg har ikke lyst til at aflevere den til reparation hos &lt;a href=&quot;http://apple.com/&quot;&gt;Apple&lt;/a&gt;, for det koster og tager tid, så nu kaster jeg al min kærlighed efter mit netværk i KBH, der forhåbentlig kan tilvejebringe en løsning så jeg kan få den lavet mellem jul og nytår, hvor jeg er i moderlandet.
-
-Dette indlæg er skrevet på min &lt;a href=&quot;http://annbirk.blogspot.com/&quot;&gt;flatmates&lt;/a&gt; bærbare, som jeg har fået lov til at låne, da hun sidder på kontoret og skriver speciale. Det er sgu’ flinkt af hende, tak Ann, for at mindske mine online-abstinenser (:</description>
-	<link>http://blog.verture.net/111205/murphy_din_moeghund</link>
-	<pubDate>Sun, 11 Dec 2005 18:18:59 +0100</pubDate>
-	<guid>http://blog.verture.net/111205/murphy_din_moeghund</guid>
-	<author>Jonas</author>
-	<comments>http://blog.verture.net/111205/murphy_din_moeghund#c</comments>
-	</item>
-<item>
-	<title>Ny Gmail-feature</title>
-	<description>Nu snakkede jeg for noget tid siden om &lt;a href=&quot;http://google.com/reader&quot;&gt;Google Reader&lt;/a&gt;, og at den var lækker, og i øvrigt understøtter podcasts (ja, du kan høre podcasts direkte i Readeren, det er smart).
-
-I forlængelse af det, er det på sin plads at omtale en ny &lt;a href=&quot;http://gmail.com/&quot;&gt;Gmail&lt;/a&gt;-feature, hvor bjælken over indholdet af din inbox er blevet transmogriffet til en RSS-feed bjælke.
-
-&lt;img src=&quot;/img/clips_prefs.gif&quot; alt=&quot;Gmail Web clips&quot; /&gt;
-
-Til at begynde med har man lidt forskellige feeds som Google har været så venlige at inkludere, men ellers kan man tilføje det man nu måtte have lyst til af feeds. Jeg kan anbefale populære links fra &lt;a href=&quot;http://del.icio.us/popular/&quot;&gt;del.icio.us&lt;/a&gt;, seneste nyt fra &lt;a href=&quot;http://blogbot.dk/&quot;&gt;blogbot&lt;/a&gt; og naturligvis &lt;a href=&quot;http://politiken.dk/&quot;&gt;lidt&lt;/a&gt; &lt;a href=&quot;http://berlingske.dk/&quot;&gt;danske&lt;/a&gt; &lt;a href=&quot;http://information.dk/&quot;&gt;nyheder&lt;/a&gt;.</description>
-	<link>http://blog.verture.net/091205/ny_gmail-feature</link>
-	<pubDate>Fri, 09 Dec 2005 11:02:09 +0100</pubDate>
-	<guid>http://blog.verture.net/091205/ny_gmail-feature</guid>
-	<author>Jonas</author>
-	<comments>http://blog.verture.net/091205/ny_gmail-feature#c</comments>
-	</item>
-<item>
-	<title>Death of the Desktop - Aza Raskin besøgte DB</title>
-	<description>Kan det passe der ikke er nogen der har skrevet om Aza Raskins forelæsning på &lt;a href=&quot;http://www.db.dk/&quot;&gt;Danmarks Biblioteksskole&lt;/a&gt; i fredags? Ville gerne have været der selv, men den geografiske friktion var for stor.
-
-Anyone?
-
-Det eneste jeg kan finde er &lt;a href=&quot;http://www.sigchi.dk/sigchi/aktivitet/20051125/index.html&quot; title=&quot;SIGCHI&quot;&gt;notitser&lt;/a&gt; og &lt;a href=&quot;http://www.db.dk/nyt/ugeavisen/05/47/47.htm&quot; title=&quot;Hos DB, scroll ned i bunden af dokumentet&quot;&gt;teasere&lt;/a&gt; om hans besøg, men ifølge &lt;a href=&quot;http://blogbot.dk/blogs/soeg.php?q=aza&amp;submit=S%F8g&quot;&gt;blogbot&lt;/a&gt; har ingen tilsyneladende skrevet om det.</description>
-	<link>http://blog.verture.net/021205/death_of_the_desktop_-_aza_raskin_besoegte_db</link>
-	<pubDate>Fri, 02 Dec 2005 11:14:10 +0100</pubDate>
-	<guid>http://blog.verture.net/021205/death_of_the_desktop_-_aza_raskin_besoegte_db</guid>
-	<author>Jonas</author>
-	<comments>http://blog.verture.net/021205/death_of_the_desktop_-_aza_raskin_besoegte_db#c</comments>
 	</item>
 </channel>
 </rss>
