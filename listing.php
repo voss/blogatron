@@ -7,7 +7,7 @@ print_header(". {$blog_title} | Ret et indlæg .", "edit.css", $domain_name, $des
 # Whats in the URL:
 if ( isset($_GET['arcmonth']) )
 {
-	$month_query() = explode('.',$_GET['arcmonth']);
+	$month_query[] = explode('.',$_GET['arcmonth']);
 	print $month_query[0];
 }
 
