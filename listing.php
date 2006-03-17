@@ -9,6 +9,9 @@ $admin = ($_SESSION['aid'] != 1) ? FALSE : TRUE;
 
 # print $admin;
 
+display_archive_months();
+
+
 if ( $admin == TRUE )
 {
 	$sql = "select * from entries, authors where authors.uid = entries.aid ORDER BY date DESC limit 0,20";
