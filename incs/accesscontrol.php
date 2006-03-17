@@ -3,6 +3,7 @@ session_start();
 @require('config.inc.php');
 @require('db.inc.php');
 @require('functions.inc.php');
+@require('display_functions.inc.php');
 @require('includes.inc.php');
 
 $aname = isset($_POST['aname']) ? $_POST['aname'] : $_SESSION['aname']; 
