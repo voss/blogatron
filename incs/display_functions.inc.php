@@ -303,4 +303,41 @@ function display_archive_months()
 	}
 	print "</select>\n";
 }
+
+# For editing:
+function display_archive_months_edit()
+{
+	global $install_path;
+	print '<select id="ark" onchange="document.location=options[selectedIndex].value;"><option>Arkiv</option>
+	';
+	$sql_year = "SELECT DISTINCT(FROM_UNIXTIME(date, '%Y')) as year FROM ".$db_name.".entries ORDER BY date DESC";
+	if(!$result_year = @mysql_query($sql_year))
+	{
+		print "Error: ".mysql_error();
+	}
+	else
+	{
+		while($row = @mysql_fetch_array($result_year))
+		{
+			extract($row);
+			print '<option>---'.$year.'---</option>
+			';
+			$sql_date = "SELECT DISTINCT(FROM_UNIXTIME(date, '%M')) as date_month FROM ".$db_name.".entries where FROM_UNIXTIME(date, '%Y') = '{$year}' ORDER BY date DESC";
+			if(!$result_date = @mysql_query($sql_date))
+			{
+				print "Error: ".mysql_error();
+			}
+			while($row2 = @mysql_fetch_array($result_date))
+			{
+				extract($row2);
+				$date_u = $date_month;
+				$date = dateify($date_month);
+				print "<option value=\"{$install_path}/ee.php?{$date_u}.{$year}\">".ucwords($date)."</option>\n";
+			}
+		}
+	}
+	print "</select>\n";
+}
+
+
 ?>

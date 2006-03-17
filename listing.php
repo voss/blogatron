@@ -9,7 +9,7 @@ $admin = ($_SESSION['aid'] != 1) ? FALSE : TRUE;
 
 # print $admin;
 
-display_archive_months();
+display_archive_months_edit();
 
 
 if ( $admin == TRUE )
