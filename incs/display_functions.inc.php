@@ -331,7 +331,7 @@ function display_archive_months_edit()
 			{
 				extract($row2);
 				$date_u = $date_month;
-				#$date = dateify($date_month);
+				$date = dateify($date_month);
 				print "<option value=\"{$install_path}/listing.php?arcmonth={$date_u}.{$year}\">".ucwords($date)."</option>\n";
 			}
 		}

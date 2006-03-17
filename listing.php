@@ -7,8 +7,8 @@ print_header(". {$blog_title} | Ret et indlæg .", "edit.css", $domain_name, $des
 # Whats in the URL:
 if ( isset($_GET['arcmonth']) )
 {
-	$month_query[] = explode('.',$_GET['arcmonth']);
-	print $month_query[0];
+	list($month,$year) = explode('.',$_GET['arcmonth']);
+	print $month.$year;
 }
 
 # Is it an admin-user logging in? If yes, set $admin to true.
