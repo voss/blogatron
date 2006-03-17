@@ -9,7 +9,19 @@ print_header(". {$blog_title} | Ret et indlæg .", "edit.css", $domain_name, $des
 <p style="float: right;">Bruger: <?=$_SESSION['aname'];?></p>
 <h1 style="color: white;">Administration af <?=stripslashes($blog_title);?> på http://<?=$domain_name.$install_path;?>/</h1>
 </div>
-<?=$edit_menu;?>
+<div id="mlist">
+	<ul>
+<?php
+foreach( $edit_menu as $key => $value )
+{
+	print '<li><a href="'.$value.'">'.$key.'</a></li>';
+}	
+# print_r($edit_menu);
+?>
+	</ul>
+
+</div>
+
 <?php
 
 # delete entry-bit
@@ -72,6 +84,7 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 	$update_result = @mysql_query($sql_update);
 
 ?>
+
 <form action="<?=$install_path;?>/ee.php" method="post" id="edit">
 	<div style="margin: 0 20px 0 0;; padding: 0; border: 0">
 		<h1>Ret et indlæg</h1>
@@ -314,7 +327,6 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 		}
 	}
 ?>
-</p>
 </div>
 <?php
 	print_footer();

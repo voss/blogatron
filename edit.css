@@ -16,7 +16,7 @@ body {
 }
 
 #wrapper {
-	width: 80%;
+	width: 800px;
 	border: 1px solid #aa9;
 	margin: 0px;
 	margin-left: auto;
@@ -276,42 +276,6 @@ div#inputform textarea {
 
 div#inputform #submitpost {
 	width: 100%;
-}
-
-#mlist ul {
-	padding-left: 0;
-	margin-left: 0;
-	padding-top: 0.1px;
-	margin-top: 0;
-/*	background-color: #036; */
-	color: White;
-	float: right;
-	width: 100%;
-	font-size: small;
-}
-
-#mlist ul li {
-	display: inline;
-	background-color: #E7D59F;
-	color: #000;
-}
-
-#mlist ul li a, #mlist ul li a:link {
-	padding: 0.2em 1em;
-	background-color: #E7D59F;
-	color: #000;
-	text-decoration: none;
-	float: right;
-	border-left: 1px solid #fff;
-}
-
-#mlist ul li a:visited {
-	color: #333;
-}
-
-#mlist ul li a:hover {
-	background-color: #ddc;
-	color: #000;
 }
 
 form#adduser label {

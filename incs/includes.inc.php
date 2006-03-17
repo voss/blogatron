@@ -80,53 +80,23 @@ $comments_form =
 ## edit_menu
 if($_SESSION['aid'] == 1)
 {
-	$edit_menu = '
-	<div id="mlist">
-		<ul>
-			<li>
-				<a accesskey="6" href="'.$install_path.'/ae.php?action=logout">Log ud</a>
-			</li>
-			<li>
-				<a accesskey="5" href="'.$install_path.'/">Blogforside</a>
-			</li>
-			<li>
-				<a accesskey="4" href="'.$install_path.'/au.php">Tilføj Bruger</a>
-			</li>
-			<li>
-				<a accesskey="3" href="'.$install_path.'/de/">Slet indlæg</a>
-			</li>
-			<li>
-				<a accesskey="2" href="'.$install_path.'/ee/">Ret indlæg</a>
-			</li>
-			<li>
-				<a accesskey="1" href="'.$install_path.'/ae/">Nyt indlæg</a>
-			</li>
-		</ul>
-	</div>
-	';
+	$edit_menu = array
+	(
+		'Nyt indlæg' => $install_path.'/add/',
+		'Indlægshåndtering' => $install_path.'/edit/',
+		'Tilføj bruger' => $install_path.'/adduser/',
+		'Se bloggen' => $install_path.'/',
+		'Logud' => $install_path.'/ae.php?action=logout'
+	);
 }
 else
 {
-	$edit_menu = '
-	<div id="mlist">
-		<ul>
-			<li>
-				<a accesskey="5" href="'.$install_path.'/ae.php?action=logout">Log ud</a>
-			</li>
-			<li>
-				<a accesskey="4" href="'.$install_path.'/">Blogforside</a>
-			</li>
-			<li>
-				<a accesskey="3" href="'.$install_path.'/de/">Slet indlæg</a>
-			</li>
-			<li>
-				<a accesskey="2" href="'.$install_path.'/ee/">Ret indlæg</a>
-			</li>
-			<li>
-				<a accesskey="1" href="'.$install_path.'/ae/">Nyt indlæg</a>
-			</li>
-		</ul>
-	</div>
-	';
+	$edit_menu = array
+	(
+		'Nyt indlæg' => $install_path.'/add/',
+		'Indlægshåndtering' => $install_path.'/edit/',
+		'Se bloggen' => $install_path.'/',
+		'Logud' => $install_path.'/ae.php?action=logout'
+	);
 }
 ?>
