@@ -18,7 +18,7 @@ $admin = ($_SESSION['aid'] != 1) ? FALSE : TRUE;
 
 display_archive_months_edit();
 
-SELECT DISTINCT(FROM_UNIXTIME(date, '%M')) as date_month FROM ".$db_name.".entries where FROM_UNIXTIME(date, '%Y') = '{$year}' ORDER BY date DESC
+#SELECT DISTINCT(FROM_UNIXTIME(date, '%M')) as date_month FROM ".$db_name.".entries where FROM_UNIXTIME(date, '%Y') = '{$year}' ORDER BY date DESC
 
 if ( $admin == TRUE )
 {
