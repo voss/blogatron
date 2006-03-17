@@ -12,6 +12,18 @@ print_header(". {$blog_title} | Ret et indlæg .", "edit.css", $domain_name, $des
 <?=$edit_menu;?>
 <?php
 
+# delete entry-bit
+if(isset($_GET['delete_entry'])) {
+	$entryid = $_GET['delete_entry'];
+	$sql = "DELETE from entries where id = {$entryid}";
+	if(!$result = @mysql_query($sql)) : 
+		print "<p>Error: ".mysql_error()."</p>";
+	else :
+			print '<p>Posten med ID #'.$entryid.' er slettet fra databasen.</p>';
+	endif;
+}
+
+
 # delete comment-bit.
 if(isset($_GET['delete_comment'])) 
 {
@@ -290,7 +302,7 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 				$status = ($status == 0) ? ($status = 'Kladde') : ($status = 'Postet');
 				$row_color = ($row_count % 2) ? $class1 : $class2;
 				print "<tr class=\"{$row_color}\">
-				<td><a onclick='if(checkDelete() == true) {return true;} else {return false;}' href='ee.php?delete_comment={$id}'>Slet</a></td> <td><a href=\"".$install_path."/ee.php?entryid={$id}\">{$title}</a></td>
+				<td><a onclick='if(checkDelete() == true) {return true;} else {return false;}' href='ee.php?delete_entry={$id}'>Slet</a></td> <td><a href=\"".$install_path."/ee.php?entryid={$id}\">{$title}</a></td>
 				<td>{$date}</td>
 				<td>{$time}</td>
 				<td>{$status}</td>
