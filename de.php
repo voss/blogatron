@@ -12,6 +12,15 @@ print_header(". {$blog_title} | Slet et indlæg .", "edit.css", $domain_name, $de
 print $edit_menu;
 print '<div style="padding:10px">';
 
+if(isset($_GET['entryid'])) {
+	$entryid = $_GET['entryid'];
+	$sql = "DELETE from entries where id = {$entryid}";
+	if(!$result = @mysql_query($sql)) : 
+		print "<p>Error: ".mysql_error()."</p>";
+	else :
+			print '<p>Posten med ID #'.$entryid.' er slettet fra databasen.</p>';
+	endif;
+}
 $selectfrom = "select * from entries, authors where authors.uid = entries.aid and entries.aid = {$_SESSION['aid']}";
 	if(isset($_GET['serve'])) :
 		$limit = " limit {$_GET['serve']},20";
