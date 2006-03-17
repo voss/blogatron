@@ -279,7 +279,7 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 
 			print '<div style="padding:10px">';
 			print '<table class="table">';
-			print '<tr class="header"><th>Titel</th><th>Dato</th><th>Tid</th><th>Status</th><th>Forfatter</th></tr>';
+			print '<tr class="header"><th>Option</th><th>Titel</th><th>Dato</th><th>Tid</th><th>Status</th><th>Forfatter</th></tr>';
 			$row_count = 0;
 			$class1 = 'dark';
 			$class2 = 'light';
@@ -290,7 +290,7 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 				$status = ($status == 0) ? ($status = 'Kladde') : ($status = 'Postet');
 				$row_color = ($row_count % 2) ? $class1 : $class2;
 				print "<tr class=\"{$row_color}\">
-				<td><a onclick='if(checkDelete() == true) {return true;} else {return false;}' href='ee.php?delete_comment={$id}'>Slet</a><a href=\"".$install_path."/ee.php?entryid={$id}\">{$title}</a></td>
+				<td><a onclick='if(checkDelete() == true) {return true;} else {return false;}' href='ee.php?delete_comment={$id}'>Slet</a></td> <td><a href=\"".$install_path."/ee.php?entryid={$id}\">{$title}</a></td>
 				<td>{$date}</td>
 				<td>{$time}</td>
 				<td>{$status}</td>
