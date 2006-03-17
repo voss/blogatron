@@ -289,7 +289,8 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 				$date = date('d. F - Y', $date);
 				$status = ($status == 0) ? ($status = 'Kladde') : ($status = 'Postet');
 				$row_color = ($row_count % 2) ? $class1 : $class2;
-				print "<tr class=\"{$row_color}\"><td><a href=\"".$install_path."/ee.php?entryid={$id}\">{$title}</a></td>
+				print "<tr class=\"{$row_color}\">
+				<td><a onclick='if(checkDelete() == true) {return true;} else {return false;}' href='ee.php?delete_comment={$id}'>Slet</a><a href=\"".$install_path."/ee.php?entryid={$id}\">{$title}</a></td>
 				<td>{$date}</td>
 				<td>{$time}</td>
 				<td>{$status}</td>
@@ -298,11 +299,6 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 			}
 			print '</table>';
 			print '</div>';
-			$roll = $_GET['serve'];
-			print '<p style="padding: 0 15px 0 15px;">';
-			for($i = 0, $j = 1 ; $i <= $num_rows; $i+=20, $j++) {
-				print "<a href=\"".$install_path."/ee.php?serve=".$i."\">Side ".$j."</a> | ";
-			}
 		}
 	}
 ?>
