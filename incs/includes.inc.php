@@ -86,8 +86,7 @@ if($_SESSION['aid'] == 1)
 		'Indlægshåndtering' => $install_path.'/edit/',
 		'Tilføj bruger' => $install_path.'/adduser/',
 		'Se bloggen' => $install_path.'/',
-		'Logud' => $install_path.'/ae.php?action=logout'
-	);
+		'Logud' => $install_path.'/ae.php?action=logout');
 }
 else
 {

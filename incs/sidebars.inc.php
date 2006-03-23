@@ -1,6 +1,6 @@
 			<h1 style="padding-top:7px;padding-bottom: 10px;">&raquo; RSS-feeds</h1>
 			<ul>
-				<li><a href="/rss/entries" title="RSS-feed af indlæg">Indlæg</a></li>
+				<li><a href="/rss/entries" title="RSS-feed af indlæg">Indl�g</a></li>
 				<li><a href="/rss/comments" title="RSS-feed af kommentarer">Kommentarer</a></li>
 			</ul>
 	      <?=display_archive_months(); ?>
@@ -22,7 +22,7 @@
 				<option value="http://dave.dk/">dot dave</option>
 				<option value="http://defectiveyeti.com/">defective yeti</option>
 				<option value="http://www.wasab.dk/morten/eksponering/">Eksponering</option>
-				<option value="http://www.sparkpod.com/froeken.andersen">Frøken Andersen</option>
+				<option value="http://www.sparkpod.com/froeken.andersen">Fr�ken Andersen</option>
 				<option value="http://www.jdreng.dk/">jdreng</option>
 				<option value="http://jonaskochbentzen.com/">jonaskochbentzen</option>
 				<option value="http://kaboom.dk/">kaboom</option>
@@ -40,7 +40,7 @@
 				<option value="http://www.solitude.dk/">solitude</option>
 				<option value="http://www.stopdesign.com/">stopdesign</option>
 				<option value="http://weblogs.mozillazine.org/hyatt/">Surfin' Safari</option>
-				<option value="http://www.blog.soender.com/">sÃ¸nder</option>
+				<option value="http://www.blog.soender.com/">s�nder</option>
 				<option value="http://tantologi.dk/">tantologi</option>
 				<option value="http://vedana.net/">vedana</option>
 				<option value="http://vesterblog.dk/">vesterblog</option>
