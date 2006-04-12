@@ -183,6 +183,16 @@ function dateify($arg)
 	}
 }
 
+function print_ulist($arg)
+{
+	print '<ul>';
+	foreach( $arg as $menu_link => $menu_text )
+	{
+		print '<li><a href="'.$menu_link.'">'.$menu_text.'</a></li>';
+	}	
+	print '</ul>';
+}
+
 function top_pagination($start, $total_rows, $limit) 
 {
 	if($start != 1)

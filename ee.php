@@ -5,21 +5,14 @@ print_header(". {$blog_title} | Ret et indlæg .", "edit.css", $domain_name, $des
 
 ?>
 <div id="wrapper">
-<div id="top">
-<p style="float: right;">Bruger: <?=$_SESSION['aname'];?></p>
-<h1 style="color: white;">Administration af <?=stripslashes($blog_title);?> på http://<?=$domain_name.$install_path;?>/</h1>
-</div>
+	<div id="top">
+		<p style="float: right;">Bruger: <?=$_SESSION['aname'];?></p>
+		<h1 style="color: white;">Administration af <?=stripslashes($blog_title);?> på http://<?=$domain_name.$install_path;?>/</h1>
+	</div>
 <div id="mlist">
-	<ul>
 <?php
-foreach( $edit_menu as $key => $value )
-{
-	print '<li><a href="'.$value.'">'.$key.'</a></li>';
-}	
-# print_r($edit_menu);
+	print_ulist($edit_menu);
 ?>
-	</ul>
-
 </div>
 
 <?php

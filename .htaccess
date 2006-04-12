@@ -44,6 +44,7 @@ RewriteEngine On
   RewriteRule ^kontakt[/]?$ kontakt.php
   RewriteRule ^ee[/]?$ ee.php
   RewriteRule ^edit[/]?$ ee.php
+  RewriteRule ^edit/([0-9]+)$ ee.php?entryid=$1
   RewriteRule ^ae[/]?$ ae.php
   RewriteRule ^add[/]?$ ae.php
   RewriteRule ^de[/]?$ de.php

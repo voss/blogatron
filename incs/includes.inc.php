@@ -98,4 +98,6 @@ else
 		'Logud' => $install_path.'/ae.php?action=logout'
 	);
 }
+$edit_menu = array_reverse($edit_menu);
+$edit_menu = array_flip($edit_menu);
 ?>

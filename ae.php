@@ -42,7 +42,11 @@ print_header(". {$blog_title} | Post et indlæg .", "edit.css", $domain_name, $de
 <p style="float: right;">Bruger: <?=$_SESSION['aname'];?></p>
 <h1 style="color: white;">Administration af <?=stripslashes($blog_title);?> på http://<?=$domain_name.$install_path;?>/</h1>
 </div>
-<?=$edit_menu;?>
+<div id="mlist">
+<?php
+	print_ulist($edit_menu);
+?>
+</div>
 <div id="add">
 <?php
 	# Error handling on non-valid form:

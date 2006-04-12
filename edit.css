@@ -8,21 +8,13 @@
 */
 
 body {
-	padding: 10px;
 	margin: 0 0 20px 0;
 	color: #000;
 	background: #e7e7e7;
 	font-family: 'lucida grande', verdana, helvetica, arial, sans-serif;
 }
 
-#wrapper {
-	width: 80%;
-	border: 1px solid #aa9;
-	margin: 0px;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 0px;
-	background: #fff;
+#wrapper, #container {
 }
 
 /*
@@ -75,6 +67,24 @@ body {
 	text-align: center;
 }
 
+/*
+--------------------------
+	PAGE
+--------------------------
+*/
+
+div#leftbar {
+	float:left;
+	width: 15%;
+	clear:both;
+	background-color: #E7D59F;
+}
+
+div#content {
+	float:left;
+	width: 80%;
+}
+
 #top, #top h1, #top p {
 	padding: 0;
 	margin: 0;
@@ -82,7 +92,7 @@ body {
 
 #top {
 	padding: 20px;
-	background-color: #648C50;
+	background-color: #036;
 	border-bottom: 1px dotted #900;
 }
 
@@ -91,9 +101,11 @@ body {
 }
 
 #top h1 {
-	color: whitesmoke;
+	color: #fc0;
 	background: transparent;
 	padding-left: 20px;
+	font-weight: normal;
+	font-size: 150%
 }
 
 p {
@@ -132,7 +144,7 @@ table.table {
     border-spacing:0;
     font-size:11px;
     border: 1px solid #a5a5a5;
-    margin-top: 40px;
+
     width: 100%;
 }
 
@@ -281,28 +293,26 @@ div#inputform #submitpost {
 #mlist ul {
 	padding-left: 0;
 	margin-left: 0;
-	padding-top: 0.1px;
 	margin-top: 0;
 /*	background-color: #036; */
-	color: White;
-	float: right;
 	width: 100%;
-	font-size: small;
 }
 
 #mlist ul li {
-	display: inline;
+/*	display: inline; */
 	background-color: #E7D59F;
 	color: #000;
+	line-height: 1.5em;
+	font-size:small;
 }
 
 #mlist ul li a, #mlist ul li a:link {
-	padding: 0.2em 1em;
+/*	padding: 0.2em 1em; */
 	background-color: #E7D59F;
 	color: #000;
 	text-decoration: none;
-	float: right;
-	border-left: 1px solid #fff;
+	width: 100%;
+/*	float: right; */
 }
 
 #mlist ul li a:visited {

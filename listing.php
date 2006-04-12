@@ -2,8 +2,6 @@
 
 @include('incs/accesscontrol.php');
 
-print_header(". {$blog_title} | Ret et indlæg .", "edit.css", $domain_name, $description, $key_words, $dc_title, $install_path);
-
 # Is it an admin-user logging in? If yes, set $admin to true.
 $admin = ($_SESSION['aid'] != 1) ? FALSE : TRUE;
 
@@ -13,7 +11,6 @@ if ( isset($_GET['arcmonth']) )
 	list($req_month,$req_year) = explode('.',$_GET['arcmonth']);
 	if ( $admin == TRUE )
 	{
-#	$sql = "select * from entries, authors where authors.uid = entries.aid ORDER BY date DESC limit 0,20";
 		$req_sql = "SELECT
 			*
 		FROM
@@ -33,7 +30,7 @@ if ( isset($_GET['arcmonth']) )
 	}
 	else
 	{
-#	$sql = "select * from entries, authors where authors.uid = entries.aid and entries.aid = {$_SESSION['aid']} ORDER BY date DESC limit 0,20";
+		# If the user is non-admin, select only the entries they have authored.
 		$req_sql = "SELECT
 			*
 		FROM
@@ -56,17 +53,31 @@ if ( isset($_GET['arcmonth']) )
 }
 
 # print $admin;
+print_header(". {$blog_title} | Ret et indlæg .", "edit.css", $domain_name, $description, $key_words, $dc_title, $install_path);
+?>
+<div id="container">
+<div id="top">
+	<h1>admin for blog.verture.net</h1>
+</div>
+<div id="leftbar">
+<div id="mlist">
+<?php
+	print_ulist($edit_menu);
+?>
+</div>
+<?php
+	display_archive_months_edit();
+?>
+<p>Dette er mig</p>
 
-display_archive_months_edit();
-
-
-# If the user is non-admin, select only the entries they have authored.
-
+</div>
+<div id="content">
+<?php
 # $result = @mysql_query($sql);
 if(!$result = @mysql_query($req_sql)) 
 {
 	# Debugging:
-	print "<p>Error: $req_sql ".mysql_error()."</p>";
+	print "<p>Error: $req_sql ".mysql_error()." - eller noget</p>";
 }
 else
 {
@@ -92,16 +103,9 @@ else
 	}
 	print '</table>';
 	print '</div>';
-/*	$roll = $_GET['serve'];
-	print '<p style="padding: 0 15px 0 15px;">';
-	for($i = 0, $j = 1 ; $i <= $num_rows; $i+=20, $j++) {
-		print "<a href=\"".$install_path."/ee.php?serve=".$i."\">Side ".$j."</a> | ";
-	}
-*/
 }
 ?>
-</p>
 </div>
-<?php
-	print_footer();
-?>
+</div>
+</body>
+</html>
