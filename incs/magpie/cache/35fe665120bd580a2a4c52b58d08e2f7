@@ -1,11 +1,4 @@
-O:9:"magpierss":25:{s:6:"parser";i:0;s:12:"current_item";a:0:{}s:5:"items";a:31:{i:0;a:10:{s:5:"about";s:37:"http://www.apple.com/macosx/bootcamp/";s:5:"title";s:17:"Apple - Boot Camp";s:4:"link";s:37:"http://www.apple.com/macosx/bootcamp/";s:11:"description";s:65:"Dual booting into WinXP or OS X on your intel Mac, the Apple way.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-04-05T15:38:39Z";s:7:"subject";s:26:"apple osx sidedish windows";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
-  ";s:10:"topics_bag";s:5:"
-    ";}s:10:"topics_bag";s:18:"
-    
-    
-    
-  ";s:6:"topics";s:1:"
-";s:7:"summary";s:65:"Dual booting into WinXP or OS X on your intel Mac, the Apple way.";s:14:"date_timestamp";i:1144251480;}i:1;a:10:{s:5:"about";s:35:"http://www.prop.org/blimp/index.htm";s:5:"title";s:19:"Interfacing Reality";s:4:"link";s:35:"http://www.prop.org/blimp/index.htm";s:11:"description";s:106:"The first PRoPs were simple airborne tele-robots we named Space Browsers first designed and flown in 1995.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-03-28T10:25:01Z";s:7:"subject";s:38:"airborne blimp robots sidedish ubicomp";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+O:9:"magpierss":25:{s:6:"parser";i:0;s:12:"current_item";a:0:{}s:5:"items";a:31:{i:0;a:10:{s:5:"about";s:21:"http://www.whamb.com/";s:5:"title";s:40:"WHAMB: Digital Audio Player for Mac OS X";s:4:"link";s:21:"http://www.whamb.com/";s:11:"description";s:23:"Fast forward the future";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-04-19T14:00:06Z";s:7:"subject";s:31:"audio ogg osx sidedish software";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
   ";s:10:"topics_bag";s:5:"
     ";}s:10:"topics_bag";s:23:"
     
@@ -13,7 +6,28 @@ O:9:"magpierss":25:{s:6:"parser";i:0;s:12:"current_item";a:0:{}s:5:"items";a:31:
     
     
   ";s:6:"topics";s:1:"
-";s:7:"summary";s:106:"The first PRoPs were simple airborne tele-robots we named Space Browsers first designed and flown in 1995.";s:14:"date_timestamp";i:1143541500;}i:2;a:10:{s:5:"about";s:33:"http://www.thebricktestament.com/";s:5:"title";s:19:"The Brick Testament";s:4:"link";s:33:"http://www.thebricktestament.com/";s:11:"description";s:74:"An illustrated Bible presented by The Rev. Brendan Powell Smith using Lego";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-03-24T11:36:20Z";s:7:"subject";s:31:"Lego bible funny humor sidedish";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+";s:7:"summary";s:23:"Fast forward the future";s:14:"date_timestamp";i:1145455200;}i:1;a:10:{s:5:"about";s:106:"http://www.washingtonpost.com/wp-dyn/content/gallery/2005/12/29/GA2005122900888_index_frames.htm?startat=1";s:5:"title";s:9:"Ron Mueck";s:4:"link";s:106:"http://www.washingtonpost.com/wp-dyn/content/gallery/2005/12/29/GA2005122900888_index_frames.htm?startat=1";s:11:"description";s:73:"Meet the family of Ron Muecks 'Boy', currently at Aros in Århus, Denmark.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-04-19T10:07:34Z";s:7:"subject";s:29:"art gallery ronmueck sidedish";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:18:"
+    
+    
+    
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:73:"Meet the family of Ron Muecks 'Boy', currently at Aros in Århus, Denmark.";s:14:"date_timestamp";i:1145441220;}i:2;a:10:{s:5:"about";s:37:"http://www.google.com/calendar/render";s:5:"title";s:15:"Google Calendar";s:4:"link";s:37:"http://www.google.com/calendar/render";s:11:"description";s:18:"It's aliiiiiive :D";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-04-13T08:37:46Z";s:7:"subject";s:29:"ajax calendar google sidedish";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:18:"
+    
+    
+    
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:18:"It's aliiiiiive :D";s:14:"date_timestamp";i:1144917420;}i:3;a:10:{s:5:"about";s:37:"http://www.apple.com/macosx/bootcamp/";s:5:"title";s:17:"Apple - Boot Camp";s:4:"link";s:37:"http://www.apple.com/macosx/bootcamp/";s:11:"description";s:65:"Dual booting into WinXP or OS X on your intel Mac, the Apple way.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-04-05T15:38:39Z";s:7:"subject";s:26:"apple osx sidedish windows";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:18:"
+    
+    
+    
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:65:"Dual booting into WinXP or OS X on your intel Mac, the Apple way.";s:14:"date_timestamp";i:1144251480;}i:4;a:10:{s:5:"about";s:35:"http://www.prop.org/blimp/index.htm";s:5:"title";s:19:"Interfacing Reality";s:4:"link";s:35:"http://www.prop.org/blimp/index.htm";s:11:"description";s:106:"The first PRoPs were simple airborne tele-robots we named Space Browsers first designed and flown in 1995.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-03-28T10:25:01Z";s:7:"subject";s:38:"airborne blimp robots sidedish ubicomp";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
   ";s:10:"topics_bag";s:5:"
     ";}s:10:"topics_bag";s:23:"
     
@@ -21,26 +35,34 @@ O:9:"magpierss":25:{s:6:"parser";i:0;s:12:"current_item";a:0:{}s:5:"items";a:31:
     
     
   ";s:6:"topics";s:1:"
-";s:7:"summary";s:74:"An illustrated Bible presented by The Rev. Brendan Powell Smith using Lego";s:14:"date_timestamp";i:1143200160;}i:3;a:10:{s:5:"about";s:32:"http://dynamitemap.com/selenium/";s:5:"title";s:18:"Selenium IDE Intro";s:4:"link";s:32:"http://dynamitemap.com/selenium/";s:11:"description";s:60:"Firefox extension to easily automate all your browsing tasks";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-03-16T00:19:40Z";s:7:"subject";s:26:"extension firefox sidedish";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+";s:7:"summary";s:106:"The first PRoPs were simple airborne tele-robots we named Space Browsers first designed and flown in 1995.";s:14:"date_timestamp";i:1143541500;}i:5;a:10:{s:5:"about";s:33:"http://www.thebricktestament.com/";s:5:"title";s:19:"The Brick Testament";s:4:"link";s:33:"http://www.thebricktestament.com/";s:11:"description";s:74:"An illustrated Bible presented by The Rev. Brendan Powell Smith using Lego";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-03-24T11:36:20Z";s:7:"subject";s:31:"Lego bible funny humor sidedish";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:23:"
+    
+    
+    
+    
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:74:"An illustrated Bible presented by The Rev. Brendan Powell Smith using Lego";s:14:"date_timestamp";i:1143200160;}i:6;a:10:{s:5:"about";s:32:"http://dynamitemap.com/selenium/";s:5:"title";s:18:"Selenium IDE Intro";s:4:"link";s:32:"http://dynamitemap.com/selenium/";s:11:"description";s:60:"Firefox extension to easily automate all your browsing tasks";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-03-16T00:19:40Z";s:7:"subject";s:26:"extension firefox sidedish";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
   ";s:10:"topics_bag";s:5:"
     ";}s:10:"topics_bag";s:13:"
     
     
   ";s:6:"topics";s:1:"
-";s:7:"summary";s:60:"Firefox extension to easily automate all your browsing tasks";s:14:"date_timestamp";i:1142468340;}i:4;a:10:{s:5:"about";s:20:"http://mochikit.com/";s:5:"title";s:43:"MochiKit ? A lightweight Javascript library";s:4:"link";s:20:"http://mochikit.com/";s:11:"description";s:118:"MochiKit is a highly documented and well tested, suite of JavaScript libraries that will help you get shit done, fast.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-03-14T21:26:14Z";s:7:"subject";s:20:"ajax sidedish webdev";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+";s:7:"summary";s:60:"Firefox extension to easily automate all your browsing tasks";s:14:"date_timestamp";i:1142468340;}i:7;a:10:{s:5:"about";s:20:"http://mochikit.com/";s:5:"title";s:43:"MochiKit ? A lightweight Javascript library";s:4:"link";s:20:"http://mochikit.com/";s:11:"description";s:118:"MochiKit is a highly documented and well tested, suite of JavaScript libraries that will help you get shit done, fast.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-03-14T21:26:14Z";s:7:"subject";s:20:"ajax sidedish webdev";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
   ";s:10:"topics_bag";s:5:"
     ";}s:10:"topics_bag";s:13:"
     
     
   ";s:6:"topics";s:1:"
-";s:7:"summary";s:118:"MochiKit is a highly documented and well tested, suite of JavaScript libraries that will help you get shit done, fast.";s:14:"date_timestamp";i:1142371560;}i:5;a:10:{s:5:"about";s:57:"http://googleblog.blogspot.com/2006/03/mars-attracts.html";s:5:"title";s:35:"Official Google Blog: Mars attracts";s:4:"link";s:57:"http://googleblog.blogspot.com/2006/03/mars-attracts.html";s:11:"description";s:231:"Explore the red planet in three different ways: an elevation map shows color-coded peaks and valleys, a visible-imagery map shows what your eyes would actually see, and an infrared-imagery map shows the detail your eyes would miss.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-03-13T19:37:59Z";s:7:"subject";s:28:"google maps science sidedish";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+";s:7:"summary";s:118:"MochiKit is a highly documented and well tested, suite of JavaScript libraries that will help you get shit done, fast.";s:14:"date_timestamp";i:1142371560;}i:8;a:10:{s:5:"about";s:57:"http://googleblog.blogspot.com/2006/03/mars-attracts.html";s:5:"title";s:35:"Official Google Blog: Mars attracts";s:4:"link";s:57:"http://googleblog.blogspot.com/2006/03/mars-attracts.html";s:11:"description";s:231:"Explore the red planet in three different ways: an elevation map shows color-coded peaks and valleys, a visible-imagery map shows what your eyes would actually see, and an infrared-imagery map shows the detail your eyes would miss.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-03-13T19:37:59Z";s:7:"subject";s:28:"google maps science sidedish";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
   ";s:10:"topics_bag";s:5:"
     ";}s:10:"topics_bag";s:18:"
     
     
     
   ";s:6:"topics";s:1:"
-";s:7:"summary";s:231:"Explore the red planet in three different ways: an elevation map shows color-coded peaks and valleys, a visible-imagery map shows what your eyes would actually see, and an infrared-imagery map shows the detail your eyes would miss.";s:14:"date_timestamp";i:1142278620;}i:6;a:10:{s:5:"about";s:38:"http://www.devilducky.com/media/42822/";s:5:"title";s:41:"DevilDucky - Natalie Portman: Gangsta Rap";s:4:"link";s:38:"http://www.devilducky.com/media/42822/";s:11:"description";s:49:"Natalie Portman kills the mic in this Gangsta Rap";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-03-13T15:01:53Z";s:7:"subject";s:43:"fun music natalieportman rap sidedish video";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+";s:7:"summary";s:231:"Explore the red planet in three different ways: an elevation map shows color-coded peaks and valleys, a visible-imagery map shows what your eyes would actually see, and an infrared-imagery map shows the detail your eyes would miss.";s:14:"date_timestamp";i:1142278620;}i:9;a:10:{s:5:"about";s:38:"http://www.devilducky.com/media/42822/";s:5:"title";s:41:"DevilDucky - Natalie Portman: Gangsta Rap";s:4:"link";s:38:"http://www.devilducky.com/media/42822/";s:11:"description";s:49:"Natalie Portman kills the mic in this Gangsta Rap";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-03-13T15:01:53Z";s:7:"subject";s:43:"fun music natalieportman rap sidedish video";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
   ";s:10:"topics_bag";s:5:"
     ";}s:10:"topics_bag";s:28:"
     
@@ -49,7 +71,7 @@ O:9:"magpierss":25:{s:6:"parser";i:0;s:12:"current_item";a:0:{}s:5:"items";a:31:
     
     
   ";s:6:"topics";s:1:"
-";s:7:"summary";s:49:"Natalie Portman kills the mic in this Gangsta Rap";s:14:"date_timestamp";i:1142262060;}i:7;a:10:{s:5:"about";s:51:"http://dbspin.com/wiki/index.php?title=Technolotics";s:5:"title";s:27:"Technolotics - Technolotics";s:4:"link";s:51:"http://dbspin.com/wiki/index.php?title=Technolotics";s:11:"description";s:125:"This page is for the oh so L33t technolotics team to discuss the weeks stories, post links etc, prior to each weeks recording";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-03-13T14:31:23Z";s:7:"subject";s:34:"ireland podcast sidedish tech wiki";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+";s:7:"summary";s:49:"Natalie Portman kills the mic in this Gangsta Rap";s:14:"date_timestamp";i:1142262060;}i:10;a:10:{s:5:"about";s:51:"http://dbspin.com/wiki/index.php?title=Technolotics";s:5:"title";s:27:"Technolotics - Technolotics";s:4:"link";s:51:"http://dbspin.com/wiki/index.php?title=Technolotics";s:11:"description";s:125:"This page is for the oh so L33t technolotics team to discuss the weeks stories, post links etc, prior to each weeks recording";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-03-13T14:31:23Z";s:7:"subject";s:34:"ireland podcast sidedish tech wiki";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
   ";s:10:"topics_bag";s:5:"
     ";}s:10:"topics_bag";s:23:"
     
@@ -57,7 +79,7 @@ O:9:"magpierss":25:{s:6:"parser";i:0;s:12:"current_item";a:0:{}s:5:"items";a:31:
     
     
   ";s:6:"topics";s:1:"
-";s:7:"summary";s:125:"This page is for the oh so L33t technolotics team to discuss the weeks stories, post links etc, prior to each weeks recording";s:14:"date_timestamp";i:1142260260;}i:8;a:10:{s:5:"about";s:25:"https://www.billmonk.com/";s:5:"title";s:8:"BillMonk";s:4:"link";s:25:"https://www.billmonk.com/";s:11:"description";s:95:"We make it easy and pleasant. You report bills and loans, we track the balance between friends.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-03-10T00:10:46Z";s:7:"subject";s:45:"money sidedish socialsoftware software webapp";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+";s:7:"summary";s:125:"This page is for the oh so L33t technolotics team to discuss the weeks stories, post links etc, prior to each weeks recording";s:14:"date_timestamp";i:1142260260;}i:11;a:10:{s:5:"about";s:25:"https://www.billmonk.com/";s:5:"title";s:8:"BillMonk";s:4:"link";s:25:"https://www.billmonk.com/";s:11:"description";s:95:"We make it easy and pleasant. You report bills and loans, we track the balance between friends.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-03-10T00:10:46Z";s:7:"subject";s:45:"money sidedish socialsoftware software webapp";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
   ";s:10:"topics_bag";s:5:"
     ";}s:10:"topics_bag";s:23:"
     
@@ -65,27 +87,27 @@ O:9:"magpierss":25:{s:6:"parser";i:0;s:12:"current_item";a:0:{}s:5:"items";a:31:
     
     
   ";s:6:"topics";s:1:"
-";s:7:"summary";s:95:"We make it easy and pleasant. You report bills and loans, we track the balance between friends.";s:14:"date_timestamp";i:1141949400;}i:9;a:10:{s:5:"about";s:51:"http://www.witze-welt.de/videos/showvideo.php?id=53";s:5:"title";s:27:"Fun-Video: Der Bush Roboter";s:4:"link";s:51:"http://www.witze-welt.de/videos/showvideo.php?id=53";s:11:"description";s:98:"German native Johannes Schlueter has been piloting the Bush for 4 years now, almost accident free.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-03-08T10:39:06Z";s:7:"subject";s:23:"bush fun sidedish video";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+";s:7:"summary";s:95:"We make it easy and pleasant. You report bills and loans, we track the balance between friends.";s:14:"date_timestamp";i:1141949400;}i:12;a:10:{s:5:"about";s:51:"http://www.witze-welt.de/videos/showvideo.php?id=53";s:5:"title";s:27:"Fun-Video: Der Bush Roboter";s:4:"link";s:51:"http://www.witze-welt.de/videos/showvideo.php?id=53";s:11:"description";s:98:"German native Johannes Schlueter has been piloting the Bush for 4 years now, almost accident free.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-03-08T10:39:06Z";s:7:"subject";s:23:"bush fun sidedish video";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
   ";s:10:"topics_bag";s:5:"
     ";}s:10:"topics_bag";s:18:"
     
     
     
   ";s:6:"topics";s:1:"
-";s:7:"summary";s:98:"German native Johannes Schlueter has been piloting the Bush for 4 years now, almost accident free.";s:14:"date_timestamp";i:1141814340;}i:10;a:8:{s:5:"about";s:60:"http://video.google.com/videoplay?docid=-5892416792984054419";s:5:"title";s:29:"BSB guys again - Google Video";s:4:"link";s:60:"http://video.google.com/videoplay?docid=-5892416792984054419";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-03-03T09:22:06Z";s:7:"subject";s:26:"funny googlevideo sidedish";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+";s:7:"summary";s:98:"German native Johannes Schlueter has been piloting the Bush for 4 years now, almost accident free.";s:14:"date_timestamp";i:1141814340;}i:13;a:8:{s:5:"about";s:60:"http://video.google.com/videoplay?docid=-5892416792984054419";s:5:"title";s:29:"BSB guys again - Google Video";s:4:"link";s:60:"http://video.google.com/videoplay?docid=-5892416792984054419";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-03-03T09:22:06Z";s:7:"subject";s:26:"funny googlevideo sidedish";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
   ";s:10:"topics_bag";s:5:"
     ";}s:10:"topics_bag";s:13:"
     
     
   ";s:6:"topics";s:1:"
-";s:14:"date_timestamp";i:1141377720;}i:11;a:10:{s:5:"about";s:31:"http://dr.dk/podcast/saadan.asp";s:5:"title";s:41:"dr.dk/podcast - nu også med video podcast";s:4:"link";s:31:"http://dr.dk/podcast/saadan.asp";s:11:"description";s:140:"I februar 2006 lancerede DR også videopodcast, som gør det muligt at abonnere på hovedsagligt nyhedsprogrammer og egenproducerede magasiner.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-03-01T12:40:54Z";s:7:"subject";s:25:"dr podcast sidedish video";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+";s:14:"date_timestamp";i:1141377720;}i:14;a:10:{s:5:"about";s:31:"http://dr.dk/podcast/saadan.asp";s:5:"title";s:41:"dr.dk/podcast - nu også med video podcast";s:4:"link";s:31:"http://dr.dk/podcast/saadan.asp";s:11:"description";s:140:"I februar 2006 lancerede DR også videopodcast, som gør det muligt at abonnere på hovedsagligt nyhedsprogrammer og egenproducerede magasiner.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-03-01T12:40:54Z";s:7:"subject";s:25:"dr podcast sidedish video";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
   ";s:10:"topics_bag";s:5:"
     ";}s:10:"topics_bag";s:18:"
     
     
     
   ";s:6:"topics";s:1:"
-";s:7:"summary";s:140:"I februar 2006 lancerede DR også videopodcast, som gør det muligt at abonnere på hovedsagligt nyhedsprogrammer og egenproducerede magasiner.";s:14:"date_timestamp";i:1141216800;}i:12;a:10:{s:5:"about";s:27:"http://www.visualbeing.com/";s:5:"title";s:12:"Visual Being";s:4:"link";s:27:"http://www.visualbeing.com/";s:11:"description";s:141:"A group weblog dedicated to sharing resources that can help anyone involved in any aspect of the presentation process achieve better results.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-02-27T10:12:37Z";s:7:"subject";s:45:"blog presentation presentations sidedish tips";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+";s:7:"summary";s:140:"I februar 2006 lancerede DR også videopodcast, som gør det muligt at abonnere på hovedsagligt nyhedsprogrammer og egenproducerede magasiner.";s:14:"date_timestamp";i:1141216800;}i:15;a:10:{s:5:"about";s:27:"http://www.visualbeing.com/";s:5:"title";s:12:"Visual Being";s:4:"link";s:27:"http://www.visualbeing.com/";s:11:"description";s:141:"A group weblog dedicated to sharing resources that can help anyone involved in any aspect of the presentation process achieve better results.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-02-27T10:12:37Z";s:7:"subject";s:45:"blog presentation presentations sidedish tips";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
   ";s:10:"topics_bag";s:5:"
     ";}s:10:"topics_bag";s:23:"
     
@@ -93,14 +115,14 @@ O:9:"magpierss":25:{s:6:"parser";i:0;s:12:"current_item";a:0:{}s:5:"items";a:31:
     
     
   ";s:6:"topics";s:1:"
-";s:7:"summary";s:141:"A group weblog dedicated to sharing resources that can help anyone involved in any aspect of the presentation process achieve better results.";s:14:"date_timestamp";i:1141035120;}i:13;a:10:{s:5:"about";s:57:"http://www.youtube.com/w/Tower?v=lX87AfsS7xI&search=tower";s:5:"title";s:35:"YouTube - The falling Tower of Pisa";s:4:"link";s:57:"http://www.youtube.com/w/Tower?v=lX87AfsS7xI&search=tower";s:11:"description";s:98:"Oh Brian, I don't know what to say... Interviewer tips over a world record achievement. Too funny.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-02-01T18:49:14Z";s:7:"subject";s:28:"funny sidedish video youtube";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+";s:7:"summary";s:141:"A group weblog dedicated to sharing resources that can help anyone involved in any aspect of the presentation process achieve better results.";s:14:"date_timestamp";i:1141035120;}i:16;a:10:{s:5:"about";s:57:"http://www.youtube.com/w/Tower?v=lX87AfsS7xI&search=tower";s:5:"title";s:35:"YouTube - The falling Tower of Pisa";s:4:"link";s:57:"http://www.youtube.com/w/Tower?v=lX87AfsS7xI&search=tower";s:11:"description";s:98:"Oh Brian, I don't know what to say... Interviewer tips over a world record achievement. Too funny.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-02-01T18:49:14Z";s:7:"subject";s:28:"funny sidedish video youtube";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
   ";s:10:"topics_bag";s:5:"
     ";}s:10:"topics_bag";s:18:"
     
     
     
   ";s:6:"topics";s:1:"
-";s:7:"summary";s:98:"Oh Brian, I don't know what to say... Interviewer tips over a world record achievement. Too funny.";s:14:"date_timestamp";i:1138819740;}i:14;a:10:{s:5:"about";s:56:"http://www.asktog.com/columns/069ScottAdamsMeltdown.html";s:5:"title";s:45:"The Scott Adams Meltdown: Anatomy of a Disast";s:4:"link";s:56:"http://www.asktog.com/columns/069ScottAdamsMeltdown.html";s:11:"description";s:251:"
+";s:7:"summary";s:98:"Oh Brian, I don't know what to say... Interviewer tips over a world record achievement. Too funny.";s:14:"date_timestamp";i:1138819740;}i:17;a:10:{s:5:"about";s:56:"http://www.asktog.com/columns/069ScottAdamsMeltdown.html";s:5:"title";s:45:"The Scott Adams Meltdown: Anatomy of a Disast";s:4:"link";s:56:"http://www.asktog.com/columns/069ScottAdamsMeltdown.html";s:11:"description";s:251:"
 		
 
 Scott Adams, father of the Dilbert comic strip, recently had the misfortune to spend a number of hours editing comments for his blog only to have them disappear without a trace, much to his surprise, shortly after he published them. Veky wants to";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-02-01T11:07:40Z";s:7:"subject";s:27:"article design hci sidedish";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
@@ -113,14 +135,14 @@ Scott Adams, father of the Dilbert comic strip, recently had the misfortune to s
 ";s:7:"summary";s:251:"
 		
 
-Scott Adams, father of the Dilbert comic strip, recently had the misfortune to spend a number of hours editing comments for his blog only to have them disappear without a trace, much to his surprise, shortly after he published them. Veky wants to";s:14:"date_timestamp";i:1138792020;}i:15;a:10:{s:5:"about";s:47:"http://www.everythingsoundslikecoldplaynow.com/";s:5:"title";s:35:"Everything Sounds Like Coldplay Now";s:4:"link";s:47:"http://www.everythingsoundslikecoldplaynow.com/";s:11:"description";s:88:"Mitch Benn and the Distractions sounds like Coldplay, like everything else these days...";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-31T10:12:54Z";s:7:"subject";s:26:"funny music sidedish video";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+Scott Adams, father of the Dilbert comic strip, recently had the misfortune to spend a number of hours editing comments for his blog only to have them disappear without a trace, much to his surprise, shortly after he published them. Veky wants to";s:14:"date_timestamp";i:1138792020;}i:18;a:10:{s:5:"about";s:47:"http://www.everythingsoundslikecoldplaynow.com/";s:5:"title";s:35:"Everything Sounds Like Coldplay Now";s:4:"link";s:47:"http://www.everythingsoundslikecoldplaynow.com/";s:11:"description";s:88:"Mitch Benn and the Distractions sounds like Coldplay, like everything else these days...";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-31T10:12:54Z";s:7:"subject";s:26:"funny music sidedish video";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
   ";s:10:"topics_bag";s:5:"
     ";}s:10:"topics_bag";s:18:"
     
     
     
   ";s:6:"topics";s:1:"
-";s:7:"summary";s:88:"Mitch Benn and the Distractions sounds like Coldplay, like everything else these days...";s:14:"date_timestamp";i:1138702320;}i:16;a:10:{s:5:"about";s:67:"http://ccmixterblog.blogspot.com/2006/01/playlist-by-gurdonark.html";s:5:"title";s:35:"ccMixterblog: Playlist by Gurdonark";s:4:"link";s:67:"http://ccmixterblog.blogspot.com/2006/01/playlist-by-gurdonark.html";s:11:"description";s:51:"Weekly playlist, of music from ccMixter, very nice!";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-31T09:47:04Z";s:7:"subject";s:31:"cc ccmixter free music sidedish";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+";s:7:"summary";s:88:"Mitch Benn and the Distractions sounds like Coldplay, like everything else these days...";s:14:"date_timestamp";i:1138702320;}i:19;a:10:{s:5:"about";s:67:"http://ccmixterblog.blogspot.com/2006/01/playlist-by-gurdonark.html";s:5:"title";s:35:"ccMixterblog: Playlist by Gurdonark";s:4:"link";s:67:"http://ccmixterblog.blogspot.com/2006/01/playlist-by-gurdonark.html";s:11:"description";s:51:"Weekly playlist, of music from ccMixter, very nice!";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-31T09:47:04Z";s:7:"subject";s:31:"cc ccmixter free music sidedish";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
   ";s:10:"topics_bag";s:5:"
     ";}s:10:"topics_bag";s:23:"
     
@@ -128,7 +150,7 @@ Scott Adams, father of the Dilbert comic strip, recently had the misfortune to s
     
     
   ";s:6:"topics";s:1:"
-";s:7:"summary";s:51:"Weekly playlist, of music from ccMixter, very nice!";s:14:"date_timestamp";i:1138700820;}i:17;a:8:{s:5:"about";s:66:"http://erraticwisdom.com/2006/01/18/5-tips-for-organizing-your-css";s:5:"title";s:46:"Erratic Wisdom: 5 Tips for Organizing Your CSS";s:4:"link";s:66:"http://erraticwisdom.com/2006/01/18/5-tips-for-organizing-your-css";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-29T17:55:02Z";s:7:"subject";s:61:"css design organization reference sidedish tips web webdesign";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+";s:7:"summary";s:51:"Weekly playlist, of music from ccMixter, very nice!";s:14:"date_timestamp";i:1138700820;}i:20;a:8:{s:5:"about";s:66:"http://erraticwisdom.com/2006/01/18/5-tips-for-organizing-your-css";s:5:"title";s:46:"Erratic Wisdom: 5 Tips for Organizing Your CSS";s:4:"link";s:66:"http://erraticwisdom.com/2006/01/18/5-tips-for-organizing-your-css";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-29T17:55:02Z";s:7:"subject";s:61:"css design organization reference sidedish tips web webdesign";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
   ";s:10:"topics_bag";s:5:"
     ";}s:10:"topics_bag";s:38:"
     
@@ -139,7 +161,7 @@ Scott Adams, father of the Dilbert comic strip, recently had the misfortune to s
     
     
   ";s:6:"topics";s:1:"
-";s:14:"date_timestamp";i:1138557300;}i:18;a:10:{s:5:"about";s:23:"http://www.4q.cc/chuck/";s:5:"title";s:24:"Random Chuck Norris Fact";s:4:"link";s:23:"http://www.4q.cc/chuck/";s:11:"description";s:75:"For each refresh, you get a random fact about our good friend Chuck Norris.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-16T10:41:34Z";s:7:"subject";s:56:"chuck chucknorris fun funny humor norris random sidedish";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+";s:14:"date_timestamp";i:1138557300;}i:21;a:10:{s:5:"about";s:23:"http://www.4q.cc/chuck/";s:5:"title";s:24:"Random Chuck Norris Fact";s:4:"link";s:23:"http://www.4q.cc/chuck/";s:11:"description";s:75:"For each refresh, you get a random fact about our good friend Chuck Norris.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-16T10:41:34Z";s:7:"subject";s:56:"chuck chucknorris fun funny humor norris random sidedish";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
   ";s:10:"topics_bag";s:5:"
     ";}s:10:"topics_bag";s:38:"
     
@@ -150,7 +172,7 @@ Scott Adams, father of the Dilbert comic strip, recently had the misfortune to s
     
     
   ";s:6:"topics";s:1:"
-";s:7:"summary";s:75:"For each refresh, you get a random fact about our good friend Chuck Norris.";s:14:"date_timestamp";i:1137408060;}i:19;a:10:{s:5:"about";s:23:"http://www.pandora.com/";s:5:"title";s:7:"Pandora";s:4:"link";s:23:"http://www.pandora.com/";s:11:"description";s:255:"Can you help me discover more music that I'll like? Those questions often evolved into great conversations. Each friend told us their favorite artists and songs, explored the music we suggested, gave us feedback, and we in turn made new suggestions. Every";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-10T10:29:37Z";s:7:"subject";s:51:"mp3 music radio recommendations sidedish social web";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+";s:7:"summary";s:75:"For each refresh, you get a random fact about our good friend Chuck Norris.";s:14:"date_timestamp";i:1137408060;}i:22;a:10:{s:5:"about";s:23:"http://www.pandora.com/";s:5:"title";s:7:"Pandora";s:4:"link";s:23:"http://www.pandora.com/";s:11:"description";s:255:"Can you help me discover more music that I'll like? Those questions often evolved into great conversations. Each friend told us their favorite artists and songs, explored the music we suggested, gave us feedback, and we in turn made new suggestions. Every";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-10T10:29:37Z";s:7:"subject";s:51:"mp3 music radio recommendations sidedish social web";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
   ";s:10:"topics_bag";s:5:"
     ";}s:10:"topics_bag";s:33:"
     
@@ -160,7 +182,7 @@ Scott Adams, father of the Dilbert comic strip, recently had the misfortune to s
     
     
   ";s:6:"topics";s:1:"
-";s:7:"summary";s:255:"Can you help me discover more music that I'll like? Those questions often evolved into great conversations. Each friend told us their favorite artists and songs, explored the music we suggested, gave us feedback, and we in turn made new suggestions. Every";s:14:"date_timestamp";i:1136888940;}i:20;a:10:{s:5:"about";s:34:"http://blogs.zdnet.com/Apple/?p=67";s:5:"title";s:51:"Top 10 things Apple could announce at Macworld Expo";s:4:"link";s:34:"http://blogs.zdnet.com/Apple/?p=67";s:11:"description";s:157:"It's that time of year again, time to dust off the crystal ball and prognosticate about what Apple has in store for us at the big January love-in at Moscone.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-06T15:24:51Z";s:7:"subject";s:53:"apple ipod itunes mac macworld osx powerbook sidedish";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+";s:7:"summary";s:255:"Can you help me discover more music that I'll like? Those questions often evolved into great conversations. Each friend told us their favorite artists and songs, explored the music we suggested, gave us feedback, and we in turn made new suggestions. Every";s:14:"date_timestamp";i:1136888940;}i:23;a:10:{s:5:"about";s:34:"http://blogs.zdnet.com/Apple/?p=67";s:5:"title";s:51:"Top 10 things Apple could announce at Macworld Expo";s:4:"link";s:34:"http://blogs.zdnet.com/Apple/?p=67";s:11:"description";s:157:"It's that time of year again, time to dust off the crystal ball and prognosticate about what Apple has in store for us at the big January love-in at Moscone.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-06T15:24:51Z";s:7:"subject";s:53:"apple ipod itunes mac macworld osx powerbook sidedish";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
   ";s:10:"topics_bag";s:5:"
     ";}s:10:"topics_bag";s:38:"
     
@@ -171,13 +193,13 @@ Scott Adams, father of the Dilbert comic strip, recently had the misfortune to s
     
     
   ";s:6:"topics";s:1:"
-";s:7:"summary";s:157:"It's that time of year again, time to dust off the crystal ball and prognosticate about what Apple has in store for us at the big January love-in at Moscone.";s:14:"date_timestamp";i:1136561040;}i:21;a:10:{s:5:"about";s:59:"http://www.eneaies.com/satira/bush_dressup/bush_dressup.htm";s:5:"title";s:18:"Be a Bush Stylist!";s:4:"link";s:59:"http://www.eneaies.com/satira/bush_dressup/bush_dressup.htm";s:11:"description";s:22:"Dress up George W Bush";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-06T14:57:42Z";s:7:"subject";s:17:"bush fun sidedish";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+";s:7:"summary";s:157:"It's that time of year again, time to dust off the crystal ball and prognosticate about what Apple has in store for us at the big January love-in at Moscone.";s:14:"date_timestamp";i:1136561040;}i:24;a:10:{s:5:"about";s:59:"http://www.eneaies.com/satira/bush_dressup/bush_dressup.htm";s:5:"title";s:18:"Be a Bush Stylist!";s:4:"link";s:59:"http://www.eneaies.com/satira/bush_dressup/bush_dressup.htm";s:11:"description";s:22:"Dress up George W Bush";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-06T14:57:42Z";s:7:"subject";s:17:"bush fun sidedish";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
   ";s:10:"topics_bag";s:5:"
     ";}s:10:"topics_bag";s:13:"
     
     
   ";s:6:"topics";s:1:"
-";s:7:"summary";s:22:"Dress up George W Bush";s:14:"date_timestamp";i:1136559420;}i:22;a:10:{s:5:"about";s:46:"http://www.youtube.com/watch.php?v=zLElfJ9YCh0";s:5:"title";s:41:"YouTube - SNL - The Chronic of Narnia Rap";s:4:"link";s:46:"http://www.youtube.com/watch.php?v=zLElfJ9YCh0";s:11:"description";s:30:"SNL is back on its feet again.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-06T11:34:07Z";s:7:"subject";s:53:"Music comedy funny hiphop humor sidedish snl tv video";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+";s:7:"summary";s:22:"Dress up George W Bush";s:14:"date_timestamp";i:1136559420;}i:25;a:10:{s:5:"about";s:46:"http://www.youtube.com/watch.php?v=zLElfJ9YCh0";s:5:"title";s:41:"YouTube - SNL - The Chronic of Narnia Rap";s:4:"link";s:46:"http://www.youtube.com/watch.php?v=zLElfJ9YCh0";s:11:"description";s:30:"SNL is back on its feet again.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-06T11:34:07Z";s:7:"subject";s:53:"Music comedy funny hiphop humor sidedish snl tv video";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
   ";s:10:"topics_bag";s:5:"
     ";}s:10:"topics_bag";s:43:"
     
@@ -189,7 +211,7 @@ Scott Adams, father of the Dilbert comic strip, recently had the misfortune to s
     
     
   ";s:6:"topics";s:1:"
-";s:7:"summary";s:30:"SNL is back on its feet again.";s:14:"date_timestamp";i:1136547240;}i:23;a:10:{s:5:"about";s:41:"http://www.mackers.com/projects/dartmaps/";s:5:"title";s:8:"DARTmaps";s:4:"link";s:41:"http://www.mackers.com/projects/dartmaps/";s:11:"description";s:81:"Google Maps mashup with cute little trains showing their position on a Dublin map";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-04T13:48:56Z";s:7:"subject";s:71:"dart dublin geek gmaps google googlemaps ireland maps realtime sidedish";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+";s:7:"summary";s:30:"SNL is back on its feet again.";s:14:"date_timestamp";i:1136547240;}i:26;a:10:{s:5:"about";s:41:"http://www.mackers.com/projects/dartmaps/";s:5:"title";s:8:"DARTmaps";s:4:"link";s:41:"http://www.mackers.com/projects/dartmaps/";s:11:"description";s:81:"Google Maps mashup with cute little trains showing their position on a Dublin map";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-04T13:48:56Z";s:7:"subject";s:71:"dart dublin geek gmaps google googlemaps ireland maps realtime sidedish";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
   ";s:10:"topics_bag";s:5:"
     ";}s:10:"topics_bag";s:48:"
     
@@ -202,7 +224,7 @@ Scott Adams, father of the Dilbert comic strip, recently had the misfortune to s
     
     
   ";s:6:"topics";s:1:"
-";s:7:"summary";s:81:"Google Maps mashup with cute little trains showing their position on a Dublin map";s:14:"date_timestamp";i:1136382480;}i:24;a:10:{s:5:"about";s:53:"http://blog.23hq.com/articles/2005/12/22/pimp-my-site";s:5:"title";s:19:"23: Pimp my site...";s:4:"link";s:53:"http://blog.23hq.com/articles/2005/12/22/pimp-my-site";s:11:"description";s:123:"Basically, 23 doesn't do anything now that it didn't do before, but a lot of ajaxing makes a lot of actions a lot smoother:";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2005-12-22T23:30:18Z";s:7:"subject";s:38:"23 ajax images picture sidedish web2.0";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+";s:7:"summary";s:81:"Google Maps mashup with cute little trains showing their position on a Dublin map";s:14:"date_timestamp";i:1136382480;}i:27;a:10:{s:5:"about";s:53:"http://blog.23hq.com/articles/2005/12/22/pimp-my-site";s:5:"title";s:19:"23: Pimp my site...";s:4:"link";s:53:"http://blog.23hq.com/articles/2005/12/22/pimp-my-site";s:11:"description";s:123:"Basically, 23 doesn't do anything now that it didn't do before, but a lot of ajaxing makes a lot of actions a lot smoother:";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2005-12-22T23:30:18Z";s:7:"subject";s:38:"23 ajax images picture sidedish web2.0";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
   ";s:10:"topics_bag";s:5:"
     ";}s:10:"topics_bag";s:28:"
     
@@ -211,7 +233,7 @@ Scott Adams, father of the Dilbert comic strip, recently had the misfortune to s
     
     
   ";s:6:"topics";s:1:"
-";s:7:"summary";s:123:"Basically, 23 doesn't do anything now that it didn't do before, but a lot of ajaxing makes a lot of actions a lot smoother:";s:14:"date_timestamp";i:1135294200;}i:25;a:10:{s:5:"about";s:97:"http://www.microsoft.com/mac/products/internetexplorer/internetexplorer.aspx?pid=internetexplorer";s:5:"title";s:42:"Internet Explorer 5 for Mac is outta here!";s:4:"link";s:97:"http://www.microsoft.com/mac/products/internetexplorer/internetexplorer.aspx?pid=internetexplorer";s:11:"description";s:160:"Microsoft has announced that they will cease all support for IE/Mac as of December 31, 2005 and will cease all distribution of the software on January 31, 2006.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2005-12-20T14:28:02Z";s:7:"subject";s:53:"browser ie mac macosx microsoft osx sidedish software";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+";s:7:"summary";s:123:"Basically, 23 doesn't do anything now that it didn't do before, but a lot of ajaxing makes a lot of actions a lot smoother:";s:14:"date_timestamp";i:1135294200;}i:28;a:10:{s:5:"about";s:97:"http://www.microsoft.com/mac/products/internetexplorer/internetexplorer.aspx?pid=internetexplorer";s:5:"title";s:42:"Internet Explorer 5 for Mac is outta here!";s:4:"link";s:97:"http://www.microsoft.com/mac/products/internetexplorer/internetexplorer.aspx?pid=internetexplorer";s:11:"description";s:160:"Microsoft has announced that they will cease all support for IE/Mac as of December 31, 2005 and will cease all distribution of the software on January 31, 2006.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2005-12-20T14:28:02Z";s:7:"subject";s:53:"browser ie mac macosx microsoft osx sidedish software";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
   ";s:10:"topics_bag";s:5:"
     ";}s:10:"topics_bag";s:38:"
     
@@ -222,7 +244,7 @@ Scott Adams, father of the Dilbert comic strip, recently had the misfortune to s
     
     
   ";s:6:"topics";s:1:"
-";s:7:"summary";s:160:"Microsoft has announced that they will cease all support for IE/Mac as of December 31, 2005 and will cease all distribution of the software on January 31, 2006.";s:14:"date_timestamp";i:1135088880;}i:26;a:10:{s:5:"about";s:36:"http://www.50footwave.com/freemusic/";s:5:"title";s:25:"50 Foot Wave - Free Music";s:4:"link";s:36:"http://www.50footwave.com/freemusic/";s:11:"description";s:235:"50 Foot Wave, the excellent rock group fronted by Kristin Hersh of seminal post-punkers Throwing Muses has announced that its new EP, Free Music is available for -- you guessed it -- free under a Creative Commons Music Sharing License.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2005-12-18T16:39:11Z";s:7:"subject";s:44:"creativecommons download free music sidedish";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+";s:7:"summary";s:160:"Microsoft has announced that they will cease all support for IE/Mac as of December 31, 2005 and will cease all distribution of the software on January 31, 2006.";s:14:"date_timestamp";i:1135088880;}i:29;a:10:{s:5:"about";s:36:"http://www.50footwave.com/freemusic/";s:5:"title";s:25:"50 Foot Wave - Free Music";s:4:"link";s:36:"http://www.50footwave.com/freemusic/";s:11:"description";s:235:"50 Foot Wave, the excellent rock group fronted by Kristin Hersh of seminal post-punkers Throwing Muses has announced that its new EP, Free Music is available for -- you guessed it -- free under a Creative Commons Music Sharing License.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2005-12-18T16:39:11Z";s:7:"subject";s:44:"creativecommons download free music sidedish";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
   ";s:10:"topics_bag";s:5:"
     ";}s:10:"topics_bag";s:23:"
     
@@ -230,7 +252,7 @@ Scott Adams, father of the Dilbert comic strip, recently had the misfortune to s
     
     
   ";s:6:"topics";s:1:"
-";s:7:"summary";s:235:"50 Foot Wave, the excellent rock group fronted by Kristin Hersh of seminal post-punkers Throwing Muses has announced that its new EP, Free Music is available for -- you guessed it -- free under a Creative Commons Music Sharing License.";s:14:"date_timestamp";i:1134923940;}i:27;a:10:{s:5:"about";s:62:"http://www.timesonline.co.uk/article/0,,1060-1700541_1,00.html";s:5:"title";s:57:"Harry Potter and the Compendium of Utterly Useless Trivia";s:4:"link";s:62:"http://www.timesonline.co.uk/article/0,,1060-1700541_1,00.html";s:11:"description";s:72:"Here are a few statistics about J. K. Rowling you may not yet have read.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2005-12-18T14:12:12Z";s:7:"subject";s:52:"article fun harrypotter rowlings sidedish statistics";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+";s:7:"summary";s:235:"50 Foot Wave, the excellent rock group fronted by Kristin Hersh of seminal post-punkers Throwing Muses has announced that its new EP, Free Music is available for -- you guessed it -- free under a Creative Commons Music Sharing License.";s:14:"date_timestamp";i:1134923940;}i:30;a:10:{s:5:"about";s:62:"http://www.timesonline.co.uk/article/0,,1060-1700541_1,00.html";s:5:"title";s:57:"Harry Potter and the Compendium of Utterly Useless Trivia";s:4:"link";s:62:"http://www.timesonline.co.uk/article/0,,1060-1700541_1,00.html";s:11:"description";s:72:"Here are a few statistics about J. K. Rowling you may not yet have read.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2005-12-18T14:12:12Z";s:7:"subject";s:52:"article fun harrypotter rowlings sidedish statistics";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
   ";s:10:"topics_bag";s:5:"
     ";}s:10:"topics_bag";s:28:"
     
@@ -239,38 +261,7 @@ Scott Adams, father of the Dilbert comic strip, recently had the misfortune to s
     
     
   ";s:6:"topics";s:1:"
-";s:7:"summary";s:72:"Here are a few statistics about J. K. Rowling you may not yet have read.";s:14:"date_timestamp";i:1134915120;}i:28;a:10:{s:5:"about";s:139:"http://today.reuters.com/news/newsArticle.aspx?type=internetNews&storyID=2005-12-12T051918Z_01_FOR219060_RTRUKOC_0_US-MEDIA-YAHOO-BLOGS.xml";s:5:"title";s:38:"Yahoo offers Movable Type for bloggers";s:4:"link";s:139:"http://today.reuters.com/news/newsArticle.aspx?type=internetNews&storyID=2005-12-12T051918Z_01_FOR219060_RTRUKOC_0_US-MEDIA-YAHOO-BLOGS.xml";s:11:"description";s:249:"The partnership is the latest in a string of deals by the world's largest Internet media company as it seeks to embrace so-called "social media," the new generation of Web sites that encourage Internet users to share written text, photos and videos.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2005-12-12T12:44:00Z";s:7:"subject";s:49:"article blogging business news seo sidedish yahoo";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
-  ";s:10:"topics_bag";s:5:"
-    ";}s:10:"topics_bag";s:33:"
-    
-    
-    
-    
-    
-    
-  ";s:6:"topics";s:1:"
-";s:7:"summary";s:249:"The partnership is the latest in a string of deals by the world's largest Internet media company as it seeks to embrace so-called "social media," the new generation of Web sites that encourage Internet users to share written text, photos and videos.";s:14:"date_timestamp";i:1134391440;}i:29;a:10:{s:5:"about";s:65:"http://www.pingmag.jp/2005/12/09/the-website-development-process/";s:5:"title";s:65:"The Website Development Process as illustrated by plastic figures";s:4:"link";s:65:"http://www.pingmag.jp/2005/12/09/the-website-development-process/";s:11:"description";s:207:"The photo was actually one in a whole series of photos I shot for a client presentation, detailing the website design / development process in a manner that was easily understandable and also fun to look at.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2005-12-11T20:19:29Z";s:7:"subject";s:40:"design fun sidedish web webdesign webdev";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
-  ";s:10:"topics_bag";s:5:"
-    ";}s:10:"topics_bag";s:28:"
-    
-    
-    
-    
-    
-  ";s:6:"topics";s:1:"
-";s:7:"summary";s:207:"The photo was actually one in a whole series of photos I shot for a client presentation, detailing the website design / development process in a manner that was easily understandable and also fun to look at.";s:14:"date_timestamp";i:1134332340;}i:30;a:10:{s:5:"about";s:57:"http://switch.richard5.net/isp-in-a-box-using-a-mac-mini/";s:5:"title";s:43:"Switching? » ISP in a box, using a Mac mini";s:4:"link";s:57:"http://switch.richard5.net/isp-in-a-box-using-a-mac-mini/";s:11:"description";s:192:"This is (it will be when finished) a complete installation and configuration guide for changing your Mac mini into a full blown internet connected server to be used for all your needs at home.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2005-12-11T13:07:27Z";s:7:"subject";s:56:"admin howto mac macmini osx server sidedish software web";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
-  ";s:10:"topics_bag";s:5:"
-    ";}s:10:"topics_bag";s:43:"
-    
-    
-    
-    
-    
-    
-    
-    
-  ";s:6:"topics";s:1:"
-";s:7:"summary";s:192:"This is (it will be when finished) a complete installation and configuration guide for changing your Mac mini into a full blown internet connected server to be used for all your needs at home.";s:14:"date_timestamp";i:1134306420;}}s:7:"channel";a:5:{s:5:"title";s:25:"del.icio.us/voss/sidedish";s:4:"link";s:32:"http://del.icio.us/voss/sidedish";s:5:"items";s:3:"
+";s:7:"summary";s:72:"Here are a few statistics about J. K. Rowling you may not yet have read.";s:14:"date_timestamp";i:1134915120;}}s:7:"channel";a:5:{s:5:"title";s:25:"del.icio.us/voss/sidedish";s:4:"link";s:32:"http://del.icio.us/voss/sidedish";s:5:"items";s:3:"
  
 ";s:9:"items_seq";s:95:"
   
@@ -304,6 +295,6 @@ Scott Adams, father of the Dilbert comic strip, recently had the misfortune to s
   
   
   
- ";s:7:"tagline";N;}s:9:"textinput";a:0:{}s:5:"image";a:0:{}s:9:"feed_type";s:3:"RSS";s:12:"feed_version";s:3:"1.0";s:8:"encoding";s:10:"ISO-8859-1";s:16:"_source_encoding";s:0:"";s:5:"ERROR";s:0:"";s:7:"WARNING";s:0:"";s:19:"_CONTENT_CONSTRUCTS";a:6:{i:0;s:7:"content";i:1;s:7:"summary";i:2;s:4:"info";i:3;s:5:"title";i:4;s:7:"tagline";i:5;s:9:"copyright";}s:16:"_KNOWN_ENCODINGS";a:3:{i:0;s:5:"UTF-8";i:1;s:8:"US-ASCII";i:2;s:10:"ISO-8859-1";}s:5:"stack";a:0:{}s:9:"inchannel";b:0;s:6:"initem";b:0;s:9:"incontent";b:0;s:11:"intextinput";b:0;s:7:"inimage";b:0;s:13:"current_field";s:0:"";s:17:"current_namespace";b:0;s:15:"source_encoding";s:5:"UTF-8";s:13:"last_modified";s:31:"Mon, 10 Apr 2006 20:26:32 GMT
-";s:4:"etag";s:22:"31313434373030373932
+ ";s:7:"tagline";N;}s:9:"textinput";a:0:{}s:5:"image";a:0:{}s:9:"feed_type";s:3:"RSS";s:12:"feed_version";s:3:"1.0";s:8:"encoding";s:10:"ISO-8859-1";s:16:"_source_encoding";s:0:"";s:5:"ERROR";s:0:"";s:7:"WARNING";s:0:"";s:19:"_CONTENT_CONSTRUCTS";a:6:{i:0;s:7:"content";i:1;s:7:"summary";i:2;s:4:"info";i:3;s:5:"title";i:4;s:7:"tagline";i:5;s:9:"copyright";}s:16:"_KNOWN_ENCODINGS";a:3:{i:0;s:5:"UTF-8";i:1;s:8:"US-ASCII";i:2;s:10:"ISO-8859-1";}s:5:"stack";a:0:{}s:9:"inchannel";b:0;s:6:"initem";b:0;s:9:"incontent";b:0;s:11:"intextinput";b:0;s:7:"inimage";b:0;s:13:"current_field";s:0:"";s:17:"current_namespace";b:0;s:15:"source_encoding";s:5:"UTF-8";s:13:"last_modified";s:31:"Wed, 19 Apr 2006 14:00:07 GMT
+";s:4:"etag";s:22:"31313435343535323037
 ";}

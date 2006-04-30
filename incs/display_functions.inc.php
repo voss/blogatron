@@ -339,5 +339,4 @@ function display_archive_months_edit()
 	print "</select>\n";
 }
 
-
 ?>
