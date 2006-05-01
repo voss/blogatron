@@ -220,6 +220,15 @@ h1.arkiv {
    margin-bottom: 5px;
 }
 
+.entry h3 {
+  font-size: 130%;
+  font-weight: normal;
+  font-family: georgia, serif;
+  padding-bottom: 0;
+  margin-bottom: 5px;
+  color: #366;
+}
+
 #entry p {
    padding: 0;
    margin-top: 2px;
@@ -542,7 +551,7 @@ table#flickr_badge_wrapper img {
 /* 23 styles */
 
 div#twentythree {
-  padding: 4px 35px;
+  padding: 4px 15px;
 }
 
 div#twentythree img {
