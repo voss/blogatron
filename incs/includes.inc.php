@@ -78,25 +78,19 @@ $comments_form =
 
 
 ## edit_menu
-if($_SESSION['aid'] == 1)
+
+$edit_menu = array
+(
+	'Nyt indlæg' => $install_path.'/add/',
+	'Indlægshåndtering' => $install_path.'/edit/',
+	'Se bloggen' => $install_path.'/',
+	'Logud' => $install_path.'/ae.php?action=logout',
+	'Tilføj bruger' => $install_path.'/adduser/'
+);
+
+if($_SESSION['aid'] != 1)
 {
-	$edit_menu = array
-	(
-		'Nyt indlæg' => $install_path.'/add/',
-		'Indlægshåndtering' => $install_path.'/edit/',
-		'Tilføj bruger' => $install_path.'/adduser/',
-		'Se bloggen' => $install_path.'/',
-		'Logud' => $install_path.'/ae.php?action=logout');
-}
-else
-{
-	$edit_menu = array
-	(
-		'Nyt indlæg' => $install_path.'/add/',
-		'Indlægshåndtering' => $install_path.'/edit/',
-		'Se bloggen' => $install_path.'/',
-		'Logud' => $install_path.'/ae.php?action=logout'
-	);
+	array_pop($edit_menu);
 }
 #$edit_menu = array_reverse($edit_menu);
 

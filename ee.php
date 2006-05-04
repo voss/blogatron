@@ -295,32 +295,34 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 </form>
 <?php
 				$sql2 = "select * from comments where eid = {$entryid}";
-				# print $sql2;
-	
+
 				if(!$result2 = @mysql_query($sql2)) 
 				{
 					print "<p>Error: ".mysql_error()."</p>";
 				}
 				else
 				{
-					print '<div style="padding:30px">';
-					print '<table class="table">';
-					print '<tr><th>Kommentar (slet ved at klik på titel)</th><th>Forfatter</th><th>Tid</th></tr>';
-					$row_count = 0;
-					$class1 = 'dark';
-					$class2 = 'light';
-					while(false !== ($row2 = @mysql_fetch_array($result2)))
+					if(@mysql_num_rows($result2) > 0)
 					{
-						extract($row2);
-						$row_color = ($row_count % 2) ? $class1 : $class2;
-						print '<tr class="'.$row_color.'">';
-						print '<td><a href='.$install_path.'/ee.php?delete_comment='.$c_id.' onclick=\'if(checkDeleteC() == true) {return true;} else {return false;}\'>'.$c_text.'</a></td>';
-						$c_date = date("G:i || d.m || Y", $date);
-						print '<td>'.$c_author.' ('.$c_email.')</td>';
-						print '<td>'.$c_date.'</td>';
-						print '</tr>';
+						print '<div style="padding:30px;">';
+						print '<table class="table">';
+						print '<tr><th>Kommentar (slet ved at klik på titel)</th><th>Forfatter</th><th>Tid</th></tr>';
+						$row_count = 0;
+						$class1 = 'dark';
+						$class2 = 'light';
+						while(false !== ($row2 = @mysql_fetch_array($result2)))
+						{
+							extract($row2);
+							$row_color = ($row_count % 2) ? $class1 : $class2;
+							print '<tr class="'.$row_color.'">';
+							print '<td class="editcomments"><a href='.$install_path.'/ee.php?delete_comment='.$c_id.' onclick=\'if(checkDeleteC() == true) {return true;} else {return false;}\'>'.$c_text.'</a></td>';
+							$c_date = date("G:i || d.m || Y", $date);
+							print '<td>'.$c_author.' ('.$c_email.')</td>';
+							print '<td>'.$c_date.'</td>';
+							print '</tr>';
+						}
+						print '</table></div>';
 					}
-					print '</table></div>';
 				}
 			}
 		}
@@ -367,7 +369,6 @@ else
 
 	}
 ?>
-</div>
 </div>
 </body>
 </html>

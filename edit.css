@@ -1,6 +1,3 @@
-/*<group=basic layout elements>*/
-
-
 /*
 --------------------------
 	BODY
@@ -22,7 +19,6 @@ body {
 	LOGIN
 --------------------------
 */
-
 
 #loginwrapper {
 	width: 350px;
@@ -93,7 +89,7 @@ div#content {
 #top {
 	padding: 20px;
 	background-color: #036;
-	border-bottom: 1px dotted #900;
+	border-bottom: 1px solid #e7e7e7;
 }
 
 #top p {
@@ -134,7 +130,7 @@ h1, h2, h3 {
 	voice-family: "\"}\"";
 	font-size: medium;
 }
-	
+
 /*</group>*/
 
 /*<group=tables>*/
@@ -144,7 +140,6 @@ table.table {
     border-spacing:0;
     font-size:11px;
     border: 1px solid #a5a5a5;
-
     width: 100%;
 }
 
@@ -155,25 +150,29 @@ table.table tr:hover td {
 }
 
 table.table th {
-   padding:0.5ex 2em;
-   background-color:#e2e2e2;
-   border-bottom: 1px solid #a5a5a5;
+	padding:0.5ex 2em;
+	background-color:#e2e2e2;
+	border-bottom: 1px solid #a5a5a5;
 	text-align: center;
 }
 
 table.table td {
-   border-top: 1px solid #e2e2e2;
+	border-top: 1px solid #e2e2e2;
 	text-align: center;
 }
 
+table.table td.editcomments {
+	text-align: left;
+}
+
 table.table tr.dark {
-   background-color:#eee;
+	background-color:#eee;
 	text-align: center;
 }
 
 table.table tr.light {
-   background-color:white;
-	text-align: center;
+	background-color:white;
+	text-align: left;
 }
 
 tr.header {
@@ -182,7 +181,7 @@ tr.header {
 }
 
 tr.header td {
-	text-align: center;
+	text-align: left;
 	font-weight: bold;
 	font-size: medium;
 }
@@ -216,29 +215,6 @@ table.table a:hover {
 /*	border-bottom: 1px dotted #999; */
 	text-decoration: none;
 }
-
-/*</group>*/
-
-/*<group=wrapper>*/
-
-/*div#wrapper table, div#wrapper tr {
-
-}
-
-div#wrapper table tr td {
-	padding-left: 0px;
-	padding-right: 0px;
-}
-
-a:link {
-	color: #000;
-	text-decoration: none;
-
-	background: inherit;
-}
-
-*/
-
 	
 /*</group>*/
 
@@ -300,17 +276,18 @@ div#inputform #submitpost {
 /*	display: inline; */
 	background-color: #E7D59F;
 	color: #000;
-	line-height: 1.5em;
+	line-height: 1.8em;
 	font-size:small;
 }
 
-#mlist ul li a, #mlist ul li a:link {
+#mlist ul li a {
 /*	padding: 0.2em 1em; */
 	background-color: #E7D59F;
 	color: #000;
 	text-decoration: none;
-	width: 100%;
+	width: 98%;
 	display:block;
+	padding-left: 3px;
 /*	float: right; */
 }
 
@@ -319,8 +296,8 @@ div#inputform #submitpost {
 }
 
 #mlist ul li a:hover {
-	background-color: #ddc;
-	color: #000;
+	background-color: #036;
+	color: #fc0;
 }
 
 form#adduser label {
