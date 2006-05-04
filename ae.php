@@ -37,17 +37,22 @@ if(isset($_POST['submit']))
 
 print_header(". {$blog_title} | Post et indlæg .", "edit.css", $domain_name, $description, $key_words, $dc_title, $install_path);
 ?>
-<div id="wrapper">
+<div id="container">
 <div id="top">
-<p style="float: right;">Bruger: <?=$_SESSION['aname'];?></p>
-<h1 style="color: white;">Administration af <?=stripslashes($blog_title);?> på http://<?=$domain_name.$install_path;?>/</h1>
+	<p style="float: right;">Bruger: <?=$_SESSION['aname'];?></p>
+	<h1>Administration af <?=stripslashes($blog_title);?> på http://<?=$domain_name.$install_path;?>/</h1>
 </div>
+<div id="leftbar">
 <div id="mlist">
 <?php
 	print_ulist($edit_menu);
 ?>
 </div>
-<div id="add">
+<?php
+	display_archive_months_edit();
+?>
+</div>
+<div id="content">
 <?php
 	# Error handling on non-valid form:
 	$success = (isset($_POST['submit']) && $success == false) ? '<p class="redalert">Alle felter skal udfyldes.</p>' : ''; 

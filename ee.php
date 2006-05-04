@@ -72,7 +72,8 @@ print_header(". {$blog_title} | Ret et indlæg .", "edit.css", $domain_name, $des
 ?>
 <div id="container">
 <div id="top">
-	<h1>admin for <?=$blog_title?> at <?=$domain_name?></h1>
+	<p style="float: right;">Bruger: <?=$_SESSION['aname'];?></p>
+	<h1>Administration af <?=stripslashes($blog_title);?> på http://<?=$domain_name.$install_path;?>/</h1>
 </div>
 <div id="leftbar">
 <div id="mlist">
@@ -188,7 +189,7 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 			<option value="0">Kladde</option>
 			<option selected="selected" value="1">Postet</option>
 		<?php endif; ?>
-		</select><br /><br />
+		</select>
 		<input tabindex="6" type="submit" name="submit" value="Publicér" id="submitpost" />
 
        <?php
@@ -291,7 +292,7 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 		<label>Udvidet tekst:</label><br />
 		<textarea tabindex="3" cols="55" rows="15" name="text_more" style="width: 65%"><?=stripslashes($text_more);?></textarea>
 		</p>
-
+	</div>
 </form>
 <?php
 				$sql2 = "select * from comments where eid = {$entryid}";

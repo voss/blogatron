@@ -79,6 +79,8 @@ div#leftbar {
 div#content {
 	float:left;
 	width: 80%;
+	margin-left: 15px;
+	background: white;
 }
 
 #top, #top h1, #top p {
