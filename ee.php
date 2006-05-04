@@ -150,7 +150,7 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 ?>
 
 <form action="<?=$install_path;?>/ee.php" method="post" id="edit">
-	<div style="margin: 0 20px 0 0;; padding: 0; border: 0">
+	<div style="padding: 20px; border: 0">
 		<h1>Ret et indlæg</h1>
 		<label>Titel:</label><br />
 		<input tabindex="1" type="text" name="title" size="25" value="<?=$title?>" /><br />
@@ -242,7 +242,7 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 	#		print $edit_menu;
 		?>
 <form action="<?=$install_path;?>/ee.php" method="post" id="edit">
-	<div style="margin: 0 20px 0 0; padding: 0; border: 0">
+	<div style="padding: 20px; border: 0">
 		<h1>Ret et indlæg</h1>
 		<label>Titel:</label><br />
 		<input tabindex="1" type="text" name="title" size="25" value="<?=$title?>" /><br />
@@ -280,18 +280,18 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 			<option value="0">Kladde</option>
 			<option selected="selected" value="1">Postet</option>
 		<?php endif; ?>
-		</select><br /><br />
+		</select>
 	    <input tabindex="6" type="submit" name="submit" value="Publicér" id="submitpost" />
 		<input type="hidden" name="aid" value="<?=$_SESSION['aid'];?>" />
 	    <input type="hidden" name="entryid" value="<?=$entryid?>" />
-	    </div>
+		</div>
 		<p>
 		<label>Tekst:</label><br />
 		<textarea tabindex="2" cols="55" rows="10" name="text" style="width: 65%;"><?=stripslashes($text);?></textarea><br />
 		<label>Udvidet tekst:</label><br />
 		<textarea tabindex="3" cols="55" rows="15" name="text_more" style="width: 65%"><?=stripslashes($text_more);?></textarea>
 		</p>
-    </div>
+
 </form>
 <?php
 				$sql2 = "select * from comments where eid = {$entryid}";
