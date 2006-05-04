@@ -260,12 +260,10 @@ div#inputform {
 	width: 20%;
 }
 
-div#inputform textarea {
-	border: 1px solid black;
-}
 
-div#inputform #submitpost {
+input#submitpost {
 	width: 100%;
+	height: 20px;
 }
 
 #mlist ul {
