@@ -221,8 +221,8 @@ table.table a:hover {
 
 /*<group=wrapper>*/
 
-div#wrapper table, div#wrapper tr {
-/*	padding: 2px;*/
+/*div#wrapper table, div#wrapper tr {
+
 }
 
 div#wrapper table tr td {
@@ -233,11 +233,11 @@ div#wrapper table tr td {
 a:link {
 	color: #000;
 	text-decoration: none;
-/*	border-bottom: 1px solid #006; */
+
 	background: inherit;
 }
 
-
+*/
 
 	
 /*</group>*/
@@ -294,8 +294,6 @@ div#inputform #submitpost {
 	padding-left: 0;
 	margin-left: 0;
 	margin-top: 0;
-/*	background-color: #036; */
-	width: 100%;
 }
 
 #mlist ul li {
@@ -312,6 +310,7 @@ div#inputform #submitpost {
 	color: #000;
 	text-decoration: none;
 	width: 100%;
+	display:block;
 /*	float: right; */
 }
 

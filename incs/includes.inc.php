@@ -98,6 +98,8 @@ else
 		'Logud' => $install_path.'/ae.php?action=logout'
 	);
 }
-$edit_menu = array_reverse($edit_menu);
+#$edit_menu = array_reverse($edit_menu);
+
+# Flip the key->value pair to print the proper values in editmenu:
 $edit_menu = array_flip($edit_menu);
 ?>
