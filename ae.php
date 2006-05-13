@@ -71,7 +71,7 @@ print_header(". {$blog_title} | Post et indlæg .", "edit.css", $domain_name, $de
 			<option value="0">Kladde</option>
 			<option selected="selected" value="1">Postet</option>
 		</select>
-
+		<input tabindex="6" type="submit" name="submit" value="Publicér" id="submitpost" />
         <?php
         if($insert_result != false)
         {
