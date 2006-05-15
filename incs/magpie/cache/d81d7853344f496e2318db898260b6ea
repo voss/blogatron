@@ -1,209 +1,4 @@
-O:9:"magpierss":25:{s:6:"parser";i:0;s:12:"current_item";a:0:{}s:5:"items";a:31:{i:0;a:8:{s:5:"about";s:41:"http://www.dublinpubscene.com/index2.html";s:5:"title";s:54:"Dublin Pubs, The Definitive Guide - dublinpubscene.com";s:4:"link";s:41:"http://www.dublinpubscene.com/index2.html";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-02-16T17:40:17Z";s:7:"subject";s:24:"dublin entertainment pub";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
-  ";s:10:"topics_bag";s:5:"
-    ";}s:10:"topics_bag";s:13:"
-    
-    
-  ";s:6:"topics";s:1:"
-";s:14:"date_timestamp";i:1140111600;}i:1;a:8:{s:5:"about";s:35:"http://www.mattfacer.com/sounds.php";s:5:"title";s:98:"Matt Facer . com - sounds, mp3, wav, little britain, phoenix nights, alan partridge, effects, free";s:4:"link";s:35:"http://www.mattfacer.com/sounds.php";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-02-15T12:34:15Z";s:7:"subject";s:29:"humor littlebritain mp3 phone";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
-  ";s:10:"topics_bag";s:5:"
-    ";}s:10:"topics_bag";s:18:"
-    
-    
-    
-  ";s:6:"topics";s:1:"
-";s:14:"date_timestamp";i:1140006840;}i:2;a:8:{s:5:"about";s:38:"http://www.ole.kristensen.name/forside";s:5:"title";s:32:"ole.kristensen.name | front page";s:4:"link";s:38:"http://www.ole.kristensen.name/forside";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-02-15T09:47:02Z";s:7:"subject";s:4:"blog";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
-  ";s:10:"topics_bag";s:5:"
-    ";}s:10:"topics_bag";s:3:"
-  ";s:6:"topics";s:1:"
-";s:14:"date_timestamp";i:1139996820;}i:3;a:8:{s:5:"about";s:39:"http://dev.wp-plugins.org/wiki/WP-Cache";s:5:"title";s:45:"WP-Cache - WordPress Plugin Repository - Trac";s:4:"link";s:39:"http://dev.wp-plugins.org/wiki/WP-Cache";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-02-13T23:49:09Z";s:7:"subject";s:18:"wordpress wp-cache";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
-  ";s:10:"topics_bag";s:5:"
-    ";}s:10:"topics_bag";s:8:"
-    
-  ";s:6:"topics";s:1:"
-";s:14:"date_timestamp";i:1139874540;}i:4;a:8:{s:5:"about";s:28:"http://www.neuromatrice.net/";s:5:"title";s:11:"compile me*";s:4:"link";s:28:"http://www.neuromatrice.net/";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-02-10T12:04:51Z";s:7:"subject";s:3:"fun";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
-  ";s:10:"topics_bag";s:5:"
-    ";}s:10:"topics_bag";s:3:"
-  ";s:6:"topics";s:1:"
-";s:14:"date_timestamp";i:1139573040;}i:5;a:8:{s:5:"about";s:36:"http://parctalk.pbwiki.com/FrontPage";s:5:"title";s:30:"pbwiki :: parctalk | FrontPage";s:4:"link";s:36:"http://parctalk.pbwiki.com/FrontPage";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-02-10T08:08:42Z";s:7:"subject";s:4:"wiki";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
-  ";s:10:"topics_bag";s:5:"
-    ";}s:10:"topics_bag";s:3:"
-  ";s:6:"topics";s:1:"
-";s:14:"date_timestamp";i:1139558880;}i:6;a:8:{s:5:"about";s:46:"http://www.computerworld.dk/art/32622?a=fp&i=1";s:5:"title";s:61:"Computerworld - Danske websider i stor fare for Google-boykot";s:4:"link";s:46:"http://www.computerworld.dk/art/32622?a=fp&i=1";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-02-08T16:14:56Z";s:7:"subject";s:10:"google seo";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
-  ";s:10:"topics_bag";s:5:"
-    ";}s:10:"topics_bag";s:8:"
-    
-  ";s:6:"topics";s:1:"
-";s:14:"date_timestamp";i:1139415240;}i:7;a:8:{s:5:"about";s:50:"http://www.computerworld.dk/art/25932?a=block&i=22";s:5:"title";s:57:"Computerworld - SAS-hoteller sortlistet efter Google-fusk";s:4:"link";s:50:"http://www.computerworld.dk/art/25932?a=block&i=22";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-02-08T16:12:20Z";s:7:"subject";s:10:"google seo";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
-  ";s:10:"topics_bag";s:5:"
-    ";}s:10:"topics_bag";s:8:"
-    
-  ";s:6:"topics";s:1:"
-";s:14:"date_timestamp";i:1139415120;}i:8;a:10:{s:5:"about";s:146:"http://www.foreignaffairs.org/19931201faresponse5213/samuel-p-huntingoton/if-not-civilizations-what-samuel-huntington-responds-to-his-critics.html";s:5:"title";s:110:"Foreign Affairs - If Not Civilizations, What? Samuel Huntington Responds to His Critics - Samuel P. Huntington";s:4:"link";s:146:"http://www.foreignaffairs.org/19931201faresponse5213/samuel-p-huntingoton/if-not-civilizations-what-samuel-huntington-responds-to-his-critics.html";s:11:"description";s:188:"It's all very well to point to scattered events that the "civilizations" paradigm does not explain. But there is still no better framework with which to understand the post-Cold War world.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-02-08T01:30:31Z";s:7:"subject";s:40:"article politic politik samuelhuntington";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
-  ";s:10:"topics_bag";s:5:"
-    ";}s:10:"topics_bag";s:18:"
-    
-    
-    
-  ";s:6:"topics";s:1:"
-";s:7:"summary";s:188:"It's all very well to point to scattered events that the "civilizations" paradigm does not explain. But there is still no better framework with which to understand the post-Cold War world.";s:14:"date_timestamp";i:1139362200;}i:9;a:10:{s:5:"about";s:52:"http://www.alamut.com/subj/economics/misc/clash.html";s:5:"title";s:48:"Samuel P. Huntington: The Clash of Civilizations";s:4:"link";s:52:"http://www.alamut.com/subj/economics/misc/clash.html";s:11:"description";s:255:"World politics is entering a new phase, in which the great divisions among humankind and the dominating source of international conflict will be cultural. Civilizations-the highest cultural groupings of people-are differentiated from each other by religio";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-02-08T01:28:40Z";s:7:"subject";s:50:"academic article politics politik samuelhuntington";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
-  ";s:10:"topics_bag";s:5:"
-    ";}s:10:"topics_bag";s:23:"
-    
-    
-    
-    
-  ";s:6:"topics";s:1:"
-";s:7:"summary";s:255:"World politics is entering a new phase, in which the great divisions among humankind and the dominating source of international conflict will be cultural. Civilizations-the highest cultural groupings of people-are differentiated from each other by religio";s:14:"date_timestamp";i:1139362080;}i:10;a:10:{s:5:"about";s:57:"http://www.youtube.com/w/Tower?v=lX87AfsS7xI&search=tower";s:5:"title";s:35:"YouTube - The falling Tower of Pisa";s:4:"link";s:57:"http://www.youtube.com/w/Tower?v=lX87AfsS7xI&search=tower";s:11:"description";s:98:"Oh Brian, I don't know what to say... Interviewer tips over a world record achievement. Too funny.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-02-01T18:49:14Z";s:7:"subject";s:28:"funny sidedish video youtube";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
-  ";s:10:"topics_bag";s:5:"
-    ";}s:10:"topics_bag";s:18:"
-    
-    
-    
-  ";s:6:"topics";s:1:"
-";s:7:"summary";s:98:"Oh Brian, I don't know what to say... Interviewer tips over a world record achievement. Too funny.";s:14:"date_timestamp";i:1138819740;}i:11;a:10:{s:5:"about";s:56:"http://www.asktog.com/columns/069ScottAdamsMeltdown.html";s:5:"title";s:45:"The Scott Adams Meltdown: Anatomy of a Disast";s:4:"link";s:56:"http://www.asktog.com/columns/069ScottAdamsMeltdown.html";s:11:"description";s:251:"
-		
-
-Scott Adams, father of the Dilbert comic strip, recently had the misfortune to spend a number of hours editing comments for his blog only to have them disappear without a trace, much to his surprise, shortly after he published them. Veky wants to";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-02-01T11:07:40Z";s:7:"subject";s:27:"article design hci sidedish";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
-  ";s:10:"topics_bag";s:5:"
-    ";}s:10:"topics_bag";s:18:"
-    
-    
-    
-  ";s:6:"topics";s:1:"
-";s:7:"summary";s:251:"
-		
-
-Scott Adams, father of the Dilbert comic strip, recently had the misfortune to spend a number of hours editing comments for his blog only to have them disappear without a trace, much to his surprise, shortly after he published them. Veky wants to";s:14:"date_timestamp";i:1138792020;}i:12;a:8:{s:5:"about";s:44:"http://www.alistapart.com/articles/holygrail";s:5:"title";s:51:"A List Apart: Articles: In Search of the Holy Grail";s:4:"link";s:44:"http://www.alistapart.com/articles/holygrail";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-31T23:50:38Z";s:7:"subject";s:35:"3column article css howto webdesign";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
-  ";s:10:"topics_bag";s:5:"
-    ";}s:10:"topics_bag";s:23:"
-    
-    
-    
-    
-  ";s:6:"topics";s:1:"
-";s:14:"date_timestamp";i:1138751400;}i:13;a:10:{s:5:"about";s:47:"http://www.everythingsoundslikecoldplaynow.com/";s:5:"title";s:35:"Everything Sounds Like Coldplay Now";s:4:"link";s:47:"http://www.everythingsoundslikecoldplaynow.com/";s:11:"description";s:88:"Mitch Benn and the Distractions sounds like Coldplay, like everything else these days...";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-31T10:12:54Z";s:7:"subject";s:26:"funny music sidedish video";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
-  ";s:10:"topics_bag";s:5:"
-    ";}s:10:"topics_bag";s:18:"
-    
-    
-    
-  ";s:6:"topics";s:1:"
-";s:7:"summary";s:88:"Mitch Benn and the Distractions sounds like Coldplay, like everything else these days...";s:14:"date_timestamp";i:1138702320;}i:14;a:10:{s:5:"about";s:67:"http://ccmixterblog.blogspot.com/2006/01/playlist-by-gurdonark.html";s:5:"title";s:35:"ccMixterblog: Playlist by Gurdonark";s:4:"link";s:67:"http://ccmixterblog.blogspot.com/2006/01/playlist-by-gurdonark.html";s:11:"description";s:51:"Weekly playlist, of music from ccMixter, very nice!";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-31T09:47:04Z";s:7:"subject";s:31:"cc ccmixter free music sidedish";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
-  ";s:10:"topics_bag";s:5:"
-    ";}s:10:"topics_bag";s:23:"
-    
-    
-    
-    
-  ";s:6:"topics";s:1:"
-";s:7:"summary";s:51:"Weekly playlist, of music from ccMixter, very nice!";s:14:"date_timestamp";i:1138700820;}i:15;a:8:{s:5:"about";s:62:"http://www.boingboing.net/2006/01/30/script_to_replace_go.html";s:5:"title";s:64:"Boing Boing: Script to replace Google logo with Evil Google logo";s:4:"link";s:62:"http://www.boingboing.net/2006/01/30/script_to_replace_go.html";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-31T09:40:11Z";s:7:"subject";s:39:"firefox fun google greasemonkey hacking";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
-  ";s:10:"topics_bag";s:5:"
-    ";}s:10:"topics_bag";s:23:"
-    
-    
-    
-    
-  ";s:6:"topics";s:1:"
-";s:14:"date_timestamp";i:1138700400;}i:16;a:8:{s:5:"about";s:66:"http://erraticwisdom.com/2006/01/18/5-tips-for-organizing-your-css";s:5:"title";s:46:"Erratic Wisdom: 5 Tips for Organizing Your CSS";s:4:"link";s:66:"http://erraticwisdom.com/2006/01/18/5-tips-for-organizing-your-css";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-29T17:55:02Z";s:7:"subject";s:61:"css design organization reference sidedish tips web webdesign";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
-  ";s:10:"topics_bag";s:5:"
-    ";}s:10:"topics_bag";s:38:"
-    
-    
-    
-    
-    
-    
-    
-  ";s:6:"topics";s:1:"
-";s:14:"date_timestamp";i:1138557300;}i:17;a:8:{s:5:"about";s:30:"http://bennolan.com/behaviour/";s:5:"title";s:62:"Behaviour : Using CSS selectors to apply Javascript behaviours";s:4:"link";s:30:"http://bennolan.com/behaviour/";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-29T12:03:29Z";s:7:"subject";s:22:"ajax javascript webdev";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
-  ";s:10:"topics_bag";s:5:"
-    ";}s:10:"topics_bag";s:13:"
-    
-    
-  ";s:6:"topics";s:1:"
-";s:14:"date_timestamp";i:1138536180;}i:18;a:8:{s:5:"about";s:29:"http://gdisk.sourceforge.net/";s:5:"title";s:5:"gDisk";s:4:"link";s:29:"http://gdisk.sourceforge.net/";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-26T16:40:39Z";s:7:"subject";s:25:"gmail google osx software";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
-  ";s:10:"topics_bag";s:5:"
-    ";}s:10:"topics_bag";s:18:"
-    
-    
-    
-  ";s:6:"topics";s:1:"
-";s:14:"date_timestamp";i:1138293600;}i:19;a:8:{s:5:"about";s:53:"http://www.funshed.com/play/Little-Britain-Soundboard";s:5:"title";s:77:"Little Britain Soundboard // FunShed.com Games, Soundboards, Videos, Profiles";s:4:"link";s:53:"http://www.funshed.com/play/Little-Britain-Soundboard";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-26T12:04:22Z";s:7:"subject";s:17:"fun littlebritain";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
-  ";s:10:"topics_bag";s:5:"
-    ";}s:10:"topics_bag";s:8:"
-    
-  ";s:6:"topics";s:1:"
-";s:14:"date_timestamp";i:1138277040;}i:20;a:10:{s:5:"about";s:72:"http://www.webmaster-toolkit.com/mod_rewrite-rewriterule-generator.shtml";s:5:"title";s:54:"mod_rewrite rewriterule generator :: Webmaster Toolkit";s:4:"link";s:72:"http://www.webmaster-toolkit.com/mod_rewrite-rewriterule-generator.shtml";s:11:"description";s:191:"Our mod_rewrite RewriteRule generator will take a dynamic url given to it, and generate the correct syntax to place in a .htaccess file to allow the url to be rewritten in a spiderable format";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-25T00:58:56Z";s:7:"subject";s:33:"***** apache htaccess tool webdev";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
-  ";s:10:"topics_bag";s:5:"
-    ";}s:10:"topics_bag";s:23:"
-    
-    
-    
-    
-  ";s:6:"topics";s:1:"
-";s:7:"summary";s:191:"Our mod_rewrite RewriteRule generator will take a dynamic url given to it, and generate the correct syntax to place in a .htaccess file to allow the url to be rewritten in a spiderable format";s:14:"date_timestamp";i:1138150680;}i:21;a:8:{s:5:"about";s:60:"http://brainstormsandraves.com/archives/2005/10/09/htaccess/";s:5:"title";s:65:"Behind the Scenes with Apache's .htaccess - Brainstorms and Raves";s:4:"link";s:60:"http://brainstormsandraves.com/archives/2005/10/09/htaccess/";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-25T00:49:12Z";s:7:"subject";s:16:"*** apache howto";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
-  ";s:10:"topics_bag";s:5:"
-    ";}s:10:"topics_bag";s:13:"
-    
-    
-  ";s:6:"topics";s:1:"
-";s:14:"date_timestamp";i:1138150140;}i:22;a:10:{s:5:"about";s:25:"http://moinx.antbear.org/";s:5:"title";s:18:"MoinX for Mac OS X";s:4:"link";s:25:"http://moinx.antbear.org/";s:11:"description";s:255:"MoinX is a Mac OS X desktop Wiki, built with ease of use in mind and rich with features. MoinX gives you a full blown and unmodified MoinMoin wiki without forcing you to run a full blown web server. Instead MoinX is bundled with the high performance Twist";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-24T09:44:11Z";s:7:"subject";s:71:"***** apps cms free osx productivity python socialsoftware socsoft wiki";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
-  ";s:10:"topics_bag";s:5:"
-    ";}s:10:"topics_bag";s:48:"
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  ";s:6:"topics";s:1:"
-";s:7:"summary";s:255:"MoinX is a Mac OS X desktop Wiki, built with ease of use in mind and rich with features. MoinX gives you a full blown and unmodified MoinMoin wiki without forcing you to run a full blown web server. Instead MoinX is bundled with the high performance Twist";s:14:"date_timestamp";i:1138095840;}i:23;a:8:{s:5:"about";s:36:"http://diveintogreasemonkey.org/toc/";s:5:"title";s:20:"Greasmonkey tutorial";s:4:"link";s:36:"http://diveintogreasemonkey.org/toc/";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-23T09:09:41Z";s:7:"subject";s:79:"GreaseMonkey firefox hacking javascript programming reference tips tutorial web";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
-  ";s:10:"topics_bag";s:5:"
-    ";}s:10:"topics_bag";s:43:"
-    
-    
-    
-    
-    
-    
-    
-    
-  ";s:6:"topics";s:1:"
-";s:14:"date_timestamp";i:1138007340;}i:24;a:8:{s:5:"about";s:24:"http://mu.wordpress.org/";s:5:"title";s:19:"WordPress Multiuser";s:4:"link";s:24:"http://mu.wordpress.org/";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-23T00:06:51Z";s:7:"subject";s:15:"***** wordpress";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
-  ";s:10:"topics_bag";s:5:"
-    ";}s:10:"topics_bag";s:8:"
-    
-  ";s:6:"topics";s:1:"
-";s:14:"date_timestamp";i:1137974760;}i:25;a:8:{s:5:"about";s:35:"http://bhwblog.com/index.php/?p=391";s:5:"title";s:46:"Review: Wordpress 2.0 Movable Type Import Tool";s:4:"link";s:35:"http://bhwblog.com/index.php/?p=391";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-22T16:56:16Z";s:7:"subject";s:24:"import mt tool wordpress";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
-  ";s:10:"topics_bag";s:5:"
-    ";}s:10:"topics_bag";s:18:"
-    
-    
-    
-  ";s:6:"topics";s:1:"
-";s:14:"date_timestamp";i:1137948960;}i:26;a:10:{s:5:"about";s:40:"http://www.tamba2.org.uk/wordpress/move/";s:5:"title";s:30:"WordPress - Moving domain name";s:4:"link";s:40:"http://www.tamba2.org.uk/wordpress/move/";s:11:"description";s:9:"wordpress";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-22T16:35:52Z";s:7:"subject";s:5:"*****";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
-  ";s:10:"topics_bag";s:5:"
-    ";}s:10:"topics_bag";s:3:"
-  ";s:6:"topics";s:1:"
-";s:7:"summary";s:9:"wordpress";s:14:"date_timestamp";i:1137947700;}i:27;a:8:{s:5:"about";s:40:"http://wordpress.org/support/topic/27554";s:5:"title";s:46:"WordPress ? Current Author « WordPress Support";s:4:"link";s:40:"http://wordpress.org/support/topic/27554";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-22T13:06:11Z";s:7:"subject";s:9:"wordpress";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
-  ";s:10:"topics_bag";s:5:"
-    ";}s:10:"topics_bag";s:3:"
-  ";s:6:"topics";s:1:"
-";s:14:"date_timestamp";i:1137935160;}i:28;a:8:{s:5:"about";s:51:"http://www.lesterchan.net/portfolio/programming.php";s:5:"title";s:60:"// GaMerZ.HomePage.Version.2.0; It Is Not Just About Design;";s:4:"link";s:51:"http://www.lesterchan.net/portfolio/programming.php";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-22T12:11:05Z";s:7:"subject";s:9:"wordpress";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
-  ";s:10:"topics_bag";s:5:"
-    ";}s:10:"topics_bag";s:3:"
-  ";s:6:"topics";s:1:"
-";s:14:"date_timestamp";i:1137931860;}i:29;a:8:{s:5:"about";s:90:"http://www.dublinks.com/index.cfm/loc/12/pt/0/spid/6F1A922F-EACC-430E-88961AE660602DC2.htm";s:5:"title";s:35:"Ian Pooley plays Stereotonic at Wax";s:4:"link";s:90:"http://www.dublinks.com/index.cfm/loc/12/pt/0/spid/6F1A922F-EACC-430E-88961AE660602DC2.htm";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-19T11:28:59Z";s:7:"subject";s:27:"dublin ianpooley live music";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
-  ";s:10:"topics_bag";s:5:"
-    ";}s:10:"topics_bag";s:18:"
-    
-    
-    
-  ";s:6:"topics";s:1:"
-";s:14:"date_timestamp";i:1137670080;}i:30;a:8:{s:5:"about";s:65:"http://pod.ie/list_cdaddy.php?view_details=1&event_id=444&venue=3";s:5:"title";s:24:"Prince Paul at Crawdaddy";s:4:"link";s:65:"http://pod.ie/list_cdaddy.php?view_details=1&event_id=444&venue=3";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-01-19T11:27:27Z";s:7:"subject";s:47:"dublin hiphop live music princepaul stetsasonic";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+O:9:"magpierss":25:{s:6:"parser";i:0;s:12:"current_item";a:0:{}s:5:"items";a:31:{i:0;a:8:{s:5:"about";s:42:"http://www.arantius.com/tools/tabifier.php";s:5:"title";s:62:"Tools - Tabifier (HTML and CSS code beautifier) - Arantius.com";s:4:"link";s:42:"http://www.arantius.com/tools/tabifier.php";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-05-14T12:11:03Z";s:7:"subject";s:35:"code css html tool webdesign webdev";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
   ";s:10:"topics_bag";s:5:"
     ";}s:10:"topics_bag";s:28:"
     
@@ -212,7 +7,199 @@ Scott Adams, father of the Dilbert comic strip, recently had the misfortune to s
     
     
   ";s:6:"topics";s:1:"
-";s:14:"date_timestamp";i:1137670020;}}s:7:"channel";a:5:{s:5:"title";s:16:"del.icio.us/voss";s:4:"link";s:23:"http://del.icio.us/voss";s:5:"items";s:3:"
+";s:14:"date_timestamp";i:1147608660;}i:1;a:8:{s:5:"about";s:37:"http://www.djbc.net/mashes/summer.htm";s:5:"title";s:22:"dj BC: Summer Mash-Ups";s:4:"link";s:37:"http://www.djbc.net/mashes/summer.htm";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-05-10T21:48:31Z";s:7:"subject";s:12:"mashup music";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:8:"
+    
+  ";s:6:"topics";s:1:"
+";s:14:"date_timestamp";i:1147297680;}i:2;a:8:{s:5:"about";s:53:"http://ergo.human.cornell.edu/MBergo/schoolguide.html";s:5:"title";s:31:"CUErgo: School Ergonomics Guide";s:4:"link";s:53:"http://ergo.human.cornell.edu/MBergo/schoolguide.html";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-05-10T08:48:17Z";s:7:"subject";s:19:"ergonomics keyboard";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:8:"
+    
+  ";s:6:"topics";s:1:"
+";s:14:"date_timestamp";i:1147250880;}i:3;a:8:{s:5:"about";s:45:"http://www.at.artslink.co.za/~gerry/print.htm";s:5:"title";s:43:"PRINT-Everyday English and Slang in Ireland";s:4:"link";s:45:"http://www.at.artslink.co.za/~gerry/print.htm";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-05-09T09:10:48Z";s:7:"subject";s:22:"ireland language slang";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:13:"
+    
+    
+  ";s:6:"topics";s:1:"
+";s:14:"date_timestamp";i:1147165800;}i:4;a:8:{s:5:"about";s:102:"http://scpd.stanford.edu/scpd/students/Dam_ui/pages/ArchivedVideoList.asp?Include=engelbart_colloquium";s:5:"title";s:37:"SCPD - Enrolled Students - Video List";s:4:"link";s:102:"http://scpd.stanford.edu/scpd/students/Dam_ui/pages/ArchivedVideoList.asp?Include=engelbart_colloquium";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-05-09T00:03:58Z";s:7:"subject";s:29:"collaboration engelbart video";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:13:"
+    
+    
+  ";s:6:"topics";s:1:"
+";s:14:"date_timestamp";i:1147132980;}i:5;a:8:{s:5:"about";s:90:"http://www.bootstrap.org/augdocs/friedewald030402/augmentinghumanintellect/ahi62index.html";s:5:"title";s:44:"Engelbart: Augmenting Human Intellect (1962)";s:4:"link";s:90:"http://www.bootstrap.org/augdocs/friedewald030402/augmentinghumanintellect/ahi62index.html";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-05-08T23:58:45Z";s:7:"subject";s:33:"augment hci science technology ui";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:23:"
+    
+    
+    
+    
+  ";s:6:"topics";s:1:"
+";s:14:"date_timestamp";i:1147132680;}i:6;a:8:{s:5:"about";s:62:"http://www.theregister.co.uk/2006/05/04/google_bigdaddy_chaos/";s:5:"title";s:50:"Full-up Google choking on web spam? | The Register";s:4:"link";s:62:"http://www.theregister.co.uk/2006/05/04/google_bigdaddy_chaos/";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-05-08T01:12:19Z";s:7:"subject";s:15:"google seo spam";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:13:"
+    
+    
+  ";s:6:"topics";s:1:"
+";s:14:"date_timestamp";i:1147050720;}i:7;a:8:{s:5:"about";s:56:"http://www.sitepoint.com/article/ajax-screenreaders-work";s:5:"title";s:41:"AJAX and Screenreaders: When Can it Work?";s:4:"link";s:56:"http://www.sitepoint.com/article/ajax-screenreaders-work";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-05-05T01:02:59Z";s:7:"subject";s:49:"ajax blog javascript programming usability webdev";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:28:"
+    
+    
+    
+    
+    
+  ";s:6:"topics";s:1:"
+";s:14:"date_timestamp";i:1146790920;}i:8;a:10:{s:5:"about";s:56:"http://www.ufolandingsbaan.nl/website_UK/pages/home.html";s:5:"title";s:45:"Where in the world can a UFO land? In Houten!";s:4:"link";s:56:"http://www.ufolandingsbaan.nl/website_UK/pages/home.html";s:11:"description";s:109:"Houten. The story of an art piece to welcome the landing of alien spaceships. Proactive people them dutchies.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-05-05T00:48:33Z";s:7:"subject";s:18:"aliens art holland";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:13:"
+    
+    
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:109:"Houten. The story of an art piece to welcome the landing of alien spaceships. Proactive people them dutchies.";s:14:"date_timestamp";i:1146790080;}i:9;a:10:{s:5:"about";s:41:"http://www.indianpad.com/view.php?id=2599";s:5:"title";s:31:"IndianPad Viewer / Bullets Path";s:4:"link";s:41:"http://www.indianpad.com/view.php?id=2599";s:11:"description";s:61:"Bullets shot through various objects in super slowmo. Freaky.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-05-04T23:48:28Z";s:7:"subject";s:25:"ballistics sidedish video";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:13:"
+    
+    
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:61:"Bullets shot through various objects in super slowmo. Freaky.";s:14:"date_timestamp";i:1146786480;}i:10;a:8:{s:5:"about";s:75:"http://www.youtube.com/watch?v=SbY0Jh9_RJ8&feature=Discussed&page=1&t=t&f=b";s:5:"title";s:27:"YouTube - real life frogger";s:4:"link";s:75:"http://www.youtube.com/watch?v=SbY0Jh9_RJ8&feature=Discussed&page=1&t=t&f=b";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-05-04T10:32:22Z";s:7:"subject";s:5:"video";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:3:"
+  ";s:6:"topics";s:1:"
+";s:14:"date_timestamp";i:1146738720;}i:11;a:10:{s:5:"about";s:54:"http://www.iamas.ac.jp/~shosei05/iScratch/index-e.html";s:5:"title";s:8:"iScratch";s:4:"link";s:54:"http://www.iamas.ac.jp/~shosei05/iScratch/index-e.html";s:11:"description";s:113:"iScratch (beta) is the software which enables to scratch audio files like analog record using iPod's touch wheel.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-05-04T09:35:50Z";s:7:"subject";s:28:"diy hack ipod music sidedish";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:23:"
+    
+    
+    
+    
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:113:"iScratch (beta) is the software which enables to scratch audio files like analog record using iPod's touch wheel.";s:14:"date_timestamp";i:1146735300;}i:12;a:10:{s:5:"about";s:81:"http://www.youtube.com/watch?v=Nuj7DTrDOkk&search=united%20states%20of%20whatever";s:5:"title";s:48:"YouTube - Liam Lynch - United States of Whatever";s:4:"link";s:81:"http://www.youtube.com/watch?v=Nuj7DTrDOkk&search=united%20states%20of%20whatever";s:11:"description";s:30:"And I am just like... whatever";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-05-04T09:24:10Z";s:7:"subject";s:14:"music sidedish";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:8:"
+    
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:30:"And I am just like... whatever";s:14:"date_timestamp";i:1146734640;}i:13;a:10:{s:5:"about";s:29:"http://www.gwei.org/index.php";s:5:"title";s:29:"GWEI - Google Will Eat Itself";s:4:"link";s:29:"http://www.gwei.org/index.php";s:11:"description";s:80:"Bringing Google back to the people one click at a time [via http://klastrup.dk/]";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-05-03T21:55:36Z";s:7:"subject";s:44:"art culture google hack money sidedish stock";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:33:"
+    
+    
+    
+    
+    
+    
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:80:"Bringing Google back to the people one click at a time [via http://klastrup.dk/]";s:14:"date_timestamp";i:1146693300;}i:14;a:8:{s:5:"about";s:92:"http://www.bhphotovideo.com/bnh/controller/home?O=productlist&A=details&Q=&sku=347533&is=REG";s:5:"title";s:64:"Tamron 28-300mm f/3.5-6.3 XR Di LD Autofocus Lens for Nikon AF-D";s:4:"link";s:92:"http://www.bhphotovideo.com/bnh/controller/home?O=productlist&A=details&Q=&sku=347533&is=REG";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-05-02T08:32:49Z";s:7:"subject";s:42:"camera lens nicetohave nikon tamron to.buy";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:28:"
+    
+    
+    
+    
+    
+  ";s:6:"topics";s:1:"
+";s:14:"date_timestamp";i:1146558720;}i:15;a:10:{s:5:"about";s:36:"http://startour.dk/tui.aspx?id=23042";s:5:"title";s:26:"Google Earth med Star Tour";s:4:"link";s:36:"http://startour.dk/tui.aspx?id=23042";s:11:"description";s:88:"Star Tour har lavet et layer til Google Earth, så man kan se deres destinationer. Smart.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-05-01T13:36:43Z";s:7:"subject";s:28:"dansk google rejser sidedish";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:18:"
+    
+    
+    
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:88:"Star Tour har lavet et layer til Google Earth, så man kan se deres destinationer. Smart.";s:14:"date_timestamp";i:1146490560;}i:16;a:8:{s:5:"about";s:70:"http://davidweiss.blogspot.com/2006/04/tour-of-microsofts-mac-lab.html";s:5:"title";s:42:"David Weiss: A Tour of Microsoft's Mac Lab";s:4:"link";s:70:"http://davidweiss.blogspot.com/2006/04/tour-of-microsofts-mac-lab.html";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-04-30T20:19:39Z";s:7:"subject";s:31:"blog hardware lab mac microsoft";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:23:"
+    
+    
+    
+    
+  ";s:6:"topics";s:1:"
+";s:14:"date_timestamp";i:1146428340;}i:17;a:10:{s:5:"about";s:55:"http://www.youtube.com/watch?v=rPc931hfNL0&search=podge";s:5:"title";s:36:"YouTube - Podge and Rodge Irish Test";s:4:"link";s:55:"http://www.youtube.com/watch?v=rPc931hfNL0&search=podge";s:11:"description";s:18:"How Irish are you?";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-04-28T14:57:29Z";s:7:"subject";s:19:"funny video youtube";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:13:"
+    
+    
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:18:"How Irish are you?";s:14:"date_timestamp";i:1146236220;}i:18;a:8:{s:5:"about";s:43:"http://www.larocherejser.com/italien.shtml#";s:5:"title";s:80:"Spanien - Laroche Rejser: Ferieboliger, ferielejligheder og feriehuse i Frankrig";s:4:"link";s:43:"http://www.larocherejser.com/italien.shtml#";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-04-28T10:03:52Z";s:7:"subject";s:23:"ferie lejlighed toscana";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:13:"
+    
+    
+  ";s:6:"topics";s:1:"
+";s:14:"date_timestamp";i:1146218580;}i:19;a:8:{s:5:"about";s:37:"http://www.cubefigures.com/index.html";s:5:"title";s:10:"The Cubes?";s:4:"link";s:37:"http://www.cubefigures.com/index.html";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-04-28T08:46:21Z";s:7:"subject";s:17:"business fun work";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:13:"
+    
+    
+  ";s:6:"topics";s:1:"
+";s:14:"date_timestamp";i:1146213960;}i:20;a:10:{s:5:"about";s:46:"http://bitprophet.org/code/javascript_tab.html";s:5:"title";s:5:"stuff";s:4:"link";s:46:"http://bitprophet.org/code/javascript_tab.html";s:11:"description";s:30:"javascript tabbing in textarea";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-04-24T21:36:52Z";s:7:"subject";s:34:"code javascript programming webdev";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:18:"
+    
+    
+    
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:30:"javascript tabbing in textarea";s:14:"date_timestamp";i:1145914560;}i:21;a:10:{s:5:"about";s:58:"http://www.informit.com/articles/article.asp?p=419258&rl=1";s:5:"title";s:109:"Multicast ASR: The Fastest Way to Manage Mac OS X Deployments > Unicase and Multicast: What's the Difference?";s:4:"link";s:58:"http://www.informit.com/articles/article.asp?p=419258&rl=1";s:11:"description";s:166:"Think installing Mac OS X and a suite of applications, documents, and settings on a single Mac takes all day? Imagine doing it on ten or a hundred or a thousand Macs!";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-04-23T22:53:02Z";s:7:"subject";s:19:"admin osx utilities";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:13:"
+    
+    
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:166:"Think installing Mac OS X and a suite of applications, documents, and settings on a single Mac takes all day? Imagine doing it on ten or a hundred or a thousand Macs!";s:14:"date_timestamp";i:1145832780;}i:22;a:10:{s:5:"about";s:63:"http://dilbert.com/comics/dilbert/archive/dilbert-20060413.html";s:5:"title";s:121:"Dilbert Comic Strip Archive - Dilbert.com - The Official Dilbert Website by Scott Adams - Dilbert, Dogbert and Coworkers!";s:4:"link";s:63:"http://dilbert.com/comics/dilbert/archive/dilbert-20060413.html";s:11:"description";s:19:"The dangling carrot";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-04-20T13:01:14Z";s:7:"subject";s:14:"comics dilbert";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:8:"
+    
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:19:"The dangling carrot";s:14:"date_timestamp";i:1145538060;}i:23;a:10:{s:5:"about";s:63:"http://dilbert.com/comics/dilbert/archive/dilbert-20060414.html";s:5:"title";s:121:"Dilbert Comic Strip Archive - Dilbert.com - The Official Dilbert Website by Scott Adams - Dilbert, Dogbert and Coworkers!";s:4:"link";s:63:"http://dilbert.com/comics/dilbert/archive/dilbert-20060414.html";s:11:"description";s:20:"The firing finger...";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-04-20T12:59:47Z";s:7:"subject";s:14:"comics dilbert";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:8:"
+    
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:20:"The firing finger...";s:14:"date_timestamp";i:1145537940;}i:24;a:8:{s:5:"about";s:29:"http://blog.perfectspace.com/";s:5:"title";s:17:":: Nate Ritter ::";s:4:"link";s:29:"http://blog.perfectspace.com/";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-04-20T09:23:09Z";s:7:"subject";s:24:"css design, to.implement";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:13:"
+    
+    
+  ";s:6:"topics";s:1:"
+";s:14:"date_timestamp";i:1145524980;}i:25;a:10:{s:5:"about";s:21:"http://www.whamb.com/";s:5:"title";s:40:"WHAMB: Digital Audio Player for Mac OS X";s:4:"link";s:21:"http://www.whamb.com/";s:11:"description";s:23:"Fast forward the future";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-04-19T14:00:06Z";s:7:"subject";s:31:"audio ogg osx sidedish software";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:23:"
+    
+    
+    
+    
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:23:"Fast forward the future";s:14:"date_timestamp";i:1145455200;}i:26;a:10:{s:5:"about";s:106:"http://www.washingtonpost.com/wp-dyn/content/gallery/2005/12/29/GA2005122900888_index_frames.htm?startat=1";s:5:"title";s:9:"Ron Mueck";s:4:"link";s:106:"http://www.washingtonpost.com/wp-dyn/content/gallery/2005/12/29/GA2005122900888_index_frames.htm?startat=1";s:11:"description";s:73:"Meet the family of Ron Muecks 'Boy', currently at Aros in Århus, Denmark.";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-04-19T10:07:34Z";s:7:"subject";s:29:"art gallery ronmueck sidedish";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:18:"
+    
+    
+    
+  ";s:6:"topics";s:1:"
+";s:7:"summary";s:73:"Meet the family of Ron Muecks 'Boy', currently at Aros in Århus, Denmark.";s:14:"date_timestamp";i:1145441220;}i:27;a:7:{s:5:"about";s:18:"http://adshit.com/";s:5:"title";s:90:"AdsHit.Com Bedava mp3 Türkçe mp3 yabancý mp3 indir download yükle mp3 þarký sözü akor midi";s:4:"link";s:18:"http://adshit.com/";s:11:"description";s:108:"Ikke umiddelbart hvad man skulle tro, hvis man kigger på adressen, men alligevel passer adressen meget godt.";s:2:"dc";a:2:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-04-19T08:12:16Z";}s:7:"summary";s:108:"Ikke umiddelbart hvad man skulle tro, hvis man kigger på adressen, men alligevel passer adressen meget godt.";s:14:"date_timestamp";i:1145434320;}i:28;a:8:{s:5:"about";s:52:"http://www.longnow.org/shop/free-downloads/seminars/";s:5:"title";s:52:"Long Now > Shop > Free Downloads > Seminar Downloads";s:4:"link";s:52:"http://www.longnow.org/shop/free-downloads/seminars/";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-04-17T23:44:03Z";s:7:"subject";s:54:"audio future mp3 philosophy podcast science technology";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:33:"
+    
+    
+    
+    
+    
+    
+  ";s:6:"topics";s:1:"
+";s:14:"date_timestamp";i:1145317440;}i:29;a:8:{s:5:"about";s:21:"http://news.aioe.org/";s:5:"title";s:22:"Aioe.org NNTP Server -";s:4:"link";s:21:"http://news.aioe.org/";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-04-17T03:11:23Z";s:7:"subject";s:22:"nntp nntpserver usenet";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:13:"
+    
+    
+  ";s:6:"topics";s:1:"
+";s:14:"date_timestamp";i:1145243460;}i:30;a:8:{s:5:"about";s:66:"http://www.vivabit.com/bollocks/2006/04/06/introducing-dom-builder";s:5:"title";s:54:"Vivabit | The Web's Bollocks | Introducing DOM Builder";s:4:"link";s:66:"http://www.vivabit.com/bollocks/2006/04/06/introducing-dom-builder";s:2:"dc";a:3:{s:7:"creator";s:4:"voss";s:4:"date";s:20:"2006-04-16T11:29:41Z";s:7:"subject";s:29:"javascript programming webdev";}s:4:"taxo";a:2:{s:6:"topics";s:3:"
+  ";s:10:"topics_bag";s:5:"
+    ";}s:10:"topics_bag";s:13:"
+    
+    
+  ";s:6:"topics";s:1:"
+";s:14:"date_timestamp";i:1145186940;}}s:7:"channel";a:5:{s:5:"title";s:16:"del.icio.us/voss";s:4:"link";s:23:"http://del.icio.us/voss";s:5:"items";s:3:"
  
 ";s:9:"items_seq";s:95:"
   
@@ -246,6 +233,6 @@ Scott Adams, father of the Dilbert comic strip, recently had the misfortune to s
   
   
   
- ";s:7:"tagline";N;}s:9:"textinput";a:0:{}s:5:"image";a:0:{}s:9:"feed_type";s:3:"RSS";s:12:"feed_version";s:3:"1.0";s:8:"encoding";s:10:"ISO-8859-1";s:16:"_source_encoding";s:0:"";s:5:"ERROR";s:0:"";s:7:"WARNING";s:0:"";s:19:"_CONTENT_CONSTRUCTS";a:6:{i:0;s:7:"content";i:1;s:7:"summary";i:2;s:4:"info";i:3;s:5:"title";i:4;s:7:"tagline";i:5;s:9:"copyright";}s:16:"_KNOWN_ENCODINGS";a:3:{i:0;s:5:"UTF-8";i:1;s:8:"US-ASCII";i:2;s:10:"ISO-8859-1";}s:5:"stack";a:0:{}s:9:"inchannel";b:0;s:6:"initem";b:0;s:9:"incontent";b:0;s:11:"intextinput";b:0;s:7:"inimage";b:0;s:13:"current_field";s:0:"";s:17:"current_namespace";b:0;s:15:"source_encoding";s:5:"UTF-8";s:13:"last_modified";s:31:"Thu, 16 Feb 2006 17:40:17 GMT
-";s:4:"etag";s:22:"31313430313131363137
+ ";s:7:"tagline";N;}s:9:"textinput";a:0:{}s:5:"image";a:0:{}s:9:"feed_type";s:3:"RSS";s:12:"feed_version";s:3:"1.0";s:8:"encoding";s:10:"ISO-8859-1";s:16:"_source_encoding";s:0:"";s:5:"ERROR";s:0:"";s:7:"WARNING";s:0:"";s:19:"_CONTENT_CONSTRUCTS";a:6:{i:0;s:7:"content";i:1;s:7:"summary";i:2;s:4:"info";i:3;s:5:"title";i:4;s:7:"tagline";i:5;s:9:"copyright";}s:16:"_KNOWN_ENCODINGS";a:3:{i:0;s:5:"UTF-8";i:1;s:8:"US-ASCII";i:2;s:10:"ISO-8859-1";}s:5:"stack";a:0:{}s:9:"inchannel";b:0;s:6:"initem";b:0;s:9:"incontent";b:0;s:11:"intextinput";b:0;s:7:"inimage";b:0;s:13:"current_field";s:0:"";s:17:"current_namespace";b:0;s:15:"source_encoding";s:5:"UTF-8";s:13:"last_modified";s:31:"Sun, 14 May 2006 12:11:03 GMT
+";s:4:"etag";s:22:"31313437363038363633
 ";}

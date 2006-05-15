@@ -4,208 +4,218 @@
 	<title>. verture.net | her skriver jeg .</title>
 	<description>Jonas Voss' weblog, Københavner og studerende, som så mange andre.</description>
 	<link>http://blog.verture.net/</link>
-	<lastBuildDate>Fri, 17 Mar 2006 17:58:17 +0100</lastBuildDate>
+	<lastBuildDate>Mon, 15 May 2006 19:37:29 +0200</lastBuildDate>
 <item>
-	<title>testbruger</title>
-	<description>Testbrugeren skriver et indlæg.</description>
-	<link>http://blog.verture.net/170306/testbruger</link>
-	<pubDate>Fri, 17 Mar 2006 17:58:17 +0100</pubDate>
-	<guid>http://blog.verture.net/170306/testbruger</guid>
-	<author>testbruger</author>
-	<comments>http://blog.verture.net/170306/testbruger#c</comments>
+	<title>test</title>
+	<description>test</description>
+	<link>http://blog.verture.net/150506/test</link>
+	<pubDate>Mon, 15 May 2006 19:37:29 +0200</pubDate>
+	<guid>http://blog.verture.net/150506/test</guid>
+	<author>Jonas</author>
+	<comments>http://blog.verture.net/150506/test#c</comments>
 	</item>
 <item>
-	<title>Piratfeed midlertidigt nede</title>
-	<description>&lt;a href=&quot;http://blog.verture.net/doegnrapport.php&quot;&gt;Piratfeedet&lt;/a&gt; af døgnrapporten er nede, og har været det i nogle dage nu. Det skyldes flytning til en anden server, som ikke lige havde en version af PHP der understøttede file_get_contents().
-
-Den kommer antageligt op at køre igen snart, så fortvivl ej. Mere info følger når den spiller igen, der arbejdes på sagen.</description>
-	<link>http://blog.verture.net/160306/piratfeed_midlertidigt_nede</link>
-	<pubDate>Thu, 16 Mar 2006 15:04:00 +0100</pubDate>
-	<guid>http://blog.verture.net/160306/piratfeed_midlertidigt_nede</guid>
+	<title>Non-intuitivt komfurinterface - opfølgning</title>
+	<description>&lt;img src=&quot;/img/indesit_thumb.jpg&quot; alt=&quot;indesit komfur&quot; style=&quot;float:left; padding: 4px; border: 1px solid #999; margin-right: 3px&quot; /&gt;For et par dage siden bad jeg besøgende om at &lt;a href=&quot;/300406/non-intuitivt_komfurinterface&quot;&gt;kigge på en model&lt;/a&gt; af komfuret i den lejlighed jeg bor i, og fortælle mig hvordan de mente kogeplader og kontrolknapper skulle høre sammen. Det var der 14 der gjorde, og her følger konklusionen af den meget videnskabelige spørgerunde.</description>
+	<link>http://blog.verture.net/020506/non-intuitivt_komfurinterface_-_opfoelgning</link>
+	<pubDate>Tue, 02 May 2006 23:31:35 +0200</pubDate>
+	<guid>http://blog.verture.net/020506/non-intuitivt_komfurinterface_-_opfoelgning</guid>
 	<author>Jonas</author>
-	<comments>http://blog.verture.net/160306/piratfeed_midlertidigt_nede#c</comments>
+	<comments>http://blog.verture.net/020506/non-intuitivt_komfurinterface_-_opfoelgning#c</comments>
 	</item>
 <item>
-	<title>Internet i Irland for ringe</title>
-	<description>Vint Cerf udtaler sig til Sunday Times om den generelle tilstand og udbredelse af &lt;a href=&quot;http://www.timesonline.co.uk/article/0,,2091-2081937,00.html&quot;&gt;internettet i Irland&lt;/a&gt;, og den er ikke så god.
+	<title>Non-intuitivt komfurinterface</title>
+	<description>Komfuret i vores lejlighed er sammensat på en sådan måde, at jeg altid tænder og slukker for de forkerte blus. Den er sikker hver eneste gang, og jeg skyder skylden på brugergrænsefladedesigneren (hvis de overhovedet har brugt en sådan). Sammenhængen mellem kogepladerne, og kontrolknapperne strider imod alle logiske slutninger omkring brugervenlighed i min rygrad, men da min rygrad er rimelig ringe, kan det jo blot være mig der er gal på den.
 
-Jeg kunne ikke være mere enig. Det har længe undret mig, at &lt;a href=&quot;http://www.timesonline.co.uk/article/0,,2091-2081937,00.html&quot; title=&quot;Irlands TDC&quot;&gt;Eircoms&lt;/a&gt; bredbåndsreklamer på TV forsøger at sælge bredbånd med argumenter som, at man kan chekke bustiderne og vejrudsigten på nettet. Taget i betragtning hvor ustadigt både vejret (i Irland) og busserne (i Dublin) er, så er det et fantastisk svagt argument for at få bredbånd. Men det afspejler måske blot, at Eircoms service er så ringe, at man ikke rigtigt kan bruge den til noget.
+For at teste det har jeg lavet en &lt;a href=&quot;/img/komfur.png&quot; titel=&quot;Komfuremodel&quot;&gt;model over komfurets grænseflade&lt;/a&gt;, og efterspørger nu læsere og interesserede sjæle, der vil give et bud på hvordan du mener kogepladerne bør stemme overens med kontrolknapperne. Modellen viser de fire kogeplader, med et tilfældigt tal på, samt kontrolknapperne, med et tilfældigt bogstav på. Det jeg efterspørger er, at du kombinerer hver kogeplades tal, med en kontrolknaps bogstav sådan som du forventer de hænger sammen.
 
-I husstanden har vi bredbånd fra NTL, en 2Mb/256Kb linie, men i gennemsnit får jeg hastigheder der minder om en 512kb/128kb forbindelse, og den koster små 300 spænd om måneden.</description>
-	<link>http://blog.verture.net/150306/internet_i_irland_for_ringe</link>
-	<pubDate>Wed, 15 Mar 2006 13:04:26 +0100</pubDate>
-	<guid>http://blog.verture.net/150306/internet_i_irland_for_ringe</guid>
+Jeg er spændt på at se, om min indgroede intuition omkring komfurinterfaces, er normal, eller unormal. Klar, klar, start.</description>
+	<link>http://blog.verture.net/300406/non-intuitivt_komfurinterface</link>
+	<pubDate>Sun, 30 Apr 2006 18:31:01 +0200</pubDate>
+	<guid>http://blog.verture.net/300406/non-intuitivt_komfurinterface</guid>
 	<author>Jonas</author>
-	<comments>http://blog.verture.net/150306/internet_i_irland_for_ringe#c</comments>
+	<comments>http://blog.verture.net/300406/non-intuitivt_komfurinterface#c</comments>
 	</item>
 <item>
-	<title>Meet-up crasher</title>
-	<description>Om ganske kort tid er jeg på vej til et &lt;a href=&quot;http://irish.typepad.com/irisheyes/2006/03/come_to_meet_ir.html&quot;&gt;blogger meet-up&lt;/a&gt; for irske bloggere. Det sker som optakt til de irske blogger awards, som jeg nok melder pas på, men der er social opvarmning på The Gingerman kl. 14 GMT (om 30 min), og så er der tech-præsentationer fra kl. 15-17 på Alexander Hotel.
+	<title>Flickr løser mit digitale fotodilemma</title>
+	<description>Jeg har været et splittet menneske i et stykke tid efterhånden, og folk har bemærket det. De har kommenteret det, både digitalt og analogt -- thi de var interesserede i hvad der forvoldte min splittethed.
 
-Det bliver sjovt at møde nogle irske bloggere, og høre dem snakke om bl.a. &lt;a href=&quot;http://ireland.ning.com/&quot;&gt;Open Irish Directory&lt;/a&gt;.
+Årsagen er, at jeg pt. benytter to web services til at holde styr på alle mine digitale billeder, og jeg uploader stort set samme indhold til begge, gjort meget nemmere med &lt;a href=&quot;http://holocore.com/?PictureSync&quot; title=&quot;Easy photo-sharing and annotation&quot;&gt;PictureSync&lt;/a&gt;. Den ene er &lt;a href=&quot;http://flickr.com/&quot; title=&quot;Not your grandfathers photo album&quot;&gt;flickr&lt;/a&gt;, som mange efterhånden har stiftet bekendtskab med, og den anden er &lt;a href=&quot;http://www.23hq.com/&quot;&gt;23&lt;/a&gt;, som en del også har stiftet bekendtskab med. Jeg viser billeder fra begge services i kolonnen yderst til højre (men min 23 stream fungerer vist ikke i IE). Min splittelse består i, at jeg ikke har haft lyst til at forlade nogle af dem, men af hver sin grund.
 
-Og lad mig så lige anbefale et Google Maps mashup til andre i Dublin: &lt;a href=&quot;http://www.properpint.com/&quot;&gt;ProperPint.com&lt;/a&gt; -- se det kalder jeg form og funktion (:</description>
-	<link>http://blog.verture.net/110306/meet-up_crasher</link>
-	<pubDate>Sat, 11 Mar 2006 14:38:35 +0100</pubDate>
-	<guid>http://blog.verture.net/110306/meet-up_crasher</guid>
+Nu har flickr lige givet mig en god grund. Jeg fik foræret en pro-konto af &lt;a href=&quot;http://vedana.net/&quot; title=&quot;Eric Case&quot;&gt;en ven&lt;/a&gt;, og det var jo herligt at få mere end 3 albums tilgængelig, og en hel masse upload-kapacitet. Men hvis man &lt;a href=&quot;http://flickr.com/help/limits/#73&quot;&gt;ikke fornyer&lt;/a&gt; sin pro-konto, så mister man ikke bare upload-kapaciteten, men også adgang til de billeder der ligger i albums udover de 3 på en gratis konto. Hos 23 mister man den ubegrænsede upload, ikke adgangen til ens billeder. Det er et temmelig vægtigt argument for mit vedkommende.
+
+Og så har 23 udviklet sig rigtig meget, på den gode måde, siden lanceringen i august sidste år, og de bliver ved med at pøse lækre features på det. Eneste anke er måske, at rammerne til fotonoter er lidt for svære at se på mørke billeder, i hvert fald på skærmen på min PowerBook. 
+
+Nu skal jeg så i gang med wget og PictureSync, og overføre de billeder fra flickr, der ikke allerede ligger på 23. Endnu en god grund til at skifte til 23, der kan man nemlig suge billeder med samme tag, eller i samme album ned som zip-filer, det kans ikke lade sig gøre på flickr.</description>
+	<link>http://blog.verture.net/170406/flickr_loeser_mit_digitale_fotodilemma</link>
+	<pubDate>Mon, 17 Apr 2006 17:55:37 +0200</pubDate>
+	<guid>http://blog.verture.net/170406/flickr_loeser_mit_digitale_fotodilemma</guid>
 	<author>Jonas</author>
-	<comments>http://blog.verture.net/110306/meet-up_crasher#c</comments>
+	<comments>http://blog.verture.net/170406/flickr_loeser_mit_digitale_fotodilemma#c</comments>
 	</item>
 <item>
-	<title>Cerf, ikke surf</title>
-	<description>&lt;div style=&quot;float:right&quot;&gt;&lt;a style=&quot;border:none;&quot; href=&quot;http://www.flickr.com/photos/voss/108931041/in/photostream&quot; title=&quot;Vint Cerf, Mr. Internet&quot;&gt;&lt;img src=&quot;http://static.flickr.com/47/108931041_78b69f575c_m.jpg&quot; style=&quot;padding: 3px; margin-left: 3px; border: 1px solid #999;&quot; /&gt;&lt;/a&gt;&lt;/div&gt;Som en &lt;a href=&quot;http://massless.org/?archive=2006/03/nice-thing-about-working-at-google-71&quot;&gt;anden medarbejder&lt;/a&gt; har bemærket, er det en spændende tid at arbejde for &lt;a href=&quot;http://google.com/&quot;&gt;Google&lt;/a&gt; i. Forleden var &lt;a href=&quot;http://www.ibiblio.org/pioneers/cerf.html&quot;&gt;Vint Cerf&lt;/a&gt; på besøg for at give en præsentation, og det er ikke hver dag man møder folk som ham.
-
-Der er tale om manden der var med til at &lt;a href=&quot;http://www.virtualschool.edu/mon/Internet/CerfHowInternetCame2B.html&quot;&gt;opfinde internettet&lt;/a&gt;. der er tale om manden der, i mine øjne, vil få en ligeså stor plads i historiebøgerne som Edison, Bell og Curie, og han viste sig ovenikøbet at være en ekstraordinær personlighed.
-
-Man kunne godt forvente, at man blev lidt høj i hatten af, at have opfundet protokollen til hvad der senere hen blev til internettet, og som hver dag muliggør alle de ting vi bruger nettet til, men det lod ikke til at præge Vint Cerf. Tværtimod var han ualmindelig ydmyg, og tilmed vældig underholdende og afslappet, foran de hundredevis af mennesker der var samlet for at høre ham. Han kunne endda finde ud af at svare ironisk og sarkastisk på spørgsmålet om hvorfor de dengang, i &lt;a href=&quot;http://en.wikipedia.org/wiki/IP_address&quot; title=&quot;IP på Wikipediansk&quot;&gt;IPens&lt;/a&gt; barndom ikke havde reserveret mere end 4 bytes til &lt;em&gt;address space&lt;/em&gt;, det måtte jo komme det spørgsmål.
-
-Så har jeg noget at fortælle mine børnebørn en dag.
-
-(update: en deltager i aftenens forestilling har &lt;a href=&quot;http://joedrumgoole.com/blog/2006/03/03/vint-cerf-visits-google-ireland/&quot;&gt;postet et referat&lt;/a&gt; af hvad der blev snakket om.)</description>
-	<link>http://blog.verture.net/080306/cerf,_ikke_surf</link>
-	<pubDate>Wed, 08 Mar 2006 23:12:29 +0100</pubDate>
-	<guid>http://blog.verture.net/080306/cerf,_ikke_surf</guid>
+	<title>Nirvana</title>
+	<description>Jeg er &lt;strong&gt;så&lt;/strong&gt; tilfreds. Klokken er 15:45 og jeg sidder stadig i pyjamas med morgenhår, og min 3. kop kaffe. Opvasken flyder, vaskemaskinen kører, og jeg hører høj musik. Fuck det holder at have fridage og være alene hjemme.</description>
+	<link>http://blog.verture.net/150406/nirvana</link>
+	<pubDate>Sat, 15 Apr 2006 16:48:39 +0200</pubDate>
+	<guid>http://blog.verture.net/150406/nirvana</guid>
 	<author>Jonas</author>
-	<comments>http://blog.verture.net/080306/cerf,_ikke_surf#c</comments>
+	<comments>http://blog.verture.net/150406/nirvana#c</comments>
 	</item>
 <item>
-	<title>Kreativ brug af CC-billeder</title>
-	<description>&lt;blockquote&gt; What if a guide had maps that could interact dynamically with reviews and pictures for sites and attractions, hotels, restaurants, bars, parks, theatres, galleries, museums... and came with links to even more content and travel resources on the Internet? &lt;a href=&quot;http://schmap.com/company/about_schmap.shtml&quot;&gt;&amp;para;&lt;/a&gt;&lt;/blockquote&gt;
+	<title>Med ny optik</title>
+	<description>Sidste weekend gjorde jeg noget, jeg skulle have gjort for lang tid siden: Jeg købte mit første digitale SLR-kamera.
 
-&lt;a href=&quot;http://schmap.com/&quot; title=&quot;Virtuelle byguides&quot;&gt;Schmap&lt;/a&gt; suger billederne til deres byguides fra &lt;a href=&quot;http://flickr.com/&quot;&gt;flickrs&lt;/a&gt; oceaner af &lt;a href=&quot;http://creativecommons.org/&quot;&gt;CC-licenserede&lt;/a&gt; billeder. Stadig i beta (og der sker intet når jeg klikker på 'Take a tour'), men det ser lovende ud. Lidt a la &lt;a href=&quot;http://world66.com/&quot;&gt;World66&lt;/a&gt; der møder &lt;a href=&quot;http://maps.google.com/&quot;&gt;Google Maps&lt;/a&gt; til en hyggelig komsammen.
+Det var ikke noget jeg lige sådan gik ud og gjorde, jeg havde researchet inden, for der er mange ting at holde øje med (og megapixels er tilsyneladende ikke det vigtigste, når man er førstegangskøbende amatør som jeg selv). Som indledende runde havde jeg af en kollegas kæreste lånt et Nikon D100 med mulighed for at købe det, hvis jeg skulle få lyst til det. Lækkert kamera, om end lidt gammelt, og i den branche sker der en del udvikling, så jeg tøvede. For at være på den sikre side konsulterede jeg to &lt;a href=&quot;http://theprint.dk/&quot; title=&quot;Rasmus Rasmussen&quot;&gt;gode&lt;/a&gt; &lt;a href=&quot;http://www.lightstalkers.org/johanspanner&quot; title=&quot;Johan Spanner&quot;&gt;venner&lt;/a&gt;, der begge lever af at fotografere, om hvorvidt det var en god deal. De var enige om, uafhængigt af hinanden, at det var for dyrt.
 
-Jeg har givet dem lov til at bruge 4 billeder fra min &lt;a href=&quot;http://flickr.com/photos/voss/&quot;&gt;flickr-konto&lt;/a&gt;.</description>
-	<link>http://blog.verture.net/080306/kreativ_brug_af_cc-billeder</link>
-	<pubDate>Wed, 08 Mar 2006 02:12:14 +0100</pubDate>
-	<guid>http://blog.verture.net/080306/kreativ_brug_af_cc-billeder</guid>
+&lt;div style=&quot;float:right;padding-left: 3px;&quot;&gt;&lt;img src=&quot;/img/nikon-d50-200.jpg&quot; alt=&quot;Nikon D50&quot; style=&quot;padding: 4px; margin: 0px;&quot; /&gt;&lt;/div&gt;
+Derfor måtte jeg ud og lede efter et kamera jeg ville eje, og det blev et Nikon D50. Jeg stod med et Canon 350D og et Nikon D50 i hånden i butikken, og Nikon'et føltes mest rigtigt. Det er en meget uvidenskabelig begrundelse, det ved jeg, men anmeldelserne af de to kameraer er alle positive og gode, så det måtte ende med et spørgsmål om smag og behag, og det gjorde det så også.
+
+Turen igår til Glasnevin Cemetary blev udvidet til at omfatte botanisk have, der lå et stenkast derfra, og man kan se billederne derfra, samt dem jeg i øvrigt har taget med D50'eren, på min &lt;a href=&quot;http://www.23hq.com/voss/d50&quot; title=&quot;tagget med d50&quot;&gt;23 konto&lt;/a&gt;. Nu mangler jeg så bare at lære at tage billeder af mennesker, for at billederne bliver lidt mere interessante, og måske kan smides på &lt;a href=&quot;http://istockphoto.com/&quot;&gt;iStockphoto&lt;/a&gt;.</description>
+	<link>http://blog.verture.net/150406/med_ny_optik</link>
+	<pubDate>Sat, 15 Apr 2006 13:16:33 +0200</pubDate>
+	<guid>http://blog.verture.net/150406/med_ny_optik</guid>
 	<author>Jonas</author>
-	<comments>http://blog.verture.net/080306/kreativ_brug_af_cc-billeder#c</comments>
+	<comments>http://blog.verture.net/150406/med_ny_optik#c</comments>
 	</item>
 <item>
-	<title>Få det nu gjort</title>
-	<description>I et øjebliks spontan forståelse for min egen ineffektivitet (samt inspiration af &lt;a href=&quot;http://pollas.dk/&quot;&gt;Anders'&lt;/a&gt; og Juri's indlæg ovre på &lt;a href=&quot;http://cupertino.dk/archives/2006/02/14/introduktion-til-gtd/&quot;&gt;cupertino.dk om GTD-metoden&lt;/a&gt;), har jeg investeret i &lt;a href=&quot;http://www.davidco.com/&quot;&gt;David Allens&lt;/a&gt; to bøger om personlig produktivitet.
+	<title>Påskedage</title>
+	<description>Så er det påske i Dublin, og det er en sand fornøjelse med et par fridage.
 
-For mit vedkommende er det nok noget jeg skulle have kastet mig over for nogle år siden, men bedre sent end aldrig, right (hvem sagde specialeudsættelse, overskredne deadlines ad libitum)?
-</description>
-	<link>http://blog.verture.net/070306/faa_det_nu_gjort</link>
-	<pubDate>Tue, 07 Mar 2006 23:38:30 +0100</pubDate>
-	<guid>http://blog.verture.net/070306/faa_det_nu_gjort</guid>
+Havde egentlig en plan om at tage til Edinburgh, men billetterne var lidt dyre her i påsken, så jeg bliver nok bare i byen. Jeg har, inspireret af &lt;a href=&quot;http://kammeret.dk/&quot;&gt;Rasmus&lt;/a&gt; &lt;a href=&quot;http://www.podkammeret.dk/2006/02/14/pod-03-netv%c3%a6rk-pa-nettet/&quot;&gt;podcast om netværk på nettet&lt;/a&gt;, inviteret folk fra Dublin-gruppen på &lt;a href=&quot;http://flickr.com/&quot;&gt;Flickr&lt;/a&gt; på fotosafari henover påsken. Men der har ikke været overvældende tilslutning, så jeg daffer afsted alene tror jeg. Dagens udfludt hedder &lt;a href=&quot;http://www.glasnevin-cemetery.ie/&quot;&gt;Glasnevin Cemetary&lt;/a&gt;, hvor jeg forventer at få nogle god snapshots med mit nyindkøbte Nikon D50, som jeg er rigtig glad for.
+
+Og så er der vist en fest eller to man kan deltage i henover påskedagene. Langfredag er dog lidt speciel på det punkt, for det er ikke muligt at købe alkohol på selve dagen. Jeg har endnu ikke fundet ud af hvorfor loven dikterer dette, men de er nok kloge af skade på det punkt (der er sket en del historiske ting for Irland på langfredag, i disse dage mindes 90-året for påskeopstanden, der med tiden førte til Irlands uafhængighed, måske de mener alkohol har haft sin indflydelse på disse hændelser).
+
+Men vejret er fint, og jeg vil smutte ud i det, god påske.</description>
+	<link>http://blog.verture.net/140406/paaskedage</link>
+	<pubDate>Fri, 14 Apr 2006 14:12:05 +0200</pubDate>
+	<guid>http://blog.verture.net/140406/paaskedage</guid>
 	<author>Jonas</author>
-	<comments>http://blog.verture.net/070306/faa_det_nu_gjort#c</comments>
+	<comments>http://blog.verture.net/140406/paaskedage#c</comments>
 	</item>
 <item>
-	<title>Hvis Microsoft lavede iPods</title>
-	<description>Aij-aij-aij, man får ondt i øjnene af at se denne video om hvordan iPods ville være pakket ind hvis Microsoft stod for det.
-&lt;embed style=&quot;width:400px; height:326px;&quot; id=&quot;VideoPlayback&quot; align=&quot;middle&quot; type=&quot;application/x-shockwave-flash&quot; src=&quot;http://video.google.com/googleplayer.swf?videoUrl=http%3A%2F%2Fvp.video.google.com%2Fvideodownload%3Fversion%3D0%26secureurl%3DpwAAAJ5SJvUsloo3EDQJIVi50CgK-sOedxBRGjBlJYnddAmq5mNmzQ4iYSSH2-SR3mKg6l4pXL-SE7S1GaZcEquaATk0zaZYGOMhQIND0BhdZ28iHN62RKC3Wx0XYXmjlg3-sFq_1Q6Bg-8O8aMWSNKJLMcQV4ocMi1qOoWEJ2qPw0l_mF3Ox9CiQJ_kthYlFiXMryLA8EqTPIx3vEdYG9P9J7MwJYrbjOjgVwL9jXxdJQQE%26sigh%3DvbCRHW5HcERbsvoqLL5K5GBVyGs%26begin%3D0%26len%3D175300%26docid%3D4313772690011721857&amp;thumbnailUrl=http%3A%2F%2Fvideo.google.com%2FThumbnailServer%3Fcontentid%3D8ddc43e2b53ccf91%26second%3D5%26itag%3Dw320%26urlcreated%3D1141282268%26sigh%3D3yNy5sonj5XXET1jyMiyklH7CWw&amp;playerId=4313772690011721857&amp;playerMode=embedded&quot; allowScriptAccess=&quot;sameDomain&quot; quality=&quot;best&quot; bgcolor=&quot;#ffffff&quot; scale=&quot;noScale&quot; wmode=&quot;window&quot; salign=&quot;TL&quot; &gt; &lt;/embed&gt;
-Klik på play knappen for at se videoen.</description>
-	<link>http://blog.verture.net/020306/hvis_microsoft_lavede_ipods</link>
-	<pubDate>Thu, 02 Mar 2006 07:56:35 +0100</pubDate>
-	<guid>http://blog.verture.net/020306/hvis_microsoft_lavede_ipods</guid>
+	<title>Dyb hus</title>
+	<description>Tillad mig at anbefale et ugentligt musikpodcast fra Irland. Det forudsætter, at man kan lide eller er interesseret i deep house genren.
+
+Podcast'et er fra radiostationen &lt;a href=&quot;http://www.godeepmusic.com/mixes/podcast.xml&quot;&gt;RedFM&lt;/a&gt; i Cork, og showet hedder Go Deep, en lille halv times deep house mix, med f.eks. Sonar Kollektiv, Crazy Penis (som spillede på Sugar Club i Dublin i lørdags, og ja, det var en mægtig koncert!), Compost m.fl.
+
+&lt;del&gt;Jeg aner ikke hvor jeg fandt &lt;a href=&quot;http://www.godeepmusic.com/mixes/podcast.xml&quot;&gt;deres podcast-link&lt;/a&gt; henne, det er ikke til at finde på deres hjemmeside, og i iTunes, som jeg bruger til at hente det med, kan man ikke se hvor man henter fra. Men det må jeg brokke mig over i et andet indlæg.&lt;/del&gt;
+
+Podcastet kan man abonnere på via &lt;a href=&quot;http://www.fishgodeep.com/radio.html&quot;&gt;deres hjemmeside&lt;/a&gt;. Planlægger stadig at brokke mig over iTunes' implementering af podcast, jeg er  fornøjet med det, men ikke tilfreds.
+
+Nyd musikken.</description>
+	<link>http://blog.verture.net/110406/dyb_hus</link>
+	<pubDate>Tue, 11 Apr 2006 16:23:57 +0200</pubDate>
+	<guid>http://blog.verture.net/110406/dyb_hus</guid>
 	<author>Jonas</author>
-	<comments>http://blog.verture.net/020306/hvis_microsoft_lavede_ipods#c</comments>
+	<comments>http://blog.verture.net/110406/dyb_hus#c</comments>
 	</item>
 <item>
-	<title>Optøjer i Dublin</title>
-	<description>(Dette indlæg læses bedst ved at have et vindue med &lt;a href=&quot;http://maps.google.com/maps?f=q&amp;hl=en&amp;q=dublin+ireland&amp;ll=53.341591,-6.250792&amp;spn=0.00294,0.010117&amp;t=h&quot;&gt;denne side&lt;/a&gt; fra Google Maps åben ved siden af. Det giver lidt geografisk kontekst.)
+	<title>Fra den ekstreme afdeling</title>
+	<description>I har måske hørt om &lt;a href=&quot;http://www.extremeironing.com/&quot;&gt;Extreme Ironing&lt;/a&gt;, ekstrem strygning, ekstreme steder (og det lyder faktisk lidt perverst, men det er det ikke...).
 
-I går var ikke nogen helt normal dag, og i dette indlæg vil jeg beskrive hvorfor. Ved kvart over to-tiden begav jeg mig på vej ind mod centrum, og gik den sædvanlig vej ind mod byen, ned af Grand Canal Street.</description>
-	<link>http://blog.verture.net/260206/optoejer_i_dublin</link>
-	<pubDate>Sun, 26 Feb 2006 18:25:38 +0100</pubDate>
-	<guid>http://blog.verture.net/260206/optoejer_i_dublin</guid>
+Anywho, i rækken af ekstremiteter præsenterer jeg hermed min kollega Jan's bestræbelser udi dokumentationen af &lt;a href=&quot;http://xbg.beholder.ws/&quot;&gt;eXtreme backgammon!&lt;/a&gt;. Lad dette hermed være en opfordring til alle om, at indsende deres billeder til sitet, hvis du/i har spillet backgammon et ekstremt sted.</description>
+	<link>http://blog.verture.net/100406/fra_den_ekstreme_afdeling</link>
+	<pubDate>Mon, 10 Apr 2006 15:43:21 +0200</pubDate>
+	<guid>http://blog.verture.net/100406/fra_den_ekstreme_afdeling</guid>
 	<author>Jonas</author>
-	<comments>http://blog.verture.net/260206/optoejer_i_dublin#c</comments>
+	<comments>http://blog.verture.net/100406/fra_den_ekstreme_afdeling#c</comments>
 	</item>
 <item>
-	<title>Vejen til afhængighed</title>
-	<description>&lt;div style=&quot;float:left&quot;&gt;&lt;a style=&quot; border: none&quot; href=&quot;http://flickr.com/photos/dalager/87063134/&quot; title=&quot;Vicky Pollard courtesy of Hr. Dalager&quot;&gt;&lt;img src=&quot;http://blog.verture.net/img/vicky_pollard.jpg&quot; alt=&quot;Vicky Pollard&quot; style=&quot;text-align: center; padding: 4px; margin: 0px; border: 1px solid #999;&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
-
-Det startede med nogle glimt på tv, af en mand i dametøj der insisterede på at han var kvinde, der gjorde kvindelige ting, og Vicky Pollard, der kan snakke selv en rutineret advokat ud i tovene (yeah, but no, but yeah, but no, you see, the thing that happened was...).
-
-Jeg lånte sæson 2 af en kollega, og hylede af grin over Andy og Lou og Daffyd Thomas (the only gay in the village), og blev i en sådan grad afhængig af besøg fra &lt;a href=&quot;http://www.bbc.co.uk/comedy/littlebritain/&quot;&gt;Little Britain&lt;/a&gt;, at jeg nu har investeret i 2 dobbelt-DVDere, med de to første sæsoner.
-
-Afhængigheden er vokset til en sådan størrelse, at &lt;a href=&quot;http://www.thesimpsons.com/&quot;&gt;Simpsons&lt;/a&gt; ikke længere kan holde mig foran TV-skærmen, og jeg ikke kan finde mig til rette med at skulle til drømmeland uden, at have fået mig et skud humor fra de utilrettede eksistenser fra Little Britain.
-
-Jeg kan varmt anbefale det (:
-
-Nårh ja, og hvis man vil have smagsprøver er der rigeligt på &lt;a href=&quot;http://video.google.com/videosearch?q=little+britain&quot;&gt;Google Video&lt;/a&gt;.</description>
-	<link>http://blog.verture.net/100206/vejen_til_afhaengighed</link>
-	<pubDate>Fri, 10 Feb 2006 19:43:49 +0100</pubDate>
-	<guid>http://blog.verture.net/100206/vejen_til_afhaengighed</guid>
+	<title>4meme</title>
+	<description>Jeg er blevet tagget af op &lt;a href=&quot;http://kammeret.dk/&quot;&gt;til&lt;/a&gt; &lt;a href=&quot;http://verve.dk/markelig/&quot;&gt;flere&lt;/a&gt; &lt;a href=&quot;http://jake.smartlog.dk/&quot;&gt;mennesker&lt;/a&gt; til at deltage i det såkaldte 4meme, hvor man svarer på spørgsmål med 4 svar. Det har taget noget tid at få det sat sammen, uden tvivl længere end nødvendigt, men nu er det her så.</description>
+	<link>http://blog.verture.net/080406/4meme</link>
+	<pubDate>Sat, 08 Apr 2006 14:02:49 +0200</pubDate>
+	<guid>http://blog.verture.net/080406/4meme</guid>
 	<author>Jonas</author>
-	<comments>http://blog.verture.net/100206/vejen_til_afhaengighed#c</comments>
+	<comments>http://blog.verture.net/080406/4meme#c</comments>
 	</item>
 <item>
-	<title>Internet Explorer Beta2 til download</title>
-	<description>&lt;a href=&quot;http://microsoft.com/&quot;&gt;Microsoft&lt;/a&gt; har gjort IE7 beta2 &lt;a href=&quot;http://www.microsoft.com/windows/IE/ie7/ie7betaredirect.mspx&quot;&gt;tilgængelig til download&lt;/a&gt;. Yderst interessant. Er der nogen der lige gider at fyre den igennem &lt;a href=&quot;http://www.webstandards.org/act/acid2/test.html&quot;&gt;acid2-testen&lt;/a&gt; og se hvordan den klarer den?
-
-Update: Det viser sig, at man skal have en ægte Windows-licens for at installere den. Gad vide hvor mange der bliver afholdt fra at installere den af den grund?</description>
-	<link>http://blog.verture.net/310106/internet_explorer_beta2_til_download</link>
-	<pubDate>Tue, 31 Jan 2006 23:29:07 +0100</pubDate>
-	<guid>http://blog.verture.net/310106/internet_explorer_beta2_til_download</guid>
+	<title>Fredagens videoer</title>
+	<description>Dagens udpluk af sjove videoer fra interwebbet:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://video.google.com/videoplay?docid=4391998573054179981&quot;&gt;Pinky the cat&lt;/a&gt; - Pet of the week, very loving cat... NOT&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.totallycrap.com/media/theperfectpenis/&quot;&gt;The perfect penis&lt;/a&gt; - for nogen mennesker i hvert fald. Kan ikke helt gennemskue, om det er ægte, eller om det er gas. Hvis det er ægte kunne jeg forestille mig, at smerterne ved at få brok med sådan en er ubeskrivelige.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://video.google.com/videoplay?docid=-8610362188397291938&amp;pl=true&quot;&gt;Østeuropæisk musikvideo&lt;/a&gt; der giver &lt;a href=&quot;http://video.google.com/videoplay?docid=-2912951718948189420&amp;q=apache&amp;pl=true&quot;&gt;Seebachs Apache&lt;/a&gt; totalt baghjul!&lt;/li&gt;
+&lt;li&gt;Og til sidst, Finlands bidrag til Melodi Grand Prix &lt;a href=&quot;http://www.youtube.com/watch?v=YBQK7m429S8&amp;search=Lordi&quot;&gt;Hard rock halleluja&lt;/a&gt;, kunne forestille mig det var resultatet af at KISS mødtes over en lille en med nogle Orker fra Ringenes Herre. Anderledes er det i hvert fald.&lt;/li&gt;
+&lt;/ul&gt;</description>
+	<link>http://blog.verture.net/070406/fredagens_videoer</link>
+	<pubDate>Fri, 07 Apr 2006 16:02:51 +0200</pubDate>
+	<guid>http://blog.verture.net/070406/fredagens_videoer</guid>
 	<author>Jonas</author>
-	<comments>http://blog.verture.net/310106/internet_explorer_beta2_til_download#c</comments>
+	<comments>http://blog.verture.net/070406/fredagens_videoer#c</comments>
 	</item>
 <item>
-	<title>Diversificering</title>
-	<description>&lt;img src=&quot;http://blog.verture.net/img/sas.png&quot; alt=&quot;SAS screendump&quot; style=&quot;float: right;border:0&quot; /&gt; Det er ingen hemmelighed, at det står skidt til for &lt;a href=&quot;http://sas.dk/&quot;&gt;SAS&lt;/a&gt;, men at det stod så galt til, at de nu bevæger sig ind på menneske-trafficking området var jeg ikke klar over, og så endda på deres lavprisruter, ikke noget med luksus-trafficking her.
+	<title>SAS taler street</title>
+	<description>Over højtaleranlægget får man at vide, at forsinkelsen på ens flyrejse skyldes, at der måtte skiftes fly, fordi den oprindelige maskine ikke var helt 'fremme i skoene'.
 
-Eller også er det mig der misforstår? Måske er det ikke trafficking, men blot SAS der bevæger sig ind på rejsepartnermarkedet? Man kan simpelthent reservere et uledsaget barn til sin rejse, hvis man nu er typen der er træt af at rejse alene.
-
-Se det kalder jeg produktdiversifikation.</description>
-	<link>http://blog.verture.net/280106/diversificering</link>
-	<pubDate>Sat, 28 Jan 2006 18:56:26 +0100</pubDate>
-	<guid>http://blog.verture.net/280106/diversificering</guid>
+SAS har styr på det med at kommunikere med de unge, og føle sig sprøde og friske, dér! Men flyafgange det kan de ikke få til at fungere, ikke mellem Dublin og København i hvert fald.</description>
+	<link>http://blog.verture.net/050406/sas_taler_street</link>
+	<pubDate>Wed, 05 Apr 2006 11:11:22 +0200</pubDate>
+	<guid>http://blog.verture.net/050406/sas_taler_street</guid>
 	<author>Jonas</author>
-	<comments>http://blog.verture.net/280106/diversificering#c</comments>
+	<comments>http://blog.verture.net/050406/sas_taler_street#c</comments>
 	</item>
 <item>
-	<title>Gælisk, det er helt tosset</title>
-	<description>Irerne taler for det meste engelsk, en ganske klassisk accent kan jeg tilføje iøvrigt, hvor der ikke findes bløde 'th'-lyde som man kender det fra ordene 'thousand' og 'things'. De udtales slet og ret 'tousands' og 'tings', og det skal man lige vænne sig til.
+	<title>25 års bullshit</title>
+	<description>Jeg var på &lt;a href=&quot;http://www.vicarstreet.com/&quot;&gt;Vicar Street&lt;/a&gt; igår til &lt;a href=&quot;http://21361.com/site_2004/main_dispatches.html&quot;&gt;Henry Rollins's&lt;/a&gt; standup show &quot;25 years of Bullshit&quot;, og det var virkelig godt.
 
-Men en helt anden dåse bønner er det rigtige Irske sprog, Gælisk. Det er et vidnesbyrd om det keltiske folks 1000-årige indflydelse på landets sprog og kultur, og er en sær blanding. Personlig synes jeg det lyder som når Ikscheltaschel giver den gas, men det kan læseren selv få lov at dømme ved at lytte til disse to lydklip jeg har samlet. De er begge optaget med mit multitool, en k750i, direkte fra den landsdækkende TV-kanal &lt;a href=&quot;http://www.tg4.ie/&quot; title=&quot;TG4 - Teilifis Gaeilge&quot;&gt;TG4&lt;/a&gt;, hvor programmerne tekstes på Engelsk, og al tale er Gælisk.
+Henry Rollins snakkede i knap to en halv time, uden andre teatereffekter end hans til tider onde, onde stemme. Der var ikke så meget pis med ham, han gik på scenen, og startede med at forklare at hans turné mest var for at undskylde for USAs opførsel overfor resten af verden, og så er man jo kommet godt fra start. Der var ikke så meget Bush-bashing som jeg havde forventet, og dem der var, var krydret med meget illustrative og levende fortællinger om at tage den Transsibiriske jernbane, om opkast og om hvordan han blev klassificeret som en terror-trussel i australien, fordi han havde læst en bog med titlen Jihad, i en flyver på vej til Brisbane.
 
-&lt;a href=&quot;/media/gaelic_singers.mp3&quot;&gt;Det først lydklip&lt;/a&gt; er to piger der synger en sang der hedder noget med Martinis og Bikinis.
-
-&lt;a href=&quot;/media/rugby_gaelic.mp3&quot;&gt;Det andet lydklip&lt;/a&gt; er efter en rugbykamp, mener jeg, hvor træneren fra det ene hold bliver interviewet af den Gæliske TV-kanal. Læg mærke til den yderst flydende og elegante overgang fra komplet uforståelig Gælisk, til meget Irsk Engelsk. Imponerende.
-
-Sangen som pigerne fremfører minder mig lidt om at høre Grønlandsk radio da jeg var lille. Der kunne man høre alle de danske ord blandet ind i det Grønlandske, og det samme sker for dem, med ordene Bikini og Martini, der tydeligvis er kommet til efter Gælerne satte sit præg på landet.</description>
-	<link>http://blog.verture.net/210106/gaelisk,_det_er_helt_tosset</link>
-	<pubDate>Sat, 21 Jan 2006 17:41:01 +0100</pubDate>
-	<guid>http://blog.verture.net/210106/gaelisk,_det_er_helt_tosset</guid>
+Han skriver dagbog på &lt;a href=&quot;http://21361.com/site_2004/main_dispatches.html&quot;&gt; denne adresse&lt;/a&gt;, kunne være man skulle begynde at læse den med jævne mellemrum.</description>
+	<link>http://blog.verture.net/290306/25_aars_bullshit</link>
+	<pubDate>Wed, 29 Mar 2006 10:03:41 +0200</pubDate>
+	<guid>http://blog.verture.net/290306/25_aars_bullshit</guid>
 	<author>Jonas</author>
-	<comments>http://blog.verture.net/210106/gaelisk,_det_er_helt_tosset#c</comments>
+	<comments>http://blog.verture.net/290306/25_aars_bullshit#c</comments>
 	</item>
 <item>
-	<title>Dublin er hvor det sker</title>
-	<description>Jeg har lige købt billetter til et &lt;a href=&quot;http://www.dublinks.com/index.cfm?loc=15&amp;pt=0&amp;spid=CBC6974F-A2B1-4A32-B710DEAB083F3AD2&quot;&gt;Henry Rollins&lt;/a&gt; arrangement i marts, og i februar skal jeg til &lt;a href=&quot;http://www.pod.ie/list_cdaddy.php?view_details=1&amp;event_id=444&amp;venue=3&quot;&gt;Prince Paul&lt;/a&gt; koncert.
+	<title>Håb for menneskeheden</title>
+	<description>I går var jeg til frisøren, for at få klippet hvad der efterhånden må kunne omtales som en vaskeægte gang Klaus-Dieter nakkehår. Jeg kunne ikke få tid det sædvanlige sted, så jeg trodsede lørdagsshopperne, og begav mig ind til en &lt;a href=&quot;http://www.petermark.ie/html/home.asp&quot; title=&quot;Et virkelig grimt website, nok fordi de satser på deres evner indenfor hårbranchen i stedet.&quot;&gt;Peter Mark&lt;/a&gt; salon, som vidst nok er lidt fin på den.
 
-På torsdag leverer &lt;a href=&quot;http://www.dublinks.com/index.cfm/loc/12/pt/0/spid/6F1A922F-EACC-430E-88961AE660602DC2.htm&quot;&gt;Ian Pooley&lt;/a&gt; et DJ-set på en klub i centrum.
+Her blev jeg klippet af en ung pige der hed Lynne, og hun var ganske snakkesagelig. Den absolutte start på samtalen forløb nogenlunde således:
+Hende: &lt;q&gt;So do you study in Dublin?&lt;/q&gt;
+Mig: &lt;q&gt;No, I work here.&lt;/q&gt;
+Hende: &lt;q&gt;Alright. Where do you work?&lt;/q&gt;
+Mig: &lt;q&gt;I work for Google&lt;/q&gt;
+Hende: &lt;q&gt;Boogle?&lt;/q&gt;
+Mig: &lt;q&gt;No, Google&lt;/q&gt;
+Hende: &lt;q&gt;Doogle? Wuzzat then?&lt;/q&gt;
+Mig: &lt;q&gt;No, Google, the search engine, you know, Google.com?&lt;/q&gt;
+Hende: &lt;q&gt;Nope, never heard of it, what is it again?&lt;/q&gt;
+(mit svar var lidt længe om at komme, da jeg måtte lede efter min kæbe på gulvet)
+Mig: &lt;q&gt;It is a search engine, for the internet, it enables you to find stuff on the web.&lt;/q&gt;
+Hende: &lt;q&gt;Oh, well I've never been very good with computers, so...&lt;/q&gt;
 
-Der er ikke nogen der skal komme og sige der ikke sker noget i Dublin, jeg har bare først lige opdaget det, hot-diggety-damn.</description>
-	<link>http://blog.verture.net/210106/dublin_er_hvor_det_sker</link>
-	<pubDate>Sat, 21 Jan 2006 12:52:35 +0100</pubDate>
-	<guid>http://blog.verture.net/210106/dublin_er_hvor_det_sker</guid>
+Jeg var meget overrasket, men på en god måde. Siden jeg fik jobbet, og flyttede til Dublin, har jeg været vant til, at folk reagerede på sådan en &lt;q&gt;årh hvad, Google? Hvor vildt, dér&lt;/q&gt;-facon, og det var sgu' egentlig helt rart at blive pillet ned på jorden igen. It's just a job.
+
+Hun så ud til at være en velfungerende og charmerende ung dame, så på trods af, at hun lavede noget en frisørfadæse på mig (min nakke starter nu væsentligt højere oppe end den gjorde lørdag formiddag, men vil nok stadig kunne kaldes en Klaus-Dieter), så har jeg tiltro til menneskeheden. Man kan faktisk leve, uden at være i kontakt med Google.
+
+Tak Lynne (på trods af det med nakken).</description>
+	<link>http://blog.verture.net/270306/haab_for_menneskeheden</link>
+	<pubDate>Mon, 27 Mar 2006 00:09:57 +0200</pubDate>
+	<guid>http://blog.verture.net/270306/haab_for_menneskeheden</guid>
 	<author>Jonas</author>
-	<comments>http://blog.verture.net/210106/dublin_er_hvor_det_sker#c</comments>
+	<comments>http://blog.verture.net/270306/haab_for_menneskeheden#c</comments>
 	</item>
 <item>
-	<title>Nu med rigt medie</title>
-	<description>Eller i hvert fald et eksperiment derudi...
+	<title>Når irere kaster med potter</title>
+	<description>Sidste lørdag var jeg til bloggerkomsammen for irske bloggere, her i Dublin. Arrangementet var en forløber til de &lt;a href=&quot;http://awards.ie/blogawards/&quot;&gt;irske blog awards&lt;/a&gt;, som jeg fandt en anelse prætentiøst, som alle andre blog awards for den sags skyld, men det lød hyggeligt, at man kunne møde nogle lokale bloggere inden, og måske få udvidet sit irske netværk lidt.
 
-Jeg har længe fulgt med hos &lt;a href=&quot;http://solitude.dk&quot; title=&quot;Mr. vlog&quot;&gt;Andreas&lt;/a&gt;, og for nylig også hos &lt;a href=&quot;http://kammeret.dk/&quot; title=&quot;Hvor mand på Stillehavskysten&quot;&gt;Rasmus&lt;/a&gt; og &lt;a href=&quot;http://pollas.dk&quot; title=&quot;Stjerneskudet på flyvergrillen&quot;&gt;Anders&lt;/a&gt;, hvor der er blevet videoblogget.
+Den samme dag var der imidlertid rugby-kamp mellem Skotland og Irland på Landsdowne Rd, så pubben hvor det sociale skulle foregå var fyldt til randen med skotter i kilte, og lokale der så rugby. Det var umuligt at spotte nørderne på pubben, så jeg gik istedet over på hotellet og fik mig en &lt;a href=&quot;http://en.wikipedia.org/wiki/Smithwicks&quot;&gt;Smithwicks&lt;/a&gt; og en sandwich.
 
-Her på siden vil jeg gøre hvad jeg kan, for at levere højkvalitets videoblogging, men det indtræffer først når jeg får købt mig et rigtigt kamera. Indtil da kan man nøjes med at se de &lt;a href=&quot;/media/roadtrip.mov&quot;&gt;5 minutter det tager mig at gå fra min lejlighed til arbejdet&lt;/a&gt; her i Dublin
-&lt;embed style=&quot;width:400px; height:326px;&quot; id=&quot;VideoPlayback&quot; align=&quot;middle&quot; type=&quot;application/x-shockwave-flash&quot; src=&quot;http://video.google.com/googleplayer.swf?videoUrl=http%3A%2F%2Fvp.video.google.com%2Fvideodownload%3Fversion%3D0%26secureurl%3DmwAAALQ6twQR4U-VPyP_eIb2kRZuVHfG-7titGDXW4cO6VfNhosZsZmDR3mDmCuZmJLicZ6mShjkHUVz7QuY34YkwjIwYcTxpqgKsjmSgs9LyrfyDMdIkUaMVNhDs7dcuNvo4lpmBCKm-KBm-sM8tBu-xJ3PwrDgmMY0NlkTLQ_Uk5KXvuoA3dH-0fJR-Bj3zgeUQwla6p0Z-5VAccbg_AMgyqI%26sigh%3Dw5wkxdMdiao3KUqiM2uoIPqyKTY%26begin%3D0%26len%3D285485%26docid%3D7147094441547410931&amp;thumbnailUrl=http%3A%2F%2Fvideo.google.com%2FThumbnailServer%3Fcontentid%3Da9cca74a1b99970a%26second%3D5%26itag%3Dw320%26urlcreated%3D1141031831%26sigh%3DW-lBmoRhcp7MwBDS-Fw0I3GxckQ&amp;playerId=7147094441547410931&amp;playerMode=embedded&quot; allowScriptAccess=&quot;sameDomain&quot; quality=&quot;best&quot; bgcolor=&quot;#ffffff&quot; scale=&quot;noScale&quot; wmode=&quot;window&quot; salign=&quot;TL&quot; &gt; &lt;/embed&gt;
-Det er optaget med en k750i, i så dårlig kvalitet, og lille billede, at det til fulde komplimenterer mine forsvindende små evner som kameraholder. Lydsiden har &lt;a href=&quot;&quot; title=&quot;Tyvepelsene&quot;&gt;Thievery Corporation&lt;/a&gt; stået for (fra den dersens &lt;a href=&quot;http://creativecommons.org/&quot; title=&quot;Den kreative fælled&quot;&gt;CCede&lt;/a&gt; CD der udkom med 2004s novemberversion af &lt;a href=&quot;http://wired-vig.wired.com/wired/archive/12.11/sample.html&quot;&gt;Wired&lt;/a&gt;), så den del er i orden.
+&lt;div style=&quot;float:right;padding-left: 3px;&quot;&gt;&lt;a style=&quot; border: none&quot; href=&quot;http://flickr.com/photos/voss/112397482/&quot; title=&quot;Conn Ó Muíneacháin&quot;&gt;&lt;img src=&quot;http://static.flickr.com/50/112397482_f33d7b5113_m.jpg&quot; alt=&quot;Conn Ó Muíneacháin&quot; style=&quot;text-align: center; padding: 4px; margin: 0px; border: 1px solid #999;&quot; /&gt;&lt;/a&gt;&lt;/div&gt; Her mødte jeg &lt;a href=&quot;http://imeall.blogspot.com/&quot;&gt;Conn Ó Muíneacháin&lt;/a&gt;, som blogger på irsk, og &lt;a href=&quot;http://irish.typepad.com/irisheyes/&quot;&gt;Bernie Goldbach&lt;/a&gt;, det eneste navn på en af de implicerede jeg kendte. Conn var ved at sætte en mængde udstyr op, så han kunne optage begivenheden, og smide det på nogle podcasts senere hen.
 
-Lad os bare sige, at jeg med en sådan debut, har rig mulighed for forbedringer (:
+Folk ankom (ca. 25 stk. vil jeg tro), mikrofonerne blev tændt, snakken kom i gang, og umiddelbart slog det mig, sammenlignet med bloggerkomsammener jeg har været til i København, at de fremmødte var ældre og, at mange af dem havde en baggrund i at producere radio. Det forklarede hvorfor mange af dem nu podcastede, og hvorfor det var det, der blev talt mest om i diskussionerne.
 
-Videon kan også &lt;a href=&quot;http://blog.verture.net/media/roadtrip.mov&quot;&gt;downloades i .mov-format&lt;/a&gt;.</description>
-	<link>http://blog.verture.net/180106/nu_med_rigt_medie</link>
-	<pubDate>Wed, 18 Jan 2006 23:47:33 +0100</pubDate>
-	<guid>http://blog.verture.net/180106/nu_med_rigt_medie</guid>
+Noget der blev gjort meget ud af i diskussionerne var om hvad podcasts var for en størrelse, og minder meget om den lignende diskussion omkring hvad weblogs kan eller ikke kan. &lt;a href=&quot;http://www.wxtc.net/&quot;&gt;Brian Greene&lt;/a&gt; mente, at podcasting var ved at nå en kritisk masse, hvor antallet af dem (ifølge et eller andet directory, som jeg ikke kan huske), er på grænsen til at overstige antallet af absolut tilgængelig radiokanaler (30.000+ ifølge ham). Men mængde er jo ikke ensbetydende med kvalitet, nok snarere med diversitet i tilfældet af podcast. &lt;a href=&quot;http://handelaar.org/&quot;&gt;John Handelaar&lt;/a&gt; var en radiomand der var lidt træt af at høre på, at podcasts ville udkonkurrere radio, idet han mente det var nogle helt forskellige ting de hver især kunne. Podcasts kan være intime på en måde radio aldrig kan blive det, fordi man selv bestemmer hvornår man vil høre det, og med sin mp3-afspiller også selv bestemmer hvor man hører det. John Handelaar som altid har lavet live radio, mente aldrig podcast ville kunne konkurrere med liveradio. Lige meget hvor lidt man lægger i post-production af sit podcast, så ville det aldrig kunne blive ligeså live som live radio, da man ikke kan opnå det direkte engangement fra lyttere der ringer ind i løbet af et liveprogram. Inden jeg pludrer endnu mere, om noget jeg ikke har forstand på, så hent et af de &lt;a href=&quot;http://podcasting.ie/podcast/podsession-at-irish-blog-awards/&quot;&gt;podcast&lt;/a&gt; der kom ud af tech talk'ene, jeg regner med at der kommer flere end det ene.
+
+Siden sidste lørdag har jeg hørt en del af &lt;a href=&quot;http://technolotics.com/&quot;&gt;Technolotics&lt;/a&gt; podcasts, og dem kan jeg ret godt lide. Det er en halv til en hel times tid med to Trinity-studerende der snakker om den forgangne uges begivenheder indenfor teknologi, politik og medier, fortalt på en personlig, og sommetider infantil og underholdende facon.</description>
+	<link>http://blog.verture.net/180306/naar_irere_kaster_med_potter</link>
+	<pubDate>Sat, 18 Mar 2006 22:28:37 +0100</pubDate>
+	<guid>http://blog.verture.net/180306/naar_irere_kaster_med_potter</guid>
 	<author>Jonas</author>
-	<comments>http://blog.verture.net/180106/nu_med_rigt_medie#c</comments>
+	<comments>http://blog.verture.net/180306/naar_irere_kaster_med_potter#c</comments>
 	</item>
 </channel>
 </rss>
