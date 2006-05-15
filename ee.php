@@ -20,8 +20,6 @@ if ( isset($_GET['arcmonth']) )
 		AND
 			FROM_UNIXTIME(entries.date, '%Y') = '{$req_year}'
 		AND
-			entries.status = '1'
-		AND
 			authors.uid = entries.aid
 		ORDER BY
 			entries.date
@@ -39,8 +37,6 @@ if ( isset($_GET['arcmonth']) )
 		AND
 			FROM_UNIXTIME(entries.date, '%Y') = '{$req_year}'
 		AND
-			entries.status = '1'
-		AND
 			authors.uid = entries.aid
 		AND
 			entries.aid = {$_SESSION['aid']}
@@ -49,16 +45,14 @@ if ( isset($_GET['arcmonth']) )
 		DESC";
 	}
 }
-	else
+else
 {
 		$req_sql = "SELECT
 			*
 		FROM
 			entries, authors
 		WHERE
-			entries.status = '1'
-		AND
-			authors.uid = entries.aid
+		authors.uid = entries.aid
 		AND
 			entries.aid = {$_SESSION['aid']}
 		ORDER BY
