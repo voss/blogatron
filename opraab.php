@@ -11,7 +11,7 @@
 @include('incs/includes.inc.php');
 
 if(isset($_POST['eid']) && isset($_POST['c_submit'])) {
-	if(empty($_POST['c_text']) || empty($_POST['c_author']) || $_POST['c_humanoid'] != "Æ") {
+	if(empty($_POST['c_text']) || empty($_POST['c_author']) || $_POST['c_humanoid'] != "9") {
 		print_header(". {$blog_title} | fejl .","stil.css", $domain_name, $description, $key_words, $dc_title, $install_path);
 		?>
 			<div id="container">

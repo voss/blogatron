@@ -1,69 +1,21 @@
 <div id="middle">
       <div id="mcontent">
 		<div class="unit">
-			<h1 style="padding-top:7px;padding-bottom: 10px;">&raquo; RSS-feeds</h1>
 			<ul>
-				<li><a href="/rss/entries" title="RSS-feed af indlæg">Indlæg</a></li>
-				<li><a href="/rss/comments" title="RSS-feed af kommentarer">Kommentarer</a></li>
+				<li><img src="/img/rsssmall.png" alt="RSS ikon" style="vertical-align: middle; padding-right: 3px; border:0"/><a href="/rss/entries" title="RSS-feed af indlæg">Indlæg</a></li>
+				<li><img src="/img/rsssmall.png" alt="RSS ikon" style="vertical-align: middle; padding-right: 3px; border:0"/><a href="/rss/comments" title="RSS-feed af kommentarer">Kommentarer</a></li>
 			</ul>
 		</div>
-        <div class="unit" style="padding-left:15px;">
-	      <?=display_archive_months(); ?>
-        </div>
-		<div class="unit" title="Nu sorteret!" style="padding-left:15px;">
-			<select id="linkout" onchange="document.location=options[selectedIndex].value;">
-				<option>Blogrulle (med dip)</option>
-				<option value="http://blogbot.dk/">blogbot</option>
-				<option>---------------</option>
-				<option value="http://www.abekat.net/">abekat</option>
-				<option value="http://aggemam.dk/">aggemam</option>
-				<option value="http://www.dashes.com/anil/">Anil Dash</option>
-				<option value="http://www.askbjoernhansen.com/">askbjoernhansen</option>
-				<option value="http://www.bering-express.dk/">bering-express</option>
-				<option value="http://www.biplog.com/">bIPlog</option>
-				<option value="http://blangstrup.org">blangstrup</option>
-				<option value="http://www.bootstrapping.net/" title="Thomas Madsen-Mygdal">bootstrapping</option>
-				<option value="http://xoc.dk/">Camillog</option>
-				<option value="http://dalager.com/weblog">dalager</option>
-				<option value="http://daringfireball.net/">daringfireball</option>
-				<option value="http://dave.dk/">dot dave</option>
-				<option value="http://defectiveyeti.com/">defective yeti</option>
-				<option value="http://www.wasab.dk/morten/eksponering/">Eksponering</option>
-				<option value="http://www.sparkpod.com/froeken.andersen">Frøken Andersen</option>
-				<option value="http://www.jdreng.dk/">jdreng</option>
-				<option value="http://jonaskochbentzen.com/">jonaskochbentzen</option>
-				<option value="http://kaboom.dk/">kaboom</option>
-				<option value="http://www.theprint.dk/kammeret/">Kammeret</option>
-				<option value="http://www.kittenmoon.com/">kittenmoon</option>
-				<option value="http://www.lasserimmer.com/">lasserimmer</option>
-				<option value="http://www.corante.com/many/">Many-to-Many</option>
-				<option value="http://nedrig.geekworld.org/">Nedrig humlebi</option>
-				<option value="http://blog.nufidelity.dk/">nufidelity</option>
-				<option value="http://oschlag.dk/weblog/">oschlag</option>
-				<option value="http://rumskib.blogspot.com/">PRF</option>
-				<option value="http://plokblog.dk/">plokblog</option>
-				<option value="http://blog.reippuert.dk/">reippuert</option>
-				<option value="http://olekjeldhansen.com/archives/category/roys-container">Roy's container</option>
-				<option value="http://www.solitude.dk/">solitude</option>
-				<option value="http://www.stopdesign.com/">stopdesign</option>
-				<option value="http://weblogs.mozillazine.org/hyatt/">Surfin' Safari</option>
-				<option value="http://www.blog.soender.com/">sønder</option>
-				<option value="http://tantologi.dk/">tantologi</option>
-				<option value="http://vedana.net/">vedana</option>
-				<option value="http://vesterblog.dk/">vesterblog</option>
-				<option value="http://vetran.dk/">vetran</option>
-				<option value="http://webmercial.dk/">webmercial 2.0</option>
-			<option value="http://wulffmorgenthaler.com/">wulffmorgenthaler</option>
-			</select>
+		<div class="unit">
+			<h1 title="10 tilfældige jeg læser" style="padding-top:7px;padding-bottom: 10px;">&raquo; et klik væk</h1>
+			<ul>
+			<?php printLinkroll(10); ?>
+			</ul>
 		</div>
 				<?php
 					@include($_SERVER['DOCUMENT_ROOT'].'/incs/scrobbler.inc.php');
 				?>
 
-
-           <?php
-          #    @include($_SERVER['DOCUMENT_ROOT'].'/incs/waxincs.inc.php');
-           ?>
 <div style="padding-top: 5px; padding-left:10px;">
 <script type="text/javascript"><!--
 google_ad_client = "pub-8076874108537450";
@@ -135,7 +87,12 @@ google_color_text = "333333";
 	         }
 		      ?>
    			</ul>
-	</div>	
+        <div class="unit">
+			<h1 style="padding-bottom: 7px;">&raquo; Arkiv</h1>
+			<?=display_archive_months(); ?>
+        </div>
+	</div>
+
 </div>
       <div id="right">
          <div id="rcontent">

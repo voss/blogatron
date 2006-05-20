@@ -193,50 +193,18 @@ function print_ulist($arg)
 	print '</ul>';
 }
 
-function top_pagination($start, $total_rows, $limit) 
+function printLinkroll($arg)
 {
-	if($start != 1)
-	{	
-		$back = $start-1;
-		print '<a href="?db='.$_GET['db'].'&start='.$back.'">Forrige '.$limit.'</a> ';
-	}
-	else
+	$sql = 'SELECT linktext,linkurl,linktitle,0+RAND() as rnd_id FROM linkroll where status = "1" ORDER BY rnd_id LIMIT '.$arg.'';
+#	print $sql.'<br />';
+	$result = mysql_query($sql);
+	while($row = mysql_fetch_row($result))
 	{
-		print 'Forrige '.$limit.' ';
+		extract($row);
+		list($linktext,$linkurl,$linktitle) = $row;
+		print '<li><a href="'.$linkurl.'" title="'.$linktitle.'">'.$linktext.'</a></li>';
 	}
-	
-	$numofpages = $total_rows / $limit;
-	for($i = 1; $i <= $numofpages; $i++)
-	{
-	 	if($i == $start)
-	 	{
-	 		print '<span class="emph"> '.$i.' </span>';
-	 	}
-	 	else
-	 	{
-	 		print '<a href="?db='.$_GET['db'].'&start='.$i.'"> '.$i.' </a>  ';
-	 	}
-	}
-	
-	if(($total_rows % $limit) != 0)
-	{
-		if($i == $start)
-		{
-			print ' '.$i.' ';
-		}
-		else
-		{
-			print '<a href="?db='.$_GET['db'].'&start='.$i.'">'.$i.'</a> ';
-		}
-	}
-	
-	if(($total_rows - ($limit * $_GET['start'])) > 0)
-	{
-		$start = $_GET['start'];
-		$startnext = $start++;
-		print '<a href="?db='.$_GET['db'].'&start='.$start++.'">Næste '.$limit.'</a> ';
-	}
-
 }
+
 
 ?>

@@ -44,32 +44,33 @@ if(isset($_COOKIE["blogatron_author"])) {
 }
 
 $comments_form =
-'<h2 id="comment">Skriv en kommentar</h2>
+'<h2 id="comment">Leave a comment</h2>
 <form action="'.$install_path.'/opraab.php" method="post" id="ca">
     <div style="clear: left; width: 100%;">
     <input type="hidden" name="comment_url" value="http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].'" />
     <input type="hidden" name="etitle" value="'.$title.'" />
     <fieldset>
-        <legend style="border: 1px solid #eee; background: white">( <span style="font-size: x-small;"><span style="color: #c00; font-weight: bold;">*</span> = Skal udfyldes</span> )</legend>
-        <p><label>Navn</label> <span style="color: #c00; font-weight: bold;">*</span><br />
+        <legend style="border: 1px solid #eee; background: white"><span style="font-size: x-small;"><span style="color: #c00; font-weight: bold;">*</span> = Required</span></legend>
+        <p><label><span style="color: #c00; font-weight: bold;">*</span>Name</label><br />
         <input type="text" name="c_author" value="'.$_COOKIE['blogatron_author'].'" size="30" /></p>
         <p><label>Email</label><br />
         <input type="text" name="c_email" value="'.$_COOKIE['blogatron_email'].'" size="30" /></p>
-        <p><label>URL [husk http://]</label><br />
+        <p><label>URL [don\'t forget http://]</label><br />
         <input type="text" name="c_url" value="'.$_COOKIE['blogatron_url'].'" size="30" /></p>
-		<p><label>Anti-spam! Indsæt Æ i dette felt: <span style="color: #c00; font-weight: bold;">*</span></label>
+		<p><label>Do a little math:<span style="color: #c00; font-weight: bold;">*</span> 3 x 3 = </label>
         <input type="text" name="c_humanoid" value="'.$_COOKIE['blogatron_humanoid'].'" size="1" /></p>
         <p>
         <input type="hidden" name="eid" value="'.$id.'" />
-        <label class="kage">Husk mig</label> <input style="border: 0;" type="radio" name="bakecookie" '.$checked_status[0].' />
-        <label class="kage">Husk mig ej</label> <input style="border: 0;" type="radio" name="bakecookie" '.$checked_status[1].' value="off" />
+		<label>Remember info?</label>
+        <label class="kage">Yes </label> <input style="border: 0;" type="radio" name="bakecookie" '.$checked_status[0].' />
+        <label class="kage">No</label> <input style="border: 0;" type="radio" name="bakecookie" '.$checked_status[1].' value="off" />
         </p>
     </fieldset>
-    <p style="margin-bottom: 0;padding-bottom;"><label>Kommentar</label> <span style="color: #c00; font-weight: bold;">*</span><br />
+    <p style="margin-bottom: 0;padding-bottom;"><label>Comment</label> <span style="color: #c00; font-weight: bold;">*</span><br />
     <textarea cols="23" rows="10" name="c_text" style="font-size: small; width: 90%"></textarea></p>
-    <p id="tilladt">Tilladt HTML: &lt;a href="..."&gt;, &lt;b&gt;, &lt;em&gt;, &lt;q&gt;.</p>
+    <p id="tilladt">Some HTML allowed: &lt;a href="..."&gt;, &lt;b&gt;, &lt;em&gt;, &lt;q&gt;.</p>
     <p>
-        <input type="submit" name="c_submit" value="Tilføj kommentar" style="margin-left: 60%;" />
+        <input type="submit" name="c_submit" value="Submit comment" style="margin-left: 60%;" />
     </p>
     <br />
     </div>

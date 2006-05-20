@@ -102,7 +102,7 @@ if(isset($_GET['delete_comment']))
 	$sql_del = "delete from comments where c_id = {$del_e}";
 	if($result_del = mysql_query($sql_del)) 
 	{
-		print '<p style="margin: 0; padding: 0; color: #648C50; font-weight: bold;">Kommentaren blev slettet fra databasen</p>';
+		print '<p class="success"><img src="/img/icon_tick.gif" style="vertical-align: middle; width:20px; height:20px" />Kommentaren blev slettet fra databasen</p>';
 	#	print "<p>$sql_del</p>";
 	}
 	else

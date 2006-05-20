@@ -31,7 +31,7 @@ if(isset($_GET['delete_link']))
 	}
 	else
 	{
-		print '<p style="margin: 0; padding: 0; color: #648C50;">Houston, we have a problem</p>';
+		print '<p class="explainerror">Houston, we have a problem</p>';
 	}
 }
 if(isset($_POST['submit']))
@@ -85,12 +85,12 @@ if (isset($_GET['editlink']))
 			<h1>Tilføj link til blogrulle</h1>
 	        <input type="hidden" name="aid" value="<?=$_SESSION['aid'];?>" />
 	        <input type="hidden" name="linkid" value="<?=$id;?>" />
-	        <label>Titel tag</label><br />
-	        <input tabindex="1" type="text" name="linktitle" value="<?=stripslashes($linktitle);?>" size="25" /><br />
 	        <label>URL</label><br />
-	        <input tabindex="2" name="linkurl" style="width: 65%;" value="<?=stripslashes($linkurl);?>"><br />
-			<label>anchor Tekst</label><br />
-			<input tabindex="3" name="linktext" style="width: 65%" value="<?=stripslashes($linktext);?>">
+	        <input tabindex="1" name="linkurl" style="width: 65%;" value="<?=stripslashes($linkurl);?>"><br />
+			<label>Anchor</label><br />
+			<input tabindex="2" name="linktext" style="width: 65%" value="<?=stripslashes($linktext);?>"><br />
+	        <label>Title tag</label><br />
+	        <input tabindex="3" type="text" name="linktitle" style="width: 65%;" value="<?=stripslashes($linktitle);?>" /><br />
 			<div style="padding-bottom: 25px; padding: 8px;">
 	        <label>Status</label>
 	        <select tabindex="5" name="status">
@@ -118,12 +118,12 @@ else
 <div style="margin: 0 20px 0 0; padding: 0; border: 0">		
 <h1>Tilføj link til blogrulle</h1>
         <input type="hidden" name="aid" value="<?=$_SESSION['aid'];?>" />
-        <label>Titel tag</label><br />
-        <input tabindex="1" type="text" name="linktitle" value="<?=stripslashes($_POST['linktitle']);?>" size="25" /><br />
         <label>URL</label><br />
-        <input tabindex="2" name="linkurl" style="width: 65%;" value="<?=stripslashes($_POST['linkturl']);?>"><br />
-		<label>anchor Tekst</label><br />
-		<input tabindex="3" name="linktext" style="width: 65%" value="<?=stripslashes($_POST['linktext']);?>">
+        <input tabindex="1" name="linkurl" style="width: 65%;" ><br />
+		<label>Anchor</label><br />
+		<input tabindex="2" name="linktext" style="width: 65%" <br />
+        <label>Titel tag</label><br />
+        <input tabindex="3" type="text" name="linktitle" style="width: 65%" /><br />
 		<div style="padding-bottom: 25px; padding: 8px;">
         <label>Status</label>
         <select tabindex="5" name="status">
@@ -160,6 +160,7 @@ else
 		while(false !== ($row = @mysql_fetch_array($result)))
 		{
 			extract($row);
+			$status = ($status == 0) ? ($status = 'Inaktiv') : ($status = 'Aktiv');
 print <<<EOD
 <tr>
 	<td><a href="linkage.php?editlink=$id">Ret</a>/<a href="linkage.php?delete_link=$id">Slet</a></td>

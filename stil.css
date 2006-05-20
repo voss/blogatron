@@ -68,7 +68,7 @@ body {
 
 #lcontent {
    padding: 10px;
-   border-right: 1px solid #ddd;
+  /* border-right: 1px solid #ddd; */
    margin-right: 10px;
    font-size: small;
   background: white;
