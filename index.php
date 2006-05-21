@@ -60,9 +60,7 @@ setcookie("peek-a-boo","last_visit", time()+3600*24*365, "/");
 			}
    		?>
 			<div id="disclaimer">
-			<p>Jeg er Jonas Voss, jeg arbejder for <a
-href="http://google.ie/">Google</a>. Alt der bliver skrevet her er et
-udtryk for min holdning, og ikke min arbejdsgivers.</p>
+			<p>Disclaimer: Alt der bliver skrevet her er et udtryk for min holdning, og ikke min arbejdsgivers.</p>
 			</div>
    	   </div>
      </div>

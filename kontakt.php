@@ -46,8 +46,7 @@
 ?>
 </pre>
 <h3>Disclaimer</h3>
-<p>Jeg er Jonas Voss, ansat af <a href="http://google.ie/">Google</a>. Her skriver jeg om hvad der falder mig ind.</p>
-<p>Hvad der end bliver skrevet på sider under dette domæne, udtrykker min holdning, og ikke min arbejdsgivers.</p>
+<p>Disclaimer: Hvad der end bliver skrevet på sider under dette domæne, udtrykker min holdning, og ikke min arbejdsgivers.</p>
 <?php
 /*	<p>Jeg er Jonas Voss, en ganske almindelig ung mand fra 1975. Lever, læser og arbejder i København.</p>
 	<p>Bachelor i Udviklingsgeografi fra <a href="http://www.geogr.ku.dk/">Københavns Universitet</a>, og Cand.ITer in spe fra <a href="http://itu.dk/" title="IT Universitetet i København">IT Universitetet</a> i København.</p>
