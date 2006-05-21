@@ -30,7 +30,7 @@ return $cleaned_text;
 // Turn on Magpie's caching function
 define('MAGPIE_CACHE_ON',1);
 
-print '<h1 style="padding-top:10px;padding-bottom: 10px;">&raquo; Har sidst hørt [<a title="Via min profil hos Last.fm" href="/io/http://www.last.fm/user/bobbybonzai/">#</a>]</h1>';
+print '<h1 style="padding-top:10px;padding-bottom: 10px;">&raquo; Ear love [<a title="Via min profil hos Last.fm" href="/io/http://www.last.fm/user/bobbybonzai/">#</a>]</h1>';
 
 if (!$feed = fetch_rss("http://ws.audioscrobbler.com/rdf/history/$username")) {
         echo "<p>Audioscrobbler har vist lidt problemer, så du kan ikke

@@ -2,14 +2,14 @@
       <div id="mcontent">
 		<div class="unit">
 			<ul>
-				<li><img src="/img/rsssmall.png" alt="RSS ikon" style="vertical-align: middle; padding-right: 3px; border:0"/><a href="/rss/entries" title="RSS-feed af indlæg">Indlæg</a></li>
-				<li><img src="/img/rsssmall.png" alt="RSS ikon" style="vertical-align: middle; padding-right: 3px; border:0"/><a href="/rss/comments" title="RSS-feed af kommentarer">Kommentarer</a></li>
+				<li><img src="/img/rsssmall.png" alt="RSS ikon" style="vertical-align: middle; padding-right: 3px; border:0"/><a href="/rss/entries" title="RSS-feed af indlæg">Entries</a></li>
+				<li><img src="/img/rsssmall.png" alt="RSS ikon" style="vertical-align: middle; padding-right: 3px; border:0"/><a href="/rss/comments" title="RSS-feed af kommentarer">Comments</a></li>
 			</ul>
 		</div>
 		<div class="unit">
 			<h1 title="10 tilfældige jeg læser" style="padding-top:7px;padding-bottom: 10px;">&raquo; Link love</h1>
 			<ul>
-			<?php printLinkroll(10); ?>
+				<?php printLinkroll(10); ?>
 			</ul>
 		</div>
 				<?php
@@ -34,7 +34,7 @@ google_color_text = "333333";
   src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 </div>
-		<h1 style="padding-top: 10px;padding-bottom: 10px;">&raquo; voss/sidedish [<a title="via del.icio.us/voss/sidedish/" href="/io/http://del.icio.us/voss/sidedish">#</a>]</h1>
+		<h1 style="padding-top: 10px;padding-bottom: 10px;">&raquo; Sidedish [<a title="via del.icio.us/voss/sidedish/" href="/io/http://del.icio.us/voss/sidedish">#</a>]</h1>
           <ul>
 	   <?php
 			// require_once "rss_fetch.inc"; 
@@ -61,7 +61,7 @@ google_color_text = "333333";
 			}
       ?>
  			</ul>
-				<h1 style="padding-top: 10px;padding-bottom: 10px;">&raquo; tags/popular</h1>
+				<h1 style="padding-top: 10px;padding-bottom: 10px;">&raquo; Popular</h1>
 	   		<ul>
 			   <?php
 	         // require_once "rss_fetch.inc"; 

@@ -28,19 +28,28 @@ setcookie("peek-a-boo","last_visit", time()+3600*24*365, "/");
 </head>
 <body>
 	<div id="container">
-	   
-	   <div id="top">
-	   	      <div id="banner2">
-	      <div style="float: right"></div>
-	   </div>
-	   
-	   <div id="banner">
-	      <div id="menu">
-         <?php @include('/home/voss/blog/incs/menu.inc');?>
+		<div id="top">
+			<div id="banner2">
+				<div style="float: right">
+					
+				</div>
+			</div>
+
+			<div id="banner">
+				<div id="menu">
+         			<?php @include('incs/menu.inc');?>
+				</div>
 			</div>
 		</div>
-      </div>
-	   <div id="left">
+<?php
+/*		<div>
+			<div id="new23" style="color: #950; text-align: center; font-size:xx-small; height; float: left;clear: both;">Loading <img src="/img/23fade.gif" alt="23 logo" /></div>
+			<div id="newFlickr" style="color: #950; text-align: center; font-size:xx-small; display: inline; ">Loading Flickr...</div>
+		</div>
+*/
+?>
+
+		<div id="left">
 	      <div id="lcontent">
 <?php
 /*			<div id="flickrimg">

@@ -61,7 +61,7 @@ function display_entry_from_url()
 			{
 				if(@mysql_num_rows($result_c) > 0)
 				{
-					print "<h2 id=\"c\">Kommentarer</h2>\n";
+					print "<h2 id=\"c\">Comments</h2>\n";
 					while($row_c = @mysql_fetch_array($result_c))
 					{
 						extract($row_c);
@@ -163,15 +163,15 @@ function display_front_page($lastentries)
 				switch ($count_comments = mysql_num_rows($result2))
 				{
 					case 1:
-					print "<p class=\"byline\">{$day} @ {$hour} | <a href=\"{$install_path}/{$date}/".dirify($title)."#c\" title=\"{$count_comments} har tilføjet noget\">Kommentar [ {$count_comments} ]</a> | <a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">Permalink</a></p>\n";
+					print "<p class=\"byline\">{$day} @ {$hour} | <a href=\"{$install_path}/{$date}/".dirify($title)."#c\" title=\"{$count_comments} har tilføjet noget\">Comment [ {$count_comments} ]</a> | <a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">Permalink</a></p>\n";
 					break;
 					
 					case 0:
-					print "<p class=\"byline\">{$day} @ {$hour} | <a href=\"{$install_path}/{$date}/".dirify($title)."#ca\" title=\"Noget at tilføje?\">Kommentarer [ {$count_comments} ]</a> | <a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">Permalink</a></p>\n";
+					print "<p class=\"byline\">{$day} @ {$hour} | <a href=\"{$install_path}/{$date}/".dirify($title)."#ca\" title=\"Noget at tilføje?\">Comments [ {$count_comments} ]</a> | <a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">Permalink</a></p>\n";
 					break;
 					
 					default:
-					print "<p class=\"byline\">{$day} @ {$hour} | <a href=\"{$install_path}/{$date}/".dirify($title)."#c\" title=\"{$count_comments} har tilføjet noget\">Kommentarer [ {$count_comments} ]</a> | <a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">Permalink</a></p>\n";
+					print "<p class=\"byline\">{$day} @ {$hour} | <a href=\"{$install_path}/{$date}/".dirify($title)."#c\" title=\"{$count_comments} har tilføjet noget\">Comments [ {$count_comments} ]</a> | <a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">Permalink</a></p>\n";
 					break;
 				}
 			}
@@ -181,7 +181,7 @@ function display_front_page($lastentries)
 			print "<p class=\"byline\">{$day} @ {$hour} | <a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">Permalink</a></p>\n";
 
 		}
-		print '<div class="splitter"></div>';
+#		print '<div class="splitter"></div>';
 		print "</div>\n";
 	}
 	}

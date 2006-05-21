@@ -2,7 +2,7 @@
 	<li><a href="/" title="weblog">Blog</a></li>
 	<li><a href="/kontakt/" title="Hvem står bag?">Info // Kontakt</a></li>
 	<li><a href="/services/" title="Public Service">Services</a></li>
-	<li><a href="http://wax.verture.net/" title="Plader og CD'ere">Plader</a></li>
+	<li><a href="http://wax.verture.net/" title="Records and CDs">Wax</a></li>
 	<li><a href="/io/http://23hq.dk/voss" title="Glimt">23</a></li>
 	<li><a href="/kolofon/" title="Tech spec">Kolofon</a></li>
 	<li>
