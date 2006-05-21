@@ -7,7 +7,7 @@
 			</ul>
 		</div>
 		<div class="unit">
-			<h1 title="10 tilfældige jeg læser" style="padding-top:7px;padding-bottom: 10px;">&raquo; et klik væk</h1>
+			<h1 title="10 tilfældige jeg læser" style="padding-top:7px;padding-bottom: 10px;">&raquo; Link love</h1>
 			<ul>
 			<?php printLinkroll(10); ?>
 			</ul>
