@@ -273,7 +273,7 @@ function display_archive_entry()
 function display_archive_months()
 {
 	global $install_path;
-	print '<div style="padding-left: 15px;">
+	print '<div style="padding-left: 15px; padding-bottom: 10px;">
 	';
 	$sql_year = "SELECT DISTINCT(FROM_UNIXTIME(date, '%Y')) as year FROM ".$db_name.".entries ORDER BY date DESC";
 	if(!$result_year = @mysql_query($sql_year))
