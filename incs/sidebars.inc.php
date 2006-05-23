@@ -101,7 +101,7 @@ google_color_text = "333333";
 <div id="newFlickr" style="color: #950; text-align: center; font-size:xx-small">Indlæser billeder fra Flickr...</div>
 </div>
 <div>
-<h1 style="padding-top:10px;">&raquo; 23 [<a href="/io/http://23hq.dk/voss">#</a>]</h1>
+<h1 style="padding-top:10px;">&raquo; Lense love [<a href="/io/http://23hq.dk/voss">#</a>]</h1>
 <div id="new23" style="color: #950; text-align: center; font-size:xx-small">Indlæser billeder fra 23...</div>
 </div>
 <?php
