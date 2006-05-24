@@ -443,26 +443,46 @@ form#ca input[type="reset"]:hover {
 }
 
 .comment * {
-	font-size: x-small;
+	font-size: small;
 }
 
-.comment {
-	margin: 10px 30px 10px 15px;
-	border: 1px dotted #7d9478;
-	padding: 0;
+.komm {
+	font-size: small;
+}
+
+.commentnumberlight, .commentnumberdark {
+	position: relative;
+	float: right;
+	font-size: 50px;
+	font-family: georgia, serif;
+	font-style: italic;
+}
+
+.commentnumberlight {
+	color: #CAB692;
+}
+
+.commentnumberdark {
+	color: #ddd;
+}
+
+
+.commentlight, .commentdark {
+	margin: 0px 30px 0 15px;
+	border: none;
+	padding: 5px;
+	padding-left: 8px;
 	width: 90%;
+}
+
+.commentdark {
+	background: #f0e7d7;
 }
 
 .comment p {
 	line-height: 1.4em;
 	margin: 0;
 	padding: 5px;
-}
-
-.comment p + p {
-    text-indent: 1.5em;
-    margin-top: 0;
-    padding-top: 0;
 }
 
 .comment .komm {

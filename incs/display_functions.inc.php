@@ -43,7 +43,7 @@ function display_entry_from_url()
 			$hour = date("G:i", $date);
 			$day = date("d.m.Y", $date);
 			print '<div class="entry">';
-			print "<h1><img src='/img/permlink.gif' alt='permalink' />{$title}</h1>\n";
+			print "<h1><img src='/img/permlink.gif' alt='permalink' />{$title} <span style='color: #799dc6'>{$day}</span></h1>\n";
 			$text = stripslashes(format_entry($text));
 			print "{$text}\n";
             if(!empty($text_more))
@@ -61,13 +61,16 @@ function display_entry_from_url()
 			{
 				if(@mysql_num_rows($result_c) > 0)
 				{
-					print "<h2 id=\"c\">Comments</h2>\n";
+					$comment_count = 1;
+					print '<h2 id="c">Comments</h2>';
 					while($row_c = @mysql_fetch_array($result_c))
 					{
 						extract($row_c);
-						$data = "<div class=\"comment\">\n";
-						$data .= format_entry($c_text);
-						$data .= "<p class=\"komm\">$c_author";
+						$commentstyle = ($comment_count % 2) ? 'commentdark' : 'commentlight';
+						$data = '<div class="'.$commentstyle.'">';
+						$commentnumber = ($comment_count % 2) ? 'commentnumberlight' : 'commentnumberdark';
+						$data .= '<div class="'.$commentnumber.'">'.$comment_count.'</div>';
+						$data .= '<p class="komm">'.$c_author.'';
 						if(!empty($c_url))
 						{
 							$data .= " | <a title=\"Besøg {$c_author} på nettet\" href=\"{$c_url}\">web</a>";
@@ -81,8 +84,10 @@ function display_entry_from_url()
 						$c_date = strtolower($c_date);
 						$data .= " / {$c_date}";
 						$data .= "</p>\n";
+						$data .= format_entry($c_text);
 						print $data;
 						print "</div>\n";
+						$comment_count++;
 					}
 				}
 

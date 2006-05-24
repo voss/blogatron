@@ -98,11 +98,11 @@ google_color_text = "333333";
          <div id="rcontent">
         <div id="flickrimg">
       		<h1>&raquo; Moblog [<a title="Via Flickr Pro, doneret af Eric" href="/io/http://www.flickr.com/photos/voss/">#</a>]</h1>
-<div id="newFlickr" style="color: #950; text-align: center; font-size:xx-small">Indlæser billeder fra Flickr...</div>
+<div id="newFlickr" style="color: #950; text-align: center; font-size:xx-small"><img src="/img/flickrfade.gif" /></div>
 </div>
 <div>
 <h1 style="padding-top:10px;">&raquo; Lense love [<a href="/io/http://23hq.dk/voss">#</a>]</h1>
-<div id="new23" style="color: #950; text-align: center; font-size:xx-small">Indlæser billeder fra 23...</div>
+<div id="new23" style="color: #950; text-align: center; font-size:xx-small"><img src="/img/23fade.gif" /></div>
 </div>
 <?php
 /*					<script type="text/javascript">
