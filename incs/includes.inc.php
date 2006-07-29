@@ -84,9 +84,9 @@ $edit_menu = array
 (
 	'Nyt indlæg' => $install_path.'/add/',
 	'Indlægshåndtering' => $install_path.'/edit/',
-	'Linkrulle' => $install_path.'/linkage.php',
+	'Linkrulle' => $install_path.'/sheriff/linkage.php',
 	'Se bloggen' => $install_path.'/',
-	'Logud' => $install_path.'/ae.php?action=logout',
+	'Logud' => $install_path.'/sheriff/ae.php?action=logout',
 	'Tilføj bruger' => $install_path.'/adduser/'
 );
 
