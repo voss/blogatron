@@ -42,15 +42,15 @@ RewriteEngine On
 
 ## Main site rewrites
   RewriteRule ^kontakt[/]?$ kontakt.php
-  RewriteRule ^ee[/]?$ ee.php
-  RewriteRule ^edit[/]?$ ee.php
+  RewriteRule ^ee[/]?$ sheriff/ee.php
+  RewriteRule ^edit[/]?$ sheriff/ee.php
   RewriteRule ^edit/([0-9]+)$ ee.php?entryid=$1
-  RewriteRule ^ae[/]?$ ae.php
-  RewriteRule ^add[/]?$ ae.php
-  RewriteRule ^de[/]?$ de.php
-  RewriteRule ^delete[/]?$ de.php
-  RewriteRule ^au[/]?$ au.php
-  RewriteRule ^adduser[/]?$ au.php
+  RewriteRule ^ae[/]?$ sheriff/ae.php
+  RewriteRule ^add[/]?$ sheriff/ae.php
+  RewriteRule ^de[/]?$ sheriff/de.php
+  RewriteRule ^delete[/]?$ sheriff/de.php
+  RewriteRule ^au[/]?$ sheriff/au.php
+  RewriteRule ^adduser[/]?$ sheriff/au.php
   RewriteRule ^arkiv[/]?$ arkiv.php
   RewriteRule ^kolofon[/]?$ kolofon.php
   RewriteRule ^arkiv/([a-zA-Z0-9.]+) arkiv.php?m=$1

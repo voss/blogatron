@@ -1,6 +1,6 @@
 <?php
 
-@include('incs/accesscontrol.php');
+@include($_SERVER['DOCUMENT_ROOT'].'/incs/accesscontrol.php');
 
 print_header(". {$blog_title} | Tilføj bruger", 'edit.css', $domain_name, $description, $key_words, $dc_title, $install_path);
 

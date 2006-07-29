@@ -1,6 +1,7 @@
 <?php
 
-@include('incs/accesscontrol.php');
+@include($_SERVER['DOCUMENT_ROOT'].'/incs/accesscontrol.php');
+
 
 # Is it an admin-user logging in? If yes, set $admin to true.
 $admin = ($_SESSION['aid'] != 1) ? FALSE : TRUE;
@@ -75,14 +76,17 @@ print_header(". {$blog_title} | Ret et indlæg .", "edit.css", $domain_name, $des
 	print_ulist($edit_menu);
 ?>
 </div>
+<div style="padding-left: 5px;">
 <?php
 	display_archive_months_edit();
 ?>
+</div>
 
 
 </div>
 <div id="content">
 <?php
+
 # delete entry-bit
 if(isset($_GET['delete_entry'])) {
 	$entryid = $_GET['delete_entry'];
@@ -90,7 +94,7 @@ if(isset($_GET['delete_entry'])) {
 	if(!$result = @mysql_query($sql)) : 
 		print "<p>Error: ".mysql_error()."</p>";
 	else :
-			print '<p>Posten med ID #'.$entryid.' er slettet fra databasen.</p>';
+			print '<p class="success"><img src="'.$install_path.'/sheriff/img/icon_tick.gif" style="vertical-align: middle; width:20px; height:20px" />Posten med ID #'.$entryid.' er slettet fra databasen.</p>';
 	endif;
 }
 
@@ -102,7 +106,7 @@ if(isset($_GET['delete_comment']))
 	$sql_del = "delete from comments where c_id = {$del_e}";
 	if($result_del = mysql_query($sql_del)) 
 	{
-		print '<p class="success"><img src="/img/icon_tick.gif" style="vertical-align: middle; width:20px; height:20px" />Kommentaren blev slettet fra databasen</p>';
+		print '<p class="success"><img src="'.$install_path.'/sheriff/img/icon_tick.gif" style="vertical-align: middle; width:20px; height:20px" />Kommentaren blev slettet fra databasen</p>';
 	#	print "<p>$sql_del</p>";
 	}
 	else
@@ -144,7 +148,7 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 
 ?>
 
-<form action="<?=$install_path;?>/ee.php" method="post" id="edit">
+<form action="<?=$install_path;?>/sheriff/ee.php" method="post" id="edit">
 	<div style="padding: 20px; border: 0">
 		<h1>Ret et indlæg</h1>
 		<label>Titel:</label><br />
@@ -236,7 +240,7 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 			list($hh, $mm, $ss, $day, $month, $year) = explode(",", $written_date);
 	#		print $edit_menu;
 		?>
-<form action="<?=$install_path;?>/ee.php" method="post" id="edit">
+<form action="<?=$install_path;?>/sheriff/ee.php" method="post" id="edit">
 	<div style="padding: 20px; border: 0">
 		<h1>Ret et indlæg</h1>
 		<label>Titel:</label><br />
@@ -310,7 +314,7 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 							extract($row2);
 							$row_color = ($row_count % 2) ? $class1 : $class2;
 							print '<tr class="'.$row_color.'">';
-							print '<td class="editcomments"><a href='.$install_path.'/ee.php?delete_comment='.$c_id.' onclick=\'if(checkDeleteC() == true) {return true;} else {return false;}\'>'.$c_text.'</a></td>';
+							print '<td class="editcomments"><a href='.$install_path.'/sheriff/ee.php?delete_comment='.$c_id.' onclick=\'if(checkDeleteC() == true) {return true;} else {return false;}\'>'.$c_text.'</a></td>';
 							$c_date = date("G:i || d.m || Y", $date);
 							print '<td>'.$c_author.' ('.$c_email.')</td>';
 							print '<td>'.$c_date.'</td>';
@@ -351,7 +355,7 @@ else
 		$date = date('d. F - Y', $date);
 		$status = ($status == 0) ? ($status = 'Kladde') : ($status = 'Postet');
 		$row_color = ($row_count % 2) ? $class1 : $class2;
-		print '<tr class="'.$row_color.'"><td><a href="'.$install_path.'/ee.php?entryid='.$id.'">'.$title.'</a></td>
+		print '<tr class="'.$row_color.'"><td><a href="'.$install_path.'/sheriff/ee.php?delete_entry='.$id.'"><img src="/sheriff/img/trash.gif" alt="trash" style="float: left; padding: 7px 0;margin-left: 15px" /></a> <a href="'.$install_path.'/sheriff/ee.php?entryid='.$id.'">'.$title.'</a></td>
 		<td>'.$date.'</td>
 		<td>'.$time.'</td>
 		<td>'.$status.'</td>

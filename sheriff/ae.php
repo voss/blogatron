@@ -1,6 +1,5 @@
 <?php
-@include('incs/accesscontrol.php');
-
+@include($_SERVER['DOCUMENT_ROOT'].'/incs/accesscontrol.php');
 
 if(isset($_POST['submit']))
 {

@@ -459,11 +459,11 @@ form#ca input[type="reset"]:hover {
 }
 
 .commentnumberlight {
-	color: #CAB692;
+	color: #f0f0f0;
 }
 
 .commentnumberdark {
-	color: #ddd;
+	color: #fff;
 }
 
 
@@ -476,7 +476,8 @@ form#ca input[type="reset"]:hover {
 }
 
 .commentdark {
-	background: #f0e7d7;
+	background: #f0f0f0;
+/*	border: 1px solid #d3d3d3; */
 }
 
 .comment p {

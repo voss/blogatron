@@ -172,7 +172,7 @@ Old flickr-string: count=5&amp;display=latest&amp;size=s&amp;layout=v&amp;source
 <script type="text/javascript"
 src="http://www.23hq.com/resources/um-style/general.js"></script>
 <script type="text/javascript"
-src="http://www.23hq.com/voss/script/data.js?mode=basic&tags=d50&selection=tags&limit=3&sort=taken"></script>
+src="http://www.23hq.com/voss/script/data.js?mode=basic&tags=d50&selection=tags&limit=3&sort=uploaded"></script>
 <script type="text/javascript"
 src="http://www.23hq.com/voss/script/functions.js"></script>
 <script>
