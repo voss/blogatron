@@ -27,7 +27,7 @@ if(isset($_GET['delete_link']))
 	$sql = "delete from linkroll where id = {$del_link}";
 	if($result_del = mysql_query($sql)) 
 	{
-		print '<p class="success"><img src="/img/icon_tick.gif" style="vertical-align: middle; width:20px; height:20px" />Linket blev slettet fra rullen</p>';
+		print '<p class="success"><img src="/sheriff/img/icon_tick.gif" style="vertical-align: middle; width:20px; height:20px" />Linket blev slettet fra rullen</p>';
 	#	print "<p>$sql_del</p>";
 	}
 	else
@@ -164,7 +164,7 @@ else
 			$status = ($status == 0) ? ($status = 'Inaktiv') : ($status = 'Aktiv');
 print <<<EOD
 <tr>
-	<td><a href="linkage.php?editlink=$id">Ret</a>/<a href="linkage.php?delete_link=$id">Slet</a></td>
+	<td><a href="linkage.php?delete_link=$id"><img src="/sheriff/img/trash.gif" /></a>&nbsp;&nbsp;<a href="linkage.php?editlink=$id">Ret</a></td>
 	<td>$linktitle</td>
 	<td>$linkurl</td>
 	<td>$linktext</td>
