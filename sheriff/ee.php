@@ -314,7 +314,7 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 							extract($row2);
 							$row_color = ($row_count % 2) ? $class1 : $class2;
 							print '<tr class="'.$row_color.'">';
-							print '<td class="editcomments"><a href='.$install_path.'/sheriff/ee.php?delete_comment='.$c_id.' onclick=\'if(checkDeleteC() == true) {return true;} else {return false;}\'>'.$c_text.'</a></td>';
+							print '<td class="editcomments"><a href='.$install_path.'/sheriff/ee.php?delete_comment='.$c_id.' onclick="confirmDeleteC(); return false">'.$c_text.'</a></td>';
 							$c_date = date("G:i || d.m || Y", $date);
 							print '<td>'.$c_author.' ('.$c_email.')</td>';
 							print '<td>'.$c_date.'</td>';
@@ -355,7 +355,7 @@ else
 		$date = date('d. F - Y', $date);
 		$status = ($status == 0) ? ($status = 'Kladde') : ($status = 'Postet');
 		$row_color = ($row_count % 2) ? $class1 : $class2;
-		print '<tr class="'.$row_color.'"><td><a href="'.$install_path.'/sheriff/ee.php?delete_entry='.$id.'"><img src="/sheriff/img/trash.gif" alt="trash" style="float: left; padding: 7px 0;margin-left: 15px" /></a> <a href="'.$install_path.'/sheriff/ee.php?entryid='.$id.'">'.$title.'</a></td>
+		print '<tr class="'.$row_color.'"><td><a href="'.$install_path.'/sheriff/ee.php?delete_entry='.$id.'" onclick="confirmDelete(); return false;"><img src="/sheriff/img/trash.gif" alt="trash" style="float: left; padding: 7px 0;margin-left: 15px" /></a> <a href="'.$install_path.'/sheriff/ee.php?entryid='.$id.'">'.$title.'</a></td>
 		<td>'.$date.'</td>
 		<td>'.$time.'</td>
 		<td>'.$status.'</td>

@@ -6,22 +6,18 @@ if(document.all && !document.getElementById) {
 }
 
 // Script for making deletion of posts cancelable. Thanks to Andreas Haugstrup <solitude@solitude.dk>.
-function checkDelete() {
+function confirmDelete() {
 	var value = confirm("Er du sikker på at du vil slette dette indlæg?");
 	if (value == true) {
-		return true;
-	} else {
-		return false;
+		this.submit();
 	}
 }
 
 // Script for making deletion of posts cancelable. Thanks to Andreas Haugstrup <solitude@solitude.dk>.
-function checkDeleteC() {
+function confirmDeleteC() {
 	var value = confirm("Er du sikker på at du vil slette denne kommentar?");
 	if (value == true) {
-		return true;
-	} else {
-		return false;
+		this.submit();
 	}
 }
 
