@@ -16,6 +16,7 @@
    <link rel="alternate" type="application/rss+xml" title="Københavns Politis Døgnrapport" href="http://itu.dk/people/jcv/verture/doegnrapport.php" />
    <script type="text/javascript" src="<?=$install_path;?>/js/jsscripts.js"></script>
    <link rel="alternate" type="application/rss+xml" title="Københavns Politis Døgnrapport" href="http://blog.verture.net/doegnrapport.php" />
+   <meta name="description" content="<?=$description;?>" />
    <meta name="ICBM" content="55.6773 , 12.5749" />
    <meta name="MSSmartTagsPreventParsing" content="true" />
    <style type="text/css" media="all">

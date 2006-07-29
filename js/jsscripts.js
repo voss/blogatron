@@ -108,7 +108,7 @@ function validateComment() {
 	
 	if(requiredFields.c_text.value == '')
 	{
-		alert('You need to fill on some text in the comments field too post a comment.')
+		alert('You need to fill in some text in the comments field to post a comment.')
 		requiredFields.c_text.focus();
 		return false;
 	}

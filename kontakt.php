@@ -16,8 +16,8 @@
    <link rel="alternate" type="application/rss+xml" title="RSS" href="<?=$install_path;?>/rssfeed.php" />
    <link rel="alternate" type="application/rss+xml" title="Københavns Politis Døgnrapport" href="http://itu.dk/people/jcv/verture/doegnrapport.php" />
    <script type="text/javascript" src="<?=$install_path;?>/js/jsscripts.js"></script>
-   <meta name="description" content="Weblog for Jonas Voss, Københavner og studerende, som så mange andre." />
-   <meta name="keywords" content="jonas, jonas voss, weblog, københavn, små grønne dimsedutter der triller, langsomt" />
+   <meta name="description" content="<?=$description;?>" />
+   <meta name="keywords" content="jonas, jonas c. voss, weblog, københavn, dublin" />
    <meta name="ICBM" content="55.6773 , 12.5749" />
    <meta name="MSSmartTagsPreventParsing" content="true" />
    <style type="text/css" media="all">
