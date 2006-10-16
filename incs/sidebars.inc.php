@@ -2,8 +2,8 @@
       <div id="mcontent">
 		<div class="unit">
 			<ul>
-				<li><img src="/img/rsssmall.png" alt="RSS ikon" style="vertical-align: middle; padding-right: 3px; border:0"/><a href="/rss/entries" title="RSS-feed af indlæg">Entries</a></li>
-				<li><img src="/img/rsssmall.png" alt="RSS ikon" style="vertical-align: middle; padding-right: 3px; border:0"/><a href="/rss/comments" title="RSS-feed af kommentarer">Comments</a></li>
+				<li><img src="/img/rsssmall.png" alt="RSS ikon" style="vertical-align: middle; padding-right: 3px; border:0"/><a href="http://feeds.feedburner.com/verture" title="RSS-feed af indlæg">Entries</a></li>
+				<li><img src="/img/rsssmall.png" alt="RSS ikon" style="vertical-align: middle; padding-right: 3px; border:0"/><a href="http://feeds.feedburner.com/verturekommentarer" title="RSS-feed af kommentarer">Comments</a></li>
 			</ul>
 		</div>
 		<div class="unit">
@@ -191,5 +191,12 @@ src="http://www.23hq.com/voss/script/functions.js"></script>
 </div>
 <script type="text/javascript">move23();</script>
 </div>
+<script src="http://www.google-analytics.com/urchin.js"
+type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-59591-1";
+urchinTracker();
+</script>
 </body>
 </html>

@@ -314,7 +314,7 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 							extract($row2);
 							$row_color = ($row_count % 2) ? $class1 : $class2;
 							print '<tr class="'.$row_color.'">';
-							print '<td class="editcomments"><a href='.$install_path.'/sheriff/ee.php?delete_comment='.$c_id.' onclick="confirmDeleteC(); return false">'.$c_text.'</a></td>';
+							print '<td class="editcomments"><a href='.$install_path.$_SERVER['REQUEST_URI'].'&delete_comment='.$c_id.' onclick="confirmDeleteC(); return false"><img src="/sheriff/img/trash.gif" alt="trash" style="float: left; padding: 7px 0;margin-left: 15px" /></a>'.$c_text.'</td>';
 							$c_date = date("G:i || d.m || Y", $date);
 							print '<td>'.$c_author.' ('.$c_email.')</td>';
 							print '<td>'.$c_date.'</td>';
