@@ -98,11 +98,11 @@ google_color_text = "333333";
          <div id="rcontent">
         <div id="flickrimg">
       		<h1>&raquo; Moblog [<a title="Via Flickr Pro, doneret af Eric" href="/io/http://www.flickr.com/photos/voss/">#</a>]</h1>
-<div id="newFlickr" style="color: #950; text-align: center; font-size:xx-small"><img src="/img/flickrfade.gif" /></div>
+<div id="newFlickr" style="color: #950; text-align: center; font-size:xx-small"><img src="/img/flickrfade.gif" alt="Flickr pictures" /></div>
 </div>
 <div>
 <h1 style="padding-top:10px;">&raquo; Lense love [<a href="/io/http://23hq.dk/voss">#</a>]</h1>
-<div id="new23" style="color: #950; text-align: center; font-size:xx-small"><img src="/img/23fade.gif" /></div>
+<div id="new23" style="color: #950; text-align: center; font-size:xx-small"><img src="/img/23fade.gif" alt="23 pictures" /></div>
 </div>
 <?php
 /*					<script type="text/javascript">
@@ -172,10 +172,10 @@ Old flickr-string: count=5&amp;display=latest&amp;size=s&amp;layout=v&amp;source
 <script type="text/javascript"
 src="http://www.23hq.com/resources/um-style/general.js"></script>
 <script type="text/javascript"
-src="http://www.23hq.com/voss/script/data.js?mode=basic&tags=d50&selection=tags&limit=3&sort=uploaded"></script>
+src="http://www.23hq.com/voss/script/data.js?mode=basic&amp;tags=d50&amp;selection=tags&amp;limit=3&amp;sort=uploaded"></script>
 <script type="text/javascript"
 src="http://www.23hq.com/voss/script/functions.js"></script>
-<script>
+<script type="text/javasxript">
     display23['linkToAccount'] = 0;
     display23['size'] = 'quad100';
     display23['layout'] = 'vertical';

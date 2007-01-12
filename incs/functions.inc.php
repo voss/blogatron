@@ -136,6 +136,8 @@ function dirify($arg)
 	return $arg;
 }
 
+#	HACK
+#	Turns danish chars, and some special chars into ASCII equivalents for URLs
 function undirify($arg)
 {
 	if(strstr($arg, "-")) 
@@ -152,6 +154,7 @@ function undirify($arg)
 	return $arg;
 }
 
+#	Turn months into danish, lowercase equivalents
 function dateify($arg)
 {
 	switch ($arg)
@@ -183,6 +186,7 @@ function dateify($arg)
 	}
 }
 
+#	Prints a menu list, $arg is the menu you want to print
 function print_ulist($arg)
 {
 	print '<ul>';
@@ -193,10 +197,10 @@ function print_ulist($arg)
 	print '</ul>';
 }
 
+#	Print my linkroll. $arg is number of links per serving
 function printLinkroll($arg)
 {
 	$sql = 'SELECT linktext,linkurl,linktitle,0+RAND() as rnd_id FROM linkroll where status = "1" ORDER BY rnd_id LIMIT '.$arg.'';
-#	print $sql.'<br />';
 	$result = mysql_query($sql);
 	while($row = mysql_fetch_row($result))
 	{

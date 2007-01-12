@@ -10,7 +10,7 @@ setcookie("peek-a-boo","last_visit", time()+3600*24*365, "/");
 "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-   <title>. <?=$blog_title;?> | <?=strtolower($front_title[0]);?> .</title>
+   <title>. <?=strtolower($front_title[0]);?> | <?=$blog_title;?> .</title>
    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
    <script src="http://www.gvisit.com/record.php?sid=043c3d02563545754e66d6c8a9be2757" type="text/javascript"></script>
    <link rel="shortcut icon" href="<?=$install_path;?>/favicon.ico" type="image/x-icon" />
