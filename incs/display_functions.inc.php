@@ -44,6 +44,8 @@ function display_entry_from_url()
 			$day = date("d.m.Y", $date);
 			print '<div class="entry">';
 			print "<h1><img src='/img/permlink.gif' alt='permalink' />{$title} <span style='color: #799dc6'>{$day}</span></h1>\n";
+			print '<p class="byline">'.$day.'<br />
+			'.$hour.'</p>';
 			$text = stripslashes(format_entry($text));
 			print "{$text}\n";
             if(!empty($text_more))
@@ -146,14 +148,6 @@ function display_front_page($lastentries)
 		$day = date("d.m.Y", $date);
 		$title_d = dirify($title);
 		$date = date('dmy', $date);
-		print "<div class='entry'>\n";
-		print "<h1><img src='/img/permlink.gif' alt='permalink' />{$title}</h1>\n";
-		print stripslashes(format_entry($text));
-        if(!empty($text_more))
-        {
-            print "<p><a href=\"{$date}/{$title_d}#mere\" style=\"font-weight: bold\" title=\"Klik for at læse mere af '{$title}'\">Læs mere...</a></p>";
-        }
-#		print "</p>";
 		if($comments == 'on')
 		{
 			$sql2 = "SELECT c_text, c_author, date eid FROM comments WHERE comments.eid = '{$id}'";
@@ -168,26 +162,25 @@ function display_front_page($lastentries)
 				switch ($count_comments = mysql_num_rows($result2))
 				{
 					case 1:
-					print "<p class=\"byline\">{$day} @ {$hour} | <a href=\"{$install_path}/{$date}/".dirify($title)."#c\" title=\"{$count_comments} har tilføjet noget\">Comment [ {$count_comments} ]</a> | <a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">Permalink</a></p>\n";
-					break;
-					
-					case 0:
-					print "<p class=\"byline\">{$day} @ {$hour} | <a href=\"{$install_path}/{$date}/".dirify($title)."#ca\" title=\"Noget at tilføje?\">Comments [ {$count_comments} ]</a> | <a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">Permalink</a></p>\n";
+					$actual_comments = 'Comment';
 					break;
 					
 					default:
-					print "<p class=\"byline\">{$day} @ {$hour} | <a href=\"{$install_path}/{$date}/".dirify($title)."#c\" title=\"{$count_comments} har tilføjet noget\">Comments [ {$count_comments} ]</a> | <a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">Permalink</a></p>\n";
+					$actual_comments = 'Comments';
 					break;
 				}
 			}
 		}
-		else
-		{
-			print "<p class=\"byline\">{$day} @ {$hour} | <a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">Permalink</a></p>\n";
-
-		}
+		print "<div class='entry'>\n";
+		print "<h1><img src='/img/permlink.gif' alt='permalink' />{$title}</h1>\n";
+		print "<p class=\"byline\">{$day}<br /> \n {$hour}<br /> \n <a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">Permalink</a> <br /> \n{$count_comments} <a href=\"{$install_path}/{$date}/".dirify($title)."#c\" title=\"{$count_comments} har tilføjet noget\">{$actual_comments}</a></p>\n";
+		print '<div class="ebody">'.stripslashes(format_entry($text));
+        if(!empty($text_more))
+        {
+            print "<p><a href=\"{$date}/{$title_d}#mere\" style=\"font-weight: bold\" title=\"Klik for at læse mere af '{$title}'\">Læs mere...</a></p>";
+        }
 #		print '<div class="splitter"></div>';
-		print "</div>\n";
+		print "</div></div>\n";
 	}
 	}
 	
