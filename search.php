@@ -40,19 +40,11 @@ if(!$result) {
 	</style>
 </head>
 <body>
-	<div id="container">
-	   <div id="top">
-	      <div id="banner2">
-	      <div style="float: right"></div>
-	      </div>
-	   <div id="banner">
-	      <div id="menu">
-          <?php @include('/home/voss/blog/incs/menu.inc');?>
-			</div>
+	<div id="wrapper">
+		<h2>verture.net &mdash; nu i hvidt</h2>
+		<div id="search">
+			<?php @include('incs/menu.inc');?>
 		</div>
-      </div>
-	   <div id="left">
-	      <div id="lcontent">
 	      	<div class="entry" style="padding-bottom: 250px;">
             <?php
             	print '<h1 class="arkiv">Resultat af søgning</h1>';
