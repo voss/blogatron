@@ -4,7 +4,6 @@
 @include_once('incs/db.inc.php');
 @include_once('incs/functions.inc.php');
 @include_once('incs/display_functions.inc.php');
-# setcookie("peek-a-boo","last_visit", time()+3600*24*365, "/");
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
 "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
