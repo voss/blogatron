@@ -26,13 +26,14 @@
 <body>
 	<div id="wrapper">
 	      <div id="search">
-	      <?php @include('/home/voss/blog/incs/menu.inc');?>
+	      <?php @include('incs/menu.inc');?>
 			</div>
 		</div>
       </div>
+		<div id="content">
 	      <div class="entry" id="entry">
 	      	<h1>verture.net</h1>
-	         <p>Jeg har siden november 2001 hældt indhold på denne blog, men grundet uheld med uvårne netizens der slettede
+	         <div class="ebody"><p>Jeg har siden november 2001 hældt indhold på denne blog, men grundet uheld med uvårne netizens der slettede
             ting på serveren der tidligere hostede bloggen, kan arkiverne frem til maj 2003 fremstå lidt pletvise og
             amputerede. Jeg lærte så, at det <em>er</em> smart at tage backup en gang i mellem.</p>
             
@@ -47,7 +48,7 @@
             nogenlunde hæderligt, og besøger man den med ældre browsere skulle man stadig kunne se indholdet og navigere
             rundt på siderne.</p>
 	      	
-	      	<p>Men kønt er det nok ikke.</p>
+	      	<p>Men kønt er det nok ikke.</p></div>
 	      	
 	      	<h1>Skrifttyper</h1>
 	      	<p>Besøger man siden med <a href="http://apple.com/macosx/" title="Mac OS X, desktop Unix">Mac OS X</a> vil man
