@@ -33,6 +33,7 @@
 		<div id="content">
 	      <div class="entry" id="entry">
 	      	<h1>verture.net</h1>
+			<h1 id="crap">crap</h1>
 	         <div class="ebody"><p>Jeg har siden november 2001 hældt indhold på denne blog, men grundet uheld med uvårne netizens der slettede
             ting på serveren der tidligere hostede bloggen, kan arkiverne frem til maj 2003 fremstå lidt pletvise og
             amputerede. Jeg lærte så, at det <em>er</em> smart at tage backup en gang i mellem.</p>
