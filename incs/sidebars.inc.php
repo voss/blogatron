@@ -1,5 +1,3 @@
-<div id="middle">
-      <div id="mcontent">
 		<div class="unit">
 			<ul>
 				<li><img src="/img/rsssmall.png" alt="RSS ikon" style="vertical-align: middle; padding-right: 3px; border:0"/><a href="http://feeds.feedburner.com/verture" title="RSS-feed af indlæg">Entries</a></li>
@@ -61,32 +59,6 @@ google_color_text = "333333";
 			}
       ?>
  			</ul>
-				<h1 style="padding-top: 10px;padding-bottom: 10px;">&raquo; Popular</h1>
-	   		<ul>
-			   <?php
-	         // require_once "rss_fetch.inc"; 
-	         // change to reflect path of rss_fetch.inc
-	         $yummy = fetch_rss("http://del.icio.us/rss/popular/");
-				// Turn on Magpie's caching function
-				define('MAGPIE_CACHE_ON',1);
-
-	         $maxitems = 10;
-
-	         $yummyitems = array_slice($yummy->items, 0, $maxitems);
-
-	         foreach ($yummyitems as $yummyitem)
-	         {
-	            print '<li>';
-	            print '<a href="';
-	            print htmlspecialchars($yummyitem['link']);
-	            print '" title="'.htmlspecialchars($yummyitem["description"]).'">';
-	            print htmlspecialchars($yummyitem['title']);
-	            print '</a>';
-	            print '</li>';
-	            print "\n";
-	         }
-		      ?>
-   			</ul>
         <div class="unit">
 			<h1 style="padding-bottom: 7px;">&raquo; Arkiv</h1>
 			<?=display_archive_months(); ?>

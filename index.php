@@ -28,24 +28,10 @@ setcookie("peek-a-boo","last_visit", time()+3600*24*365, "/");
 </head>
 <body>
 	<div id="wrapper">
+		<h2>verture.net &mdash; nu i hvidt</h2>
 		<div id="search">
 			<?php @include('incs/menu.inc');?>
 		</div>
-<?php
-/*		<div>
-			<div id="new23" style="color: #950; text-align: center; font-size:xx-small; height; float: left;clear: both;">Loading <img src="/img/23fade.gif" alt="23 logo" /></div>
-			<div id="newFlickr" style="color: #950; text-align: center; font-size:xx-small; display: inline; ">Loading Flickr...</div>
-		</div>
-*/
-?>
-
-<?php
-/*			<div id="flickrimg">
-				<h2>Flickrstream</h2>
-				<script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=4&display=latest&size=s&layout=h&source=user&user=42801574%40N00"></script>
-			</div>
-*/
-?>
 	      <?php
 			if(eregi("([0-9]{6})([/.]?)([-_.#!?a-z0-9]{0,15})", $_SERVER['REQUEST_URI']))
 			{
