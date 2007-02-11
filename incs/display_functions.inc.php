@@ -70,8 +70,8 @@ function display_entry_from_url()
 						extract($row_c);
 						$commentstyle = ($comment_count % 2) ? 'commentdark' : 'commentlight';
 						$data = '<div class="'.$commentstyle.'">';
-						$commentnumber = ($comment_count % 2) ? 'commentnumberlight' : 'commentnumberdark';
-						$data .= '<div class="'.$commentnumber.'">'.$comment_count.'</div>';
+						#$commentnumber = ($comment_count % 2) ? 'commentnumberlight' : 'commentnumberdark';
+						#$data .= '<div class="'.$commentnumber.'">'.$comment_count.'</div>';
 						$data .= '<p class="komm">'.$c_author.'';
 						if(!empty($c_url))
 						{
