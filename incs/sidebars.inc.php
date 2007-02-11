@@ -10,6 +10,9 @@
 				<?php printLinkroll(10); ?>
 			</ul>
 		</div>
+		<div class="unit">
+			<?php display_archive_months(); ?>
+		</div>
 <div style="padding-top: 5px; padding-left:10px;">
 <script type="text/javascript"><!--
 google_ad_client = "pub-8076874108537450";
