@@ -47,13 +47,15 @@ function display_entry_from_url()
 			print '<p class="byline">'.$day.'<br />
 			'.$hour.'</p>';
 			$text = stripslashes(format_entry($text));
+			print '<div class="ebody">';
 			print "{$text}\n";
             if(!empty($text_more))
             {
                 $text_more = stripslashes(format_entry($text_more));
                 print "<div id=\"mere\">{$text_more}</div>\n";
             }
-         print "<p class=\"byline\">{$day} @ {$hour}</p>\n";
+			print '</div>';
+#         print "<p class=\"byline\">{$day} @ {$hour}</p>\n";
 			$sql_c = "SELECT * FROM comments WHERE eid = '{$id}' order by date";
 			if(!$result_c = @mysql_query($sql_c))
 			{
