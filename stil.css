@@ -34,7 +34,7 @@ h2 {
 .byline {
 	float: left;
 	width: 140px;
-	font-size: x-small;
+	font-size: small;
 	margin-top: 3px;
 }
 
@@ -69,7 +69,7 @@ div#linkster {
 	left: 72%;
 	top: 10%;
 	width; 300px;
-	font-size: x-small;
+	font-size: small;
 	padding-right: 30px;
 }
 
