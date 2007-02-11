@@ -5,29 +5,24 @@
 @include('incs/functions.inc.php');
 @include('incs/display_functions.inc.php');
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da" lang="da">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
 <head>
-	<title>. verture.net | kolofon .</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link rel="shortcut icon" href="%3C?=$install_path;?%3E/favicon.ico" type="image/x-icon" />
-	<link rel="alternate" type="application/rss+xml" title="RSS" href="%3C?=$install_path;?%3E/rssfeed.php" />
-	<link rel="alternate" type="application/rss+xml" title="Københavns Politis Døgnrapport" href="http://itu.dk/people/jcv/verture/doegnrapport.php" />
-<script type="text/javascript" src="%3C?=$install_path;?%3E/js/jsscripts.js">
-</script>
-	<meta name="description" content="&lt;?=$description;?&gt;" />
-	<meta name="keywords" content="jonas, jonas c. voss, weblog, københavn, dublin" />
-	<meta name="ICBM" content="55.6773 , 12.5749" />
-	<meta name="MSSmartTagsPreventParsing" content="true" />
-<style type="text/css" media="all">
-/*<![CDATA[*/
-	@import <?=$install_path;?>/stil.css;
-/*]]>*/
-</style>
+   <title>. verture.net | kolofon .</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+   <link rel="shortcut icon" href="<?=$install_path;?>/favicon.ico" type="image/x-icon" />
+   <link rel="alternate" type="application/rss+xml" title="RSS" href="<?=$install_path;?>/rssfeed.php" />
+   <link rel="alternate" type="application/rss+xml" title="Københavns Politis Døgnrapport" href="http://itu.dk/people/jcv/verture/doegnrapport.php" />
+   <script type="text/javascript" src="<?=$install_path;?>/js/jsscripts.js"></script>
+   <meta name="description" content="Weblog for Jonas Voss" />
+   <meta name="keywords" content="jonas, jonas voss, weblog, dublin, små grønne dimsedutter der triller, langsomt" />
+   <meta name="ICBM" content="55.6773 , 12.5749" />
+   <meta name="MSSmartTagsPreventParsing" content="true" />
+   <style type="text/css" media="all">
+   	@import "<?=$install_path;?>/stil.css";
+   </style>
 </head>
-
 <body>
 	<div id="wrapper">
 		<h2>verture.net — nu i hvidt</h2>
