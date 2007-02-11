@@ -73,7 +73,11 @@ if(!$result) {
          ?>
          </div>
       </div>
+		<div id="linkster">
+		     <?php
+			     @include('incs/sidebars.inc.php');
+		     ?>
+		</div>
       </div>
-      <?php
-     @include('incs/sidebars.inc.php');
-     ?>
+</body>
+</html>
