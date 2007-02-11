@@ -11,7 +11,7 @@
 			</ul>
 		</div>
 				<?php
-					@include($_SERVER['DOCUMENT_ROOT'].'/incs/scrobbler.inc.php');
+					# @include($_SERVER['DOCUMENT_ROOT'].'/incs/scrobbler.inc.php');
 				?>
 
 <div style="padding-top: 5px; padding-left:10px;">
