@@ -5,13 +5,13 @@
 			</ul>
 		</div>
 		<div class="unit">
-			<h1 title="10 tilfældige jeg læser" style="padding-top:7px;padding-bottom: 10px;">&raquo; Link love</h1>
+			<h2 title="10 tilfældige jeg læser" style="padding-top:7px;padding-bottom:0px;">&raquo; Link love</h1>
 			<ul>
 				<?php printLinkroll(10); ?>
 			</ul>
 		</div>
 		<div class="unit">
-			<h1 style="padding-top:7px;padding-bottom: 0px;">&raquo; Arkiv</h1>
+			<h2 style="padding-top:7px;padding-bottom:0px;">&raquo; Arkiv</h1>
 			<?php display_archive_months(); ?>
 		</div>
 <div style="padding-top: 5px; padding-left:10px;">

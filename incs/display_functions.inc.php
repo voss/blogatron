@@ -43,7 +43,7 @@ function display_entry_from_url()
 			$hour = date("G:i", $date);
 			$day = date("d.m.Y", $date);
 			print '<div class="entry">';
-			print "<h1><img src='/img/permlink.gif' alt='permalink' />{$title} <span style='color: #799dc6'>{$day}</span></h1>\n";
+			print "<h1>{$title} <span style='color: #799dc6'>{$day}</span></h1>\n";
 			print '<p class="byline">'.$day.'<br />
 			'.$hour.'</p>';
 			$text = stripslashes(format_entry($text));
@@ -174,7 +174,7 @@ function display_front_page($lastentries)
 			}
 		}
 		print "<div class='entry'>\n";
-		print "<h1><img src='/img/permlink.gif' alt='permalink' />{$title}</h1>\n";
+		print "<h1>{$title}</h1>\n";
 		print "<p class=\"byline\">{$day}<br /> \n {$hour}<br /> \n <a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">Permalink</a> <br /> \n{$count_comments} <a href=\"{$install_path}/{$date}/".dirify($title)."#c\" title=\"{$count_comments} har tilføjet noget\">{$actual_comments}</a></p>\n";
 		print '<div class="ebody">'.stripslashes(format_entry($text));
         if(!empty($text_more))
@@ -225,7 +225,7 @@ function display_archive_entry()
 		$title_d = dirify($title);
 		$date = date('dmy', $date);
 		$post_head = "<div class='entry'>\n";
-		$post_head .= "<h1><img src='/img/permlink.gif' alt='permalink' />{$title}</h1>";
+		$post_head .= "<h1>{$title}</h1>";
 #		$post_head .= "<p class=\"date\">{$edate}</p>\n";
 		$post_head .= stripslashes(format_entry($text));
 		if(!empty($text_more))
