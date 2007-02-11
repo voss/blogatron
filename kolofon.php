@@ -23,7 +23,7 @@
 	<meta name="MSSmartTagsPreventParsing" content="true" />
 <style type="text/css" media="all">
 /*<![CDATA[*/
-	@import "<?=$install_path;?>/stil.css";
+	@import <?=$install_path;?>/stil.css;
 /*]]>*/
 </style>
 </head>
