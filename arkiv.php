@@ -29,20 +29,11 @@ setcookie("peek-a-boo","last_visit_2", time()+3600*24*365, "/");
    </style>
 </head>
 <body>
-	<div id="container">
-	   <div id="top">
-	   	      <div id="banner2">
-				      <div style="float: right">
-					</div>
-	   		</div>
-	   <div id="banner">
-	      <div id="menu">
-	      <?php @include('/home/voss/blog/incs/menu.inc');?>
-			</div>
+	<div id="wrapper">
+		<h2><a href="/">verture.net &mdash; nu i hvidt</a></h2>
+		<div id="search">
+			<?php @include('incs/menu.inc');?>
 		</div>
-      </div>
-	   <div id="left">
-	      <div id="lcontent">
 			<?php
 			if(eregi("{$install_path}/arkiv/([.0-9#?!a-z]+)", $_SERVER['REQUEST_URI']))
 			{
@@ -53,8 +44,14 @@ setcookie("peek-a-boo","last_visit_2", time()+3600*24*365, "/");
 				display_archive_months();
 			}
 			?>
-				   </div>
+			<div id="disclaimer">
+			<p>Disclaimer: Alt der bliver skrevet her er et udtryk for min holdning, og ikke min arbejdsgivers.</p>
 			</div>
-			<?php
-			@include('incs/sidebars.inc.php');
-			?>
+		<div id="linkster">
+		     <?php
+			     @include('incs/sidebars.inc.php');
+		     ?>
+		</div>
+	</div>
+</body>
+</html>

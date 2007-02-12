@@ -3,6 +3,7 @@ body {
 	margin: 0px;
 	margin-bottom: 0;
 	padding-bottom: 0;
+	font-family: 'lucida grande', trebuchet, 'trebuchet ms';
 }
 
 #wrapper {
@@ -13,6 +14,7 @@ body {
 h1 {
 	font-size: large;
 	clear: both;
+	font-family: courier;
 }
 
 h1 img {
@@ -22,11 +24,12 @@ h1 img {
 h2 {
 	padding: 0;
 	margin: 0;
+	font-family: courier;
 }
 
 #search {
 	text-align: right;
-	margin: 8px 0;
+	margin: 8px 50px 8px 0;
 	height: 50px;
 /*	border-bottom: 3px solid orange; */
 }
