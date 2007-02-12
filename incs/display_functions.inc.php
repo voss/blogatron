@@ -255,7 +255,7 @@ function display_archive_entry()
 #            print "<p><a href=\"{$date}/{$title_d}#mere\" style=\"font-weight: bold\" title=\"Klik for at læse mere af '{$title}'\">Læs mere...</a></p>";
 #        }
 #		print '<div class="splitter"></div>';
-		print "</div>\n";
+#		print "</div>\n";
 	}
 }
 
