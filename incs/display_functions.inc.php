@@ -224,50 +224,39 @@ function display_archive_entry()
 		$day = date("d.m.Y", $date);
 		$title_d = dirify($title);
 		$date = date('dmy', $date);
-		$post_head = "<div class='entry'>\n";
-		$post_head .= "<h1>{$title}</h1>";
-		$post_head .= "<p class=\"byline\">{$day}<br /> \n {$hour}<br /> \n <a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">Permalink</a> <br /> \n{$count_comments} <a href=\"{$install_path}/{$date}/".dirify($title)."#c\" title=\"{$count_comments} har tilføjet noget\">{$actual_comments}</a></p>\n";
-		$post_head .= '<div class="ebody">'.stripslashes(format_entry($text));
-        if(!empty($text_more))
-        {
-            $post_head .= "<p><a href=\"{$date}/{$title_d}#mere\" style=\"font-weight: bold\" title=\"Klik for at læse mere af '{$title}'\">Læs mere...</a></p>";
-        }
-		$post_head .= '</div>';
-#		$post_head .= "</p>";
-		print $post_head;
-		$title_slashed = addslashes($title);
 		if($comments == 'on')
 		{
-			$sql2 = "SELECT entries.title, comments.eid, entries.id FROM ".$db_name.".comments, ".$db_name.".entries WHERE entries.title LIKE ('{$title_slashed}') AND comments.eid = entries.id";
+			$sql2 = "SELECT c_text, c_author, date eid FROM comments WHERE comments.eid = '{$id}'";
 			if(!$result2 = @mysql_query($sql2))
 			{
 				print "<p>Error performing query: " . mysql_error() . "</p>";
 				exit();
 			}
-			else 
+			else
 			{
 				#$count_comments = @mysql_num_rows($result2);
 				switch ($count_comments = mysql_num_rows($result2))
 				{
 					case 1:
-					print "<p class=\"byline\">{$day} @ {$hour} | <a href=\"{$install_path}/{$date}/".dirify($title)."#c\" title=\"{$count_comments} har tilføjet noget\">Kommentar [ {$count_comments} ]</a> | <a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">Permalink</a></p>\n";
-					break;
-					
-					case 0:
-					print "<p class=\"byline\">{$day} @ {$hour} | <a href=\"{$install_path}/{$date}/".dirify($title)."#ca\" title=\"Noget at tilføje?\">Kommentarer [ {$count_comments} ]</a> | <a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">Permalink</a></p>\n";
+					$actual_comments = 'Comment';
 					break;
 					
 					default:
-					print "<p class=\"byline\">{$day} @ {$hour} | <a href=\"{$install_path}/{$date}/".dirify($title)."#c\" title=\"{$count_comments} har tilføjet noget\">Kommentarer [ {$count_comments} ]</a> | <a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">Permalink</a></p>\n";
+					$actual_comments = 'Comments';
 					break;
 				}
 			}
 		}
-		else
-		{
-			print "<p class=\"byline\">{$day} @ {$hour} | <a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">Permalink</a></p>\n";
-		}
-		print "</div>\n";
+		print "<div class='entry'>\n";
+		print "<h1>{$title}</h1>\n";
+		print "<p class=\"byline\">{$day}<br /> \n {$hour}<br /> \n <a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">Permalink</a> <br /> \n{$count_comments} <a href=\"{$install_path}/{$date}/".dirify($title)."#c\" title=\"{$count_comments} har tilføjet noget\">{$actual_comments}</a></p>\n";
+		print '<div class="ebody">'.stripslashes(format_entry($text));
+        if(!empty($text_more))
+        {
+            print "<p><a href=\"{$date}/{$title_d}#mere\" style=\"font-weight: bold\" title=\"Klik for at læse mere af '{$title}'\">Læs mere...</a></p>";
+        }
+#		print '<div class="splitter"></div>';
+		print "</div></div>\n";
 	}
 }
 
