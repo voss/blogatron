@@ -247,8 +247,8 @@ function display_archive_entry()
 				}
 			}
 		}
-		print "<h1>{$title}</h1>\n";
-		print "<p>{$day}<br /> \n {$hour}<br /> \n <a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">Permalink</a> <br /> \n{$count_comments} <a href=\"{$install_path}/{$date}/".dirify($title)."#c\" title=\"{$count_comments} har tilføjet noget\">{$actual_comments}</a></p>\n";
+		print "<h1><a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">{$title}</a></h1>\n";
+		print "<p>{$day} &mdash; {$hour} || \n{$count_comments} <a href=\"{$install_path}/{$date}/".dirify($title)."#c\" title=\"{$count_comments} har tilføjet noget\">{$actual_comments}</a></p>\n";
 #		print '<div class="ebody">'.stripslashes(format_entry($text));
 #       if(!empty($text_more))
 #        {
