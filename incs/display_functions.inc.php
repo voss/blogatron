@@ -69,7 +69,7 @@ function display_entry_from_url()
 					while($row_c = @mysql_fetch_array($result_c))
 					{
 						extract($row_c);
-						$commentstyle = ($comment_count % 2) ? 'commentdark' : 'commentlight';
+#						$commentstyle = ($comment_count % 2) ? 'commentdark' : 'commentlight';
 						$data = '<div class="'.$commentstyle.'">';
 						#$commentnumber = ($comment_count % 2) ? 'commentnumberlight' : 'commentnumberdark';
 						#$data .= '<div class="'.$commentnumber.'">'.$comment_count.'</div>';
@@ -89,6 +89,7 @@ function display_entry_from_url()
 						$data .= "</p>\n";
 						$data .= format_entry($c_text);
 						print $data;
+						print '<hr>';
 						print "</div>\n";
 						$comment_count++;
 					}
@@ -247,15 +248,6 @@ function display_archive_entry()
 			}
 		}
 		print "<li>{$day} <a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">{$title}</a>\n</li>";
-		#\n{$count_comments} <a href=\"{$install_path}/{$date}/".dirify($title)."#c\" title=\"{$count_comments} har tilføjet noget\">{$actual_comments}</a></li>";
-#		print "<p></p>\n";
-#		print '<div class="ebody">'.stripslashes(format_entry($text));
-#       if(!empty($text_more))
-#        {
-#            print "<p><a href=\"{$date}/{$title_d}#mere\" style=\"font-weight: bold\" title=\"Klik for at læse mere af '{$title}'\">Læs mere...</a></p>";
-#        }
-#		print '<div class="splitter"></div>';
-#		print "</div>\n";
 	}
 	print '</ul>';
 }
