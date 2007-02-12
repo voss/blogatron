@@ -30,7 +30,7 @@ setcookie("peek-a-boo","last_visit_2", time()+3600*24*365, "/");
 </head>
 <body>
 	<div id="wrapper">
-		<h2><a href="/">verture.net &mdash; nu i hvidt</a></h2>
+		<h2><a href="/">verture.net &mdash; about:blank</a></h2>
 		<div id="search">
 			<?php @include('incs/menu.inc');?>
 		</div>
