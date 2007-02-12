@@ -220,7 +220,7 @@ function display_archive_entry()
 	{
 		extract ($row);
 		$hour = date("G:i", $date);
-		$day = date("d.m.Y", $date);
+		$day = date("d.m", $date);
 		$title_d = dirify($title);
 		$date = date('dmy', $date);
 		if($comments == 'on')
@@ -246,7 +246,7 @@ function display_archive_entry()
 				}
 			}
 		}
-		print "<li><a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">{$title}</a>\n{$day} &mdash; {$hour} || \n{$count_comments} <a href=\"{$install_path}/{$date}/".dirify($title)."#c\" title=\"{$count_comments} har tilføjet noget\">{$actual_comments}</a></li>";
+		print "<li>{$day} <a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">{$title}</a>\n \n{$count_comments} <a href=\"{$install_path}/{$date}/".dirify($title)."#c\" title=\"{$count_comments} har tilføjet noget\">{$actual_comments}</a></li>";
 #		print "<p></p>\n";
 #		print '<div class="ebody">'.stripslashes(format_entry($text));
 #       if(!empty($text_more))
