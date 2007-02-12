@@ -246,7 +246,8 @@ function display_archive_entry()
 				}
 			}
 		}
-		print "<li>{$day} <a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">{$title}</a>\n \n{$count_comments} <a href=\"{$install_path}/{$date}/".dirify($title)."#c\" title=\"{$count_comments} har tilføjet noget\">{$actual_comments}</a></li>";
+		print "<li>{$day} <a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">{$title}</a>\n</li>";
+		#\n{$count_comments} <a href=\"{$install_path}/{$date}/".dirify($title)."#c\" title=\"{$count_comments} har tilføjet noget\">{$actual_comments}</a></li>";
 #		print "<p></p>\n";
 #		print '<div class="ebody">'.stripslashes(format_entry($text));
 #       if(!empty($text_more))
