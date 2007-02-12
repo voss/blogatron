@@ -247,16 +247,15 @@ function display_archive_entry()
 				}
 			}
 		}
-		print "<div class='entry'>\n";
 		print "<h1>{$title}</h1>\n";
-		print "<p class=\"byline\">{$day}<br /> \n {$hour}<br /> \n <a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">Permalink</a> <br /> \n{$count_comments} <a href=\"{$install_path}/{$date}/".dirify($title)."#c\" title=\"{$count_comments} har tilføjet noget\">{$actual_comments}</a></p>\n";
-		print '<div class="ebody">'.stripslashes(format_entry($text));
-        if(!empty($text_more))
-        {
-            print "<p><a href=\"{$date}/{$title_d}#mere\" style=\"font-weight: bold\" title=\"Klik for at læse mere af '{$title}'\">Læs mere...</a></p>";
-        }
+		print "<p>{$day}<br /> \n {$hour}<br /> \n <a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">Permalink</a> <br /> \n{$count_comments} <a href=\"{$install_path}/{$date}/".dirify($title)."#c\" title=\"{$count_comments} har tilføjet noget\">{$actual_comments}</a></p>\n";
+#		print '<div class="ebody">'.stripslashes(format_entry($text));
+#       if(!empty($text_more))
+#        {
+#            print "<p><a href=\"{$date}/{$title_d}#mere\" style=\"font-weight: bold\" title=\"Klik for at læse mere af '{$title}'\">Læs mere...</a></p>";
+#        }
 #		print '<div class="splitter"></div>';
-		print "</div></div>\n";
+		print "</div>\n";
 	}
 }
 
