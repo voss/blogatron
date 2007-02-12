@@ -44,8 +44,7 @@ function display_entry_from_url()
 			$day = date("d.m.Y", $date);
 			print '<div class="entry">';
 			print "<h1>{$title} <span style='color: #799dc6'>{$day}</span></h1>\n";
-			print '<p class="byline">'.$day.'<br />
-			'.$hour.'</p>';
+			print '<p class="byline">'.$hour.'</p>';
 			$text = stripslashes(format_entry($text));
 			print '<div class="ebody">';
 			print "{$text}\n";
@@ -175,7 +174,7 @@ function display_front_page($lastentries)
 		}
 		print "<div class='entry'>\n";
 		print "<h1>{$title}</h1>\n";
-		print "<p class=\"byline\">{$day}<br /> \n {$hour}<br /> \n <a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">Permalink</a> <br /> \n{$count_comments} <a href=\"{$install_path}/{$date}/".dirify($title)."#c\" title=\"{$count_comments} har tilføjet noget\">{$actual_comments}</a></p>\n";
+		print "<p class=\"byline\">{$day}<br /> \n {$hour}<br /> \n <a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">Permalink</a> <br /> \n <a href=\"{$install_path}/{$date}/".dirify($title)."#c\" title=\"{$count_comments} har tilføjet noget\">{$count_comments} {$actual_comments}</a></p>\n";
 		print '<div class="ebody">'.stripslashes(format_entry($text));
         if(!empty($text_more))
         {
@@ -216,7 +215,7 @@ function display_archive_entry()
 	
 	$u_expl[0] = dateify($u_expl[0]);
 	print '<h1 class="arkiv">Arkiv for '.dateify($month).' måned, år '.$year.'</h1>';
-
+	print '<ul>';
 	while($row = @mysql_fetch_array($result))
 	{
 		extract ($row);
@@ -247,8 +246,8 @@ function display_archive_entry()
 				}
 			}
 		}
-		print "<h1><a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">{$title}</a></h1>\n";
-		print "<p>{$day} &mdash; {$hour} || \n{$count_comments} <a href=\"{$install_path}/{$date}/".dirify($title)."#c\" title=\"{$count_comments} har tilføjet noget\">{$actual_comments}</a></p>\n";
+		print "<li><a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">{$title}</a>\n{$day} &mdash; {$hour} || \n{$count_comments} <a href=\"{$install_path}/{$date}/".dirify($title)."#c\" title=\"{$count_comments} har tilføjet noget\">{$actual_comments}</a></li>";
+#		print "<p></p>\n";
 #		print '<div class="ebody">'.stripslashes(format_entry($text));
 #       if(!empty($text_more))
 #        {
@@ -257,6 +256,7 @@ function display_archive_entry()
 #		print '<div class="splitter"></div>';
 #		print "</div>\n";
 	}
+	print '</ul>';
 }
 
 function display_archive_months()
