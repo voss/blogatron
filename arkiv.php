@@ -44,13 +44,11 @@ setcookie("peek-a-boo","last_visit_2", time()+3600*24*365, "/");
 				display_archive_months();
 			}
 			?>
-			<div id="disclaimer">
-			<p>Disclaimer: Alt der bliver skrevet her er et udtryk for min holdning, og ikke min arbejdsgivers.</p>
 			</div>
 		<div id="linkster">
-		     <?php
-			     @include('incs/sidebars.inc.php');
-		     ?>
+	    	<?php
+				@include('incs/sidebars.inc.php');
+			?>
 		</div>
 	</div>
 </body>
