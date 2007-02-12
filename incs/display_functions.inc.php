@@ -226,12 +226,13 @@ function display_archive_entry()
 		$date = date('dmy', $date);
 		$post_head = "<div class='entry'>\n";
 		$post_head .= "<h1>{$title}</h1>";
-		print "<p class=\"byline\">{$day}<br /> \n {$hour}<br /> \n <a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">Permalink</a> <br /> \n{$count_comments} <a href=\"{$install_path}/{$date}/".dirify($title)."#c\" title=\"{$count_comments} har tilføjet noget\">{$actual_comments}</a></p>\n";
-		print '<div class="ebody">'.stripslashes(format_entry($text));
+		$post_head .= "<p class=\"byline\">{$day}<br /> \n {$hour}<br /> \n <a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">Permalink</a> <br /> \n{$count_comments} <a href=\"{$install_path}/{$date}/".dirify($title)."#c\" title=\"{$count_comments} har tilføjet noget\">{$actual_comments}</a></p>\n";
+		$post_head .= '<div class="ebody">'.stripslashes(format_entry($text));
         if(!empty($text_more))
         {
-            print "<p><a href=\"{$date}/{$title_d}#mere\" style=\"font-weight: bold\" title=\"Klik for at læse mere af '{$title}'\">Læs mere...</a></p>";
+            $post_head .= "<p><a href=\"{$date}/{$title_d}#mere\" style=\"font-weight: bold\" title=\"Klik for at læse mere af '{$title}'\">Læs mere...</a></p>";
         }
+		$post_head .= '</div>';
 #		$post_head .= "</p>";
 		print $post_head;
 		$title_slashed = addslashes($title);
