@@ -47,7 +47,11 @@ ul {
 	padding-left: 2em;
 	text-indent: -0.9em;
 }
-	
+
+li {
+	line-height: 1.3em;
+}
+
 ul li:before {
 	content: "\00BB \0020";
 	color: green;
