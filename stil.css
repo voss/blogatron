@@ -4,7 +4,7 @@ body {
 	margin-bottom: 0;
 	padding-bottom: 0;
 	font-family: 'lucida grande', trebuchet, 'trebuchet ms';
-  background: white;
+	background: white;
 }
 
 #wrapper {
@@ -32,7 +32,6 @@ h2 {
 	text-align: right;
 	margin: 8px 50px 8px 0;
 	height: 50px;
-/*	border-bottom: 3px solid orange; */
 }
 
 .byline {
@@ -66,6 +65,7 @@ blockquote {
 	width: 70%;
 	font-size: small;
 	padding-bottom:10px;
+	line-height: 1.3em;
 }
 
 div#linkster {

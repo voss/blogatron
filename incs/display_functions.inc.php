@@ -179,7 +179,7 @@ function display_front_page($lastentries)
 		print '<div class="ebody">'.stripslashes(format_entry($text));
         if(!empty($text_more))
         {
-            print "<p><a href=\"{$date}/{$title_d}#mere\" style=\"font-weight: bold\" title=\"Klik for at læse mere af '{$title}'\">Læs mere...</a></p>";
+            print "<p><a href=\"{$date}/{$title_d}#mere\" style=\"font-weight: bold\" title=\"Click here to continue reading '{$title}'\">Continue reading '{$title}'...</a></p>";
         }
 #		print '<div class="splitter"></div>';
 		print "</div></div>\n";
