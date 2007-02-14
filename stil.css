@@ -115,6 +115,15 @@ div#readerpublishermodule0 {
 	padding-bottom: 12px;
 }
 
+div.reader-publisher-module h3 {
+	font-size:large;
+}
+
+div.reader-publisher-module h3:before {
+	content: "» ";
+	color: black;
+}
+
 div.reader-publisher-module ul {
 	list-style: none;
 	margin-left 0;
