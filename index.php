@@ -28,13 +28,12 @@
 </head>
 <body>
 	<div id="wrapper">
-		<div>
+		<div id="content">
 			<h2><a href="/">verture.net &mdash; about:blank</a></h2>
 			<div id="search">
 				<?php @include('incs/menu.inc');?>
 			</div>
-		</div>
-		<div id="content">
+
 	      <?php
 			if(eregi("([0-9]{6})([/.]?)([-_.#!?a-z0-9]{0,15})", $_SERVER['REQUEST_URI']))
 			{
