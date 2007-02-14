@@ -41,10 +41,8 @@ h2 {
 }
 
 #search {
-	float: right;
-	clear:both;
-	width: 100%;
-	padding: 8px 50px 8px 0;
+	text-align: right;	
+	margin: 8px 50px 8px 50px;
 	height: 50px;
 }
 
@@ -124,5 +122,4 @@ div.reader-publisher-module div.s a {
 }
 
 div.reader-publisher-module div.f {
-
 }
