@@ -14,7 +14,7 @@ body {
 
 #content {
 	float: left;
-	width: 620px;
+	width: 640px;
 	margin-right: 0px;
 }
 
@@ -36,7 +36,7 @@ h2 {
 
 #search {
 	text-align: right;
-	margin: 8px 50px 8px 0;
+	margin: 8px 150px 8px 0;
 	height: 50px;
 }
 
