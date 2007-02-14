@@ -47,9 +47,9 @@ h2.pagehead {
 	font-family: courier;
 }
 
-
-#search {
-	list-style-type: none;
+#searchform {
+	padding:0;
+	margin:0;
 }
 
 .byline {
@@ -73,6 +73,12 @@ li {
 ul li:before {
 	content: "\00BB \0020";
 	color: green;
+}
+
+#search li:before {
+	content: "";
+	margin: 0;
+	padding: 0;
 }
 
 blockquote {
@@ -129,3 +135,4 @@ div.reader-publisher-module div.s a {
 
 div.reader-publisher-module div.f {
 }
+
