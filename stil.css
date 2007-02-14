@@ -81,7 +81,7 @@ div#linkster {
 	float:right;
 	width: 250px;
 	font-size: small;
-	padding-right: -130px;
+	margin-right: -60px;
 }
 
 div.reader-publisher-module ul {
