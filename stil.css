@@ -119,11 +119,12 @@ div.reader-publisher-module ul {
 	list-style: none;
 	margin-left 0;
 	padding-left: 2em;
-	text-indent: -0.9em;
+	text-indent: -0.8em;
 }
 
 div.reader-publisher-module ul li {
-	margin-bottom: 3px;
+	margin-bottom: 0px;
+	font-size:11px;
 }
 
 div.reader-publisher-module ul li a {
@@ -132,7 +133,7 @@ div.reader-publisher-module ul li a {
 
 div.reader-publisher-module div.s {
 	color: #999;
-	font-style: italic;
+	display:inline;
 	font-size:x-small;
 	text-align: right;
 }
