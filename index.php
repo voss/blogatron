@@ -32,6 +32,7 @@
 		<div id="search">
 			<?php @include('incs/menu.inc');?>
 		</div>
+		<div id="content">
 	      <?php
 			if(eregi("([0-9]{6})([/.]?)([-_.#!?a-z0-9]{0,15})", $_SERVER['REQUEST_URI']))
 			{
@@ -49,6 +50,7 @@
 		     <?php
 			     @include('incs/sidebars.inc.php');
 		     ?>
+		</div>
 		</div>
 	</div>
 </body>
