@@ -75,10 +75,14 @@ ul li:before {
 	color: green;
 }
 
-#search li:before {
+li#search {
+	padding-left:0em;
+	margin-left:0.9em;
+	margin-top:5px;
+}
+
+li#search:before {
 	content: "";
-	margin: 0;
-	padding: 0;
 }
 
 blockquote {
