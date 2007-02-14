@@ -2,10 +2,10 @@
 			<ul style="padding-top:0;margin-top:0;">
 				<li><img src="/img/rsssmall.png" alt="RSS ikon" style="vertical-align: middle; padding-right: 3px; border:0"/><a href="http://feeds.feedburner.com/verture" title="RSS-feed af indlæg">Entries</a></li>
 				<li><img src="/img/rsssmall.png" alt="RSS ikon" style="vertical-align: middle; padding-right: 3px; border:0"/><a href="http://feeds.feedburner.com/verturekommentarer" title="RSS-feed af kommentarer">Comments</a></li>
-			</ul>
-			<div id="search">
+			<li id="search">
 				<?php @include('incs/menu.inc');?>
-			</div>
+			</li>
+			</ul>
 		</div>
 		<div class="unit">
 			<h2 title="10 tilfældige jeg læser" style="padding-top:7px;padding-bottom:0px;">&raquo; Link love</h2>
