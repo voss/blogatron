@@ -107,6 +107,8 @@ div#linkster {
 	margin-right: -60px;
 }
 
+/* Google Reader clip start */
+
 div.reader-publisher-module ul {
 	list-style-type: none;
 	margin: 0;
@@ -115,7 +117,7 @@ div.reader-publisher-module ul {
 
 div.reader-publisher-module ul li {
 	margin-bottom: 3px;
-	background-image: url(images/bullet.png);
+	background-image: ;
 	background-repeat: no-repeat;
 	background-position: 0 2px;
 }
@@ -138,5 +140,7 @@ div.reader-publisher-module div.s a {
 }
 
 div.reader-publisher-module div.f {
+	
 }
 
+/* Google Reader Clip end */

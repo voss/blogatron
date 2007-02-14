@@ -7,6 +7,10 @@
 			</li>
 			</ul>
 		</div>
+		<div id="unit">
+			<script type="text/javascript" src="http://www.google.com/reader/ui/publisher.js"></script>
+<script type="text/javascript" src="http://www.google.com/reader/public/javascript/user/17963144626664830161/label/sidedish?n=10&callback=GRC_p(%7Bc%3A'-'%2Ct%3A'Shared%20via%20Google%20Reader'%2Cs%3A'true'%7D)%3Bnew%20GRC"></script>
+		</div>
 		<div class="unit">
 			<h2 title="10 tilfældige jeg læser" style="padding-top:7px;padding-bottom:0px;">&raquo; Link love</h2>
 			<ul>
