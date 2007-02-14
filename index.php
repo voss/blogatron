@@ -46,11 +46,11 @@
 			<div id="disclaimer">
 			<p>Disclaimer: Alt der bliver skrevet her er et udtryk for min holdning, og ikke min arbejdsgivers.</p>
 			</div>
-		<div id="linkster">
+		</div>
+				<div id="linkster">
 		     <?php
 			     @include('incs/sidebars.inc.php');
 		     ?>
-		</div>
 		</div>
 	</div>
 </body>
