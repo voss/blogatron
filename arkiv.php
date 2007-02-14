@@ -46,11 +46,12 @@ setcookie("peek-a-boo","last_visit_2", time()+3600*24*365, "/");
 			}
 			?>
 			</div>
+
+		</div>
 		<div id="linkster">
 	    	<?php
 				@include('incs/sidebars.inc.php');
 			?>
-		</div>
 		</div>
 	</div>
 </body>
