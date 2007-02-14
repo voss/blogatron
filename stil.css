@@ -10,8 +10,7 @@ body {
 #wrapper {
 	width: 70%;
 	margin: 0px auto;
-	min-width: 945px;
-	padding-left: 20px;
+	max-width: 900px;
 }
 
 #content {

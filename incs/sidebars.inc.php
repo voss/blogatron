@@ -11,7 +11,7 @@
 			</ul>
 		</div>
 		<div class="unit">
-			<h2 style="padding-top:7px;padding-bottom:0px;">&raquo; Arkiv</h2>
+			<h2 style="padding-top:7px;">&raquo; Arkiv</h2>
 			<?php display_archive_months(); ?>
 		</div>
 <div style="padding-top: 5px; padding-left:10px;">
