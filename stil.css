@@ -8,7 +8,7 @@ body {
 }
 
 #wrapper {
-	width: 90%;
+	width: 945px;
 	margin: 0px auto;
 }
 
@@ -16,7 +16,6 @@ body {
 	float: left;
 	width: 600px;
 	margin-right: 30px;
-	margin-left: 10%;
 }
 
 h1 {
@@ -79,7 +78,7 @@ blockquote {
 }
 
 div#linkster {
-	float:left;
+	float:right;
 	width; 300px;
 	font-size: small;
 	padding-right: 30px;
