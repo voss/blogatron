@@ -141,16 +141,16 @@ div.reader-publisher-module ul li a {
 }
 
 div.reader-publisher-module div.s {
-	color: #999;
+	color: #666;
 	display:inline;
 	font-size:x-small;
 	text-align: right;
 }
 
 div.reader-publisher-module div.s a {
-	color: #666;
+	color: #333;
 	text-decoration: none;
-	border-bottom: 1px dotted #ccc;
+	border-bottom: 1px dotted #888;
 	background-color: #fff;
 }
 
