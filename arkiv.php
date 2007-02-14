@@ -31,9 +31,6 @@ setcookie("peek-a-boo","last_visit_2", time()+3600*24*365, "/");
 <body>
 	<div id="wrapper">
 		<h2><a href="/">verture.net &mdash; about:blank</a></h2>
-		<div id="search">
-			<?php @include('incs/menu.inc');?>
-		</div>
 		<div id="content">
 			<?php
 			if(eregi("{$install_path}/arkiv/([.0-9#?!a-z]+)", $_SERVER['REQUEST_URI']))
