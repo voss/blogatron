@@ -36,7 +36,7 @@ h2 {
 
 #search {
 	text-align: right;
-	margin: 8px 150px 8px 0;
+	margin: 8px 50px 8px 0;
 	height: 50px;
 }
 
@@ -81,7 +81,7 @@ div#linkster {
 	float:right;
 	width: 250px;
 	font-size: small;
-	padding-right: -30px;
+	padding-right: -130px;
 }
 
 div.reader-publisher-module ul {
