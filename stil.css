@@ -16,6 +16,7 @@ body {
 #content {
 	float: left;
 	width: 78%;
+	max-width: 660px;
 	margin-right: 0px;
 	padding-top:0;
 	margin-top:0;
