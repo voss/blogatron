@@ -28,9 +28,11 @@
 </head>
 <body>
 	<div id="wrapper">
-		<h2><a href="/">verture.net &mdash; about:blank</a></h2>
-		<div id="search">
-			<?php @include('incs/menu.inc');?>
+		<div>
+			<h2><a href="/">verture.net &mdash; about:blank</a></h2>
+			<div id="search">
+				<?php @include('incs/menu.inc');?>
+			</div>
 		</div>
 		<div id="content">
 	      <?php
