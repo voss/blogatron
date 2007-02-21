@@ -1,3 +1,6 @@
+html {
+	padding:10px;
+}
 body {
 	padding: 2px;
 	margin: 0px;
@@ -8,13 +11,13 @@ body {
 }
 
 #wrapper {
-	width: 945px;
+	width: 982px;
 	margin: 0px auto;
 }
 
 #content {
 	float: left;
-	width: 660px;
+	width: 750px;
 /*	max-width: 660px; */
 	margin-right: 0px;
 	padding-top:0;
@@ -91,7 +94,7 @@ blockquote {
 }
 	
 .ebody {
-	padding-left: 150px;
+	padding-left: 145px;
 }
 
 .entry {
@@ -103,9 +106,17 @@ blockquote {
 
 div#linkster {
 	float:right;
-	width: 200px;
+	width: 180px;
 	font-size: small;
-	margin-right: -60px;
+/*	margin-right: -60px; */
+}
+
+#disclaimer {
+	clear: both;
+}
+
+#disclaimer p {
+	text-align: center;
 }
 
 /* Google Reader clip start */

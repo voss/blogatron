@@ -175,7 +175,7 @@ function display_front_page($lastentries)
 		}
 		print "<div class='entry'>\n";
 		print "<h1>{$title}</h1>\n";
-		print "<p class=\"byline\">{$day}<br /> \n {$hour}<br /> \n <a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">Permalink</a> <br /> \n <a href=\"{$install_path}/{$date}/".dirify($title)."#c\" title=\"{$count_comments} har tilføjet noget\">{$count_comments} {$actual_comments}</a></p>\n";
+		print "<p class=\"byline\"><span style='color: #799dc6'>{$day}</span><br /> \n {$hour}<br /> \n <a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">Permalink</a> <br /> \n <a href=\"{$install_path}/{$date}/".dirify($title)."#c\" title=\"{$count_comments} har tilføjet noget\">{$count_comments} {$actual_comments}</a></p>\n";
 		print '<div class="ebody">'.stripslashes(format_entry($text));
         if(!empty($text_more))
         {
