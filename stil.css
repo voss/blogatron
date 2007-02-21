@@ -8,15 +8,14 @@ body {
 }
 
 #wrapper {
-	width: 70%;
+	width: 945px;
 	margin: 0px auto;
-	max-width: 900px;
 }
 
 #content {
 	float: left;
-	width: 78%;
-	max-width: 660px;
+	width: 660px;
+/*	max-width: 660px; */
 	margin-right: 0px;
 	padding-top:0;
 	margin-top:0;
@@ -104,7 +103,7 @@ blockquote {
 
 div#linkster {
 	float:right;
-	width: 24%;
+	width: 200px;
 	font-size: small;
 	margin-right: -60px;
 }
