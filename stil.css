@@ -71,7 +71,7 @@ ul {
 }
 
 li {
-	line-height: 1.3em;
+	line-height: 1.4em;
 }
 
 ul li:before {
@@ -92,8 +92,7 @@ li#search:before {
 blockquote {
 	text-indent: 0;
 	font-style: italic;
-	font-size: 14px;
-	font-family: 'palatino', 'bembo', 'times new roman', serif;
+	font-family: serif;
 }
 	
 .ebody {
@@ -102,7 +101,7 @@ blockquote {
 
 .entry {
 	font-size: small;
-	line-height: 1.3em;
+	line-height: 1.4em;
 	padding-bottom: 20px;
 	padding-top: 5px;
 }
