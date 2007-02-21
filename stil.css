@@ -92,7 +92,7 @@ li#search:before {
 blockquote {
 	text-indent: 0;
 	font-style: italic;
-	font-family: serif;
+	font-family: georgia, palatino, 'times new roman', times, serif;
 }
 	
 .ebody {
