@@ -42,6 +42,7 @@ google_color_text = "333333";
 </div>
 
 </div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
 <script type="text/javascript">
 _uacct = "UA-59591-1";
 urchinTracker();
