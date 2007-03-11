@@ -99,6 +99,11 @@ blockquote {
 	padding-left: 145px;
 }
 
+.ebody a img {
+  border: 1px solid #333;
+  padding: 1px;
+}
+
 .entry {
 	font-size: small;
 	line-height: 1.4em;
