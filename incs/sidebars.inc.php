@@ -2,6 +2,8 @@
 			<ul style="padding-top:0;margin-top:0;">
 				<li><img src="/img/rsssmall.png" alt="RSS ikon" style="vertical-align: middle; padding-right: 3px; border:0"/><a href="http://feeds.feedburner.com/verture" title="RSS-feed af indlæg">Entries</a></li>
 				<li><img src="/img/rsssmall.png" alt="RSS ikon" style="vertical-align: middle; padding-right: 3px; border:0"/><a href="http://feeds.feedburner.com/verturekommentarer" title="RSS-feed af kommentarer">Comments</a></li>
+        <li><img src="/img/23hq-favicon.png" alt="Images at 23" style="vertical-align: middle; padding-right: 3px; border:0" /><a href="http://23hq.com/voss">Images at 23</a></li>
+        <li><img src="/img/flickr_favicon.png" alt="Images at flickr" style="vertical-align: middle; padding-right: 3px; border:0" /><a href="http://www.flickr.com/photos/voss/">Images at flickr</a></li>
 			<li id="search">
 				<?php @include('incs/menu.inc');?>
 			</li>
