@@ -1,6 +1,8 @@
 		<div class="unit">
     <p><img src="/img/buddy_ikon_cropped_100x100.png" style="float:left;
-border: 1px solid #555; padding: 3px; margin-right: 5px;" />verture.net
+border: 1px solid #555; padding: 3px; margin-right: 5px;" alt="Bio
+picture, taken by Rasmus Rasmussen" title="Me, through the lens of
+Rasmus Rasmussen" />verture.net
 is the personal website of me, Jonas Voss, and this is my blog. I live
 in Dublin, Ireland, where I work for <a
 href="http://google.ie/">Google</a>, but was born and bred in Copenhagen, Denmark. I write
