@@ -2,7 +2,8 @@
     <p><img src="/img/buddy_ikon_cropped_100x100.png" style="float:left;
 border: 1px solid #555; padding: 3px; margin-right: 5px;" />verture.net
 is the personal website of me, Jonas Voss, and this is my blog. I live
-in Dublin, Ireland, but was born and bred in Copenhagen, Denmark. I write
+in Dublin, Ireland, where I work for <a
+href="http://google.ie/">Google</a>, but was born and bred in Copenhagen, Denmark. I write
 about anything that comes to mind. Really.</p>
 			<ul style="padding-top:0;margin-top:0;">
 				<li><img src="/img/rsssmall.png" alt="RSS ikon" style="vertical-align: middle; padding-right: 3px; border:0"/><a href="http://feeds.feedburner.com/verture" title="RSS-feed af indlæg">Entries</a></li>
