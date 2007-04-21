@@ -63,6 +63,9 @@ h2.pagehead {
 	margin-top: 3px;
 }
 
+.bio {
+  font-size: x-small;
+}
 ul {
 	list-style: none;
 	margin-left 0;

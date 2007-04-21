@@ -1,5 +1,5 @@
 		<div class="unit">
-    <p><img src="/img/buddy_ikon_cropped_100x100.png" style="float:left;
+    <p class="bio"><img src="/img/buddy_ikon_cropped_100x100.png" style="float:left;
 border: 1px solid #555; padding: 3px; margin-right: 5px;" alt="Bio
 picture, taken by Rasmus Rasmussen" title="Me, through the lens of
 Rasmus Rasmussen" />verture.net
