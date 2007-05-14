@@ -32,24 +32,6 @@ about anything that comes to mind. Really.</p>
 			<h2 style="padding-top:7px; padding-bottom: 7px;">&raquo; Arkiv</h2>
 			<?php display_archive_months(); ?>
 		</div>
-<div style="padding-top: 5px; padding-left:10px;">
-<script type="text/javascript"><!--
-google_ad_client = "pub-8076874108537450";
-google_ad_width = 125;
-google_ad_height = 125;
-google_ad_format = "125x125_as";
-google_ad_type = "text";
-google_ad_channel ="";
-google_color_border = "cccccc";
-google_color_bg = "ffffff";
-google_color_link = "000000";
-google_color_url = "666666";
-google_color_text = "333333";
-//--></script>
-<script type="text/javascript"
-  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
-</div>
 
 </div>
 <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
