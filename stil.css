@@ -185,3 +185,9 @@ div.reader-publisher-module div.f {
 }
 
 /* Google Reader Clip end */
+
+.sidebaricon {
+	vertical-align: middle;
+	padding-right: 3px;
+	border:0;
+}
