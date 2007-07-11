@@ -33,6 +33,7 @@ h1 {
 	clear: both;
 	padding-top:0;
 	margin-top:0;
+  color: #036
 }
 
 h1 img {
@@ -44,16 +45,42 @@ h2 {
 	margin: 0;
 }
 
-h2.pagehead {
+h1.pagehead {
 	padding: 0;
 	margin: 0;
 	height: 100px;
 	font-family: courier;
+  font-size: x-large;
+}
+
+.pagehead a {
+  text-decoration: none;
+  color: #99a;
 }
 
 #searchform {
 	padding:0;
 	margin:0;
+}
+
+.entry a:link, #linkster a:link {
+  text-decoration: none;
+  border-bottom: 1px solid #369;
+  color: #333;
+}
+
+.entry a:visited, #linkster a:visited {
+  border-bottom: 1px dotted #666;
+  text-decoration: none;
+  color: #333;
+}
+
+.entry a:hover, #linkster a:hover {
+  border: 0;
+  background:#693;
+  border-bottom: 1px solid #693;
+  text-decoration: none;
+  color: white;
 }
 
 .byline {
@@ -66,6 +93,7 @@ h2.pagehead {
 .bio {
   font-size: x-small;
 }
+
 ul {
 	list-style: none;
 	margin-left 0;

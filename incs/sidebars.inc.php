@@ -9,7 +9,8 @@ href="http://google.ie/">Google</a>. I was born and bred in Copenhagen, Denmark.
 				<li><img src="/img/rsssmall.png" alt="RSS ikon" class="sidebaricon" /><a href="http://feeds.feedburner.com/verturekommentarer" title="RSS-feed af kommentarer">Comments</a></li>
         <li><img src="/img/23hq-favicon.png" alt="Images at 23" class="sidebaricon" /><a href="http://23hq.com/voss">Images at 23</a></li>
         <li><img src="/img/flickr_favicon.png" alt="Images at flickr" class="sidebaricon" /><a href="http://www.flickr.com/photos/voss/">Images at flickr</a></li>
-		<li><img src="/img/del.icio.us-favicon.png" alt="del.icio.us logo" class="sidebaricon" /><a href="http://del.icio.us/voss">My del.icio.us</a></li>
+		    <li><img src="/img/del.icio.us-favicon.png" alt="del.icio.us logo" class="sidebaricon" /><a href="http://del.icio.us/voss">My del.icio.us</a></li>
+        <li><img src="/img/last.fm_favicon.png" alt="last.fm logo" class="sidebaricon" /><a href="http://last.fm/user/bobbybonzai">music at last.fm</a></li>
 			<li id="search">
 				<?php @include('incs/menu.inc');?>
 			</li>
