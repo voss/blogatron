@@ -5,8 +5,8 @@
 <body>
 <?php
 
-include('/home/voss/blog/incs/config.inc.php');
-include('/home/voss/blog/incs/db.inc.php');
+include('/home/voss/blog.verture.net/incs/config.inc.php');
+include('/home/voss/blog.verture.net/incs/db.inc.php');
 
 $stat_sql = "SELECT * from dls order by timestamp asc";
 $result = mysql_query($stat_sql) or print mysql_error();
