@@ -3,7 +3,7 @@
 
 $db_host = "mysql.verture.net";
 $db_user = "voss";
-$db_pass = "cautha";
+$db_pass = "boogie";
 $db_name = "verture_blog";
 
 # create db-connection:
