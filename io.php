@@ -1,6 +1,6 @@
 <?php
 
-@include('/home/voss/blog/incs/config.inc.php');
+@include('/home/voss/blog.verture.net/incs/config.inc.php');
 
 $click = $_GET['click'];
 $fp = @fopen('/home/voss/linkout.txt', 'a');
