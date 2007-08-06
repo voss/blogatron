@@ -1,5 +1,5 @@
 <?php
-#include('/home/voss/blog/incs/config.inc.php');
+# include('/home/voss/blog/incs/config.inc.php');
 
 $db_host = "mysql.verture.net";
 $db_user = "voss";
@@ -17,7 +17,6 @@ if(!@mysql_select_db($db_name)) {
 	Print "<p>Unable to connect to database.".mysql_error()."</p>";
 }
 
-# include('/home/voss/public_html/blog/incs/db.inc.php');
 $basepath = '/home/voss/stuff/';
 
 if(!$_GET['file']) {
