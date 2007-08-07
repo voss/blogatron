@@ -5,8 +5,12 @@
 <body>
 <?php
 
+# Including settings and db instructions:
 include('/home/voss/blog.verture.net/incs/config.inc.php');
 include('/home/voss/blog.verture.net/incs/db.inc.php');
+
+# Setting timezone:
+putenv("TZ=Europe/Dublin");
 
 $stat_sql = "SELECT * from dls order by timestamp asc";
 $result = mysql_query($stat_sql) or print mysql_error();
