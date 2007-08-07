@@ -146,7 +146,7 @@ if(isset($_POST['eid']) && isset($_POST['c_submit'])) {
 		$c_ip = $_SERVER['REMOTE_ADDR'];
 		$eid = $_POST['eid'];
 		$comment_url = $_POST['comment_url'];
-		$etitle = $_POST['etitle'];
+		$etitle = stripslashes($_POST['etitle']);
 		$c_msg = "Browser: {$_SERVER['HTTP_USER_AGENT']}\n";
 		$c_msg .= "IP:     {$c_ip}\n";
 		$c_msg .= "Navn:   {$c_author}\n";

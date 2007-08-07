@@ -28,7 +28,7 @@
 </head>
 <body>
 	<div id="wrapper">
-		<h1 class="pagehead"><a href="/">verture.net &mdash; about:blank</a></h2>
+		<h1 class="pagehead"><a href="/">verture.net &mdash; about:blank</a></h1>
 		<div id="content">
 	      <?php
 			if(eregi("([0-9]{6})([/.]?)([-_.#!?a-z0-9]{0,15})", $_SERVER['REQUEST_URI']))
