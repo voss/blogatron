@@ -1,21 +1,9 @@
 <?php
-# include('/home/voss/blog/incs/config.inc.php');
 
-$db_host = "mysql.verture.net";
-$db_user = "voss";
-$db_pass = "boogie";
-$db_name = "verture_blog";
+include('/home/voss/blog.verture.net/incs/config.inc.php');
+include('/home/voss/blog.verture.net/incs/db.inc.php');
 
-# create db-connection:
-$dbcnx = @mysql_pconnect($db_host,$db_user,$db_pass);
-if(!$dbcnx) {
-	print "<p>".mysql_error()."</p>";
-}
-
-# select db:
-if(!@mysql_select_db($db_name)) {
-	Print "<p>Unable to connect to database.".mysql_error()."</p>";
-}
+# Set timezone:
 
 $basepath = '/home/voss/stuff/';
 
