@@ -44,7 +44,8 @@ if(isset($_COOKIE["blogatron_author"])) {
 }
 
 $comments_form =
-'<h2 id="comment">Leave a comment</h2>
+'<div id="comment">
+<h2>Leave a comment</h2>
 <form action="'.$install_path.'/opraab.php" method="post" id="ca" onsubmit="validateComment(); return false;">
     <div style="clear: left; width: 100%;">
     <input type="hidden" name="comment_url" value="http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].'" />
@@ -75,6 +76,7 @@ $comments_form =
     <br />
     </div>
 </form>
+</div>
 ';
 
 

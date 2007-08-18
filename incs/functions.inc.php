@@ -15,14 +15,6 @@ if($_GET['action'] == 'logout')
 	header("Location: /");
 }
 
-# Pull out the title of the last inserted entry for displaying in the <title>-tag.
-$sql2 = "select max(date) from entries where status = '1'";
-$result2 = mysql_query($sql2);
-$max_date = mysql_fetch_array($result2);
-$sql3 = "SELECT title, date from entries where date = '{$max_date[0]}'";
-$result3 = mysql_query($sql3);
-$front_title = mysql_fetch_array($result3);
-
 function print_header($head, $css, $domain_name, $description, $key_words, $dc_title, $install_path)
 {
 	print "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" 

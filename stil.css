@@ -83,6 +83,17 @@ h1.pagehead {
   color: white;
 }
 
+.entry h1 a:link, .entry h1 a:visited, .entry h1 a:hover, .entry h1 a:active {
+	text-decoration: none;
+	border: none;
+	color: #036;
+	background: none;
+}
+
+.entry h1 a:hover:after {
+	content: " \2192";
+}
+
 .byline {
 	float: left;
 	width: 140px;
@@ -137,7 +148,7 @@ blockquote {
 
 .entry {
 	font-size: small;
-	line-height: 1.4em;
+	line-height: 1.5em;
 	padding-bottom: 20px;
 	padding-top: 5px;
 }
@@ -156,6 +167,10 @@ div#linkster {
 #disclaimer p {
 	text-align: center;
 	font: x-small "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+}
+
+#c {
+	color: #693;
 }
 
 /* Google Reader clip start */

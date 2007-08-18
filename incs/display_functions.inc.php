@@ -32,7 +32,7 @@ function display_entry_from_url()
 
 	if(!$result)
 	{
-		print "<h4>Knas med databasen, prøv igen lidt senere.</h4><p>".mysql_error()."</p>";
+		print "<h4>Problems with the database, please to try again later.</h4><p>".mysql_error()."</p>";
 	}
 	
 	if(@mysql_num_rows($result) == 1)
@@ -174,8 +174,8 @@ function display_front_page($lastentries)
 			}
 		}
 		print "<div class='entry'>\n";
-		print "<h1>{$title}</h1>\n";
-		print "<p class=\"byline\"><span style='color: #799dc6'>{$day}</span><br /> \n {$hour}<br /> \n <a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">Permalink</a> <br /> \n <a href=\"{$install_path}/{$date}/".dirify($title)."#c\" title=\"{$count_comments} har tilføjet noget\">{$count_comments} {$actual_comments}</a></p>\n";
+		print "<h1><a title=\"Permanent link to '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">{$title}</a></h1>\n";
+		print "<p class=\"byline\"><span style='color: #799dc6'>{$day}</span><br /> \n {$hour}<br /> \n <a href=\"{$install_path}/{$date}/".dirify($title)."#c\" title=\"{$count_comments} har tilføjet noget\">{$count_comments} {$actual_comments}</a></p>\n";
 		print '<div class="ebody">'.stripslashes(format_entry($text));
         if(!empty($text_more))
         {
@@ -215,7 +215,7 @@ function display_archive_entry()
 	}
 	
 	$u_expl[0] = dateify($u_expl[0]);
-	print '<h1 class="arkiv">Arkiv for '.dateify($month).' måned, år '.$year.'</h1>';
+	print '<h1 class="arkiv">Archive for '.$month.', '.$year.'</h1>';
 	print '<ul>';
 	while($row = @mysql_fetch_array($result))
 	{
@@ -247,7 +247,7 @@ function display_archive_entry()
 				}
 			}
 		}
-		print "<li>{$day} <a title=\"Permanent link til '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">{$title}</a>\n</li>";
+		print "<li>{$day} <a title=\"Permanent link to '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">{$title}</a>\n</li>";
 	}
 	print '</ul>';
 }
@@ -279,7 +279,7 @@ function display_archive_months()
 			{
 				extract($row2);
 				$date_u = $date_month;
-				$date = dateify($date_month);
+				$date = $date_month;
 				print "<li><a href=\"{$install_path}/arkiv/{$date_u}.{$year}\">".ucwords($date)."</a></li>\n";
 			}
 			print '</ul>';
@@ -322,5 +322,51 @@ function display_archive_months_edit()
 	}
 	print "</select>\n";
 }
+
+# Grabs the title of the entry requested
+function single_entry_title()
+{
+	$expl = array_reverse(explode("/", $_SERVER['REQUEST_URI']));
+	$entrydate = $expl[1];
+	$e = undirify($expl[0]);
+	$e = trim($e);
+	$sql = "SELECT *
+			FROM 
+		entries
+			WHERE 
+		entries.title LIKE ('$e%')
+			AND
+		entries.status = '1'
+			AND
+		FROM_UNIXTIME(entries.date, '%d%m%y') = '{$entrydate}'
+			LIMIT 0,15";
+	$result = @mysql_query($sql);
+
+	if(!$result)
+	{
+		print "<h4>Problems with the database, please to try again later kthx bai</h4><p>".mysql_error()."</p>";
+	}
+	
+	if(@mysql_num_rows($result) == 1)
+	{
+		while($row = @mysql_fetch_array($result))
+		{
+			extract ($row);
+			return $title;
+		}
+	}
+}
+
+
+# Decide the <title>-tag for serving up single servings:
+if ($_SERVER['REQUEST_URI'] != "/")
+{
+	$title_tag = single_entry_title();
+}
+else 
+{
+	$title_tag = $tagline;
+}
+
 
 ?>
