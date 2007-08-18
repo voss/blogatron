@@ -11,6 +11,7 @@
 @include('incs/display_functions.inc.php');
 @include('incs/includes.inc.php');
 
+# Get the user query from do_search.php
 $q = explode('/', $_SERVER['REQUEST_URI']);
 $q = urldecode($q[2]);
 
@@ -34,27 +35,26 @@ if(!$result) {
 	<meta name="Keywords" content="<?=$domain_name;?>. <?=$key_words;?>" />
 	<meta name="MSSmartTagsPreventParsing" content="true" />
 	<script type="text/javascript" src="<?=$install_path;?>/js/jsscripts.js"></script>
-	<title>. <?=$blog_title;?> | søgeresultater .</title>
+	<title>. search results for '<?=$q;?>' | <?=$tagline;?> | <?=$blog_title;?> .</title>
 	<style type="text/css" media="all">
 		@import "<?=$install_path;?>/stil.css";
 	</style>
 </head>
 <body>
 	<div id="wrapper">
-		<h1 class="pagehead"><a href="/">verture.net &mdash; about:blank</a></h1>
+		<h1 class="pagehead"><a href="/">verture.net &mdash; <?=$tagline;?></a></h1>
 		<div id="content">
-
 	      	<div class="entry" style="padding-bottom: 250px;">
             <?php
-            	print '<h1 class="arkiv">Resultat af søgning</h1>';
-            	print '<p>Du søgte efter <span style="color: #900; font-weight: bold">\''.urldecode($q).'\'</span>, og der blev fundet <b>'.$numrows.'</b> indlæg der matchede din søgning.</p><p>Resultaterne er sorteret efter relevans. Hvis søgeordet forekommer indenfor de første 200 bogstaver i indlægget er det fremhævet med <span style="background-color: #cff">denne farve</span></p>';
+            	print '<h1 class="arkiv">Result of your search</h1>';
+            	print '<p>You searced for <span style="color: #693; font-weight: bold">\''.urldecode($q).'\'</span>, and <b>'.$numrows.'</b> posts matched your query.</p><p>The results are sorted by relevance. If your query appears within the first 200 characters of the post, it is highlighted with <span style="background-color: #cff">this colour</span>.</p>';
             	$i = 1;
             		while($row = @mysql_fetch_array($result)) {
             			extract ($row);
             			$linkdate = date('dmy', $date);
             			$date = date("G:i || d.m || Y", $date);
             			print "<h1>#$i <a href=\"{$install_path}/{$linkdate}/".dirify($title)."\" style=\"margin-left: 3px\">{$title}</a></h1>\n";
-            			print "<p class=\"date\" style=\"margin-left: 17px;\">{$date} af {$name}</p>\n";
+            			print "<p class=\"date\" style=\"margin-left: 17px;\">{$date} by {$name}</p>\n";
             			$text = strip_tags($text);
             			$text = stripslashes($text);
             			$text = substr($text, 0, 200).' ...';
@@ -78,8 +78,7 @@ if(!$result) {
 		     ?>
 		</div>
     <div id="disclaimer">
-      <p><p>Disclaimer: I speak for myself, not my employer ||
-<!--Creative Commons License-->This work is licensed under a <a
+      <p><p>Disclaimer: I speak for myself, not my employer || <!--Creative Commons License-->This work is licensed under a <a
 rel="license"
 href="http://creativecommons.org/licenses/by-nc-sa/2.5/">Creative
 Commons by-nc-sa License</a>.

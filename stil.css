@@ -33,7 +33,7 @@ h1 {
 	clear: both;
 	padding-top:0;
 	margin-top:0;
-  color: #036
+	color: #036
 }
 
 h1 img {
@@ -50,12 +50,12 @@ h1.pagehead {
 	margin: 0;
 	height: 100px;
 	font-family: courier;
-  font-size: x-large;
+	font-size: x-large;
 }
 
 .pagehead a {
-  text-decoration: none;
-  color: #99a;
+	text-decoration: none;
+	color: #99a;
 }
 
 #searchform {
@@ -64,23 +64,23 @@ h1.pagehead {
 }
 
 .entry a:link, #linkster a:link {
-  text-decoration: none;
-  border-bottom: 1px solid #369;
-  color: #333;
+	text-decoration: none;
+	border-bottom: 1px solid #369;
+	color: #333;
 }
 
 .entry a:visited, #linkster a:visited {
-  border-bottom: 1px dotted #666;
-  text-decoration: none;
-  color: #333;
+	border-bottom: 1px dotted #666;
+	text-decoration: none;
+	color: #333;
 }
 
 .entry a:hover, #linkster a:hover {
-  border: 0;
-  background:#693;
-  border-bottom: 1px solid #693;
-  text-decoration: none;
-  color: white;
+	border: 0;
+	background:#693;
+	border-bottom: 1px solid #693;
+	text-decoration: none;
+	color: white;
 }
 
 .entry h1 a:link, .entry h1 a:visited, .entry h1 a:hover, .entry h1 a:active {
@@ -102,7 +102,7 @@ h1.pagehead {
 }
 
 .bio {
-  font-size: x-small;
+	font-size: x-small;
 }
 
 ul {
@@ -142,8 +142,8 @@ blockquote {
 }
 
 .ebody a img {
-  border: 1px solid #333;
-  padding: 1px;
+	border: 1px solid #333;
+	padding: 1px;
 }
 
 .entry {
