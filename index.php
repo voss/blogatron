@@ -34,7 +34,16 @@
 	<div id="wrapper">
 		<h1 class="pagehead"><a href="/">verture.net &mdash; <?=$tagline;?></a></h1>
 		<div id="content">
-			<img src="/img/404.jpg" />
+	      <?php
+			if(eregi("([0-9]{6})([/.]?)([-_.#!?a-z0-9]{0,15})", $_SERVER['REQUEST_URI']))
+			{
+				display_entry_from_url();
+			}
+			else
+			{
+				display_front_page('5');
+			}
+   		?>
 		</div>
 		<div id="linkster">
 			<?php
