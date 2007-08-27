@@ -1,48 +1,69 @@
 <?php
-## Include config-file:
-@include('incs/config.inc.php');
-@include('incs/db.inc.php');
-@include('incs/functions.inc.php');
-@include('incs/display_functions.inc.php');
+
+# file: index.php
+
+# Include config-file and functions:
+@include_once('incs/config.inc.php');
+@include_once('incs/db.inc.php');
+@include_once('incs/functions.inc.php');
+@include_once('incs/display_functions.inc.php');
+#setcookie("peek-a-boo","last_visit", time()+3600*24*365, "/");
+
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
 "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
-		<link rel="alternate" type="application/rss+xml" title="RSS" href="http://blog.verture.net/rssfeed.xml" />
-		<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
-		<meta name="ICBM" content="55.6773 , 12.5749" />
-		<meta name="MSSmartTagsPreventParsing" content="true" />
-		<script type="text/javascript" src="/js/jsscripts.js"></script>
-		<style type="text/css" media="all">
-			@import "/css/prik.css";
-		</style>
-		<title>. verture.net &raquo; her skriver jeg .</title>
-	</head>
-	<body id="body404">
-<div class="div404">
-<!--
-<p class="p404">
-Siden du leder efter kan ikke frembringes på den adresse du har indtastet:</p>
--->
-<p class="puri"><?='http://'.$_SERVER[HTTP_HOST].$_SERVER['REQUEST_URI'];?></p>
-<p class="p404">Der kan være forskellige årsager til at ovenstående adresse ikke findes:
-<ol>
-<li>Du har indtastet en forkert adresse i din browser, eller fulgt et link fra et website der har skrevet adressen forkert.</li>
-<li>Adressen fandtes en gang, men er blevet lavet om i et af mine mange forsøg på at være fed med de fede, der har seje adresser der er menneskeligt læselige.</li>
-<li>Lige præcis det du søger er en af de ting der forsvandt i marts 2003, hvor alt her på siderne blev slettet, og ikke alt er genoprettet.</li>
-</ol></p>
-<p class="p404">
-Der er dog størst sandsynlighed for, at det er sidstnævnte årsag til at du er havnet her. Desværre.
-</p>
-<p class="p404">
-Nu findes der så den mulighed at du kan søge i indlæggene på min weblog ved at indtaste et søgeord i nedenstående formular, og hvem ved, måske er du heldig at finde det du søger.
-</p>
-<form style="text-align: center; padding-top: 15px; background: #eee; border: 1px solid #ddd; padding: 10px;" action="/do_search.php" method="get" onsubmit="if(this.q.value=='Skriv søgeord' || this.q.value=='') { alert('Du skal skrive et gyldigt søgeord først.'); this.q.select(); return false;} else { this.submit();}"><div style="display:inline;"><input type="text" name="q" value="Skriv søgeord" onclick="this.select()" style="width: 100px;" /><input type="submit" value="Søg" /></div></form>
-<p class="p404" style="text-align: center;">
-Forsiden af min weblog findes her <a href="http://blog.verture.net/">blog.verture.net</a>
-</p>
-</div>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   <title>. 404, dokuhmintz couldnded be faound | <?=$blog_title;?> .</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+   <script src="http://www.gvisit.com/record.php?sid=043c3d02563545754e66d6c8a9be2757" type="text/javascript"></script>
+   <link rel="shortcut icon" href="<?=$install_path;?>/favicon.ico" type="image/x-icon" />
+   <link rel="alternate" type="application/rss+xml" title="Indlæg" href="<?=$install_path;?>/rss/entries" />
+   <link rel="alternate" type="application/rss+xml" title="Kommentarer" href="<?=$install_path;?>/rss/comments" />
+   <link rel="alternate" type="application/rss+xml" title="Københavns Politis Døgnrapport" href="http://blog.verture.net/doegnrapport.php" />
+   <script type="text/javascript" src="<?=$install_path;?>/js/jsscripts.js"></script>
+   <meta name="description" content="<?=$description;?>" />
+   <meta name="keywords" content="<?=$key_words;?>" />
+   <meta name="ICBM" content="55.6773 , 12.5749" />
+   <meta name="MSSmartTagsPreventParsing" content="true" />
+   <style type="text/css" media="all">
+   	@import "<?=$install_path;?>/stil.css";
+   </style>
+</head>
+<body>
+	<div id="wrapper">
+		<h1 class="pagehead"><a href="/">verture.net &mdash; <?=$tagline;?></a></h1>
+		<div id="content">
+			<div style="text-align: center">
+				<img src="/img/404.jpg" alt="404 error, document not found" />
+				<p><?='http://'.$_SERVER[HTTP_HOST].$_SERVER['REQUEST_URI'];?> could not be found, sorry about that.</p>
+			</div>
+		</div>
+		<div id="linkster">
+			<?php
+				@include('incs/sidebars.inc.php');
+		     ?>
+		</div>
+		<div id="disclaimer">
+		<p>Disclaimer: I speak for myself, not my employer || <!--Creative Commons License-->This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/">Creative Commons by-nc-sa License</a>.
+		<!--/Creative Commons License-->
+		<!-- <rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+		<Work rdf:about="">
+			<license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.5/" />
+			<dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+		</Work>
+		<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.5/">
+			<permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+			<permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+			<requires rdf:resource="http://web.resource.org/cc/Notice"/>
+			<requires rdf:resource="http://web.resource.org/cc/Attribution"/>
+			<prohibits rdf:resource="http://web.resource.org/cc/CommercialUse"/>
+			<permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+			<requires rdf:resource="http://web.resource.org/cc/ShareAlike"/>
+		</License>
+		</rdf:RDF> -->
+		</p>
+		</div>
+	</div>
 </body>
 </html>
