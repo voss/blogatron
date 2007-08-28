@@ -2,17 +2,14 @@
     <p class="bio"><img src="/img/buddy_ikon_cropped_100x100.png" style="float:left;
 border: 1px solid #555; padding: 3px; margin-right: 5px;" alt="Bio
 picture, taken by Rasmus Rasmussen" title="Me, through the lens of
-Rasmus Rasmussen" />verture.net is the personal website of me, Jonas Voss, and this is my blog. I've lived in Dublin, Ireland since 2005, where I work for <a
-href="http://google.ie/">Google</a>. I was born and bred in Copenhagen, Denmark. I write about anything that comes to mind. Really.<br />
-You can reach me via
-<script type="text/javascript" language="javascript">
+Rasmus Rasmussen" /><a href="http://verture.net/">verture.net</a> is the personal website of me, Jonas Voss, and this is my blog. I've lived in Dublin, Ireland since 2005, where I work for <a href="http://google.ie/">Google</a>. I was born and bred in Copenhagen, Denmark. I write about anything that comes to mind. Really.<br />You can reach me at <script type="text/javascript" language="javascript">
 <!--
 // Email obfuscator script 2.1 by Tim Williams, University of Arizona
 // Random encryption key feature by Andrew Moulden, Site Engineering Ltd
 // This code is freeware provided these four comment lines remain intact
 // A wizard to generate this code is at http://www.jottings.com/obfuscator/
-{ coded = "JbHi2@YQChLCQ.HQh"
-  key = "zvT1LAdDjIsaOo9KQrY48UEPXJ02iVbt5NCRy6knwZFMBlcGhuxWqmS7H3gfpe"
+{ coded = "AgfeI@8WOxiOW.fWx"
+  key = "4EIC2p53i8jQhTJOemRnHK9DUGzAZ7yNtW0ofFLPBdkXV6MsYxcbguvq1Swlra"
   shift=coded.length
   link=""
   for (i=0; i<coded.length; i++) {
@@ -25,11 +22,10 @@ You can reach me via
       link += (key.charAt(ltr))
     }
   }
-document.write("<a href='mailto:"+link+"'>email</a>")
+document.write("<a href='mailto:"+link+"'>jonas at verture dot net</a>")
 }
 //-->
-</script><noscript>Sorry, you need Javascript on to email me.</noscript>
-</p>
+</script><noscript>Sorry, you need Javascript on to email me</noscript>.</p>
 			<ul style="padding-top:0;margin-top:0;">
 				<li><img src="/img/rsssmall.png" alt="RSS ikon" class="sidebaricon" /><a href="http://feeds.feedburner.com/verture" title="RSS-feed af indlæg">Entries</a></li>
 				<li><img src="/img/rsssmall.png" alt="RSS ikon" class="sidebaricon" /><a href="http://feeds.feedburner.com/verturekommentarer" title="RSS-feed af kommentarer">Comments</a></li>
