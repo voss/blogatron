@@ -83,15 +83,22 @@ h1.pagehead {
 	color: white;
 }
 
-.entry h1 a:link, .entry h1 a:visited, .entry h1 a:hover, .entry h1 a:active {
+.entry h1 a:link, .entry h1 a:visited, .entry h1 a:active {
 	text-decoration: none;
 	border: none;
 	color: #036;
 	background: none;
 }
 
+/*
+.entry h1 a:hover {
+	background: #693;
+	color: white;
+}
+*/
 .entry h1 a:hover:after {
 	content: " \2192";
+	color: red;
 }
 
 .byline {
@@ -234,3 +241,44 @@ div.reader-publisher-module div.f {
 	padding-right: 3px;
 	border:0;
 }
+
+#humanoid, #addy, #message {
+	background: cornsilk;
+}
+
+fieldset {
+	border: none;
+}
+
+#required {
+	background: cornsilk;
+	padding: 2px;
+	margin-left: 5px;
+	font-size: x-small;
+}
+
+legend#required {
+	padding: 0;
+	margin: 0;
+}
+
+#tilladt {
+	padding-top: 0;
+	margin-top:0;
+}
+/*
+.ebody a[href^="http:"]:hover, .ebody a[href^="https:"]:hover {
+        background: blue;
+}
+
+
+.ebody a[href^="http://blog.verture.net/"], .ebody a[href^="http://blog.verture.net/"] {
+        background: transparent;
+        padding-right: 0px;
+}
+
+.ebody a[href^="http://blog.verture.net/"]:hover, .ebody a[href^="http://www.blog.verture.net/"]:hover {
+        background: #693;
+        padding-right: 0px;
+}
+*/

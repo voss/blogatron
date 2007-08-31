@@ -42,6 +42,7 @@ RewriteEngine On
 
 ## Main site rewrites
   RewriteRule ^kontakt[/]?$ kontakt.php
+  RewriteRule ^contact[/]?$ kontakt.php
   RewriteRule ^ee[/]?$ sheriff/ee.php
   RewriteRule ^edit[/]?$ sheriff/ee.php
   RewriteRule ^edit/([0-9]+)$ ee.php?entryid=$1

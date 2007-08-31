@@ -19,18 +19,22 @@ $login_form =
 ## Mail form ##
 
 $mail_form =
-'<form action="/kontakt/#mail" method="post" id="mail">
-	<div>
-	<p style="padding: 0; margin: 0; font-size: x-small;"><span style="color: #c00; font-weight: bold;">*</span> = skal udfyldes.</p>
-	<label>Navn: </label><br />
-	<input type="text" name="sender" /><br />
-	<label>Email: </label><span style="color: #c00; font-weight: bold;">*</span><br />
-	<input type="text" name="addy" /><br />
-	Indsæt Æ i dette felt: 	<input type="text" name="humanoid" size="1" /><br />
-	<label>Besked: </label><span style="color: #c00; font-weight: bold;">*</span><br />
-	<textarea rows="10" cols="40" name="msg"></textarea><br />
-	<input type="submit" name="submit" value="Send" />
-    </div>
+'<form action="/contact/#mail" method="post" id="mail">
+	<fieldset>
+		<legend id="required">Required field</legend>
+		<p><label>Name:</label><br />
+		<input type="text" name="sender" id="sender" /></p>
+		<p><label>Email:</label><br />
+		<input type="text" name="addy" id="addy"/></p>
+    <p><label>Subject:</label><br />
+    <input type="text" name="subject" id="subject" /></p>
+		<label>Message:</label><br />
+		<div style="width: 99%;"><textarea rows="10" cols="40" name="msg" id="message" style="font-size: small; width: 100%"></textarea><br />
+			<p style="display:inline; text-align: right"><label>Do a little math: 3 x 3 =</label> <input type="text" name="humanoid" id="humanoid" size="1" /> <input type="submit"
+name="submit" value="Send &rArr; " style="padding: 5px;font-weight:
+bold; font-size: medium;"/></p>
+		</div>
+    </fieldset>
 </form>
 ';
 
@@ -47,10 +51,10 @@ $comments_form =
 '<div id="comment">
 <h2>Leave a comment</h2>
 <form action="'.$install_path.'/opraab.php" method="post" id="ca" onsubmit="validateComment(); return false;">
+    <fieldset>
     <div style="clear: left; width: 100%;">
     <input type="hidden" name="comment_url" value="http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].'" />
     <input type="hidden" name="etitle" value="'.$title.'" />
-    <fieldset>
         <legend style="border: 1px solid #eee; background: white"><span style="font-size: x-small;"><span style="color: #c00; font-weight: bold;">*</span> = Required</span></legend>
         <p><label><span style="color: #c00; font-weight: bold;">*</span>Name</label><br />
         <input type="text" name="c_author" value="'.$_COOKIE['blogatron_author'].'" size="30" /></p>
@@ -66,15 +70,11 @@ $comments_form =
         <label class="kage">Yes </label> <input style="border: 0;" type="radio" name="bakecookie" '.$checked_status[0].' />
         <label class="kage">No</label> <input style="border: 0;" type="radio" name="bakecookie" '.$checked_status[1].' value="off" />
         </p>
-    </fieldset>
-    <p style="margin-bottom: 0;padding-bottom;"><label>Comment</label> <span style="color: #c00; font-weight: bold;">*</span><br />
-    <textarea cols="23" rows="10" name="c_text" style="font-size: small; width: 90%"></textarea></p>
-    <p id="tilladt">Some HTML allowed: &lt;a href="..."&gt;, &lt;b&gt;, &lt;em&gt;, &lt;q&gt;.</p>
-    <p>
-        <input type="submit" name="c_submit" value="Submit comment" style="margin-left: 60%;" />
-    </p>
-    <br />
+	    <p style="margin-bottom: 0;padding-bottom;"><label>Comment</label> <span style="color: #c00; font-weight: bold;">*</span><br />
+	    <textarea cols="23" rows="10" name="c_text" style="font-size: small; width: 90%;"></textarea></p>
+	    <p id="tilladt">Some HTML allowed: &lt;a href="..."&gt;, &lt;b&gt;, &lt;em&gt;, &lt;q&gt;. <input type="submit" name="c_submit" value="Submit comment &rarr;" style="margin-left: 20%;" /></p>
     </div>
+    </fieldset>
 </form>
 </div>
 ';
@@ -96,8 +96,6 @@ if($_SESSION['aid'] != 1)
 {
 	array_pop($edit_menu);
 }
-#$edit_menu = array_reverse($edit_menu);
-
 # Flip the key->value pair to print the proper values in editmenu:
 $edit_menu = array_flip($edit_menu);
 ?>
