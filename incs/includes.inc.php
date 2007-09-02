@@ -72,7 +72,10 @@ $comments_form =
         </p>
 	    <p style="margin-bottom: 0;padding-bottom;"><label>Comment</label> <span style="color: #c00; font-weight: bold;">*</span><br />
 	    <textarea cols="23" rows="10" name="c_text" style="font-size: small; width: 90%;"></textarea></p>
-	    <p id="tilladt">Some HTML allowed: &lt;a href="..."&gt;, &lt;b&gt;, &lt;em&gt;, &lt;q&gt;. <input type="submit" name="c_submit" value="Submit comment &rarr;" style="margin-left: 20%;" /></p>
+	    <p id="tilladt">Some HTML allowed: &lt;a href="..."&gt;,
+&lt;b&gt;, &lt;em&gt;, &lt;q&gt;. <input type="submit" name="c_submit"
+value="Submit comment &rarr;" style="margin-left: 20%;padding-right:
+12px;" /></p>
     </div>
     </fieldset>
 </form>
