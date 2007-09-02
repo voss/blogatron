@@ -19,7 +19,8 @@ $login_form =
 ## Mail form ##
 
 $mail_form =
-'<form action="/contact/#mail" method="post" id="mail">
+'<p>If you want to send me an email, this is where it happens. Fill in the fields, and hit the send button.</p>
+<form action="/contact/#mail" method="post" id="mail">
 	<fieldset>
 		<legend id="required">Required field</legend>
 		<p><label>Name:</label><br />
