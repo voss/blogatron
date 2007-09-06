@@ -32,7 +32,7 @@ $mail_form =
 		<label>Message:</label><br />
 		<div style="width: 99%;"><textarea rows="10" cols="40" name="msg" id="message" style="font-size: small; width: 100%"></textarea><br />
 			<p style="display:inline; text-align: right"><label>Do a little math: 3 x 3 =</label> <input type="text" name="humanoid" id="humanoid" size="1" /> <input type="submit"
-name="submit" value="Send &rArr; " style="padding: 5px;font-weight:
+name="submit" value="Daaaas it &rArr; " style="padding: 5px;font-weight:
 bold; font-size: medium;"/></p>
 		</div>
     </fieldset>
@@ -75,7 +75,7 @@ $comments_form =
 	    <textarea cols="23" rows="10" name="c_text" style="font-size: small; width: 90%;"></textarea></p>
 	    <p id="tilladt">Some HTML allowed: &lt;a href="..."&gt;,
 &lt;b&gt;, &lt;em&gt;, &lt;q&gt;. <input type="submit" name="c_submit"
-value="Submit comment &rarr;" style="margin-left: 20%;padding-right:
+value="Daaas it &rarr;" style="margin-left: 20%;padding-right:
 12px;" /></p>
     </div>
     </fieldset>
