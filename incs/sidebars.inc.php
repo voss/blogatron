@@ -2,7 +2,11 @@
     <p class="bio"><img src="/img/buddy_ikon_cropped_100x100.png" style="float:left;
 border: 1px solid #555; padding: 3px; margin-right: 5px;" alt="Bio
 picture, taken by Rasmus Rasmussen" title="Me, through the lens of
-Rasmus Rasmussen" /><a href="http://verture.net/">verture.net</a> is the personal website of me, Jonas Voss, and this is my blog. I've lived in Dublin, Ireland since 2005, where I work for <a href="http://google.ie/">Google</a>. I was born and bred in Copenhagen, Denmark. I write about anything that comes to mind. Really.<br />You can send me an <a href="/contact" title="To the contact form">email &rArr;</a></p>
+Rasmus Rasmussen" /><a href="http://verture.net/">verture.net</a> is the
+personal website of me, Jonas Voss, and this is my blog. I've lived in
+Dublin, Ireland since 2005, where I work for <a
+href="http://google.ie/">Google</a>. I was born and fully customized in
+<a href="http://www.spiegel.de/international/europe/0,1518,502512,00.html">Copenhagen</a>, Denmark. I write about anything that comes to mind. Really.<br />You can send me an <a href="/contact" title="To the contact form">email &rArr;</a></p>
 
 <?php
 /*
