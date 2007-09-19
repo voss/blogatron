@@ -101,7 +101,14 @@ function display_entry_from_url()
 				@include('incs/includes.inc.php');
 				print $comments_form;
 			}
-			print "</div>\n";
+/*			$sql_seek = "select * from entries;";
+			$result_seek = mysql_query($sql_seek);
+			mysql_data_seek($result_seek, 70);
+			while ($row = mysql_fetch_array($result_seek)) {
+				extract($row);
+				print $id."--".$title."<br />";
+				}
+*/
 			}
 	}
 	else
