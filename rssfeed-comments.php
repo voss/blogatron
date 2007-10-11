@@ -22,8 +22,8 @@ else
 	$xml_string = "<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>
 <rss version=\"2.0\" xmlns:icbm=\"http://postneo.com/icbm\">
 <channel>
-	<title>. kommentarer på verture [prik] net .</title>
-	<description>Kommentarer på verture prik net</description>
+	<title>. Comments from {$tagline} .</title>
+	<description>Comments on {$tagline}</description>
 	<link>http://{$domain_name}</link>
 	<lastBuildDate>{$last_build_date}</lastBuildDate>
 	<icbm:latitude>55.6773</icbm:latitude>
@@ -38,7 +38,7 @@ else
 		$date = date("dmy", $xml_date);
 		$entry_date = date("dmy", $entrydate);
 		$xml_string .= "<item>\n\t";
-		$xml_string .= "<title>Kommentar fra {$c_author} til '{$title}'</title>\n\t";
+		$xml_string .= "<title>Comments from {$c_author} on '{$title}'</title>\n\t";
 		$xml_string .= "<description>{$text}</description>\n\t";
 		$xml_string .= "<link>http://{$domain_name}/".$entry_date."/".dirify($title)."#c</link>\n\t";
 		$xml_string .= "<pubDate>{$pub_date}</pubDate>\n\t";
