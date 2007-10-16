@@ -22,7 +22,14 @@ $numrows = mysql_num_rows($result);
 while($row = mysql_fetch_array($result)) {
 	extract($row);
 	$date = date('r', $timestamp);
+  if($filename == "23-photos.zip")
+  {
+    print "<tr style=\"font-family:monospace; color: white; background:red;\"><td>{$ip}</td><td>{$filename}</td><td>{$date}</td></tr>";
+  }
+  else
+  {
 	print "<tr style=\"font-family: monospace\"><td>{$ip}</td><td>{$filename}</td><td>{$date}</td></tr>";
+  }
 }
 ?>
 </table>
