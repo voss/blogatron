@@ -43,7 +43,7 @@ document.write("<a href='mailto:"+link+"'>jonas at verture dot net</a>")
         <li><img src="/img/flickr_favicon.png" alt="Images at flickr" class="sidebaricon" /><a href="/io/http://www.flickr.com/photos/voss/">Images at flickr</a></li>
 		    <li><img src="/img/del.icio.us-favicon.png" alt="del.icio.us logo" class="sidebaricon" /><a href="/io/http://del.icio.us/voss">del.icio.us braindump</a></li>
         <li><img src="/img/last.fm_favicon.png" alt="last.fm logo" class="sidebaricon" /><a href="/io/http://last.fm/user/bobbybonzai">Music at last.fm</a></li>
-        <li><a href="http://inc.verture.net/">tumblr</a></li>
+        <li><a href="/io/http://inc.verture.net/">tumblr</a></li>
 			<li id="search">
 				<?php @include('incs/menu.inc');?>
 			</li>
