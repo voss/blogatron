@@ -162,9 +162,8 @@ table.table {
 }
 
 table.table tr:hover td {
-	background: #f6f6f6;
-	background-color: #f6f6f6;
-	color: green;
+	background: #333;
+	color: white;
 }
 
 table.table th {
@@ -211,14 +210,15 @@ td *:link, td *:visited,td *:hover {
 }
 
 table.table a {
-/*	display: block; */
+	display: block;
 	width: 100%;
-	padding: 1ex;
+/*	padding: 1ex; */
 	text-decoration: none;
 }
 
 table.table a:link {
-	color: green;
+	color: black;
+	width: 100%;
 }
 
 table.table a:visited {
@@ -229,7 +229,7 @@ table.table a:visited {
 }
 
 table.table a:hover {
-	color: red;
+	color: white;
 	background: inherit;
 /*	border-bottom: 1px dotted #999; */
 	text-decoration: none;

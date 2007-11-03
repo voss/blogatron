@@ -6,8 +6,10 @@ include('/home/voss/blog.verture.net/incs/db.inc.php');
 # Set timezone:
 putenv("TZ=Europe/Dublin");
 
+# Where are we downloading from?
 $basepath = '/home/voss/stuff/';
 
+# I can haz file?
 if(!$_GET['file'])
 {
 	print 'Nothing to see here, move along.';
@@ -37,5 +39,7 @@ else {
 		timestamp = ('$time')";
 	$result = @mysql_query($sql) or print mysql_error(); */
 }
+
+# kthxbai
 mysql_close($dbcnx);
 ?>

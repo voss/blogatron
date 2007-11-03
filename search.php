@@ -43,11 +43,20 @@ if(!$result) {
 <body>
 	<div id="wrapper">
 		<h1 class="pagehead"><a href="/">verture.net &mdash; <?=$tagline;?></a></h1>
+		<div style="float:right;"><form style="display:inline;" action="/do_search.php" method="get" id="searchform" onsubmit="if(this.q.value=='Type a query' || this.q.value=='') { alert('Please write a valid query'); this.q.select(); return false;} else { this.submit();}">
+	<div style="display:inline;margin-bottom:10px;">
+		<input type="search" name="q" value="" onclick="this.value='Type a query';this.select()" style="width: 100px; border: 1px solid #ddd;text-align:right" /><img src="/img/mag_glass.jpg" alt="Magnifying glass for search box" style="vertical-align:middle;padding-left: 5px" />
+	</div>
+	
+</form>
+</div>
+    <div style="border-top: 1px solid #369; margin-top: 25px; padding-top:20px;">
 		<div id="content">
+
 	      	<div class="entry" style="padding-bottom: 250px;">
             <?php
             	print '<h1 class="arkiv">Result of your search</h1>';
-            	print '<p>You searced for <span style="color: #693; font-weight: bold">\''.urldecode($q).'\'</span>, and <b>'.$numrows.'</b> posts matched your query.</p><p>The results are sorted by relevance. If your query appears within the first 200 characters of the post, it is highlighted with <span style="background-color: #cff">this colour</span>.</p>';
+            	print '<p>You searced for <span style="color: #693; font-weight: bold">\''.urldecode($q).'\'</span>, and <b>'.$numrows.'</b> posts matched your query.</p><p>The results are sorted by relevance. If your query appears within the first 200 characters of the post, it is highlighted <span style="background-color: olivedrab;color:white">like this</span>.</p>';
             	$i = 1;
             		while($row = @mysql_fetch_array($result)) {
             			extract ($row);
@@ -58,7 +67,7 @@ if(!$result) {
             			$text = strip_tags($text);
             			$text = stripslashes($text);
             			$text = substr($text, 0, 200).' ...';
-            			$text = preg_replace("/({$q})/i",'<span style="background-color: #cff">\\1</span>', $text);
+            			$text = preg_replace("/({$q})/i",'<span style="background-color: olivedrab;color:white">\\1</span>', $text);
             			?>
             			<div style="padding-left: 17px;">
             			<?php
@@ -108,5 +117,6 @@ rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
     </p>
     </div>
     </div>
+	</div>
 </body>
 </html>

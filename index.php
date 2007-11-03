@@ -33,6 +33,14 @@
 <body>
 	<div id="wrapper">
 		<h1 class="pagehead"><a href="/">verture.net &mdash; <?=$tagline;?></a></h1>
+		<div style="float:right;"><form style="display:inline;" action="/do_search.php" method="get" id="searchform" onsubmit="if(this.q.value=='Type a query' || this.q.value=='') { alert('Please write a valid query'); this.q.select(); return false;} else { this.submit();}">
+	<div style="display:inline;margin-bottom:10px;">
+		<input type="search" name="q" value="" onclick="this.value='Type a query';this.select()" style="width: 100px; border: 1px solid #ddd;text-align:right" /><img src="/img/mag_glass.jpg" alt="Magnifying glass for search box" style="vertical-align:middle;padding-left: 5px" />
+	</div>
+	
+</form>
+</div>
+    <div style="border-top: 1px solid #369; margin-top: 25px; padding-top:20px;">
 		<div id="content">
 	      <?php
 			if(eregi("([0-9]{6})([/.]?)([-_.#!?a-z0-9]{0,15})", $_SERVER['REQUEST_URI']))
@@ -70,6 +78,7 @@
 		</rdf:RDF> -->
 		</p>
 		</div>
+	</div>
 	</div>
 </body>
 </html>

@@ -353,12 +353,12 @@ else
 		extract($row);
 		$time = date('H:i', $date);
 		$date = date('d. F - Y', $date);
-		$status = ($status == 0) ? ($status = 'Kladde') : ($status = 'Postet');
+		$status = ($status == 0) ? ($status = '<td style="background:indianred;color:white">Kladde</td>') : ($status = '<td>Postet</td>');
 		$row_color = ($row_count % 2) ? $class1 : $class2;
 		print '<tr class="'.$row_color.'"><td><a href="'.$install_path.'/sheriff/ee.php?delete_entry='.$id.'" onclick="confirmDelete(); return false;"><img src="/sheriff/img/trash.gif" alt="trash" style="float: left; padding: 7px 0;margin-left: 15px" /></a> <a href="'.$install_path.'/sheriff/ee.php?entryid='.$id.'">'.$title.'</a></td>
 		<td>'.$date.'</td>
 		<td>'.$time.'</td>
-		<td>'.$status.'</td>
+		'.$status.'
 		<td>'.$name.'</td></tr>';
 		$row_count++;
 	}
