@@ -54,7 +54,6 @@ function display_entry_from_url()
                 print "<div id=\"mere\">{$text_more}</div>\n";
             }
 			print '</div>';
-#         print "<p class=\"byline\">{$day} @ {$hour}</p>\n";
 			$sql_c = "SELECT * FROM comments WHERE eid = '{$id}' order by date";
 			if(!$result_c = @mysql_query($sql_c))
 			{

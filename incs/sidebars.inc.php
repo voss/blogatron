@@ -65,8 +65,6 @@ document.write("<a href='mailto:"+link+"'>jonas at verture dot net</a>")
 			<h2 style="padding-top:7px; padding-bottom: 7px;">&raquo; Archives</h2>
 			<?php display_archive_months(); ?>
 		</div>
-
-</div>
 <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
 <script type="text/javascript">
 _uacct = "UA-59591-1";

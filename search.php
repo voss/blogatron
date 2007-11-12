@@ -87,7 +87,7 @@ if(!$result) {
 		     ?>
 		</div>
     <div id="disclaimer">
-      <p><p>Disclaimer: I speak for myself, not my employer || <!--Creative Commons License-->This work is licensed under a <a
+<p>Disclaimer: I speak for myself, not my employer || <!--Creative Commons License-->This work is licensed under a <a
 rel="license"
 href="http://creativecommons.org/licenses/by-nc-sa/2.5/">Creative
 Commons by-nc-sa License</a>.
@@ -117,6 +117,5 @@ rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
     </p>
     </div>
     </div>
-	</div>
 </body>
 </html>

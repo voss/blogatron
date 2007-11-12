@@ -81,6 +81,7 @@ value="Daaas it &rarr;" style="margin-left: 20%;padding-right:
     </fieldset>
 </form>
 </div>
+</div>
 ';
 
 
