@@ -188,9 +188,15 @@ div#linkster {
 /*	margin-right: -60px; */
 }
 
+div#linkster ul {
+	padding-top:0;
+	margin-top:0;
+}
+
 div#linkster h1,div#linkster h2,div#linkster h3 {
 	font-weight: normal;
 	font-size: large;
+	margin-bottom: 0;
 }
 
 #disclaimer {
@@ -214,10 +220,12 @@ div#readerpublishermodule0 {
 
 div.reader-publisher-module h3 {
 	font-size:large;
+	padding-bottom:0;
+	margin-bottom: 0;
 }
 
 div.reader-publisher-module h3:before {
-	content: "» ";
+	content: "\203A \0020";
 	color: black;
 }
 
@@ -226,6 +234,9 @@ div.reader-publisher-module ul {
 	margin-left 0;
 	padding-left: 2em;
 	text-indent: -0.8em;
+	padding-top:0;
+	margin-top:0;
+
 }
 
 div.reader-publisher-module ul li {

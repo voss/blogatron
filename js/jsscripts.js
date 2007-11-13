@@ -73,7 +73,7 @@ function validPost()
 function wikipediaTitles() {
 	if (!document.getElementsByTagName) return false;
 	if (!document.getElementById) return false;
-	var contentwrapper = document.getElementById("left");
+	var contentwrapper = document.getElementById("content");
 	var bloglinks = contentwrapper.getElementsByTagName("a");
 	var regex = /wikipedia/;
 	for (var i=0; i < bloglinks.length; i++) {
@@ -140,6 +140,58 @@ function addLoadEvent(func) {
     }
   }
 }
+
+
+/*
+* Function based on code written by Christian Dalager (http://dalager.com/). Thank you much, sir. (:
+*/
+function js_transmogriphy()
+{
+	var textareaA = document.getElementsByTagName('textarea')[0];
+	var textareaB = document.getElementsByTagName('textarea')[1];
+	
+	//var entities = document.getElementById('entity');
+	var entities = document.getElementsByTagName('input')[1];
+
+	var text = textareaA.value;
+	
+	if (entities.checked == true)
+	{
+		text = text.replace(/oe/g,'&oslash;');
+		text = text.replace(/Oe/g,'&Oslash;');
+		text = text.replace(/aa/g,'&aring;');
+		text = text.replace(/Aa/g,'&Aring;');
+		text = text.replace(/ae/g,'&aelig;');
+		text = text.replace(/Ae/g,'&AElig;');
+		text = text.replace(/a:/g,'&auml;');
+		text = text.replace(/A:/g,'&Auml;');
+		text = text.replace(/o:/g,'&ouml;');
+		text = text.replace(/O:/g,'&Ouml;');
+	}
+	else
+	{
+		text = text.replace(/ae/g,'æ');
+		text = text.replace(/oe/g,'ø');
+		text = text.replace(/aa/g,'å');
+		text = text.replace(/Ae/g,'Æ');
+		text = text.replace(/Oe/g,'Ø');
+		text = text.replace(/Aa/g,'Å');
+		text = text.replace(/a:/g,'ä');
+		text = text.replace(/A:/g,'Ä');
+		text = text.replace(/o:/g,'ö');
+		text = text.replace(/O:/g,'Ö');
+
+	}
+	textareaB.value=text;
+	
+	var outputstate = document.getElementById('output').style;
+	outputstate.display='block';
+	
+	textareaB.focus(); 
+	textareaB.select();
+}
+
+
 
 addLoadEvent(wikipediaTitles); // addding opensidelinks function
 //addLoadEvent(openexternallinks); // adding openexternallinks function

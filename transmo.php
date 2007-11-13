@@ -35,42 +35,56 @@
     <div style="border-top: 1px solid #369; margin-top: 25px; padding-top:20px;">
 		<div id="content">
 		<div class="entry">
-	<h1>Entitetstransmogriffer</h1>
+	<h1>Character transmogrifier</h1>
 		<div class="ebody">
-			<p>Når man er i udlandet, og kun har adgang til offentlige computere kan det være svært at skaffe danske bogstaver til sine blogposteringer, og sine emails og breve. Det er meningen denne service skal råde bod på det.</p>
-	<p>Det er meget enkelt: indtast din tekst i det øverste felt, og brug de nedenstående tegnkombinationer til at repræsentere de danske, og tryk på oversæt. Resultatet kommer frem i feltet nedenunder.</p>
-	<p>Man kan få dem som HTML-entiter også, hvis man er til den slags.</p>
+			<p>When you travel around outside scandinavian countries, and you only have access to public computers it can be ardeous arduous task to get your mittens on scandinavian characters for your blogposts, emails, and letters. This little tool is supposed to fix that.</p>
+	<p>It's very simple: Type your text in the area below, and the legend underneath shows what will get turned into what. Hit the Transmogrify button, and your result should show up in a area below the button.</p>
+	<p>If you prefer to get them as HTML entities, check the box next to the button.</p>
 	<div>
 	<div style="float: left;">
 	<ul style="font-family: monospace; padding-left:25px;">
-    <li>aa == å</li>
-    <li>oe == ø</li>
-    <li>ae == æ</li>
+    <li>aa &rArr; å</li>
+    <li>oe &rArr; ø</li>
+    <li>ae &rArr; æ</li>
 	</ul>
 	</div>
 	<div style="float: left">
-	<ul style="font-family: monospace; padding-left: 25px;">
-	<li>Aa == Å</li>
-	<li>Oe == Ø</li>
-	<li>Ae == Æ</li>
+	<ul style="font-family: monospace; padding-left: 45px;">
+	<li>Aa &rArr; Å</li>
+	<li>Oe &rArr; Ø</li>
+	<li>Ae &rArr; Æ</li>
+	</ul>
+	</div>
+	<div style="float: left">
+	<ul style="font-family: monospace; padding-left: 45px;">
+	<li>a: &rArr; ä</li>
+	<li>o: &rArr; ö</li>
+	<li>A: &rArr; Ä</li>
+	<li>O: &rArr; Ö</li>
 	</ul>
 	</div>
 	</div>
-<div style="width: 90%; padding-left: 10px;clear: both;">
-<form action="/services/transmo/#t" method="post">
-<fieldset class="transmo">
-    <legend style="font-size:x-small;">Indsæt den danske tekst her</legend>
-<textarea rows="14" cols="50" name="data"></textarea><br />
-<div style="text-align: left;padding-top: 5px;">
-    <label style="font-size:x-small;">Lav til HTML-entiteter</label><input type="checkbox" name="y" />
-    <input type="reset" value="Slet indhold" onclick="if(!confirm('Er du sikker på at du vil slette indholdet?'))return false;" />
-    <span style="margin-left: 35px;"><input type="submit" name="x" value="Oversæt" /></span>
-</div>
-</fieldset>
-</form>
+<div style="width: 90%; clear: both;">
+	<form action="/services/transmo/#t">
+		<fieldset class="transmo">
+		    <legend style="">Insert text to be transmogrified here:</legend>
+			<textarea rows="14" cols="50" style="width: 500px;heigh: 100px;" id="input" name="input"></textarea><br />
+			<div style="text-align: left;padding-top: 5px;">
+				<label style="font-size:x-small;">Give me HTML entities</label><input type="checkbox" name="y" id="entity" />
+				<span style="margin-left: 30px;"><input type="button" name="x" value="Transmogrify" style=" width: 50%; height: 30px; font-weight:bold;" onclick="js_transmogriphy()" /></span>
+			</div>
+		</fieldset>
+				<div id="output" style="display:none">
+					<fieldset>
+					<legend>Pick up the goods here:</legend>
+					<textarea rows="14" cols="50" style="width: 500px;heigh: 100px;" id="target" name="target" onclick="this.select()"></textarea>
+					</fieldset>
+				</div>
+	</form>
+	JavaScript version based on original code written by <a href="http://dalager.com/">Christian Dalager</a> and used with permission.
 </div>
 <?php
-
+/*
 # takes input and transmogriphies it.
 function transmogriphy($arg) {
 #    $dk_char = array('ae','Ae','oe','Oe','aa','Aa');
@@ -87,7 +101,7 @@ if (isset($_POST['x'])) {
 	$data = transmogriphy($data);
 
     # Begin fieldset
-    print "<div style=\"width: 90%; padding-left: 10px;\" id=\"t\"><fieldset class=\"transmo\">\n";
+    print "<div style=\"width: 90%; padding-left: 10px;\" id=\"resultpane\"><fieldset class=\"transmo\">\n";
     print "<legend style=\"font-size:x-small;\">Besku det oversatte mesterværk her</legend>\n";
 
     # If HTML-entities has been chosen, print the following:
@@ -102,6 +116,9 @@ if (isset($_POST['x'])) {
     # End fieldset & div
     print "</fieldset>\n</div>\n";
 }
+
+*/
+
 ?>
 </div>
 </div>

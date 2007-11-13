@@ -1,4 +1,5 @@
 		<div class="unit">
+		<h2>&rsaquo; Bio (sort of)</h2>
     <p class="bio"><img src="/img/buddy_ikon_cropped_100x100.png" style="float:left;
 border: 1px solid #555; padding: 3px; margin-right: 5px;" alt="Bio
 picture, taken by Rasmus Rasmussen" title="Me, through the lens of
@@ -6,8 +7,8 @@ Rasmus Rasmussen" /><a href="http://verture.net/">verture.net</a> is the
 personal website of me, Jonas Voss, and this is my blog. I've lived in
 Dublin, Ireland since 2005, where I work for <a
 href="http://google.ie/">Google</a>. I was born and fully customized in
-<a href="http://www.spiegel.de/international/europe/0,1518,502512,00.html">Copenhagen</a>, Denmark. I write about anything that comes to mind. Really.<br />You can send me an <a href="/contact" title="To the contact form">email &rArr;</a></p>
-
+<a href="http://www.spiegel.de/international/europe/0,1518,502512,00.html">Copenhagen</a>, Denmark. I write about anything that comes to mind. Really.<br />You can send me an <a href="/contact" title="To the contact form">email &rsaquo;</a></p>
+</div>
 <?php
 /*
 You can reach me at <script type="text/javascript" language="javascript">
@@ -20,22 +21,15 @@ You can reach me at <script type="text/javascript" language="javascript">
   key = "4EIC2p53i8jQhTJOemRnHK9DUGzAZ7yNtW0ofFLPBdkXV6MsYxcbguvq1Swlra"
   shift=coded.length
   link=""
-  for (i=0; i<coded.length; i++) {
-    if (key.indexOf(coded.charAt(i))==-1) {
-      ltr = coded.charAt(i)
-      link += (ltr)
-    }
-    else {     
-      ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
-      link += (key.charAt(ltr))
-    }
-  }
+  for (i=0; i<coded.length; i++) &rsaquo;
 document.write("<a href='mailto:"+link+"'>jonas at verture dot net</a>")
 }
 //-->
 </script><noscript>Sorry, you need Javascript on to email me</noscript>.</p>
 */
 ?>
+<div class="unit">
+		<h2>&rsaquo; Meta</h2>	
 			<ul style="padding-top:0;margin-top:0;">
 				<li><img src="/img/rsssmall.png" alt="RSS ikon" class="sidebaricon" /><a href="http://feeds.feedburner.com/verture" title="RSS-feed af indlæg">Entries</a></li>
 				<li><img src="/img/rsssmall.png" alt="RSS ikon" class="sidebaricon" /><a href="http://feeds.feedburner.com/verturekommentarer" title="RSS-feed af kommentarer">Comments</a></li>
@@ -47,7 +41,13 @@ document.write("<a href='mailto:"+link+"'>jonas at verture dot net</a>")
         	</ul>
 		</div>
 		<div class="unit">
-			<h2 title="10 tilfældige jeg læser" style="padding-top:7px;padding-bottom:0px;">&raquo; Link love</h2>
+			<h2>&rsaquo; Code (sort of)</h2>
+			<ul>
+				<li>Character transmogrifier</li>
+			</ul>
+		</div>
+		<div class="unit">
+			<h2 title="10 tilfældige jeg læser" style="padding-top:7px;padding-bottom:0px;">&rsaquo; Link love</h2>
 			<ul>
 				<?php printLinkroll(10); ?>
 			</ul>
@@ -62,7 +62,7 @@ document.write("<a href='mailto:"+link+"'>jonas at verture dot net</a>")
 		</div>
 
 		<div class="unit">
-			<h2 style="padding-top:7px; padding-bottom: 7px;">&raquo; Archives</h2>
+			<h2 style="padding-top:7px; padding-bottom: 7px;">&rsaquo; Archives</h2>
 			<?php display_archive_months(); ?>
 		</div>
 <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
