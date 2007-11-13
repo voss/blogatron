@@ -43,7 +43,7 @@ document.write("<a href='mailto:"+link+"'>jonas at verture dot net</a>")
 		<div class="unit">
 			<h2>&rsaquo; Code (sort of)</h2>
 			<ul>
-				<li>Character transmogrifier</li>
+				<li><a href="/services/transmo" title="Scandinavian characters on the go">Character transmogrifier</a></li>
 			</ul>
 		</div>
 		<div class="unit">
