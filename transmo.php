@@ -37,8 +37,8 @@
 		<div class="entry">
 	<h1>Character transmogrifier</h1>
 		<div class="ebody">
-			<p>When you travel around outside scandinavian countries, and you only have access to public computers it can be ardeous arduous task to get your mittens on scandinavian characters for your blogposts, emails, and letters. This little tool is supposed to fix that.</p>
-	<p>It's very simple: Type your text in the area below, and the legend underneath shows what will get turned into what. Hit the Transmogrify button, and your result should show up in a area below the button.</p>
+			<p>When you travel around outside scandinavian countries, and you only have access to public computers it can be an arduous task to get your mittens on scandinavian characters for your blogposts, emails, and letters. This little tool is supposed to fix that.</p>
+	<p>It's very simple: Type your text in the area below, and the legend underneath shows what will get turned into what. Hit the Transmogrify button, and your result should show up in a automagically visible area below the button.</p>
 	<p>If you prefer to get them as HTML entities, check the box next to the button.</p>
 	<div>
 	<div style="float: left;">
