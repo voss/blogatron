@@ -1,9 +1,9 @@
 <?php
 # Include config-file and functions:
-include_once('/home/voss/blog/incs/config.inc.php');
-include_once('/home/voss/blog/incs/db.inc.php');
-include_once('/home/voss/blog/incs/functions.inc.php');
-include_once('/home/voss/blog/incs/display_functions.inc.php');
+include_once('/home/voss/blog.verture.net/incs/config.inc.php');
+include_once('/home/voss/blog.verture.net/incs/db.inc.php');
+include_once('/home/voss/blog.verture.net/incs/functions.inc.php');
+include_once('/home/voss/blog.verture.net/incs/display_functions.inc.php');
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/2000/REC-xhtml1-20000126/DTD/xhtml1-transitional.dtd">
