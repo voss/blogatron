@@ -187,8 +187,8 @@ function js_transmogriphy()
 	var outputstate = document.getElementById('output').style;
 	outputstate.display='block';
 	
-	textareaB.focus(); 
-	textareaB.select();
+//	textareaB.focus(); 
+//	textareaB.select();
 }
 
 

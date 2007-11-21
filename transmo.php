@@ -9,7 +9,7 @@
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
 <head>
-   <title>. verture.net | Entitetstransmogriffer .</title>
+   <title>. Character Transmogrifier | verture [prik] net .</title>
    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
    <link rel="shortcut icon" href="<?=$install_path;?>/favicon.ico" type="image/x-icon" />
    <link rel="alternate" type="application/rss+xml" title="RSS" href="<?=$install_path;?>/rssfeed.php" />
@@ -38,7 +38,7 @@
 	<h1>Character transmogrifier</h1>
 		<div class="ebody">
 			<p>When you travel around outside scandinavian countries, and you only have access to public computers it can be an arduous task to get your mittens on scandinavian characters for your blogposts, emails, and letters. This little tool is supposed to fix that.</p>
-	<p>It's very simple: Type your text in the area below, and the legend underneath shows what will get turned into what. Hit the Transmogrify button, and your result should show up in a automagically visible area below the button.</p>
+	<p>It's very simple: Type your text in the area below, and the transmogrified text will automagically show up in a new text area below, ready for you to copy when you are done. The legend underneath shows what will get turned into what.</p>
 	<p>If you prefer to get them as HTML entities, check the box next to the button.</p>
 	<div>
 	<div style="float: left;">
@@ -68,10 +68,10 @@
 	<form action="/services/transmo/#t">
 		<fieldset class="transmo">
 		    <legend style="">Insert text to be transmogrified here:</legend>
-			<textarea rows="14" cols="50" style="width: 500px;heigh: 100px;" id="input" name="input"></textarea><br />
+			<textarea rows="14" cols="50" style="width: 500px;heigh: 100px;" id="input" name="input" onkeyup="js_transmogriphy()"></textarea><br />
 			<div style="text-align: left;padding-top: 5px;">
-				<label style="font-size:x-small;">Give me HTML entities</label><input type="checkbox" name="y" id="entity" />
-				<span style="margin-left: 30px;"><input type="button" name="x" value="Transmogrify" style=" width: 50%; height: 30px; font-weight:bold;" onclick="js_transmogriphy()" /></span>
+				<label style="font-size:x-small;">Give me HTML entities</label><input type="checkbox" name="y" id="entity" onclick="js_transmogriphy();" />
+				<?php /*<span style="margin-left: 30px;"><input type="button" name="x" value="Transmogrify" style=" width: 50%; height: 30px; font-weight:bold;" onclick="js_transmogriphy()" /></span> */ ?>
 			</div>
 		</fieldset>
 				<div id="output" style="display:none">
@@ -81,7 +81,7 @@
 					</fieldset>
 				</div>
 	</form>
-	JavaScript version based on original code written by <a href="http://dalager.com/">Christian Dalager</a> and used with permission.
+	JavaScript version based on original code written by <a href="http://dalager.com/">Christian Dalager</a> and used with permission. Thanks to Jonas Koch Bentzen for the <code>onkeyup</code> suggestion.
 </div>
 <?php
 /*
