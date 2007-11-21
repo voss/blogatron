@@ -75,7 +75,7 @@ function display_entry_from_url()
 						$data .= '<p class="komm">'.$c_author.'';
 						if(!empty($c_url))
 						{
-							$data .= " | <a title=\"Besøg {$c_author} på nettet\" href=\"{$c_url}\">web</a>";
+							$data .= " | <a title=\"Besøg {$c_author} på nettet\" href=\"{$c_url}\" rel=\"nofollow\">web</a>";
 						}
 						if(!empty($c_email))
 						{
