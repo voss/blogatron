@@ -152,7 +152,7 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 	<div style="padding: 20px; border: 0">
 		<h1>Ret et indlæg</h1>
 		<label>Titel:</label><br />
-		<input tabindex="1" type="text" name="title" size="25" value="<?=$title?>" /><br />
+		<input tabindex="1" type="text" name="title" size="50" value="<?=$title?>" /><br />
 		<label>Dato og tid:</label><br />
 		<label>Dag:</label>
 		<input type="text" name="day" size="2" value="<?=$_POST['day']?>" />
@@ -244,7 +244,7 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 	<div style="padding: 20px; border: 0">
 		<h1>Ret et indlæg</h1>
 		<label>Titel:</label><br />
-		<input tabindex="1" type="text" name="title" size="25" value="<?=$title?>" /><br />
+		<input tabindex="1" type="text" name="title" size="50" value="<?=$title?>" /><br />
 		<label>Dato og tid:</label><br />
 		<label>Dag:</label>
 		<input type="text" name="day" size="2" value="<?=$day?>" />

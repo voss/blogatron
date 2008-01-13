@@ -61,7 +61,7 @@ print_header(". {$blog_title} | Post et indlæg .", "edit.css", $domain_name, $de
 <h1>Post et indlæg</h1>
         <input type="hidden" name="aid" value="<?=$_SESSION['aid'];?>" />
         <label>Titel</label><br />
-        <input tabindex="1" type="text" name="title" value="<?=$_POST['title']?>" size="25" /><br />
+        <input tabindex="1" type="text" name="title" value="<?=$_POST['title']?>" size="50" /><br />
 		<div id="inputform">
 		<label>Kommentarer</label>
 		<input tabindex="4" type="checkbox" checked="checked" name="comments" /><br />

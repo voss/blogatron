@@ -23,7 +23,7 @@ $numrows = mysql_num_rows($result);
 while($row = mysql_fetch_array($result)) {
 	extract($row);
 	$date = date('r', $timestamp);
-  if(preg_match("/23-photos.zip|songs_for_you.zip/",$filename))
+  if(preg_match("/23-photos.zip|songs_for_you.zip|c1.zip/i",$filename))
   {
     print "<tr style=\"font-family:monospace; color: white; background:red;\"><td>{$ip}</td><td>{$filename}</td><td>{$date}</td></tr>";
   }
