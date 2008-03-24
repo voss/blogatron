@@ -62,9 +62,11 @@ print_header(". {$blog_title} | Post et indlæg .", "edit.css", $domain_name, $de
         <input type="hidden" name="aid" value="<?=$_SESSION['aid'];?>" />
         <label>Titel</label><br />
         <input tabindex="1" type="text" name="title" value="<?=$_POST['title']?>" size="50" /><br />
+        <label>Tekst</label><br />
+        <textarea tabindex="2" cols="55" rows="10" name="text" style="width: 65%;"><?=stripslashes($_POST['text']);?></textarea><br />
 		<div id="inputform">
 		<label>Kommentarer</label>
-		<input tabindex="4" type="checkbox" checked="checked" name="comments" /><br />
+		<input tabindex="4" type="checkbox" checked="checked" name="comments" />
         <label>Status</label>
         <select tabindex="5" name="status">
 			<option value="0">Kladde</option>
@@ -74,7 +76,7 @@ print_header(". {$blog_title} | Post et indlæg .", "edit.css", $domain_name, $de
         <?php
         if($insert_result != false)
         {
-			print '<p style="padding: 10px; color: green;">Indlægget er postet.</p>';
+			print '<span style="padding: 10px; color: white; background: darkgreen">Indlægget er postet.</span>';
 			if($rss_enabled == 1)
 			{
 				@include($inc_path.'rss.inc.php');
@@ -90,11 +92,10 @@ print_header(". {$blog_title} | Post et indlæg .", "edit.css", $domain_name, $de
 		}
         ?>
         </div>
-        <label>Tekst</label><br />
-        <textarea tabindex="2" cols="55" rows="10" name="text" style="width: 65%;"><?=stripslashes($_POST['text']);?></textarea><br />
+		<p><span onclick="var forumtext = document.getElementById('forumtext');if(forumtext.style.display == 'none') {forumtext.style.display = '';}else {forumtext.style.display = 'none';}">&rarr;</span></p>
+		<div id='forumtext' style='display:none;'>
 		<label>Udvidet Tekst</label><br />
-		<textarea tabindex="3" cols="55" rows="15" name="text_more" style="width: 65%"><?=stripslashes($_POST['text_more']);?></textarea>
-    </div>
+		<textarea tabindex="3" cols="55" rows="15" name="text_more" style="width: 65%"><?=stripslashes($_POST['text_more']);?></textarea><br />
     		<label>Dato og tid [tomme felter indsætter aktuel tid]</label><br />
 		<label>Dag</label><input type="text" name="day" size="2" />
 		<select name="month">
@@ -112,6 +113,7 @@ print_header(". {$blog_title} | Post et indlæg .", "edit.css", $domain_name, $de
 		<input type="text" name="hh" size="2" />:
 		<input type="text" name="mm" size="2" />:
 		<input type="text" name="ss" size="2" />
+		</div>
 </div>
 </form>
 </div>

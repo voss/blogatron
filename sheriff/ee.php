@@ -149,35 +149,17 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 ?>
 
 <form action="<?=$install_path;?>/sheriff/ee.php" method="post" id="edit">
-	<div style="padding: 20px; border: 0">
+	<div style="margin: 0 20px 0 0; padding: 0; border: 0">
 		<h1>Ret et indlæg</h1>
 		<label>Titel:</label><br />
 		<input tabindex="1" type="text" name="title" size="50" value="<?=$title?>" /><br />
-		<label>Dato og tid:</label><br />
-		<label>Dag:</label>
-		<input type="text" name="day" size="2" value="<?=$_POST['day']?>" />
-		<select name="month">
-		<option>-- Måned --</option>
-		<?php 
-		for($i=1;$i<=12;$i++) {
-			if($i == date('n',$date)) {
-				print "<option value=\"{$i}\" selected=\"selected\">".dateify(date('F',mktime(0,0,0,$i)))."</option>\n";
-			} else {
-				print "<option value=\"{$i}\">".dateify(date('F',mktime(0,0,0,$i)))."</option>\n";
-			}
-		}
-		?>
-		</select>
-		<label>År:</label>
-		<input type="text" name="year" size="4" value="<?=$_POST['year']?>" />
-		<label>@</label>
-		<input type="text" name="hh" size="2" value="<?=$_POST['hh']?>" />:
-		<input type="text" name="mm" size="2" value="<?=$_POST['mm']?>" />:
-		<input type="text" name="ss" size="2" value="<?=$_POST['ss']?>" />
+		<div>
+		<label>Tekst:</label><br />
+		<textarea tabindex="2" cols="55" rows="10" name="text" class="text"><?=stripslashes($_POST['text']);?></textarea><br />
 	    <div id="inputform">		
 	    <label>Kommentarer</label>
 		<?php $checked = ($_POST['comments'] == 'on') ? 'checked="checked"' : ''; ?>
-		<input tabindex="4" type="checkbox" <?=$checked;?> name="comments" /><br />
+		<input tabindex="4" type="checkbox" <?=$checked;?> name="comments" />
 	    <label>Status:</label>
 	    <select tabindex="5" name="status">
 		<?php if($_POST['status'] == 0):?>
@@ -193,11 +175,11 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
        <?php
         if(isset($update_result))
         {
-			print '<p style="padding: 10px; color: green;">Indlægget er rettet.</p>';
+			print '<span style="padding: 10px; color: white; background: darkgreen">Indlægget er rettet.</span>';
         }
         elseif($update_result == false)
         {
-        	print "<p>Der skete en fejl med databasen. MySQL siger: ".mysql_error()."";
+        	print "<p>Der skete en fejl med databasen. MySQL siger: ".mysql_error()."</p>";
         }
 		if($rss_enabled == 1 && $_POST['status'] != 0)
 		{
@@ -212,12 +194,34 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 		<input type="hidden" name="aid" value="<?=$_SESSION['aid'];?>" />
 	    <input type="hidden" name="entryid" value="<?=$_POST['entryid'];?>" />
 	    </div>
-		<p>
-		<label>Tekst:</label><br />
-		<textarea tabindex="2" cols="55" rows="10" name="text" style="width: 65%;"><?=stripslashes($_POST['text']);?></textarea><br />
-		<label>Udvidet tekst:</label><br />
-		<textarea tabindex="3" cols="55" rows="15" name="text_more" style="width: 65%"><?=stripslashes($_POST['text_more']);?></textarea>
-		</p>
+		<div>
+		<p><span style="color: #369;font-size:large; font-weight:bold" onclick="var forumtext = document.getElementById('forumtext');if(forumtext.style.display == 'none') {forumtext.style.display = ''; return false;}else {forumtext.style.display = 'none'; return false;}">#</span></p>
+		<div id='forumtext' style='display:none;'>
+			<label>Udvidet tekst</label><br />
+			<textarea tabindex="3" cols="55" rows="15" name="text_more"> <?=stripslashes($_POST['text_more']);?></textarea><br />
+			<label>Dato og tid:</label><br />
+			<label>Dag:</label>
+			<input type="text" name="day" size="2" value="<?=$_POST['day']?>" />
+			<select name="month">
+			<option>-- Måned --</option>
+			<?php 
+			for($i=1;$i<=12;$i++) {
+				if($i == date('n',$date)) {
+					print "<option value=\"{$i}\" selected=\"selected\">".dateify(date('F',mktime(0,0,0,$i)))."</option>\n";
+				} else {
+					print "<option value=\"{$i}\">".dateify(date('F',mktime(0,0,0,$i)))."</option>\n";
+				}
+			}
+			?>
+			</select>
+			<label>År:</label>
+			<input type="text" name="year" size="4" value="<?=$_POST['year']?>" />
+			<label>@</label>
+			<input type="text" name="hh" size="2" value="<?=$_POST['hh']?>" />:
+			<input type="text" name="mm" size="2" value="<?=$_POST['mm']?>" />:
+			<input type="text" name="ss" size="2" value="<?=$_POST['ss']?>" />
+		</div>
+		</div>
     </div>
 </form>
 
@@ -241,11 +245,37 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 	#		print $edit_menu;
 		?>
 <form action="<?=$install_path;?>/sheriff/ee.php" method="post" id="edit">
-	<div style="padding: 20px; border: 0">
+	<div style="margin: 0 20px 0 0; padding: 0; border: 0">
 		<h1>Ret et indlæg</h1>
 		<label>Titel:</label><br />
 		<input tabindex="1" type="text" name="title" size="50" value="<?=$title?>" /><br />
-		<label>Dato og tid:</label><br />
+		<div>
+		<label>Tekst:</label><br />
+		<textarea tabindex="2" cols="55" rows="10" name="text" class="text"><?=stripslashes($text);?></textarea><br />
+		<div id="inputform">
+	    <label>Kommentarer</label>
+    	<?php $checked = ($comments == 'on') ? 'checked="checked"' : ''; ?>
+    	<input tabindex="4" type="checkbox" <?=$checked;?> name="comments" />
+	    <label>Status:</label>
+	    <select tabindex="5" name="status">
+	    <?php if($status == 0):?>
+			<option selected="selected" value="0">Kladde</option>
+			<option value="1">Postet</option>
+		<?php else: ?>
+			<option value="0">Kladde</option>
+			<option selected="selected" value="1">Postet</option>
+		<?php endif; ?>
+		</select>
+	    <input tabindex="6" type="submit" name="submit" value="Publicér" id="submitpost" />
+		<input type="hidden" name="aid" value="<?=$_SESSION['aid'];?>" />
+	    <input type="hidden" name="entryid" value="<?=$entryid?>" />
+		</div>
+		<p><span style="color: #369;font-size:large; font-weight:bold" onclick="var forumtext = document.getElementById('forumtext');if(forumtext.style.display == 'none') {forumtext.style.display = '';}else {forumtext.style.display = 'none';}">#</span></p>
+		<div id='forumtext' style='display:none;'>
+		<label>Udvidet Tekst</label><br />
+		<textarea tabindex="3" cols="55" rows="15" name="text_more"><?=stripslashes($text_more);?></textarea>
+		<div>
+			<label>Dato og tid:</label><br />
 		<label>Dag:</label>
 		<input type="text" name="day" size="2" value="<?=$day?>" />
 		<select name="month">
@@ -266,30 +296,9 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 		<input type="text" name="hh" size="2" value="<?=$hh?>" />:
 		<input type="text" name="mm" size="2" value="<?=$mm?>" />:
 		<input type="text" name="ss" size="2" value="<?=$ss?>" />
-	    <div id="inputform">
-	    <label>Kommentarer</label>
-    	<?php $checked = ($comments == 'on') ? 'checked="checked"' : ''; ?>
-    	<input tabindex="4" type="checkbox" <?=$checked;?> name="comments" /><br />
-	    <label>Status:</label>
-	    <select tabindex="5" name="status">
-	    <?php if($status == 0):?>
-			<option selected="selected" value="0">Kladde</option>
-			<option value="1">Postet</option>
-		<?php else: ?>
-			<option value="0">Kladde</option>
-			<option selected="selected" value="1">Postet</option>
-		<?php endif; ?>
-		</select>
-	    <input tabindex="6" type="submit" name="submit" value="Publicér" id="submitpost" />
-		<input type="hidden" name="aid" value="<?=$_SESSION['aid'];?>" />
-	    <input type="hidden" name="entryid" value="<?=$entryid?>" />
 		</div>
-		<p>
-		<label>Tekst:</label><br />
-		<textarea tabindex="2" cols="55" rows="10" name="text" style="width: 65%;"><?=stripslashes($text);?></textarea><br />
-		<label>Udvidet tekst:</label><br />
-		<textarea tabindex="3" cols="55" rows="15" name="text_more" style="width: 65%"><?=stripslashes($text_more);?></textarea>
-		</p>
+		</div>
+		</div>
 	</div>
 </form>
 <?php

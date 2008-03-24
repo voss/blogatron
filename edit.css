@@ -1,6 +1,4 @@
 /*
-
-
 --------------------------
 	BODY
 --------------------------
@@ -251,6 +249,20 @@ form#edit {
 	background: #fff;
 }
 
+form#edit textarea, form#postForm textarea {
+	font: medium "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+	width: 80%;
+	height: 350px;
+	padding: 4px;
+	border: 3px solid #ccc;
+}
+
+form#edit input, form#postForm input {
+	font: medium "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+	padding: 3px;
+	border: 3px solid #ccc;
+}
+
 fieldset {
 	border: 1px;
 }
@@ -271,21 +283,20 @@ form#linkForm input {
 
 
 div#inputform {
-	float: right;
-	padding: 2px;
+/*	float: right; */
+/*	padding: 2px;
 	padding-top: 30px;
-	clear: both;
 	margin-right: 10px;
 	line-height:1.5em;
 	text-align: right;
 	font-size: x-small;
-	width: 20%;
+	width: 20%;*/
 }
 
 
 input#submitpost {
-	width: 100%;
-	height: 20px;
+/*	width: 100%;
+	height: 20px; */
 }
 
 #mlist ul {
