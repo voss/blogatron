@@ -44,7 +44,7 @@ function display_entry_from_url()
 			$day = date("d.m.Y", $date);
 			print '<div class="entry">';
 			print "<h1>{$title} <span style='color: #799dc6'>{$day}</span></h1>\n";
-			print '<p class="byline">'.$hour.'</p>';
+			# print '<p class="byline">'.$hour.'</p>';
 			$text = stripslashes(format_entry($text));
 			print '<div class="ebody">';
 			print "{$text}\n";
@@ -181,7 +181,8 @@ function display_front_page($lastentries)
 		}
 		print "<div class='entry'>\n";
 		print "<h1><a title=\"Permanent link to '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">{$title}</a></h1>\n";
-		print "<p class=\"byline\"><span style='color: #799dc6'>{$day}</span><br /> \n {$hour}<br /> \n <a href=\"{$install_path}/{$date}/".dirify($title)."#c\" title=\"{$count_comments} har tilføjet noget\">{$count_comments} {$actual_comments}</a></p>\n";
+		print "<p class=\"byline\"><span style='color:
+#799dc6'>{$day}</span><br /> \n <a href=\"{$install_path}/{$date}/".dirify($title)."#c\" title=\"{$count_comments} har tilføjet noget\">{$count_comments} {$actual_comments}</a></p>\n";
 		print '<div class="ebody">'.stripslashes(format_entry($text));
         if(!empty($text_more))
         {
