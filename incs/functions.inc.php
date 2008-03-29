@@ -30,8 +30,6 @@ function print_header($head, $css, $domain_name, $description, $key_words, $dc_t
 		<meta name=\"MSSmartTagsPreventParsing\" content=\"true\" />
 		<script type=\"text/javascript\" src=\"{$install_path}/js/jsscripts.js\"></script>
 		<title>{$head}</title> 
-	</head>
-	<body>
 	";
 }
 

@@ -14,21 +14,21 @@
 "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-   <title>. <?=$title_tag;?> | <?=$blog_title;?>  .</title>
-   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-   <script src="http://www.gvisit.com/record.php?sid=043c3d02563545754e66d6c8a9be2757" type="text/javascript"></script>
-   <link rel="shortcut icon" href="<?=$install_path;?>/favicon.ico" type="image/x-icon" />
-   <link rel="alternate" type="application/rss+xml" title="Indlæg" href="<?=$install_path;?>/rss/entries" />
-   <link rel="alternate" type="application/rss+xml" title="Kommentarer" href="<?=$install_path;?>/rss/comments" />
-   <link rel="alternate" type="application/rss+xml" title="Københavns Politis Døgnrapport" href="http://blog.verture.net/doegnrapport.php" />
-   <script type="text/javascript" src="<?=$install_path;?>/js/jsscripts.js"></script>
-   <meta name="description" content="<?=$description;?>" />
-   <meta name="keywords" content="<?=$key_words;?>" />
-   <meta name="ICBM" content="55.6773 , 12.5749" />
-   <meta name="MSSmartTagsPreventParsing" content="true" />
-   <style type="text/css" media="all">
-   	@import "<?=$install_path;?>/stil.css";
-   </style>
+	<title>. <?=$title_tag;?> | <?=$blog_title;?>  .</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<script src="http://www.gvisit.com/record.php?sid=043c3d02563545754e66d6c8a9be2757" type="text/javascript"></script>
+	<link rel="shortcut icon" href="<?=$install_path;?>/favicon.ico" type="image/x-icon" />
+	<link rel="alternate" type="application/rss+xml" title="Indlæg" href="<?=$install_path;?>/rss/entries" />
+	<link rel="alternate" type="application/rss+xml" title="Kommentarer" href="<?=$install_path;?>/rss/comments" />
+	<link rel="alternate" type="application/rss+xml" title="Københavns Politis Døgnrapport" href="http://blog.verture.net/doegnrapport.php" />
+	<script type="text/javascript" src="<?=$install_path;?>/js/jsscripts.js"></script>
+	<meta name="description" content="<?=$description;?>" />
+	<meta name="keywords" content="<?=$key_words;?>" />
+	<meta name="ICBM" content="55.6773 , 12.5749" />
+	<meta name="MSSmartTagsPreventParsing" content="true" />
+	<style type="text/css" media="all">
+		@import "<?=$install_path;?>/stil.css";
+	</style>
 </head>
 <body>
 	<div id="wrapper">

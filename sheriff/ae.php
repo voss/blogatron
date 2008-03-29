@@ -36,6 +36,18 @@ if(isset($_POST['submit']))
 
 print_header(". {$blog_title} | Post et indlæg .", "edit.css", $domain_name, $description, $key_words, $dc_title, $install_path);
 ?>
+<script type="text/javascript" src="<?=$install_path;?>/js/jquery.js"></script>
+<script type="text/javascript" src="<?=$install_path;?>/js/markitup/jquery.markitup.js"></script>
+<script type="text/javascript" src="<?=$install_path;?>/js/markitup/sets/html/set.js"></script>
+<link rel="stylesheet" type="text/css" href="<?=$install_path;?>/js/markitup/skins/markitup/style.css" />
+<link rel="stylesheet" type="text/css" href="<?=$install_path;?>/js/markitup/sets/html/style.css" />
+<script type="text/javascript" >
+	$(document).ready(function() {
+		$(".text").markItUp(mySettings);
+	});
+</script>
+</head>
+<body>
 <div id="container">
 <div id="top">
 	<p style="float: right;">Bruger: <?=$_SESSION['aname'];?></p>
@@ -63,7 +75,7 @@ print_header(". {$blog_title} | Post et indlæg .", "edit.css", $domain_name, $de
         <label>Titel</label><br />
         <input tabindex="1" type="text" name="title" value="<?=$_POST['title']?>" size="50" /><br />
         <label>Tekst</label><br />
-        <textarea tabindex="2" cols="55" rows="10" name="text" style="width: 65%;"><?=stripslashes($_POST['text']);?></textarea><br />
+        <textarea tabindex="2" cols="55" rows="10" name="text" class="text" style="width: 65%;"><?=stripslashes($_POST['text']);?></textarea><br />
 		<div id="inputform">
 		<label>Kommentarer</label>
 		<input tabindex="4" type="checkbox" checked="checked" name="comments" />

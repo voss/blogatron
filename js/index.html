@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>markItUp! demo</title>
+<link rel="stylesheet" type="text/css" href="images/style.css" />
+<!-- markItUp! -->
+<link rel="stylesheet" type="text/css" href="markitup/skins/markitup/style.css" />
+<link rel="stylesheet" type="text/css" href="markitup/sets/default/style.css" />
+<script src="jquery.pack.js" type="text/javascript"></script>
+<!-- markItUp! -->
+<script src="markitup/jquery.markitup.js" type="text/javascript"></script>
+<script src="markitup/sets/default/set.js" type="text/javascript"></script>
+</head>
+<body>
+<script type="text/javascript">
+$(document).ready(function()	{
+	$('#markitup').markItUp(mySettings);
+	
+	$('.link').click(function() {
+ 		$.markItUp({ 	openWith:'<whateverYouWant>',
+						closeWith:'</whateverYouWant>',
+						placeHolder:"New content"
+					});
+ 		return false;
+	});
+});
+</script>
+<h1><a href="http://markitup.jaysalvat.com/">markItUp!</a></h1>
+<p><em><a href="http://www.jaysalvat.com">By Jay Salvat</a></em></p>
+<p>Downloads, examples and documentation at <a href="http://markitup.jaysalvat.com">http://markitup.jaysalvat.com</a>.</p>
+<p>Click the link to <a href="#" title="Click here to insert content in the editor" class="link">insert content from anywhere in the page</a>.</p>
+<p>
+<textarea id="markitup" cols="80" rows="20">
+&lt;h2&gt;markItUp! Universal markup editor&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;markItUp!&lt;/strong&gt; is a javascript over jQuery plug-in which allow you to turn any textarea in a markup editor.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;markItUp!&lt;/strong&gt; is a lightweight fully customizable engine made to easily fit all developers needs in their CMS, blogs, forums or websites.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Html, Textile, Wiki Syntax, Markdown, BBcode&lt;/em&gt; or even your own Markup system can be easily implemented.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;integrate it easily&lt;/li&gt;
+&lt;li&gt;customize buttons and macros to fit all your need&lt;/li&gt;
+&lt;li&gt;customize keyboard shortcuts&lt;/li&gt;
+&lt;li&gt;customize toolbar and css look and feel
+&lt;ul&gt;
+&lt;li&gt;skins&lt;/li&gt;
+&lt;li&gt;icons&lt;/li&gt;
+&lt;li&gt;dropdown menus&lt;/li&gt;
+&lt;li&gt;separators&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;use the engine from anywhere in the page&lt;/li&gt;
+&lt;li&gt;implement any markup language even your own&lt;/li&gt;
+&lt;li&gt;implement your own javascript macros even the most advanced&lt;/li&gt;
+&lt;li&gt;allow multi-line edition&lt;/li&gt;
+&lt;li&gt;preview ajax result dynamically in any markup parser&lt;/li&gt;
+&lt;li&gt;offers userfriendly experience and effectiveness&lt;/li&gt;
+&lt;/ul&gt;
+</textarea>
+</p></body>
+</html>
