@@ -11,14 +11,14 @@ body {
 }
 
 #wrapper {
-	width: 970px;
+	width: 850px;
 	margin: 0px auto;
 	margin-top:20px;
 }
 
 #content {
 	float: left;
-	width: 740px;
+	width: 640px;
 /*	max-width: 660px; */
 	margin-right: 0px;
 	padding-top:0;
