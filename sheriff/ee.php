@@ -133,6 +133,7 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 	$aid = $_POST['aid'];
 	$entryid = $_POST['entryid'];
 	$title = $_POST['title'];
+	$slug = $_POST['slug'];
 	$text_more = $_POST['text_more'];
 	$text = $_POST['text'];
 	if(($_POST['month']) == 0)
@@ -149,6 +150,7 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 	$sql_update = "UPDATE entries SET
 		title = ('{$title}'),
 		text = ('{$text}'),
+		slug = ('{$slug}'),
 		text_more = ('{$text_more}'),
 		date = ('{$date}'),
 		aid = ('{$aid}'),
@@ -164,7 +166,9 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 	<div style="margin: 0 20px 0 0; padding: 0; border: 0">
 		<h1>Ret et indlæg</h1>
 		<label>Titel:</label><br />
-		<input tabindex="1" type="text" name="title" size="50" value="<?=$title?>" /><br />
+		<input tabindex="1" type="text" name="title" size="50" value="<?=stripslashes($title)?>" /><br />
+		<label>Slug</label><br />
+		<input tabindex="2" type="text" name="slug" size="50" value="<?=$slug?>" /><br />
 		<div>
 		<label>Tekst:</label><br />
 		<textarea tabindex="2" cols="55" rows="10" name="text" class="text"><?=stripslashes($_POST['text']);?></textarea><br />
@@ -260,7 +264,9 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 	<div style="margin: 0 20px 0 0; padding: 0; border: 0">
 		<h1>Ret et indlæg</h1>
 		<label>Titel:</label><br />
-		<input tabindex="1" type="text" name="title" size="50" value="<?=$title?>" /><br />
+		<input tabindex="1" type="text" name="title" size="50" value="<?=stripslashes($title)?>" /><br />
+		<label>Titel:</label><br />
+		<input tabindex="2" type="text" name="slug" size="50" value="<?=$slug?>" /><br />
 		<div>
 		<label>Tekst:</label><br />
 		<textarea tabindex="2" cols="55" rows="10" name="text" class="text"><?=stripslashes($text);?></textarea><br />
