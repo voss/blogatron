@@ -265,7 +265,7 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 		<h1>Ret et indlæg</h1>
 		<label>Titel:</label><br />
 		<input tabindex="1" type="text" name="title" size="50" value="<?=stripslashes($title)?>" /><br />
-		<label>Titel:</label><br />
+		<label>Slug:</label><br />
 		<input tabindex="2" type="text" name="slug" size="50" value="<?=$slug?>" /><br />
 		<div>
 		<label>Tekst:</label><br />
