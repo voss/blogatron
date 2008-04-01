@@ -201,10 +201,10 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 		{
 			@include($inc_path.'rss.inc.php');
 		}
-		if($hasBlogbot == 1 && $_POST['status'] != 0)
+		/*if($hasBlogbot == 1 && $_POST['status'] != 0)
 		{
 			@include($inc_path.'xml-rpc.inc.php');
-		}
+		}*/
 		?>
 
 		<input type="hidden" name="aid" value="<?=$_SESSION['aid'];?>" />
