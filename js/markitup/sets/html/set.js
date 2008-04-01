@@ -34,6 +34,9 @@ mySettings = {
 		{name:'Link', key:'L', openWith:'<a href="[![Link:!:http://]!]"(!( title="[![Title]!]")!)>', closeWith:'</a>', placeHolder:'Your text to link...' },
 		{separator:'---------------' },
 		{name:'Clean', replaceWith:function(h) { return h.selection.replace(/<(.*?)>/g, "") } },				
-		{name:'Preview', call:'preview', className:'preview' }
+		{name:'Preview', call:'preview', className:'preview' },
+		{separator:'---------------' },
+		{name:'BlockQuote', key:'C', openWith:'<blockquote>', closeWith:'</blockquote>' },
+
 	]
 }
