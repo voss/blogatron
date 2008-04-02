@@ -31,7 +31,7 @@ if(isset($_POST['submit']))
 				status = ('{$status}'),
 				comments = ('$comments')";
 		# debug:
-		print $sql;
+		# print $sql;
 		$insert_result = @mysql_query($sql) or print mysql_error();
 		
 	} else {
@@ -78,9 +78,9 @@ print_header(". {$blog_title} | Post et indlæg .", "edit.css", $domain_name, $de
 <h1>Post et indlæg</h1>
         <input type="hidden" name="aid" value="<?=$_SESSION['aid'];?>" />
         <label>Titel</label><br />
-        <input tabindex="1" type="text" name="title" value="<?=$_POST['title']?>" size="50" /><br />
+        <input tabindex="1" type="text" name="title" value='<?=htmlspecialchars($_POST['title'], ENT_QUOTES)?>' size="50" /><br />
         <label>Slug</label><br />
-        <input tabindex="2" type="text" name="slug" value="<?=$_POST['slug']?>" size="50" /><br />
+        <input tabindex="2" type="text" name="slug" value='<?=$_POST['slug']?>' size="50" /><br />
         <label>Tekst</label><br />
         <textarea tabindex="2" cols="55" rows="10" name="text" class="text" style="width: 65%;"><?=stripslashes($_POST['text']);?></textarea><br />
 		<div id="inputform">
