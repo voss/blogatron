@@ -168,7 +168,7 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 		<label>Titel:</label><br />
 		<input tabindex="1" type="text" name="title" size="50" value="<?=stripslashes($title)?>" /><br />
 		<label>Slug</label><br />
-		<input tabindex="2" type="text" name="slug" size="50" value="<?=dirify($title)?>" /><br />
+		<input tabindex="2" type="text" name="slug" size="50" value="<?=$slug?>" /><br />
 		<div>
 		<label>Tekst:</label><br />
 		<textarea tabindex="2" cols="55" rows="10" name="text" class="text"><?=stripslashes($_POST['text']);?></textarea><br />
@@ -266,7 +266,7 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 		<label>Titel:</label><br />
 		<input tabindex="1" type="text" name="title" size="50" value="<?=stripslashes($title)?>" /><br />
 		<label>Slug:</label><br />
-		<input tabindex="2" type="text" name="slug" size="50" value="<?=dirify($title)?>" /><br />
+		<input tabindex="2" type="text" name="slug" size="50" value="<?=$slug?>" /><br />
 		<div>
 		<label>Tekst:</label><br />
 		<textarea tabindex="2" cols="55" rows="10" name="text" class="text"><?=stripslashes($text);?></textarea><br />
