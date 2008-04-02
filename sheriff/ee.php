@@ -165,12 +165,12 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 <form action="<?=$install_path;?>/sheriff/ee.php" method="post" id="edit">
 	<div style="margin: 0 20px 0 0; padding: 0; border: 0">
 		<h1>Ret et indlæg</h1>
-		<label>Titel:</label><br />
-		<input tabindex="1" type="text" name="title" size="50" value="<?=stripslashes($title)?>" /><br />
+		<label>Titel</label><br />
+		<input tabindex="1" type="text" name="title" size="50" value='<?=htmlspecialchars($title, ENT_QUOTES)?>' /><br />
 		<label>Slug</label><br />
 		<input tabindex="2" type="text" name="slug" size="50" value="<?=$slug?>" /><br />
 		<div>
-		<label>Tekst:</label><br />
+		<label>Tekst</label><br />
 		<textarea tabindex="2" cols="55" rows="10" name="text" class="text"><?=stripslashes($_POST['text']);?></textarea><br />
 	    <div id="inputform">		
 	    <label>Kommentarer</label>
@@ -215,8 +215,8 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 		<div id='forumtext' style='display:none;'>
 			<label>Udvidet tekst</label><br />
 			<textarea tabindex="3" cols="55" rows="15" name="text_more"> <?=stripslashes($_POST['text_more']);?></textarea><br />
-			<label>Dato og tid:</label><br />
-			<label>Dag:</label>
+			<label>Dato og tid</label><br />
+			<label>Dag</label>
 			<input type="text" name="day" size="2" value="<?=$_POST['day']?>" />
 			<select name="month">
 			<option>-- Måned --</option>
@@ -230,7 +230,7 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 			}
 			?>
 			</select>
-			<label>År:</label>
+			<label>År</label>
 			<input type="text" name="year" size="4" value="<?=$_POST['year']?>" />
 			<label>@</label>
 			<input type="text" name="hh" size="2" value="<?=$_POST['hh']?>" />:
@@ -263,12 +263,12 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 <form action="<?=$install_path;?>/sheriff/ee.php" method="post" id="edit">
 	<div style="margin: 0 20px 0 0; padding: 0; border: 0">
 		<h1>Ret et indlæg</h1>
-		<label>Titel:</label><br />
-		<input tabindex="1" type="text" name="title" size="50" value="<?=stripslashes($title)?>" /><br />
-		<label>Slug:</label><br />
+		<label>Titel</label><br />
+		<input tabindex="1" type="text" name="title" size="50" value='<?=htmlspecialchars($title, ENT_QUOTES)?>' /><br />
+		<label>Slug</label><br />
 		<input tabindex="2" type="text" name="slug" size="50" value="<?=$slug?>" /><br />
 		<div>
-		<label>Tekst:</label><br />
+		<label>Tekst</label><br />
 		<textarea tabindex="2" cols="55" rows="10" name="text" class="text"><?=stripslashes($text);?></textarea><br />
 		<div id="inputform">
 	    <label>Kommentarer</label>
@@ -293,8 +293,8 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 		<label>Udvidet Tekst</label><br />
 		<textarea tabindex="3" cols="55" rows="15" name="text_more"><?=stripslashes($text_more);?></textarea>
 		<div>
-			<label>Dato og tid:</label><br />
-		<label>Dag:</label>
+			<label>Dato og tid</label><br />
+		<label>Dag</label>
 		<input type="text" name="day" size="2" value="<?=$day?>" />
 		<select name="month">
 		<option>-- Måned --</option>
@@ -308,7 +308,7 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 		}
 		?>
 		</select>
-		<label>År:</label>
+		<label>År</label>
 		<input type="text" name="year" size="4" value="<?=$year?>" />
 		<label>@</label>
 		<input type="text" name="hh" size="2" value="<?=$hh?>" />:
