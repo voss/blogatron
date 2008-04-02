@@ -4,10 +4,11 @@ function display_entry_from_url()
 {
 	$expl = array_reverse(explode("/", $_SERVER['REQUEST_URI']));
 	$entrydate = $expl[1];
-	$e = undirify($expl[0]);
+	$e = $expl[0];
 	$e = trim($e);
 	$sql = "SELECT 
 		entries.title, 
+		entries.slug,
 		entries.text,
 		entries.text_more, 
 		authors.uid, 
@@ -22,7 +23,7 @@ function display_entry_from_url()
 			WHERE 
 		entries.aid = authors.uid 
 			AND 
-		entries.title LIKE ('$e%')
+		entries.slug LIKE ('$e%')
 			AND
 		entries.status = '1'
 			AND
@@ -122,6 +123,7 @@ function display_front_page($lastentries)
 	global $install_path;
 	$sql = "SELECT
 	entries.title, 
+	entries.slug,
 	entries.text, 
 	entries.text_more,
 	authors.uid, 
@@ -154,7 +156,7 @@ function display_front_page($lastentries)
 		extract ($row);
 		$hour = date("G:i", $date);
 		$day = date("d.m.Y", $date);
-		$title_d = dirify($title);
+		# $title_d = dirify($title);
 		$date = date('dmy', $date);
 		if($comments == 'on')
 		{
@@ -180,13 +182,13 @@ function display_front_page($lastentries)
 			}
 		}
 		print "<div class='entry'>\n";
-		print "<h1><a title=\"Permanent link to '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">{$title}</a></h1>\n";
+		print "<h1><a title=\"Permanent link to '{$title}'\" href=\"{$install_path}/{$date}/{$slug}\">{$title}</a></h1>\n";
 		print "<p class=\"byline\"><span style='color:
-#799dc6'>{$day}</span><br /> \n <a href=\"{$install_path}/{$date}/".dirify($title)."#c\" title=\"{$count_comments} har tilføjet noget\">{$count_comments} {$actual_comments}</a></p>\n";
+#799dc6'>{$day}</span><br /> \n <a href=\"{$install_path}/{$date}/".$slug."#c\" title=\"{$count_comments} har tilføjet noget\">{$count_comments} {$actual_comments}</a></p>\n";
 		print '<div class="ebody">'.stripslashes(format_entry($text));
         if(!empty($text_more))
         {
-            print "<p><a href=\"{$date}/{$title_d}#mere\" style=\"font-weight: bold\" title=\"Click here to continue reading '{$title}'\">Continue reading '{$title}'...</a></p>";
+            print "<p><a href=\"{$date}/{$slug}#mere\" style=\"font-weight: bold\" title=\"Click here to continue reading '{$title}'\">Continue reading '{$title}'...</a></p>";
         }
 #		print '<div class="splitter"></div>';
 		print "</div></div>\n";
@@ -229,7 +231,7 @@ function display_archive_entry()
 		extract ($row);
 		$hour = date("G:i", $date);
 		$day = date("d.m", $date);
-		$title_d = dirify($title);
+		# $title_d = dirify($title);
 		$date = date('dmy', $date);
 		if($comments == 'on')
 		{
@@ -254,7 +256,7 @@ function display_archive_entry()
 				}
 			}
 		}
-		print "<li>{$day} <a title=\"Permanent link to '{$title}'\" href=\"{$install_path}/{$date}/{$title_d}\">{$title}</a>\n</li>";
+		print "<li>{$day} <a title=\"Permanent link to '{$title}'\" href=\"{$install_path}/{$date}/{$slug}\">{$title}</a>\n</li>";
 	}
 	print '</ul>';
 }
@@ -335,13 +337,13 @@ function single_entry_title()
 {
 	$expl = array_reverse(explode("/", $_SERVER['REQUEST_URI']));
 	$entrydate = $expl[1];
-	$e = undirify($expl[0]);
+	$e = $expl[0];
 	$e = trim($e);
 	$sql = "SELECT *
 			FROM 
 		entries
 			WHERE 
-		entries.title LIKE ('$e%')
+		entries.slug LIKE ('$e%')
 			AND
 		entries.status = '1'
 			AND

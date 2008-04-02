@@ -33,10 +33,24 @@
 <body>
 	<div id="wrapper">
 		<h1 class="pagehead"><a href="/">verture.net &mdash; <?=$tagline;?></a></h1>
-		<div id="content">
-			<div style="text-align: center">
+		<div style="float:right;"><form style="display:inline;" action="/do_search.php" method="get" id="searchform" onsubmit="if(this.q.value=='Type a query' || this.q.value=='') { alert('Please write a valid query'); this.q.select(); return false;} else { this.submit();}">
+	<div style="display:inline;margin-bottom:10px;">
+		<input type="search" name="q" value="" onclick="this.value='Type a query';this.select()" style="width: 100px; border: 1px solid #ddd;text-align:right" /><img src="/img/mag_glass.jpg" alt="Magnifying glass for search box" style="vertical-align:middle;padding-left: 5px" />
+	</div>
+	</form>
+	</div>
+    	<div style="border-top: 1px solid #369; margin-top: 25px; padding-top:20px;">
+			<div id="content">
 				<img src="/img/404.jpg" alt="404 error, document not found" />
 				<p><?='http://'.$_SERVER[HTTP_HOST].$_SERVER['REQUEST_URI'];?> could not be found, sorry about that.</p>
+						<div style="text-align: center">
+							<p>Wanna search for it instead?</p>
+							<form style="display:inline;" action="/do_search.php" method="get" id="searchform" onsubmit="if(this.q.value=='Type a query' || this.q.value=='') { alert('Please write a valid query'); this.q.select(); return false;} else { this.submit();}">
+	<div style="display:inline;margin-bottom:10px;">
+		<input type="search" name="q" value="" onclick="this.value='Type a query';this.select()" style="width: 100px; border: 1px solid #ddd;text-align:right" /><img src="/img/mag_glass.jpg" alt="Magnifying glass for search box" style="vertical-align:middle;padding-left: 5px" />
+	</div>
+	</form>
+	</div>
 			</div>
 		</div>
 		<div id="linkster">
@@ -64,6 +78,6 @@
 		</rdf:RDF> -->
 		</p>
 		</div>
-	</div>
+</div>	</div>
 </body>
 </html>

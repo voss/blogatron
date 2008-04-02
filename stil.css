@@ -161,6 +161,18 @@ blockquote {
 	display: block;
 	background: url('/img/quote.jpg') top left no-repeat transparent;
 }
+
+blockquote.bigq {
+	font: 1.5em helvetica, geneva, arial, sans-serif;
+/*	font-style: italic; */
+	margin-top: 10px;
+	padding-top: 1px;
+	padding-left: 30px;
+	margin-left: 0px;
+	background: url('/img/quote.jpg') top left no-repeat transparent;
+}
+
+
 /*
 blockquote {
 	text-indent: 0;
