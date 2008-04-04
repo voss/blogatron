@@ -5,7 +5,7 @@
 header("Content-type: application/xml");
 
 # Here we create the query containing the RSS-version of the last 15 posts to the site.
-$sql_xml = "SELECT (date - ({$offset} * 3600)) as xml_date, title, slug, text, name, email from {$db_name}.entries, {$db_name}.authors where status = '1' AND entries.aid = authors.uid ORDER BY xml_date DESC LIMIT 0,15";
+$sql_xml = "SELECT (date - ({$offset} * 3600)) as xml_date, title, slug, text, text_more, name, email from {$db_name}.entries, {$db_name}.authors where status = '1' AND entries.aid = authors.uid ORDER BY xml_date DESC LIMIT 0,15";
 
 # db-debugging
 if(!$result_xml = @mysql_query($sql_xml))
@@ -32,7 +32,7 @@ else
 	while($row = @mysql_fetch_array($result_xml))
 	{
 		extract($row);
-		$text = format_entry($text);
+		$text = format_entry($text).format_entry($text_more);
 		$text = htmlspecialchars($text);
 		$pub_date = date("r", $xml_date);
 		$date = date("dmy", $xml_date);
