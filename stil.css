@@ -240,6 +240,13 @@ div#linkster h1,div#linkster h2,div#linkster h3 {
 	font-weight: normal;
 }
 
+p.komm {
+	padding: 8px 8px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	background: #f6f6f6;
+}
+
 /* Google Reader clip start */
 
 div#readerpublishermodule0 {
