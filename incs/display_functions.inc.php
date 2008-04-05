@@ -89,7 +89,7 @@ function display_entry_from_url()
 						$data .= "</p>\n";
 						$data .= format_entry($c_text);
 						print $data;
-						print '<hr />';
+						# print '<hr />';
 						print "</div>\n";
 						$comment_count++;
 					}
