@@ -5,7 +5,7 @@
 header("Content-type: application/xml");
 
 # Here we create the query containing the RSS-version of the last 15 posts to the site.
-$sql_xml = "SELECT (comments.date - ({$offset} * 3600)) as xml_date, (entries.date - ({$offset} * 3600)) as entrydate, c_id, c_author, c_text, title, status from {$db_name}.entries, {$db_name}.comments WHERE comments.eid = entries.id and entries.status = '1' ORDER BY c_id DESC LIMIT 15";
+$sql_xml = "SELECT (comments.date - ({$offset} * 3600)) as xml_date, (entries.date - ({$offset} * 3600)) as entrydate, slug, c_id, c_author, c_text, title, status from {$db_name}.entries, {$db_name}.comments WHERE comments.eid = entries.id and entries.status = '1' ORDER BY c_id DESC LIMIT 15";
 
 # db-debugging
 if(!$result_xml = @mysql_query($sql_xml))
@@ -32,17 +32,17 @@ else
 	while($row = @mysql_fetch_array($result_xml))
 	{
 		extract($row);
+    $text = htmlspecialchars($c_text);
 		$text = format_entry($c_text);
-		$text = htmlspecialchars($c_text);
 		$pub_date = date("r", $xml_date);
 		$date = date("dmy", $xml_date);
 		$entry_date = date("dmy", $entrydate);
 		$xml_string .= "<item>\n\t";
 		$xml_string .= "<title>Comments from {$c_author} on '{$title}'</title>\n\t";
 		$xml_string .= "<description>{$text}</description>\n\t";
-		$xml_string .= "<link>http://{$domain_name}/".$entry_date."/".dirify($title)."#c</link>\n\t";
+		$xml_string .= "<link>http://{$domain_name}/".$entry_date."/".$slug."#c</link>\n\t";
 		$xml_string .= "<pubDate>{$pub_date}</pubDate>\n\t";
-		$xml_string .= "<guid>http://{$domain_name}/".$entry_date."/".dirify($title)."</guid>\n\t";
+		$xml_string .= "<guid>http://{$domain_name}/".$entry_date."/".$slug."</guid>\n\t";
 		$xml_string .= "<author>{$email} ({$c_author})</author>\n\t";
 		$xml_string .= "</item>\n";
 	}

@@ -58,14 +58,13 @@ function format_entry($arg, $br = 1)
 	$arg = preg_replace('!(</?(?:table|tr|td|th|div|dl|dd|dt|ul|ol|li|pre|select|form|blockquote|p|h[1-6])[^>]*>)\s*<br />!', "$1", $arg);
 	$arg = preg_replace('!<br />(\s*</?(?:p|li|div|th|pre|code|td|ul|ol)>)!', '$1', $arg);
 	$arg = preg_replace('/&([^#])(?![a-z]{1,8};)/', '&#038;$1', $arg);
-	$arg = ereg_replace('--','&mdash;', $arg); # Replace emdash with --.
-	
+	$arg = ereg_replace('--','&mdash;', $arg); # Replace -- with &emdash;.
 	return $arg;
 }
 
 function format_comment($arg)
 {
-	$arg = strip_tags($arg, '<a><b><em><q><del>');
+	$arg = strip_tags($arg, '<a><strong><em><q><del>');
 	$arg = ereg_replace("\r","",$arg);
 	$arg = ereg_replace("\n\n","</p><p>",$arg);
 	$arg = ereg_replace("\n","<br />\n",$arg);

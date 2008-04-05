@@ -76,16 +76,16 @@ function display_entry_from_url()
 						$data .= '<p class="komm">'.$c_author.'';
 						if(!empty($c_url))
 						{
-							$data .= " | <a title=\"Besøg {$c_author} på nettet\" href=\"{$c_url}\" rel=\"nofollow\">web</a>";
+							$data .= " | <a title=\"Visit {$c_author} on the web\" href=\"{$c_url}\" rel=\"nofollow\">web</a>";
 						}
 						if(!empty($c_email))
 						{
-							$data .= " | <a title=\"Skriv en email til {$c_author}\" href=\"mailto:".spam_safe($c_email)."\">@</a>";
+							$data .= " | <a title=\"Write an email to {$c_author}\" href=\"mailto:".spam_safe($c_email)."\">@</a>";
 						}
 						
-						$c_date = date("G:i / d.m / Y", $date);
+						$c_date = date("G:i / jS \\o\f F / Y", $date);
 						$c_date = strtolower($c_date);
-						$data .= " / {$c_date}";
+						$data .= " / <a href=\"#comment-".$c_id."\" id='comment-{$c_id}' title=\"Permalink to this comment\">{$c_date}</a>";
 						$data .= "</p>\n";
 						$data .= format_entry($c_text);
 						print $data;
