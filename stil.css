@@ -6,7 +6,7 @@ body {
 	margin: 0px;
 	margin-bottom: 0;
 	padding-bottom: 0;
-	font-family: 'lucida grande', trebuchet, 'trebuchet ms', sans-serif;
+	font-family: 'lucida grande', 'gill sans', helvetica, trebuchet, 'trebuchet ms', arial, sans-serif;
 	background: white;
 }
 
@@ -34,7 +34,7 @@ h1 {
 	clear: both;
 	padding-top:0;
 	margin-top:0;
-	color: #036
+	color: #036;
 }
 
 h1 img {
@@ -110,6 +110,14 @@ h1.pagehead {
 	color: red;
 }
 
+.entry h2, .entry h3, .entry h4 {
+  color: #036;
+  font-weight:normal;
+  font-size: large;
+  background: inherit;
+  text-decoration:none;
+}
+
 .byline {
 	float: left;
 	width: 140px;
@@ -152,8 +160,8 @@ li#search:before {
 }
 
 blockquote {
-	font-family: 'trebuchet ms', trebuchet, 'lucida sans', verdana, arial, sans-serif;
-	font-style: italic;
+	font-family: helvetica, 'gill sans', 'trebuchet ms', trebuchet, 'lucida sans', verdana, arial, sans-serif;
+/*	font-style: italic; */
 	margin-top: 10px;
 	padding-top: 1px;
 	padding-left: 40px;
@@ -226,6 +234,10 @@ div#linkster h1,div#linkster h2,div#linkster h3 {
 
 #c {
 	color: #693;
+}
+
+#comment h2 {
+	font-weight: normal;
 }
 
 /* Google Reader clip start */
