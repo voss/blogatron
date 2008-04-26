@@ -6,7 +6,7 @@ body {
 	margin: 0px;
 	margin-bottom: 0;
 	padding-bottom: 0;
-	font-family: 'lucida grande', 'gill sans', helvetica, trebuchet, 'trebuchet ms', arial, sans-serif;
+	font-family: 'lucida grande', 'gill sans', freesans, 'Bitstream Vera Sans', helvetica, trebuchet, 'trebuchet ms', arial, sans-serif;
 	background: white;
 }
 
@@ -160,8 +160,9 @@ li#search:before {
 }
 
 blockquote {
-	font-family: helvetica, 'gill sans', 'trebuchet ms', trebuchet, 'lucida sans', verdana, arial, sans-serif;
+	font-family: 'gill sans', helvetica, 'trebuchet ms', trebuchet, 'lucida sans', verdana, arial, sans-serif;
 /*	font-style: italic; */
+	font-size: 12pt;
 	margin-top: 10px;
 	padding-top: 1px;
 	padding-left: 40px;

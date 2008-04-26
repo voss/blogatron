@@ -22,6 +22,7 @@
 	<link rel="alternate" type="application/rss+xml" title="Kommentarer" href="<?=$install_path;?>/rss/comments" />
 	<link rel="alternate" type="application/rss+xml" title="Københavns Politis Døgnrapport" href="http://blog.verture.net/doegnrapport.php" />
 	<script type="text/javascript" src="<?=$install_path;?>/js/jsscripts.js"></script>
+	<script src="<?=$install_path;?>/js/audio-player.js" type="text/javascript"></script>
 	<meta name="description" content="<?=$description;?>" />
 	<meta name="keywords" content="<?=$key_words;?>" />
 	<meta name="ICBM" content="55.6773 , 12.5749" />
