@@ -15,7 +15,7 @@
 $q = explode('/', $_SERVER['REQUEST_URI']);
 $q = urldecode($q[2]);
 
-$sql = "SELECT name, text, title, date, MATCH ( title, text, text_more ) AGAINST ('{$q}*' IN BOOLEAN MODE) AS SCORE FROM authors, entries WHERE MATCH ( title, text, text_more ) AGAINST ('{$q}*' IN BOOLEAN MODE) and status = '1' and entries.aid = authors.uid";
+$sql = "SELECT name, text, title, slug, date, MATCH ( title, text, text_more ) AGAINST ('{$q}*' IN BOOLEAN MODE) AS SCORE FROM authors, entries WHERE MATCH ( title, text, text_more ) AGAINST ('{$q}*' IN BOOLEAN MODE) and status = '1' and entries.aid = authors.uid";
 
 $result = @mysql_query($sql);
 $numrows = @mysql_num_rows($result);
@@ -62,7 +62,7 @@ if(!$result) {
             			extract ($row);
             			$linkdate = date('dmy', $date);
             			$date = date("G:i || d.m || Y", $date);
-            			print "<h1>#$i <a href=\"{$install_path}/{$linkdate}/".dirify($title)."\" style=\"margin-left: 3px\">{$title}</a></h1>\n";
+            			print "<h1>#$i <a href=\"{$install_path}/{$linkdate}/{$slug}\" style=\"margin-left: 3px\">{$title}</a></h1>\n";
             			print "<p class=\"date\" style=\"margin-left: 17px;\">{$date} by {$name}</p>\n";
             			$text = strip_tags($text);
             			$text = stripslashes($text);
