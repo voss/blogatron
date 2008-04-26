@@ -74,7 +74,7 @@ print_header(". {$blog_title} | Post et indlæg .", "edit.css", $domain_name, $de
 	$success = (isset($_POST['submit']) && $success == false) ? '<p class="redalert">Alle felter skal udfyldes.</p>' : ''; 
 ?>
 <form action="<?= $_SERVER['PHP_SELF'];?>" method="post" id="postForm" name="postForm" onsubmit="return validPost();">
-<div style="margin: 0 20px 0 0; padding: 0; border: 0">		
+<div style="margin: 0 20px 0 0; padding: 0; border: 0">
 <h1>Post et indlæg</h1>
         <input type="hidden" name="aid" value="<?=$_SESSION['aid'];?>" />
         <label>Titel</label><br />
@@ -82,7 +82,7 @@ print_header(". {$blog_title} | Post et indlæg .", "edit.css", $domain_name, $de
         <label>Slug</label><br />
         <input tabindex="2" type="text" name="slug" value='<?=$_POST['slug']?>' size="50" /><br />
         <label>Tekst</label><br />
-        <textarea tabindex="2" cols="55" rows="10" name="text" class="text" style="width: 65%;"><?=stripslashes($_POST['text']);?></textarea><br />
+        <textarea tabindex="3" cols="55" rows="10" name="text" class="text" style="width: 65%;"><?=stripslashes($_POST['text']);?></textarea><br />
 		<div id="inputform">
 		<label>Kommentarer</label>
 		<input tabindex="4" type="checkbox" checked="checked" name="comments" />
@@ -92,6 +92,9 @@ print_header(". {$blog_title} | Post et indlæg .", "edit.css", $domain_name, $de
 			<option selected="selected" value="1">Postet</option>
 		</select>
 		<input tabindex="6" type="submit" name="submit" value="Publicér" id="submitpost" />
+		<span onclick="var udvidet = document.getElementById('udvidet');if(udvidet.style.display == 'none') {udvidet.style.display = '';}else {udvidet.style.display = 'none';}">Udvidet tekst</span> <span style="padding-left: 15px;" onclick="var swfplayer = document.getElementById('swfplayer');if(swfplayer.style.display == 'none') {swfplayer.style.display = '';}else {swfplayer.style.display = 'none';}">Flasplayer</span>
+		
+		
         <?php
         if($insert_result != false)
         {
@@ -111,32 +114,43 @@ print_header(". {$blog_title} | Post et indlæg .", "edit.css", $domain_name, $de
 		}
         ?>
         </div>
-		<p><span onclick="var forumtext = document.getElementById('forumtext');if(forumtext.style.display == 'none') {forumtext.style.display = '';}else {forumtext.style.display = 'none';}">&rarr;</span></p>
-		<div id='forumtext' style='display:none;'>
-		<label>Udvidet Tekst</label><br />
-		<textarea tabindex="3" cols="55" rows="15" name="text_more" style="width: 65%"><?=stripslashes($_POST['text_more']);?></textarea><br />
-    		<label>Dato og tid [tomme felter indsætter aktuel tid]</label><br />
-		<label>Dag</label><input type="text" name="day" size="2" />
-		<select name="month">
-		<?php 
-		for($i=1;$i<=12;$i++)
-		{
-			print "<option value=\"{$i}\">".dateify(date('F',mktime(0,0,0,$i)))."</option>\n";
-		}		
-		?>
-		<option value="0" selected="selected">-- Måned --</option>
-		</select>
-		<label>År</label>
-		<input type="text" name="year" size="4" />
-		<label>@</label>
-		<input type="text" name="hh" size="2" />:
-		<input type="text" name="mm" size="2" />:
-		<input type="text" name="ss" size="2" />
+		<div id='udvidet' style='display:none;'>
+			<label>Udvidet Tekst</label><br />
+			<textarea tabindex="3" cols="55" rows="15" name="text_more" style="width: 65%"><?=stripslashes($_POST['text_more']);?></textarea><br />
+	    		<label>Dato og tid [tomme felter indsætter aktuel tid]</label><br />
+			<label>Dag</label><input type="text" name="day" size="2" />
+			<select name="month">
+			<?php 
+			for($i=1;$i<=12;$i++)
+			{
+				print "<option value=\"{$i}\">".dateify(date('F',mktime(0,0,0,$i)))."</option>\n";
+			}		
+			?>
+			<option value="0" selected="selected">-- Måned --</option>
+			</select>
+			<label>År</label>
+			<input type="text" name="year" size="4" />
+			<label>@</label>
+			<input type="text" name="hh" size="2" />:
+			<input type="text" name="mm" size="2" />:
+			<input type="text" name="ss" size="2" />
 		</div>
 </div>
 </form>
+<div id="swfplayer" style="display:none">
+<code><pre>
+&lt;object type=&quot;application/x-shockwave-flash&quot; data=&quot;http://blog.verture.net/lyd/player.swf&quot; id=&quot;audioplayer1&quot; height=&quot;24&quot; width=&quot;290&quot;&gt;
+&lt;param name=&quot;movie&quot; value=&quot;http://blog.verture.net/lyd/player.swf&quot;&gt;
+&lt;param name=&quot;FlashVars&quot; value=&quot;playerID=1&amp;soundFile=SOURCEFILE&quot;&gt;
+&lt;param name=&quot;quality&quot; value=&quot;high&quot;&gt;
+&lt;param name=&quot;menu&quot; value=&quot;false&quot;&gt;
+&lt;param name=&quot;wmode&quot; value=&quot;transparent&quot;&gt;
+&lt;/object&gt;
+</pre></code>		
 </div>
 </div>
+</div>
+
 <?php
 	print_footer();
 ?>

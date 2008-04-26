@@ -187,6 +187,8 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 		<?php endif; ?>
 		</select>
 		<input tabindex="6" type="submit" name="submit" value="Publicér" id="submitpost" />
+		<span onclick="var udvidet = document.getElementById('udvidet');if(udvidet.style.display == 'none') {udvidet.style.display = '';}else {udvidet.style.display = 'none';}">Udvidet tekst</span> <span style="padding-left: 15px;" onclick="var swfplayer = document.getElementById('swfplayer');if(swfplayer.style.display == 'none') {swfplayer.style.display = '';}else {swfplayer.style.display = 'none';}">Flashplayer</span>
+		
 
        <?php
         if(isset($update_result))
@@ -211,8 +213,8 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 	    <input type="hidden" name="entryid" value="<?=$_POST['entryid'];?>" />
 	    </div>
 		<div>
-		<p><span style="color: #369;font-size:large; font-weight:bold" onclick="var forumtext = document.getElementById('forumtext');if(forumtext.style.display == 'none') {forumtext.style.display = ''; return false;}else {forumtext.style.display = 'none'; return false;}">#</span></p>
-		<div id='forumtext' style='display:none;'>
+			<span onclick="var udvidet = document.getElementById('udvidet');if(udvidet.style.display == 'none') {udvidet.style.display = '';}else {udvidet.style.display = 'none';}">Udvidet tekst</span> <span style="padding-left: 15px;" onclick="var swfplayer = document.getElementById('swfplayer');if(swfplayer.style.display == 'none') {swfplayer.style.display = '';}else {swfplayer.style.display = 'none';}">Flashplayer</span>
+		<div id='udvidet' style='display:none;'>
 			<label>Udvidet tekst</label><br />
 			<textarea tabindex="3" cols="55" rows="15" name="text_more"> <?=stripslashes($_POST['text_more']);?></textarea><br />
 			<label>Dato og tid</label><br />
@@ -285,11 +287,11 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 		<?php endif; ?>
 		</select>
 	    <input tabindex="6" type="submit" name="submit" value="Publicér" id="submitpost" />
+		<span onclick="var udvidet = document.getElementById('udvidet');if(udvidet.style.display == 'none') {udvidet.style.display = '';}else {udvidet.style.display = 'none';}">Udvidet tekst</span> <span style="padding-left: 15px;" onclick="var swfplayer = document.getElementById('swfplayer');if(swfplayer.style.display == 'none') {swfplayer.style.display = '';}else {swfplayer.style.display = 'none';}">Flashplayer</span>
 		<input type="hidden" name="aid" value="<?=$_SESSION['aid'];?>" />
 	    <input type="hidden" name="entryid" value="<?=$entryid?>" />
 		</div>
-		<p><span style="color: #369;font-size:large; font-weight:bold" onclick="var forumtext = document.getElementById('forumtext');if(forumtext.style.display == 'none') {forumtext.style.display = '';}else {forumtext.style.display = 'none';}">#</span></p>
-		<div id='forumtext' style='display:none;'>
+		<div id='udvidet' style='display:none;'>
 		<label>Udvidet Tekst</label><br />
 		<textarea tabindex="3" cols="55" rows="15" name="text_more"><?=stripslashes($text_more);?></textarea>
 		<div>
@@ -319,6 +321,17 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 		</div>
 	</div>
 </form>
+<div id="swfplayer" style="display:none">
+<code><pre>
+&lt;object type=&quot;application/x-shockwave-flash&quot; data=&quot;http://blog.verture.net/lyd/player.swf&quot; id=&quot;audioplayer1&quot; height=&quot;24&quot; width=&quot;290&quot;&gt;
+&lt;param name=&quot;movie&quot; value=&quot;http://blog.verture.net/lyd/player.swf&quot;&gt;
+&lt;param name=&quot;FlashVars&quot; value=&quot;playerID=1&amp;soundFile=SOURCEFILE&quot;&gt;
+&lt;param name=&quot;quality&quot; value=&quot;high&quot;&gt;
+&lt;param name=&quot;menu&quot; value=&quot;false&quot;&gt;
+&lt;param name=&quot;wmode&quot; value=&quot;transparent&quot;&gt;
+&lt;/object&gt;
+</pre></code>		
+</div>
 <?php
 				$sql2 = "select * from comments where eid = {$entryid}";
 
