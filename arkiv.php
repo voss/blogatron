@@ -17,7 +17,8 @@
    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
    <link rel="shortcut icon" href="<?=$install_path;?>/favicon.ico" type="image/x-icon" />
    <link rel="alternate" type="application/rss+xml" title="RSS" href="<?=$install_path;?>/rssfeed.php" />
-   <script type="text/javascript" src="<?=$install_path;?>/js/jsscripts.js"></script>
+   <script type="text/javascript" src="http://blog.verture.net/js/jsscripts.js"></script>
+   <script type="text/javascript" src="http://blog.verture.net/js/audio-player.js"></script>
    <link rel="alternate" type="application/rss+xml" title="Københavns Politis Døgnrapport" href="http://blog.verture.net/doegnrapport.php" />
    <meta name="description" content="<?=$description;?>" />
    <meta name="keywords" content="<?=$key_words;?>" />
