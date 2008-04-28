@@ -213,7 +213,6 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 	    <input type="hidden" name="entryid" value="<?=$_POST['entryid'];?>" />
 	    </div>
 		<div>
-			<span onclick="var udvidet = document.getElementById('udvidet');if(udvidet.style.display == 'none') {udvidet.style.display = '';}else {udvidet.style.display = 'none';}">Udvidet tekst</span> <span style="padding-left: 15px;" onclick="var swfplayer = document.getElementById('swfplayer');if(swfplayer.style.display == 'none') {swfplayer.style.display = '';}else {swfplayer.style.display = 'none';}">Flashplayer</span>
 		<div id='udvidet' style='display:none;'>
 			<label>Udvidet tekst</label><br />
 			<textarea tabindex="3" cols="55" rows="15" name="text_more"> <?=stripslashes($_POST['text_more']);?></textarea><br />
@@ -301,6 +300,7 @@ if(isset($_POST['submit']) && isset($_POST['entryid']))
 		<select name="month">
 		<option>-- Måned --</option>
 		<?php 
+    unset($i);
 		for($i=1;$i<=12;$i++) {
 			if($i == date('n',$date)) {
 				print "<option value=\"{$i}\" selected=\"selected\">".dateify(date('F',mktime(0,0,0,$i)))."</option>\n";
