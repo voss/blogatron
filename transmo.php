@@ -39,7 +39,7 @@
 		<div class="ebody">
 			<p>When you travel around outside scandinavian countries, and you only have access to public computers it can be an arduous task to get your mittens on scandinavian characters for your blogposts, emails, and letters. This little tool is supposed to fix that.</p>
 	<p>It's very simple: Type your text in the area below, and the transmogrified text will automagically show up in a new text area below, ready for you to copy when you are done. The legend underneath shows what will get turned into what.</p>
-	<p>If you prefer to get them as HTML entities, check the box next to the button.</p>
+	<p>If you prefer to get them as HTML entities, check the box below the textarea.</p>
 	<div>
 	<div style="float: left;">
 	<ul style="font-family: monospace; padding-left:25px;">
