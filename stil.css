@@ -1,3 +1,9 @@
+/* Resetting typographY sizes */
+
+h1, h2, h3, h4, h5, h6, p, blockquote, ul, li {
+	font-size:100%;
+}
+
 html {
 	padding:10px;
 }
@@ -6,8 +12,9 @@ body {
 	margin: 0px;
 	margin-bottom: 0;
 	padding-bottom: 0;
-	font-family: 'lucida grande', 'gill sans', freesans, 'Bitstream Vera Sans', helvetica, trebuchet, 'trebuchet ms', arial, sans-serif;
+	font-family: 'lucida grande', 'gill sans', 'Bitstream Vera Sans', helvetica, trebuchet, 'trebuchet ms', arial, sans-serif;
 	background: white;
+	color: black;
 }
 
 #wrapper {
@@ -26,11 +33,12 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: "Gill Sans", Georgia, serif;
+	font-family: helvetica, arial, "Gill Sans", Georgia, serif;
+	font-weight: normal;
 }
 
 h1 {
-	font-size: large;
+	font-size: 1.9em;
 	clear: both;
 	padding-top:0;
 	margin-top:0;
@@ -50,8 +58,8 @@ h1.pagehead {
 	padding: 0;
 	margin: 0;
 	height: 80px;
-	font-family: 'Gill Sans';
-	font-size: x-large;
+	font-family: helvetica, arial, 'Gill Sans';
+	font-size: 2em;
 	font-weight: normal;
 }
 
@@ -92,11 +100,12 @@ h1.pagehead {
 	border: none;
 	color: #036;
 	background: none;
-	font-weight: normal;
+/*	font-weight: normal; */
 }
 
 .entry h1 {
 	font-weight: normal;
+	font-size: 1.5em;
 }
 
 /*
@@ -111,22 +120,22 @@ h1.pagehead {
 }
 
 .entry h2, .entry h3, .entry h4 {
-  color: #036;
-  font-weight:normal;
-  font-size: large;
-  background: inherit;
-  text-decoration:none;
+	color: #036;
+	font-weight:normal;
+	font-size: 1.3em;
+	background: inherit;
+	text-decoration:none;
 }
 
-.byline {
+p.byline {
 	float: left;
 	width: 140px;
-	font-size: small;
+	font-size: 0.9em;
 	margin-top: 3px;
 }
 
-.bio {
-	font-size: x-small;
+p.bio {
+	font-size: 0.7em;
 }
 
 ul {
@@ -140,8 +149,12 @@ li {
 	line-height: 1.4em;
 }
 
+.entry ul li, .entry ol li{
+	font-size: 0.8em;
+}
+
 .entry li {
-  padding-bottom: 1em;
+	padding-bottom: 1em;
 }
 
 ul li:before {
@@ -160,9 +173,9 @@ li#search:before {
 }
 
 blockquote {
-	font-family: 'gill sans', helvetica, 'trebuchet ms', trebuchet, 'lucida sans', verdana, arial, sans-serif;
+	font-family: helvetica, arial, 'trebuchet ms', trebuchet, 'lucida sans', verdana, arial, sans-serif;
 /*	font-style: italic; */
-	font-size: 12pt;
+	font-size: 1em;
 	margin-top: 10px;
 	padding-top: 1px;
 	padding-left: 40px;
@@ -199,16 +212,18 @@ blockquote {
 }
 
 .entry {
-	font-size: small;
-	line-height: 1.5em;
 	padding-bottom: 20px;
 	padding-top: 5px;
+}
+
+.entry p {
+	font-size: 0.8em;
+	line-height: 1.5em;
 }
 
 div#linkster {
 	float:right;
 	width: 180px;
-	font-size: small;
 	font-weight: normal;
 /*	margin-right: -60px; */
 }
@@ -216,11 +231,12 @@ div#linkster {
 div#linkster ul {
 	padding-top:0;
 	margin-top:0;
+	font-size: 0.8em;
 }
 
 div#linkster h1,div#linkster h2,div#linkster h3 {
 	font-weight: normal;
-	font-size: large;
+	font-size: 1em;
 	margin-bottom: 0;
 }
 
@@ -230,7 +246,7 @@ div#linkster h1,div#linkster h2,div#linkster h3 {
 
 #disclaimer p {
 	text-align: center;
-	font: x-small "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	font: x-small helvetica, arial, "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
 }
 
 #c {
@@ -255,7 +271,7 @@ div#readerpublishermodule0 {
 }
 
 div.reader-publisher-module h3 {
-	font-size:large;
+	font-size:1em;
 	padding-bottom:0;
 	margin-bottom: 0;
 }
@@ -277,7 +293,8 @@ div.reader-publisher-module ul {
 
 div.reader-publisher-module ul li {
 	margin-bottom: 0px;
-	font-size:11px;
+	font-size:0.8em;
+	line-height:1.6em;
 }
 
 div.reader-publisher-module ul li a {
@@ -286,8 +303,8 @@ div.reader-publisher-module ul li a {
 
 div.reader-publisher-module div.s {
 	color: #666;
-	display:inline;
-	font-size:x-small;
+
+	font-size:1em;
 	text-align: right;
 }
 
@@ -319,15 +336,15 @@ div.reader-publisher-module div.f {
 	background: cornsilk;
 }
 
-fieldset {
-	border: none;
-}
-
 #required {
 	background: cornsilk;
 	padding: 2px;
 	margin-left: 5px;
-	font-size: x-small;
+	font-size: 0.7em;
+}
+
+fieldset {
+	border: none;
 }
 
 legend#required {
