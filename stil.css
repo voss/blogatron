@@ -106,6 +106,7 @@ h1.pagehead {
 .entry h1 {
 	font-weight: normal;
 	font-size: 1.5em;
+	line-height:1.1em;
 }
 
 /*
@@ -117,6 +118,8 @@ h1.pagehead {
 .entry h1 a:hover:after {
 	content: " \2192";
 	color: red;
+	font-weight: normal;
+	line-height: 1.1em;
 }
 
 .entry h2, .entry h3, .entry h4 {
@@ -246,7 +249,7 @@ div#linkster h1,div#linkster h2,div#linkster h3 {
 
 #disclaimer p {
 	text-align: center;
-	font: x-small helvetica, arial, "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	font: 0.8em helvetica, arial, "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
 }
 
 #c {
