@@ -267,6 +267,10 @@ p.komm {
 	background: #f6f6f6;
 }
 
+div.kommentry {
+	padding-left: 20px;
+}
+
 /* Google Reader clip start */
 
 div#readerpublishermodule0 {
