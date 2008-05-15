@@ -85,9 +85,9 @@ function display_entry_from_url()
 						
 						$c_date = date("G:i / jS \\o\f F / Y", $date);
 						$c_date = strtolower($c_date);
-						$data .= " / <a href=\"#comment-".$c_id."\" id='comment-{$c_id}' title=\"Permalink to this comment\">{$c_date}</a>";
+						$data .= " / <a href=\"#c-".$c_id."\" id='c-{$c_id}' title=\"Permalink to this comment\">{$c_date}</a>";
 						$data .= "</p>\n";
-						$data .= format_entry($c_text);
+						$data .= "<div class='kommentry'>".format_entry($c_text)."</div>";
 						print $data;
 						# print '<hr />';
 						print "</div>\n";
