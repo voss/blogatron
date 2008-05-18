@@ -255,6 +255,7 @@ form#edit textarea, form#postForm textarea {
 	height: 350px;
 	padding: 4px;
 	border: 3px solid #ccc;
+	line-height: 1.4em;
 }
 
 form#edit input, form#postForm input {

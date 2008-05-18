@@ -18,8 +18,8 @@
 #  Redirect permanent /doegnrapport.php http://itu.dk/people/jcv/verture/doegnrapport.php
 
 RewriteEngine On                                 
-  RewriteCond %{HTTP_HOST} ^www\.blog.verture\.net$ [NC] 
-  RewriteRule ^(.*)$ http://blog.verture.net/$1 [R=301,L]
+#  RewriteCond %{HTTP_HOST} ^www\.blog.verture\.net$ [NC] 
+#  RewriteRule ^(.*)$ http://blog.verture.net/$1 [R=301,L]
 
 ## No hotlinking:
 # RewriteCond %{HTTP_REFERER} !^http://(www\.)?blog\.verture\.net/ [NC]
