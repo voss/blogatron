@@ -33,7 +33,14 @@
 </head>
 <body>
 	<div id="wrapper">
-		<h1 class="pagehead"><a href="/">verture.net &mdash; <?=$tagline;?></a></h1>
+		<div>
+			<h1 class="pagehead"><a href="/">verture.net &mdash; <?=$tagline;?></a></h1>
+		</div>
+		<div id="twitter_div">
+			<ul id="twitter_update_list">
+				
+			</ul>
+		</div>
 		<div style="float:right;"><form style="display:inline;" action="/do_search.php" method="get" id="searchform" onsubmit="if(this.q.value=='Type a query' || this.q.value=='') { alert('Please write a valid query'); this.q.select(); return false;} else { this.submit();}">
 	<div style="display:inline;margin-bottom:10px;">
 		<input type="search" name="q" value="" onclick="this.value='Type a query';this.select()" style="width: 100px; border: 1px solid #ddd;text-align:right" /><img src="/img/mag_glass.jpg" alt="Magnifying glass for search box" style="vertical-align:middle;padding-left: 5px" />
@@ -81,5 +88,7 @@
 		</div>
 	</div>
 	</div>
+	<script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+	<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/voss.json?callback=twitterCallback2&amp;count=1"></script>
 </body>
 </html>
