@@ -49,8 +49,8 @@ h1 img {
 	padding-right: 8px;
 }
 
-h2 {
-	padding: 0;
+h2,h3 {
+	padding: 8px 0 2px 0;
 	margin: 0;
 }
 
