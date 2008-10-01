@@ -32,12 +32,13 @@ document.write("<a href='mailto:"+link+"'>jonas at verture dot net</a>")
 			<ul style="padding-top:0;margin-top:0;">
 				<li><img src="/img/rsssmall.png" alt="RSS ikon" class="sidebaricon" /><a href="http://feeds.feedburner.com/verture" title="RSS-feed af indlæg">Entries</a></li>
 				<li><img src="/img/rsssmall.png" alt="RSS ikon" class="sidebaricon" /><a href="http://feeds.feedburner.com/verturekommentarer" title="RSS-feed af kommentarer">Comments</a></li>
-		        <li><img src="/img/23hq-favicon.png" alt="Images at 23" class="sidebaricon" /><a href="/io/http://23hq.com/voss">Images at 23</a></li>
-		        <li><img src="/img/flickr_favicon.png" alt="Images at flickr" class="sidebaricon" /><a href="/io/http://www.flickr.com/photos/voss/">Images at flickr</a></li>
-			    <li><img src="/img/del.icio.us-favicon.png" alt="del.icio.us logo" class="sidebaricon" /><a href="/io/http://del.icio.us/voss">del.icio.us braindump</a></li>
-		        <li><img src="/img/last.fm_favicon.png" alt="last.fm logo" class="sidebaricon" /><a href="/io/http://last.fm/user/bobbybonzai">Music at last.fm</a></li>
-		        <li><img src="/img/tumblr.gif" alt="tumblr logo" class="sidebaricon" /><a href="/io/http://inc.verture.net/">tumblr</a></li>
+		    <li><img src="/img/23hq-favicon.png" alt="Images at 23" class="sidebaricon" /><a href="/io/http://23hq.com/voss">Images at 23</a></li>
+		    <li><img src="/img/flickr_favicon.png" alt="Images at flickr" class="sidebaricon" /><a href="/io/http://www.flickr.com/photos/voss/">Images at flickr</a></li>
+			  <li><img src="/img/del.icio.us-favicon.png" alt="del.icio.us logo" class="sidebaricon" /><a href="/io/http://del.icio.us/voss">del.icio.us braindump</a></li>
+		    <li><img src="/img/last.fm_favicon.png" alt="last.fm logo" class="sidebaricon" /><a href="/io/http://last.fm/user/bobbybonzai">Music at last.fm</a></li>
+		    <li><img src="/img/tumblr.gif" alt="tumblr logo" class="sidebaricon" /><a href="/io/http://inc.verture.net/">tumblr</a></li>
 				<li><img src="/img/muxtape.png" alt="Muxtape Logo" class="sidebaricon" /><a href="/io/http://computerlove.ie/tape/">my OpenTape</a></li>
+        <li><img src="/img/twitter.png" alt="my twitter blurbs" class="sidebaricon" /><a href="/io/http://twitter.com/voss">tweets at twitter</a></li>
         	</ul>
 		</div>
 		<div class="unit">
