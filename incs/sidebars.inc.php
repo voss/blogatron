@@ -37,7 +37,7 @@ document.write("<a href='mailto:"+link+"'>jonas at verture dot net</a>")
 			  <li><img src="/img/del.icio.us-favicon.png" alt="del.icio.us logo" class="sidebaricon" /><a href="/io/http://del.icio.us/voss">del.icio.us braindump</a></li>
 		    <li><img src="/img/last.fm_favicon.png" alt="last.fm logo" class="sidebaricon" /><a href="/io/http://last.fm/user/bobbybonzai">Music at last.fm</a></li>
 		    <li><img src="/img/tumblr.gif" alt="tumblr logo" class="sidebaricon" /><a href="/io/http://inc.verture.net/">tumblr</a></li>
-				<li><img src="/img/muxtape.png" alt="Muxtape Logo" class="sidebaricon" /><a href="/io/http://computerlove.ie/tape/">my OpenTape</a></li>
+				<li><img src="/img/muxtape.png" alt="Muxtape Logo" class="sidebaricon" /><a href="/io/http://computerlove.ie/">my OpenTapes</a></li>
         <li><img src="/img/twitter.png" alt="my twitter blurbs" class="sidebaricon" /><a href="/io/http://twitter.com/voss">tweets at twitter</a></li>
         	</ul>
 		</div>
