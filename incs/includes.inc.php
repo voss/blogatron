@@ -72,11 +72,12 @@ $comments_form =
         <label class="kage">No</label> <input style="border: 0;" type="radio" name="bakecookie" '.$checked_status[1].' value="off" />
         </p>
 	    <p style="margin-bottom: 0;padding-bottom;"><label>Comment</label> <span style="color: #c00; font-weight: bold;">*</span><br />
-	    <textarea cols="23" rows="10" name="c_text" style="font-size: small; width: 90%;"></textarea></p>
+	    <textarea cols="23" rows="10" name="c_text" style="font-size:
+normal; width: 90%;"></textarea></p>
 	    <p id="tilladt">Some HTML allowed: &lt;a href="..."&gt;,
 &lt;strong&gt;, &lt;em&gt;, &lt;q&gt;. <input type="submit" name="c_submit"
-value="Daaas it &rarr;" style="margin-left: 20%;padding-right:
-12px;" /></p>
+value="Post comment &rarr;" style="margin-left: 5%;padding-right:
+9px;" /></p>
     </div>
     </fieldset>
 </form>
