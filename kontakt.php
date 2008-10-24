@@ -66,7 +66,7 @@
 						$headers .= "MIME-Version: 1.0\n";
 						$headers .= "Content-type: text/plain; charset=iso-8859-1\n";
 						$headers .= "Content-Transfer-Encoding: quoted-printable";
-						if(!mail("kontakt@verture.net",$subject,$msg,$headers))
+						if(!mail("jonas.voss@gmail.com",$subject,$msg,$headers))
 						{
 							print "<p id=\"mail\">Oopsiedaisy, technical mishap. Your mail for some reason won't send. If you complain massively to <a href=\"mailto:jonas.voss@gmail.com\">me</a>, I'll do what I can to fix it.</p>";
 						}
