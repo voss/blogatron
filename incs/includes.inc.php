@@ -30,9 +30,12 @@ $mail_form =
     <p><label>Subject:</label><br />
     <input type="text" name="subject" id="subject" /></p>
 		<label>Message:</label><br />
-		<div style="width: 99%;"><textarea rows="10" cols="40" name="msg" id="message" style="font-size: small; width: 100%"></textarea><br />
-			<p style="display:inline; text-align: right"><label>Do a little math: 3 x 3 =</label> <input type="text" name="humanoid" id="humanoid" size="1" /> <input type="submit"
-name="submit" value="Daaaas it &rArr; " style="padding: 5px;font-weight:
+		<div style="width: 99%;"><textarea rows="10" cols="40" name="msg"
+id="message" style="font-size: normal; width: 100%"></textarea><br />
+			<p style="text-align: left"><label>Do a little math: 3 x 3
+=</label> <input type="text" name="humanoid" id="humanoid" size="1" />
+<p style="text-align:right"><input type="submit"
+name="submit" value="Send this message &rArr; " style="padding: 8px;font-weight:
 bold; font-size: medium;"/></p>
 		</div>
     </fieldset>
