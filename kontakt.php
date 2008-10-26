@@ -72,7 +72,7 @@
 						}
 						else
 						{
-							print "<h2 style=\"text-align:center; padding-top: 20px\" id=\"mail\">Thank you!</h2>
+							print "<h2 style=\"text-align:center; padding-top: 200px\" id=\"mail\">Thank you!</h2>
 							<p style=\"text-align:center; padding-top: 20px\">I'll get back to you ASAP - promise.</p>";
 						#	print $subject;
 						# exit();
