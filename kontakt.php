@@ -60,7 +60,7 @@
 						# $msg = utf8_encode($msg);
 						$msg = stripslashes($msg);
 						#$subject = "Besked fra gæst på verture.net";
-						$subject = (!empty($_POST['subject'])) ? $_POST['subject'] : "Besked fra gæst på verture.net" ;
+						$subject = (!empty($_POST['subject'])) ? $_POST['subject'] : "Besked fra verture.net" ;
 						$subject = quoted_printable_decode($subject);
 						$headers = "From: $addy\n";
 						$headers .= "MIME-Version: 1.0\n";
