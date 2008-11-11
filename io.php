@@ -9,6 +9,6 @@ $click = $_GET['click'];
 $fp = @fopen('/home/voss/linkout.txt', 'a');
 @fputs($fp, $click.": ".$_SERVER['REMOTE_ADDR'].":\t".date('r',time())."\n");
 @fclose($fp);
-header("Location: ".$click."");
+header("Location: http://".$click."");
 
 ?>
