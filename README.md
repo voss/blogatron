@@ -9,5 +9,6 @@ Features that I tried to learn when building this
   * Enable and disable comments
   * Edit date of posted entry
   * slug functionality on individual posts
+  * Creating RSS-feeds for posts and comments
 
 I probably wouldn't fork it if I were you. I'm still learning how to code.
