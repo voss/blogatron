@@ -37,7 +37,7 @@ $db_name = "******";
 $statistics = 0;
 
 # emailaddress to sent comments to:
-$comments_address = "kommentar@verture.net";
+$comments_address = "komm******re.net";
 
 # Adminaddress will be shown if databaseproblems arises;
 $admin_address = "jon******@gmail.com";
