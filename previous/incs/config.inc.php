@@ -40,7 +40,7 @@ $statistics = 0;
 $comments_address = "kommentar@verture.net";
 
 # Adminaddress will be shown if databaseproblems arises;
-$admin_address = "jonas.voss@gmail.com";
+$admin_address = "jon******@gmail.com";
 
 # Include path:
 $inc_path = $_SERVER['DOCUMENT_ROOT']."/incs/";
