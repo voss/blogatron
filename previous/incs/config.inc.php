@@ -28,10 +28,10 @@ $key_words = "";
 $dc_title = "blog.verture.net";
 
 # MySQL-info for your hostmachine:
-$db_host = "mysql.verture.net";
-$db_user = "voss";
+$db_host = "******";
+$db_user = "****";
 $db_pass = "*****";
-$db_name = "verture_blog";
+$db_name = "******";
 
 # Do you want statistics included on your webpage? Set to true or false.
 $statistics = 0;
